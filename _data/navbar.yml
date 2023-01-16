@@ -1,10 +1,15 @@
-- name: HOME
-  link: /
-- name: MENTORS
+- name: Home
+  link: /london
+  index: 0
+- name: Mentors
   link: mentors
-- name: RESOURCES
+  index: 2
+- name: Resources
   link: resources
-- name: TEAM
+  index: 3
+- name: Team
   link: team
+  index: 4
 - name: Code of conduct
   link: code-of-conduct
+  index: 5
