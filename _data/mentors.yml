@@ -172,3 +172,52 @@
     extra: Productivity, networking
   network:
     - linkedin: https://github.com/sandycho
+
+- name: Ayla Cura
+  type: both
+  index: 7
+  position: Software Engineer Apprentice, 100Devs
+  bio: I am currently engaged in developing the front-end of an app for an organisation in the UK as well as working on my personal full-stack web application project. I have experience in building full-stack web applications, including an e-commerce site for a pet supply shop catering to dogs and cats, a story-maker app for children learning English.
+  image: https://media.licdn.com/dms/image/D4D03AQGSrE8QJM8q0g/profile-displayphoto-shrink_400_400/0/1665007217197?e=1679529600&v=beta&t=aDeDRudqfPNc0BUILh-4D1_xfeJaZ3Q12JT86h5-ZEo
+  location: Turkey
+  languages: English, Turkish
+  skills:
+    experience: 1-2 years
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+    languages: Javascript, HTML/CSS
+    focus:
+      - switch career to IT
+    mentee: I am seeking mentees who are transitioning into a career in technology and require support and guidance as they embark on their journey.
+    extra: Preparation for Behavioural Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/aylacura/
+    - twitter: https://twitter.com/CuraAyla
+    - github: https://github.com/aylacura
+
+- name: Jo Dorning
+  type: ad-hoc
+  index: 8
+  position: Data Scientist, Mars
+  bio: I transitioned into data science after doing a PhD in animal behaviour. I found the journey intimidating and hard and have experienced impostors syndrome and the challenges of moving up the ladder, so would love to help others navigate this journey.
+  image: https://media.licdn.com/dms/image/C4E03AQE48xVlToz5bQ/profile-displayphoto-shrink_400_400/0/1516888649245?e=1679529600&v=beta&t=hU3EKlvul8fDZrK_7IdVriP0GIBaxzMbc9Ac3-Tfgus
+  location: London
+  languages: English
+  skills:
+    experience: 4-5 years
+    areas:
+      - Data Science
+      - Machine Learning
+      - QA
+      - Project Management
+    languages: Python
+    focus:
+      - switch career to IT
+      - change specialisation within IT
+      - grow from beginner to mid-level
+    mentee: Someone early in their data science career or thinking of transitioning into data science, who I can support with building confidence and skills
+    extra: Finding resources to aid learning. Support when applying for jobs or preparing for interviews. Thinking about how to approach problems in data science projects.
+  network:
+    - linkedin: https://www.linkedin.com/in/jo-dorning
