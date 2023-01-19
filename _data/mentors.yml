@@ -6,16 +6,16 @@
   image: https://media.licdn.com/dms/image/C4D03AQEMuSo7GfyyJg/profile-displayphoto-shrink_800_800/0/1659466519807?e=1678924800&v=beta&t=59rFGFjvLe5Ovrqb5Y9SKndlbvT-T2RnyA9sKLmcmfk
   location: Cambridge
   languages: English
-  skills: 
+  skills:
     experience: 16+ years
-    areas: 
-      - Distributed Systems 
-      - DevOps 
-      - Security 
-      - Network Engineering 
+    areas:
+      - Distributed Systems
+      - DevOps
+      - Security
+      - Network Engineering
       - Engineering management
     languages: C#, C++, C, Python, Html
-    focus: 
+    focus:
       - switch career to IT
       - grow from beginner to mid-level
       - grow from mid-level to senior-level
@@ -23,7 +23,7 @@
     mentee: Open minded and committed individual
   network:
     - linkedin: https://www.linkedin.com/in/rajaniraog/
-    
+
 - name: Eleonora Belova
   position: QA Engineer at ReaQta, an IBM Company, Director at Women Who Code London
   type: both
@@ -34,10 +34,10 @@
   languages: English
   network:
     - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-    - github: https://github.com/nora-weisser 
-  skills: 
+    - github: https://github.com/nora-weisser
+  skills:
     experience: 2 years
-    areas: 
+    areas:
       - Quality Assurance
     mentee: I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
     languages: Python, Html, CSS
@@ -51,19 +51,19 @@
   type: both
   index: 2
   position: Backend Software Engineer at Revolut
-  bio: Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut.  She worked with high-load components that handled responses from millions of users and managed its 24/7 availability at Yandex. She has also worked with solutions for Big Data on SMACK stack, and has designed and implemented several solutions to improve data management for Alveo Technology. 
+  bio: Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut. She worked with high-load components that handled responses from millions of users and managed its 24/7 availability at Yandex. She has also worked with solutions for Big Data on SMACK stack, and has designed and implemented several solutions to improve data management for Alveo Technology.
   image: https://ca.slack-edge.com/TGYGA50DQ-U01H51ELUNB-889f0bd6db5d-512
   location: London, United Kingdom
   languages: English
-  skills: 
+  skills:
     experience: 5-7 years
-    areas: 
+    areas:
         - Backend Developer
         - Distributed Systems
         - Data Engineering
     languages: Java, Kotlin, Scala, Python
-    focus: 
-      - grow from mid-level to senior-level	grow beyond 
+    focus:
+      - grow from mid-level to senior-level	grow beyond
       - grow from beginner to mid-level
     mentee: A mentee who wants to grow from Mid to Senior, or want to change their job and prepare for an interview for Mid/Senior position
   network:
@@ -71,21 +71,21 @@
     - github: https://github.com/irenkamalova
 
 - name: Adriana Zencke Zimmermann
-  bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science in Brazil and have been working as Software Engineer for over 12 years, and in the last years focused on the backend, which I found to be my passion. I was born in Brazil and moved to Germany for about 7 years and now I am in Spain. I am always excited to help others, my goal is to empower women and support them with the difficulties I had and still have from time to time.
+  bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science in Brazil and have been working as a Software Engineer for over 12 years, and in the last years focused on the backend, which I found to be my passion. I was born in Brazil and moved to Germany for about 7 years and now I am in Spain. I am always excited to help others, my goal is to empower women and support them with the difficulties I had and still have from time to time.
   position: Senior Software Engineer at Personio
   image: https://media.licdn.com/dms/image/C4E03AQFb3yz9xF917A/profile-displayphoto-shrink_800_800/0/1650927176851?e=1678320000&v=beta&t=soCLefighqi-aVaO40bQxgs4z5tDj9X5ZCD09jaP3as
   location: València, Spain
   type: both
   index: 3
   languages: Portuguese, English
-  skills: 
+  skills:
     experience: 10-15 years
-    areas: 
+    areas:
       - Backend Developer
-      - Distributed Systems 
+      - Distributed Systems
       - Fullstack Developer
     languages: Java, Javascript, Kotlin, Python
-    focus: 
+    focus:
       - grow from mid-level to senior-level
       - grow from beginner to mid-level
       - switch career to IT
@@ -105,16 +105,16 @@
   image: https://media.licdn.com/dms/image/C4D03AQH1AWGXCGOuGw/profile-displayphoto-shrink_800_800/0/1614802363650?e=1678924800&v=beta&t=yGX2gKOWaLEJqTnCMoR-DVD2ZNGGn6zXuQik3PFas_Q
   location: Germany
   languages: English
-  skills: 
+  skills:
     experience: 5-7 years
-    areas: 
+    areas:
       - Data Science
       - Machine Learning
-      - Data Engineering 
-      - Business Analysis 
+      - Data Engineering
+      - Business Analysis
       - Product Management
     languages: Python
-    focus: 
+    focus:
       - change specialisation within IT
       - switch career to IT
       - grow from beginner to mid-level
@@ -155,7 +155,7 @@
   type: both
   index: 6
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
-  bio: Fullstack engineer, studied Computing Science, I always communite cycling and love a night out. My journey started as a backend engineer and soon I realised how fun was frontend too. I've worked mainly in start-ups.
+  bio: Fullstack engineer, studied Computing Science, I always commute by cycling and love a night out. My journey started as a backend engineer and soon I realised how fun was frontend too. I've worked mainly in start-ups.
   image: https://media.licdn.com/dms/image/C4E03AQFCWtRB-3jQ4A/profile-displayphoto-shrink_800_800/0/1516879496498?e=1678924800&v=beta&t=pVSaJqYCNMSxumZjieZ2CU_z9d0gI54JmCDjAm5erTU
   location: London, UK
   languages: English, Spanish
