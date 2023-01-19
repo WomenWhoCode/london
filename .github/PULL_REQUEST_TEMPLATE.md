@@ -11,4 +11,4 @@
 ## Pull request checklist
 
 Please check if your PR fulfills the following requirements:
-- [ ] Commit message is as per guidelines in the contributor guide
+- [ ] Commit message is as per guidelines in the [contributor guide](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md)
