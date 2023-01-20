@@ -1,11 +1,22 @@
 # Description
 
-Women Who Code London - Mentorship Program Page
+The Women Who Code London is a community dedicated to inspiring women to excel in their technology careers. Our events cover various topics around software engineering.
 
+If you're interested in joining the community as a member or volunteer please visit our [website](https://www.womenwhocode.com/london) or join [our slack](https://bit.ly/wwcodelondonslack).
+
+## Contributing
+
+We welcome your contributions! 💕 To contribute to this repo, follow the [contributing guidelines](CONTRIBUTING.md). 
+
+Also if you want to support the *Mentorship Program* in general you can contact [Eleonora Belova](https://wwcodelondon.slack.com/archives/D03SM0VR5V1) on WWCode London Slack.
+
+## Mentorship Program Webpage
+
+### How to Run Locally
 
 This content is created using GitHub Pages with Jekyll. 
 
-##  Prerequisites
+#### Prerequisites
 Before you can use Jekyll to test a site, you must:
 
 1. Install [Jekyll](https://jekyllrb.com/docs/installation/).
@@ -15,7 +26,7 @@ We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem d
 2. Install Ruby. For more information, see [Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/).
 3. Install Bundler. For more information, see [Bundler](https://bundler.io/)
 
-## Building and run locally
+#### Building and run
 
 Run on terminal `bundle install`
 
