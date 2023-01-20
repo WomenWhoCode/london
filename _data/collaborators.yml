@@ -7,7 +7,7 @@
       link: https://www.linkedin.com/in/lilynguyendk/
     - name: github
       link: https://www.linkedin.com/in/lilynguyendk/
-      
+
 - name: Sumeyya Javaid
   image: https://ca.slack-edge.com/TGYGA50DQ-U030A8KK4R3-6acef534b898-512
   position: Full-stack Developer
@@ -51,3 +51,13 @@
       link: https://www.linkedin.com/in/sandy-chuchuca-ordonez/
     - name: github
       link: https://github.com/sandycho
+
+- name: Yuqing Wang
+  image: https://ca.slack-edge.com/T02NE0241-U02SUNXDXU6-d26e53ca8993-512
+  position: Full-stack Developer
+  comment: Collaborate with the website
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/yuqingwang42/
+    - name: github
+      link: https://github.com/yuqingwang98

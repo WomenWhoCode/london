@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   position: Program Coordinator
-  comment: Main Responsible from the program
+  comment: Responsible for overseeing the programme
   image: https://media.licdn.com/dms/image/C4E03AQEV0jEE1z0BbA/profile-displayphoto-shrink_800_800/0/1651913271528?e=1678320000&v=beta&t=zc9ZQRqg5_MBq1m_WRsqRyyZsJ5xDyfnGE6bktR6RgE
   network:
     - name: linkedin
@@ -16,7 +16,7 @@
       link: https://www.linkedin.com/in/dricazenck/
     - name: github
       link: https://github.com/dricazenck
-    - name: medium 
+    - name: medium
       link: https://medium.com/@dricazenck
 - name: Marina Aguiar
   position: Communication and Networking
