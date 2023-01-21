@@ -1,6 +1,6 @@
 - name: Eleonora Belova
-  position: Program Coordinator
-  comment: Responsible for overseeing the programme
+  position: Programme Coordinator
+  comment: Managing the Programme
   image: https://media.licdn.com/dms/image/C4E03AQEV0jEE1z0BbA/profile-displayphoto-shrink_800_800/0/1651913271528?e=1678320000&v=beta&t=zc9ZQRqg5_MBq1m_WRsqRyyZsJ5xDyfnGE6bktR6RgE
   network:
     - name: linkedin
@@ -9,7 +9,7 @@
       link: https://github.com/nora-weisser
 - name: Adriana Zenck Zimmermann
   position: Website Coordinator
-  comment: Supports the program
+  comment: Programme support
   image: https://media.licdn.com/dms/image/C4E03AQFb3yz9xF917A/profile-displayphoto-shrink_800_800/0/1650927176851?e=1678320000&v=beta&t=soCLefighqi-aVaO40bQxgs4z5tDj9X5ZCD09jaP3as
   network:
     - name: linkedin
@@ -20,7 +20,7 @@
       link: https://medium.com/@dricazenck
 - name: Marina Aguiar
   position: Communication and Networking
-  comment: Supports the program
+  comment: Programme support
   image: https://ca.slack-edge.com/TGYGA50DQ-U03T0RQ7K55-51b45a041b09-512
   network:
     - name: linkedin
@@ -29,7 +29,7 @@
       link: https://github.com/marinaaguiar
 - name: Elena Fedorova
   position: Designer
-  comment: Suports the website and other materials
+  comment: Website and design support
   image: https://ca.slack-edge.com/TGYGA50DQ-U03GVBT00CV-aa80f66d5b8d-512
   network:
     - name: linkedin
