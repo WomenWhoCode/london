@@ -8,7 +8,6 @@
 @import "code-of-conduct";
 @import "media-breakpoint";
 
-
 h1, h2, h3 {
     @extend .text-center;
 
@@ -31,7 +30,7 @@ a.btn {
 .btn-primary {
     font-weight: bold;
     text-decoration: none;
-    border: solid $black 2px;
+    border: none;
     font-size: $font-size-lg;
     padding: 0 2rem;
     line-height: 2.5;
