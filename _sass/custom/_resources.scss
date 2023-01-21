@@ -45,6 +45,16 @@
       font-size: $font-size-md;
     }
   }
+
+  .stretched-link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    .icon {
+      height: 20px;
+      padding-left: 6px;
+    }
+  }
 }
 
 
