@@ -2,11 +2,11 @@
   answer: Our mentorship programme is open to anyone who is looking to improve their skills or advance their careers. Whether you’re an experienced professional looking to give back to the community, or a student or new professional seeking guidance and support, our program has something for everyone.
   index: 1
 
-- question: I do not identify as a woman, can I participate as a mentor/mentee?
+- question: I do not identify as a woman, can I participate as a mentor?
   answer: Absolutely! We are happy to welcome every mentor who is interested in sharing their knowledge with our community.
   index: 2
 
-- question: I haven't mentored before. Should I sign up?
+- question: I haven't mentored before. Could I sign up?
   answer: Of course, first-time mentors are welcome in the program! Please take a look at our Mentor’s Pocketbook on Resources Page to help you get started!
   index: 3
 
@@ -15,7 +15,9 @@
   index: 4
 
 - question: What are the benefits of participating in a mentorship program?
-  answer: Participating in a mentorship program can provide mentees with access to valuable skills, knowledge, and networks, as well as guidance and support in achieving their goals. Mentors can also benefit from the experience by improving their leadership and mentoring skills, as well as gaining a sense of satisfaction in helping others succeed.
+  answer: |
+    Participating in a mentorship program can provide mentees with access to valuable skills, knowledge, and networks, as well as guidance and support in achieving their goals.<br>
+    Mentors can also benefit from the experience by improving their leadership and mentoring skills, as well as gaining a sense of satisfaction in helping others succeed.
   index: 5
 
 - question: What kind of support and resources will be provided to mentors and mentees?
@@ -27,25 +29,24 @@
   index: 7
 
 - question: Is this Mentorship Programme available only for remote participation?
-  answer: It is also possible to have meetings in-person if you both are based in the same location. This can be beneficial for people who prefer to have direct personal interactions. In-person mentorship meetings can take place in an office or other location like a cafe, co-working, etc. But only if the mentor and mentee are located in the same city and the mentor is available for an in-person session.
+  answer: It is also possible to have meetings in-person if you both are based in the same location. This can be beneficial for people who prefer to have direct personal interactions.<br> In-person mentorship meetings can take place in an office or other location like a cafe, co-working, etc. <br>But only if the mentor and mentee are located in the same city and the mentor is available for an in-person session.
   index: 8
 
 - question: What do ad-hoc mentorship sessions mean?
   answer: We made it possible to provide an opportunity for people to schedule one-time mentorship sessions with mentors. Ad-hoc mentorship session is the specific type of mentorship session where the mentor and mentee meet for a single, pre-scheduled session. This session can be in-person or remote, and can be focused on a specific topic or goal.
   index: 9
 
-
 - question: When do I need a mentor?
   answer: |
-    A mentor can be a valuable resource at different points in your life and career. There are several situations::
-
-    1. When starting new career or job;
-    2. When facing a challenging situation;
-    3. When looking to develop new skills and advance a career;
-    4. When looking for a different perspective;
-    5. When transitioning to another tech sphere, and others
-  
-    It's also important to have realistic expectations of the mentorship relationship.
+    A mentor can be a valuable resource at different points in your life and career.<br><br> 
+    
+    For example:<br>
+    1. When starting new career or job;  <br>
+    2. When facing a challenging situation; <br>
+    3. When looking to develop new skills and advance a career; <br>
+    4. When looking for a different perspective; <br>
+    5. When transitioning to another tech sphere, and others <br> <br>
+    It's also important to have realistic expectations of the mentorship.
   index: 10
 
 - question: What is Notion?

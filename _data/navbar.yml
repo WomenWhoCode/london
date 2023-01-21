@@ -13,3 +13,6 @@
 - name: Code of conduct
   link: code-of-conduct
   index: 5
+- name: FAQ
+  link: faq
+  index: 6

@@ -26,7 +26,6 @@
     }
 
     .overview {
-        @extend .content;
         @extend .row;
         @extend .h4;
         @extend .my-7;
@@ -38,7 +37,6 @@
     }
 
     .registration {
-        @extend .content;
         @extend .justify-content-around;
         @extend .my-7;
 
