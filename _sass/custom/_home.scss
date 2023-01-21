@@ -29,6 +29,7 @@
         @extend .content;
         @extend .row;
         @extend .h4;
+        @extend .my-7;
 
         padding: 0 30px 0 30px;
         text-align: center;
@@ -39,6 +40,7 @@
     .registration {
         @extend .content;
         @extend .justify-content-around;
+        @extend .my-7;
 
         ul {
             list-style: none;
@@ -69,7 +71,13 @@
         }
     }
 
+    .support {
+        @extend .my-7;
+    }
+
     .timeline {
+        @extend .my-7;
+        
         .row {
              @extend .justify-content-around;
         }
@@ -79,6 +87,8 @@
      }
      
      .feedback {
+        @extend .my-7;
+
         .carousel-indicators li {
              background-color: $teal;
         }

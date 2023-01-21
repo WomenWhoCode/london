@@ -18,9 +18,12 @@
       margin-bottom: 10px;
   }
 
+  .material,
   .blog {
+    @extend .my-7;
+  }
 
-    margin-bottom: 70px;
+  .blog {
 
     .card-horizontal {
         display: flex;
