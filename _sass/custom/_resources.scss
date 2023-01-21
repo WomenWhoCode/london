@@ -18,9 +18,16 @@
       margin-bottom: 10px;
   }
 
+  .material,
+  .blog {
+    @extend .my-7;
+  }
+
   .blog {
 
-    margin-bottom: 70px;
+    .card-body {
+      @extend .my-4;
+    }
 
     .card-horizontal {
         display: flex;

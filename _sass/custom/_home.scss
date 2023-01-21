@@ -20,9 +20,6 @@
 }
 
 .home {
-    .intro {
-        margin-top: 10px;
-    }
 
     .card {
         margin-top: 10px;
@@ -32,9 +29,8 @@
         @extend .content;
         @extend .row;
         @extend .h4;
+        @extend .my-7;
 
-        margin-top: 50px;
-        margin-bottom: 50px;
         padding: 0 30px 0 30px;
         text-align: center;
         font-weight: normal;
@@ -44,7 +40,7 @@
     .registration {
         @extend .content;
         @extend .justify-content-around;
-        margin-top: 40px;
+        @extend .my-7;
 
         ul {
             list-style: none;
@@ -75,7 +71,13 @@
         }
     }
 
+    .support {
+        @extend .my-7;
+    }
+
     .timeline {
+        @extend .my-7;
+        
         .row {
              @extend .justify-content-around;
         }
@@ -85,9 +87,8 @@
      }
      
      .feedback {
-        
-        margin-bottom: 10px;
-        
+        @extend .my-7;
+
         .carousel-indicators li {
              background-color: $teal;
         }
