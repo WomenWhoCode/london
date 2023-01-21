@@ -25,6 +25,10 @@
 
   .blog {
 
+    .card-body {
+      @extend .my-4;
+    }
+
     .card-horizontal {
         display: flex;
         flex: 1 1 auto;
