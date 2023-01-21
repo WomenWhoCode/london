@@ -19,7 +19,7 @@
   index: 5
 
 - question: What kind of support and resources will be provided to mentors and mentees?
-  answer: For each mentor-mentee pair we provide a template in Notion for tracking the progress during the Mentorship Programme cycle. On the website you can also find resources and guides which can help both mentors and mentees make the most of their mentorship experience.
+  answer: For each mentor-mentee pair we provide a template in Notion for tracking the progress during the Mentorship Programme cycle. On the website, you can also find resources and guides which can help mentors and mentees to make the most of their mentorship experience.
   index: 6
 
 - question: Do I need to be based in London to be a mentor or mentee?
@@ -27,7 +27,7 @@
   index: 7
 
 - question: Is this Mentorship Programme available only for remote participation?
-  answer: It is also possible to have meetings in-person if you both are based in the same location. This can be beneficial for people who prefer to have direct personal interactions. In-person mentorship meetings can take place in an office or other location like a cafe, co-working, etc.
+  answer: It is also possible to have meetings in-person if you both are based in the same location. This can be beneficial for people who prefer to have direct personal interactions. In-person mentorship meetings can take place in an office or other location like a cafe, co-working, etc. But only if the mentor and mentee are located in the same city and the mentor is available for an in-person session.
   index: 8
 
 - question: What do ad-hoc mentorship sessions mean?
@@ -36,17 +36,18 @@
 
 
 - question: When do I need a mentor?
-  answer: A mentor can be a valuable resource at different points in your life and career. There are several situations:\
+  answer: |
+    A mentor can be a valuable resource at different points in your life and career. There are several situations::
 
-- When starting new career or job;
-- When facing a challenging situation;
-- When looking to develop new skills and advance a career;
-- When looking for a different perspective;
-- When transitioning to another tech sphere, and others
+    1. When starting new career or job;
+    2. When facing a challenging situation;
+    3. When looking to develop new skills and advance a career;
+    4. When looking for a different perspective;
+    5. When transitioning to another tech sphere, and others
   
-  It's also important to keep in mind that a mentor is not a magic solution and it's important to have realistic expectations of the mentorship relationship.
+    It's also important to have realistic expectations of the mentorship relationship.
   index: 10
 
 - question: What is Notion?
-  answer: Notion is productivity and note-taking tool which provides a variety of features to keep track the progress. We recommend using this tool during mentorship experience. Or template can help mentors and mentees be organised and to be on track. At the beginning of the cycle we will conduct a webinar on how to get out the most of Notion note-taking experience.
+  answer: Notion is a productivity and note-taking tool which provides a variety of features to keep track of progress. We recommend using this tool during mentorship experience. Or template can help mentors and mentees be organized and to be on track. At the beginning of the cycle we will conduct a webinar on how to get the most out of Notion note-taking experience.
   index: 11
