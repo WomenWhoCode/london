@@ -1,10 +1,12 @@
 .faq {
+  
+  @extend .my-7;
+
   .text-secondary {
     color: $black;
   }
 
-  .h4,
-  h4 {
+  .h4, h4 {
     font-size: 1.2rem;
   }
 
@@ -12,9 +14,7 @@
     color: $black;
    }
   
-  .fa,
-  .fas {
-    font-family: 'FontAwesome';
+  .fa, .fas {
     font-weight: 400;
     font-size: 1.2rem;
     font-style: normal;
@@ -32,8 +32,7 @@
     height: 100%;
   }
   
-  a.text-secondary:focus,
-  a.text-secondary:hover {
+  a.text-secondary:focus, a.text-secondary:hover {
     text-decoration: none;
     color: $black;
   }
@@ -47,6 +46,10 @@
   #accordion a[aria-expanded=true] .fa-plus {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .card {
+    width: 95%;
   }
   
 }
