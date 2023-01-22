@@ -11,7 +11,7 @@ var controllerNavbar = (function (jQuery) {
       activeLink = jQuery("a.nav-link:contains('Home')");
     } else {
       // Format the text as provided in data, e.g code of conduct => "Code of conduct"
-      var searchLinkText = firstPathSegment[0].toUpperCase() + firstPathSegment.slice(1, firstPathSegment.length)
+      var searchLinkText = firstPathSegment[0].toUpperCase() + firstPathSegment.slice(1, firstPathSegment.length);
       activeLink = jQuery("a.nav-link:contains('" + searchLinkText + "')");
     }
 
