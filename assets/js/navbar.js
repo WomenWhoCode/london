@@ -1,8 +1,9 @@
 var controllerNavbar = (function (jQuery) {
   var init = function () {
     // Get the first element of the pathname and transform
-    // e.g /code-of-conduct/index => "code of conduct"
-    var firstPathSegment = jQuery(location).attr('pathname').split("/")[1].replaceAll("-", " ");
+    // e.g /london/code-of-conduct => "code of conduct"
+    var pathSegments = jQuery(location).attr('pathname').split("/");
+    var firstPathSegment = pathSegments[pathSegments.length - 1].replaceAll("-", " ");
 
     // Looks up for the link to mark as current link
     var activeLink;
