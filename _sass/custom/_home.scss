@@ -1,4 +1,12 @@
 .banner {
+    @include media-breakpoint-down(lg) {  
+        background-size: auto 100%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     color: $white;
     min-height: 300px;
     background-image: url("./../../assets/images/banner.jpg");
@@ -9,7 +17,6 @@
     h1 {
         @extend .display-2;
         margin: 0 !important;
-        padding-top: 40px;
     }
 
     h3 {
