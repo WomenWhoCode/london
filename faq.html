@@ -1,0 +1,28 @@
+---
+layout: default
+title: FAQ
+---
+
+<div class="faq container">
+    <h2 class="mt-5 mb-5">FAQ</h2>
+    
+    {% for faq in site.data.faq %}
+        <section class="container my-4">
+            <section id="accordion">
+                <a class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top" aria-controls="faq-{{faq.index}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{faq.index}}" role="button">
+                    <div class="position-relative d-flex align-items-left">
+                        <h2 class="h4 m-0 pr-3">{{faq.question}}</h2>
+                        <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center">
+                            {% include icons/plus.svg %}
+                        </div>
+                    </div>
+                </a>
+                <div class="collapse" id="faq-{{faq.index}}">
+                    <div class="card card-body border-0 p-0">
+                        {{faq.answer}}
+                    </div>
+                </div>
+            </section>
+        </section>
+    {% endfor %}
+</div>

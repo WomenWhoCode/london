@@ -1,4 +1,12 @@
 .banner {
+    @include media-breakpoint-down(lg) {  
+        background-size: auto 100%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     color: $white;
     min-height: 300px;
     background-image: url("./../../assets/images/banner.jpg");
@@ -9,7 +17,6 @@
     h1 {
         @extend .display-2;
         margin: 0 !important;
-        padding-top: 40px;
     }
 
     h3 {
@@ -20,21 +27,16 @@
 }
 
 .home {
-    .intro {
-        margin-top: 10px;
-    }
 
     .card {
         margin-top: 10px;
     }
 
     .overview {
-        @extend .content;
         @extend .row;
         @extend .h4;
+        @extend .my-7;
 
-        margin-top: 50px;
-        margin-bottom: 50px;
         padding: 0 30px 0 30px;
         text-align: center;
         font-weight: normal;
@@ -42,9 +44,8 @@
     }
 
     .registration {
-        @extend .content;
         @extend .justify-content-around;
-        margin-top: 40px;
+        @extend .my-7;
 
         ul {
             list-style: none;
@@ -57,6 +58,12 @@
         span {
             font-weight: $font-weight-bold !important;
             font-size: larger;
+        }
+
+        .mentor {
+            @include media-breakpoint-down(sm) {
+                margin-bottom: 3em;
+            }
         }
     }
 
@@ -75,7 +82,13 @@
         }
     }
 
+    .support {
+        @extend .my-7;
+    }
+
     .timeline {
+        @extend .my-7;
+        
         .row {
             @extend .justify-content-around;
             position: relative;
@@ -134,9 +147,8 @@
      }
      
      .feedback {
-        
-        margin-bottom: 10px;
-        
+        @extend .my-7;
+
         .carousel-indicators li {
              background-color: $teal;
         }
