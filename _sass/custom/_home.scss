@@ -59,6 +59,12 @@
             font-weight: $font-weight-bold !important;
             font-size: larger;
         }
+
+        .mentor {
+            @include media-breakpoint-down(sm) {
+                margin-bottom: 3em;
+            }
+        }
     }
 
     .card-header {
