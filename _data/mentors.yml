@@ -310,30 +310,6 @@
     - linkedin: https://www.linkedin.com/in/kenpemberton
     - website: https://grumpyoldfart.org/
 
-- name: Leo Parkes-Neptune
-  type: both
-  index: 12
-  position: Senior Software Engineer, MoonPay
-  bio: https://github.com/thesammy2010
-  image: https://ca.slack-edge.com/TGYGA50DQ-U04L2HJHKEH-gfece7b3198d-192
-  location: London, United Kingdom
-  languages: English
-  skills:
-    experience: 2-4 Years
-    areas:
-      - Data Engineering
-      - Backend Developer
-    languages: Python, Go
-    focus:
-      - Grow from beginner to mid-level
-      - Grow from mid-level to senior-level
-      - Switch career to IT
-    mentee: Any
-    extra: Interview, resume review, test driven development, problem solving, object oriented programming, abstraction, writing good clear functions and documentation
-  network:
-    - linkedin: https://www.linkedin.com/mwlite/in/leo-pn
-    - github: https://github.com/thesammy2010
-
 - name: Shelly Gabriela Leal
   type: ad-hoc
   index: 13
@@ -433,3 +409,28 @@
     extra: Transitioning to Engineering Management, moving to Senior/Staff/Principal Engineering roles
   network:
     - linkedin: https://www.linkedin.com/in/jortizbr/
+
+- name: Leo Parkes-Neptune
+  disabled: true
+  type: both
+  index: 12
+  position: Senior Software Engineer, MoonPay
+  bio: https://github.com/thesammy2010
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04L2HJHKEH-gfece7b3198d-192
+  location: London, United Kingdom
+  languages: English
+  skills:
+    experience: 2-4 Years
+    areas:
+      - Data Engineering
+      - Backend Developer
+    languages: Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    mentee: Any
+    extra: Interview, resume review, test driven development, problem solving, object oriented programming, abstraction, writing good clear functions and documentation
+  network:
+    - linkedin: https://www.linkedin.com/mwlite/in/leo-pn
+    - github: https://github.com/thesammy2010

@@ -10,6 +10,7 @@ title: Meet our community of mentors!
     </div>
 
     {% for mentor in site.data.mentors %}
+        {% if mentor.disabled == Nil %}
         <div class="card">
             <div class="row">
                 
@@ -48,7 +49,11 @@ title: Meet our community of mentors!
                         <div id="skills-{{mentor.index}}" class="card-skills d-none">
                             <p class="card-text"><label>Tech Experience</label>: {{mentor.skills.experience}}</p>
                             <p class="card-text"><label>Language(s)</label>: {{mentor.languages}}</p>
-                            <p class="card-text"><label>Programming languages</label>: {{mentor.skills.languages}}</p>
+                            
+                            {% if mentor.skills.languages %}
+                                <p class="card-text"><label>Programming languages</label>: {{mentor.skills.languages}}</p>
+                            {% endif %}
+                            
                             <p class="network">
                                 {% for network in mentor.network %}
                                     {% if network.linkedin %}
@@ -84,7 +89,7 @@ title: Meet our community of mentors!
                             <p class="card-text" data-toggle="tooltip" data-html="true" title="<b>Ad-Hoc:</b> request a session when necessary. <br><b>Long term relationship:</b> at least one mentoring program cycle.">
                                 <label>Type of mentoring</label>:  
                                 {% if mentor.type == 'both' %}
-                                    Ad-Hoc or Long term relationship
+                                    Long term relationship and Ad-Hoc
                                 {% else %}
                                     {{mentor.type}}
                                 {% endif %}
@@ -106,6 +111,7 @@ title: Meet our community of mentors!
                     </div>
                 </div>
             </div>
+            {% endif %}
         </div>
     {% endfor %}
 </div>
