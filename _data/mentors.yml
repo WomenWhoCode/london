@@ -2,25 +2,34 @@
   type: both
   index: 0
   position: Principal Engineer at U-Blox Cambridge
-  bio: 20+ years of experience in building Web and IoT solutions in the cloud. I am passionate about career progression and can help engineers transition to the next level
-  image: https://media.licdn.com/dms/image/C4D03AQEMuSo7GfyyJg/profile-displayphoto-shrink_800_800/0/1659466519807?e=1678924800&v=beta&t=59rFGFjvLe5Ovrqb5Y9SKndlbvT-T2RnyA9sKLmcmfk
+  bio: |
+    Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.
+    
+    <br> <br>Rajani leads with grit and passion, and adopting a growth mindset, she approaches adversity as an opportunity to grow and learn, and come up with innovative solutions to challenging problems.
+    
+    <br> <br>She has over 20 years of software and engineering experience in companies including Philips, NXP Semiconductors and Geotate. Having worked with a variety of teams and work cultures in various countries including India, France, Italy, Switzerland, Netherlands and the UK, she has built on a vast array of experiences and challenges along the way.
+    
+    <br> <br>Throughout her career Rajani has worked on first-of-a-kind projects. This entails quickly getting up to speed, coming up with novel solutions to engineering problems and delivering  functional prototypes/products. This taps into Rajani's natural curiosity and desire to keep up with latest technology trends.
+  image: https://ca.slack-edge.com/TGYGA50DQ-U03CU94BKUL-52f8734464ad-512
   location: Cambridge
   languages: English
   skills:
     experience: 16+ years
     areas:
       - Distributed Systems
-      - DevOps
-      - Security
-      - Network Engineering
+      - Site Reliability Engineering
       - Engineering management
-    languages: C#, C++, C, Python, Html
+      - Security
+      - Product Management
+    languages: C#, C++, C, Java, Python
     focus:
-      - switch career to IT
-      - grow from beginner to mid-level
-      - grow from mid-level to senior-level
-      - change specialisation within IT
-    mentee: Open minded and committed individual
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    mentee: Growth mindset
+    extra: Mock interviews, resume preparation, career progression, anything software engineering related
   network:
     - linkedin: https://www.linkedin.com/in/rajaniraog/
 
@@ -128,7 +137,7 @@
   type: both
   index: 5
   position: SRE at Dojo
-  bio: 15 Years as back-end developer, lots of systems, integration experience and SRE the last 5 years.  Been mentoring for about 10 years and find the role very fulfilling.
+  bio: I have been mentoring for about 10 years now at all different levels.  I have good people skills and take active role in company development outside of engineering.  Currently an SRE, but 15 years as a back-end developer, various dev-ops roles has given me a wide range of technical experience.  30+ years in lots of firms have helped upskill my non-engineering skills.
   image: https://media.licdn.com/dms/image/C5603AQE0XArhruEvUQ/profile-displayphoto-shrink_400_400/0/1564754921783?e=1678924800&v=beta&t=cTGlgo8xfNjRy_P6bAnIcal5RV6O0TJyzWOZleE-c9A
   location: Yorkshire, UK
   languages: English
@@ -146,8 +155,8 @@
       - switch career to IT
       - grow beyond senior level
       - grow from beginner to mid-level
-    mentee: Someone who will prioritise the mentor/mentee relationship.
-    extra: Team soft skills, managing upward, time management, difficult conversations. Design patterns, designing for resiliance and reliability, optimisation when [not] to.
+    mentee: Someone enthusiastic and motivated that needs help with focus and working in a team
+    extra: Architecture, reliability, interview skills, teamwork skills, managing upward, presentation techniques, overcoming prejudice.
   network:
     - linkedin: https://www.linkedin.com/in/andrewkingit/
 
@@ -221,3 +230,206 @@
     extra: Finding resources to aid learning. Support when applying for jobs or preparing for interviews. Thinking about how to approach problems in data science projects.
   network:
     - linkedin: https://www.linkedin.com/in/jo-dorning
+
+
+- name: Stephanie Senoner
+  type: both
+  index: 9
+  position: Senior Software Engineer, Zopa
+  bio: I have a non tech background (Psychology and Business education) and am a career switcher myself. Therefore I know the challenges, problems, at the beginning but also understand the opportunities with it. I work in tech for 5 years now, from Junior to Senior in different companies (size, sector). Worked as backend developer as well ad Full stack but focus now on Frontend (React, NextJS)
+  image: https://media.licdn.com/dms/image/C5603AQEgUcVoS6A9Gw/profile-displayphoto-shrink_800_800/0/1580195654636?e=2147483647&v=beta&t=gr-ZQxPVHch5gbH7Mnmr6gSjyxL2mYAsPh09CwEvEec
+  location: London
+  languages: English
+  skills:
+    experience: 4-5 years
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - QA
+      - Project Management
+    languages: Javascript, Java, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Change specialisation within IT
+    mentee: Passionate, keen to learn, early - mid stage, career switcher
+    extra: Interview Preparation, Resume Review, personal project, Software Engineering Principles, Management, Time management, self growth
+  network:
+    - linkedin: https://www.linkedin.com/in/stephanie-senoner
+
+
+- name: Nassim Bordbar
+  type: both
+  index: 10
+  position: Data Scientist, TDR Capital
+  bio: Using data to understand companies
+  image: https://media.licdn.com/dms/image/C4E03AQG85dFm9Qz9-g/profile-displayphoto-shrink_400_400/0/1524055602757?e=1680134400&v=beta&t=LJIY4McfD0Tax0PU_LYg4t6NYi3Y_9y1ebLODJvp0R4
+  location: London
+  languages: English
+  skills:
+    experience: 7-10 years
+    areas:
+      - Business Analysis
+      - Data Science
+      - Machine Learning
+      - Product Management
+      - Project Management
+    languages: Python
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Switch career to IT
+    mentee: Entrepreneurial
+    extra: Starting a business, career planning
+  network:
+    - linkedin: https://www.linkedin.com/in/nassimbordbar/
+
+- name: Ken Pemberton
+  type: both
+  index: 11
+  position: PEOPLE-FIRST servant-leadership of technical teams
+  bio: I started coding as a teenager, and 40 years later it still fascinates me, although I've stepped away from programming now to focus on honing my management skills as a servant-leader. So while I won't be able to help you actually write code, I might be able to help guide you past the self-doubt that's inevitable as you step up to something new, be it a career or a promotion.
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04L55J9HFC-20e36da38907-192
+  location: Chesham, Buckinghamshire, UK
+  languages: English
+  skills:
+    experience: 16+ Years
+    areas:
+      - Engineering management
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+    mentee: Folks who would benefit from coaching for confidence and resilience within the tech world. You are more capable than you know!
+    extra: Overcoming self-doubt, Dealing with change, How to work effectively with others, Relating to difficult colleagues, Building resilience, Interview preparation, CV review
+  network:
+    - linkedin: https://www.linkedin.com/in/kenpemberton
+    - website: https://grumpyoldfart.org/
+
+- name: Leo Parkes-Neptune
+  type: both
+  index: 12
+  position: Senior Software Engineer, MoonPay
+  bio: https://github.com/thesammy2010
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04L2HJHKEH-gfece7b3198d-192
+  location: London, United Kingdom
+  languages: English
+  skills:
+    experience: 2-4 Years
+    areas:
+      - Data Engineering
+      - Backend Developer
+    languages: Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    mentee: Any
+    extra: Interview, resume review, test driven development, problem solving, object oriented programming, abstraction, writing good clear functions and documentation
+  network:
+    - linkedin: https://www.linkedin.com/mwlite/in/leo-pn
+    - github: https://github.com/thesammy2010
+
+- name: Shelly Gabriela Leal
+  type: ad-hoc
+  index: 13
+  position: Senior Data Analyst, Trivago
+  bio: I have four years of experience as a data analyst (stack - SQL, Python, Qlik, Looker, PowerBI, Google Cloud and Hive). I have worked so far in three different types of company - in the military, for a startup in Brazil, and now I work abroad for Trivago, an international company. So far I have not only acquired experience with leadership (team of 2-3 people in the data team) but also learned how to design relevant metrics to improve customers' and advertisers' experience with the platform. The achievement I am most proud of is to have given more than one presentation so far in my career, related to my technical background and career, to both stakeholders and other women in IT.
+  image: https://media.licdn.com/dms/image/C4E03AQEBMJVDaxUtjQ/profile-displayphoto-shrink_400_400/0/1625951196857?e=1680134400&v=beta&t=q-wqKPs99p7dBainJtx38hJG7eN258FkijIt61WxToM
+  location: Düsseldorf, Germany
+  languages: English, Portuguese
+  skills:
+    experience: 4-5 Years
+    areas:
+      - Business Analysis
+      - Data Science
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Grow beyond senior level
+    mentee: I am eager to help other women in the beginning of their career in tech (1-3 years), or in the process of transition to another job. The idea is to help them feel more confident in their skills and prepare for their next interviews, so that they can get their dream job and at the same time be able to negotiate an offer that is equivalent to their experience.
+    extra: Preparation for Interviews, Learning How to Become More Confident, Resume Review, Strategies for Offer Negotiation
+  network:
+    - linkedin: https://www.linkedin.com/in/shelly-leal/
+    - medium: https://medium.com/@shellyleal
+
+- name: Neha Garg
+  type: both
+  index: 14
+  position: Graduate Teaching Assistant, University of Regina
+  bio: | 
+    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc.<br>
+    Skilled in:<br>
+    1. Software development and cloud technologies; <br>
+    2. Databases - MySQL, Oracle, MongoDB; <br>
+    3. Docker; <br>
+    4. CI/CD - GitHub Actions, Jenkins, Hudson; <br>
+    5. Storage - Redis, PostgreSQL; <br>
+    6. Cloud - AWS, Microsoft Azure, Oracle Cloud; <br>
+  image: https://media.licdn.com/dms/image/C5103AQHJ_W7Qp0G7uA/profile-displayphoto-shrink_400_400/0/1568094576913?e=1680134400&v=beta&t=zrHI-nesPJeHQkeuS4oJ7Ndb-p3BSRPJQzaxVpIHA-k
+  location: Canada
+  languages: English
+  skills:
+    experience: 7-10 Years
+    areas:
+      - Distributed Systems
+      - Product Management
+      - Project Management
+      - Security
+      - QA
+    languages: Java
+    focus:
+      - Switch from IC to management position
+      - Change specialisation within IT
+      - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: needs help with AWS cloud or technology related stuff
+    extra: |  
+      <br> 1. Software development and cloud technologies; <br>
+      2. Databases: MySQL, Oracle, MongoDB; <br>
+      3. Docker; <br>
+      4. CI/CD: GitHub Actions, Jenkins, Hudson; <br>
+      5. Storage: Redis, PostgreSQL; <br>
+      6. Cloud: AWS, Microsoft Azure, Oracle Cloud; <br> <br>
+      
+      - Experience migrating Monolithic to Microservice architecture. <br>
+      - Experience in Software development on Java/JEE technologies including Spring Boot, spring data, Hibernate etc. <br>
+      - Training and mentoring skills. <br>
+  network:
+    - linkedin: https://www.linkedin.com/in/neha-garg-7739bb18/
+
+- name: Jamica Ortiz
+  type: ad-hoc
+  index: 15
+  position: Senior Engineering Manager, Thought Machine
+  bio: I'm an engineering leader with over 15 years experience in Software Engineering. I currently run a small engineering organisation of about 35 people building a critical component in Thought Machine's core product offering. I have mentored people in the WWC-London mentorship programme as well as in the Women's Engineering Society. I've been working in Fintech for the last 4 years
+  image: https://media.licdn.com/dms/image/C4E03AQFv40ydcaJtWg/profile-displayphoto-shrink_400_400/0/1568930248948?e=1680134400&v=beta&t=VHAlZvUkvHepSKQjhf4BLjyP8GD0qOaCXpvP-qTMXCI
+  location: London, UK
+  languages: English
+  skills:
+    experience: 10-15 Years
+    areas:
+      - Engineering management
+      - Project Management
+      - Distributed Systems
+      - Product Management
+      - Backend Developer
+    languages: Python, Go
+    focus:
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: Ambitious and looking to move up to either Engineering Management or Staff Engineer roles
+    extra: Transitioning to Engineering Management, moving to Senior/Staff/Principal Engineering roles
+  network:
+    - linkedin: https://www.linkedin.com/in/jortizbr/
