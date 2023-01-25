@@ -71,6 +71,11 @@ title: Meet our community of mentors!
                                             {% include icons/medium.svg %}
                                         </a>
                                     {% endif %}
+                                    {% if network.website %}
+                                    <a href="{{network.website}}" target="_blank">
+                                        {% include icons/website.svg %}
+                                    </a>
+                                    {% endif %}
                                 {% endfor %}
                             </p>
                         </div>
