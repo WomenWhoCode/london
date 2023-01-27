@@ -2,18 +2,21 @@
 layout: default
 title: Meet our community of mentors!
 ---
-<div class="mentors container">
-    <h1>{{page.title}}</h1>
 
+<h1>{{page.title}}</h1>
+
+{% include search_mentor.html %}
+
+<div class="mentors container">
     <div class="description">
-        Below you can view all our mentors. The Application starts in February, 2023.
+        Below you can view all our mentors. The mentee's application starts in February, 2023.
     </div>
 
-    {% for mentor in site.data.mentors %}
-        {% if mentor.disabled == Nil %}
-        <div class="card">
+    {% assign m = site.data.mentors | sort: "hours" | reverse %}
+    {% for mentor in m %}
+    
+        <div class="card" id="mentor-card-{{mentor.index}}">            
             <div class="row">
-                
                 <div class="col-md-3">
                     <img src="{{mentor.image}}" class="card-img" alt="...">
                     <div class="card-link">
@@ -111,7 +114,6 @@ title: Meet our community of mentors!
                     </div>
                 </div>
             </div>
-            {% endif %}
         </div>
     {% endfor %}
 </div>
