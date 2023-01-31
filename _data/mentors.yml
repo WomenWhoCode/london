@@ -3,13 +3,10 @@
   index: 0
   position: Principal Engineer at U-Blox Cambridge
   bio: |
-    Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.
-    
-    <br> <br>Rajani leads with grit and passion, and adopting a growth mindset, she approaches adversity as an opportunity to grow and learn, and come up with innovative solutions to challenging problems.
-    
-    <br> <br>She has over 20 years of software and engineering experience in companies including Philips, NXP Semiconductors and Geotate. Having worked with a variety of teams and work cultures in various countries including India, France, Italy, Switzerland, Netherlands and the UK, she has built on a vast array of experiences and challenges along the way.
-    
-    <br> <br>Throughout her career Rajani has worked on first-of-a-kind projects. This entails quickly getting up to speed, coming up with novel solutions to engineering problems and delivering  functional prototypes/products. This taps into Rajani's natural curiosity and desire to keep up with latest technology trends.
+    Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.<br>
+    Rajani leads with grit and passion, and adopting a growth mindset, she approaches adversity as an opportunity to grow and learn, and come up with innovative solutions to challenging problems.
+    <br>She has over 20 years of software and engineering experience in companies including Philips, NXP Semiconductors and Geotate. Having worked with a variety of teams and work cultures in various countries including India, France, Italy, Switzerland, Netherlands and the UK, she has built on a vast array of experiences and challenges along the way.
+    <br>Throughout her career Rajani has worked on first-of-a-kind projects. This entails quickly getting up to speed, coming up with novel solutions to engineering problems and delivering  functional prototypes/products. This taps into Rajani's natural curiosity and desire to keep up with latest technology trends.
   image: https://ca.slack-edge.com/TGYGA50DQ-U03CU94BKUL-52f8734464ad-512
   location: Cambridge
   languages: English
@@ -80,7 +77,7 @@
     - github: https://github.com/irenkamalova
 
 - name: Adriana Zencke Zimmermann
-  bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science in Brazil and have been working as a Software Engineer for over 12 years, and in the last years focused on the backend, which I found to be my passion. I was born in Brazil and moved to Germany for about 7 years and now I am in Spain. I am always excited to help others, my goal is to empower women and support them with the difficulties I had and still have from time to time.
+  bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. <br>I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
   position: Senior Software Engineer at Personio
   image: https://media.licdn.com/dms/image/C4E03AQFb3yz9xF917A/profile-displayphoto-shrink_800_800/0/1650927176851?e=1678320000&v=beta&t=soCLefighqi-aVaO40bQxgs4z5tDj9X5ZCD09jaP3as
   location: València, Spain
@@ -341,14 +338,10 @@
   index: 14
   position: Graduate Teaching Assistant, University of Regina
   bio: | 
-    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc.<br>
-    Skilled in:<br>
-    1. Software development and cloud technologies; <br>
-    2. Databases - MySQL, Oracle, MongoDB; <br>
-    3. Docker; <br>
-    4. CI/CD - GitHub Actions, Jenkins, Hudson; <br>
-    5. Storage - Redis, PostgreSQL; <br>
-    6. Cloud - AWS, Microsoft Azure, Oracle Cloud; <br>
+    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc. <br> 
+    Skilled in: Software development and cloud technologies; 
+    Databases - MySQL, Oracle, MongoDB, Docker; 
+    CI/CD - GitHub Actions, Jenkins, Hudson; Storage - Redis, PostgreSQL; Cloud - AWS, Microsoft Azure, Oracle Cloud; <br>
   image: https://media.licdn.com/dms/image/C5103AQHJ_W7Qp0G7uA/profile-displayphoto-shrink_400_400/0/1568094576913?e=1680134400&v=beta&t=zrHI-nesPJeHQkeuS4oJ7Ndb-p3BSRPJQzaxVpIHA-k
   location: Canada
   languages: English
