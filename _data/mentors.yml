@@ -1,6 +1,7 @@
 - name: Rajani Rao
   type: both
   index: 0
+  hours: 
   position: Principal Engineer at U-Blox Cambridge
   bio: |
     Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.<br>
@@ -12,6 +13,7 @@
   languages: English
   skills:
     experience: 16+ years
+    years: 16
     areas:
       - Distributed Systems
       - Site Reliability Engineering
@@ -34,6 +36,7 @@
   position: QA Engineer at ReaQta, an IBM Company, Director at Women Who Code London
   type: both
   index: 1
+  hours: 
   location: Amsterdam, Netherlands
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: https://media.licdn.com/dms/image/C4E03AQEV0jEE1z0BbA/profile-displayphoto-shrink_800_800/0/1651913271528?e=1678320000&v=beta&t=zc9ZQRqg5_MBq1m_WRsqRyyZsJ5xDyfnGE6bktR6RgE
@@ -43,6 +46,7 @@
     - github: https://github.com/nora-weisser
   skills:
     experience: 2 years
+    years: 2
     areas:
       - Quality Assurance
     mentee: I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
@@ -56,6 +60,7 @@
 - name: Irina Kamalova
   type: both
   index: 2
+  hours: 
   position: Backend Software Engineer at Revolut
   bio: Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut. She worked with high-load components that handled responses from millions of users and managed its 24/7 availability at Yandex. She has also worked with solutions for Big Data on SMACK stack, and has designed and implemented several solutions to improve data management for Alveo Technology.
   image: https://ca.slack-edge.com/TGYGA50DQ-U01H51ELUNB-889f0bd6db5d-512
@@ -63,6 +68,7 @@
   languages: English
   skills:
     experience: 5-7 years
+    years: 7
     areas:
         - Backend Developer
         - Distributed Systems
@@ -83,9 +89,11 @@
   location: València, Spain
   type: both
   index: 3
+  hours: 
   languages: Portuguese, English
   skills:
     experience: 10-15 years
+    years: 15
     areas:
       - Backend Developer
       - Distributed Systems
@@ -106,6 +114,7 @@
 - name: Aishwarya Nair
   type: ad-hoc
   index: 4
+  hours: 
   position: Data scientist at Trivago
   bio: An experienced Data Scientist who likes to develop business ideas into implementable solutions by leveraging the power of Technology. Professional with 5+ years of experience in NLP, Computer Vision and Recommender models. Motivated by the challenge of working in cross-functional teams and leading projects from beginning to end. Passionate about mentoring and inspiring young women in the field of STEM.
   image: https://media.licdn.com/dms/image/C4D03AQH1AWGXCGOuGw/profile-displayphoto-shrink_800_800/0/1614802363650?e=1678924800&v=beta&t=yGX2gKOWaLEJqTnCMoR-DVD2ZNGGn6zXuQik3PFas_Q
@@ -113,6 +122,7 @@
   languages: English
   skills:
     experience: 5-7 years
+    years: 7
     areas:
       - Data Science
       - Machine Learning
@@ -133,6 +143,7 @@
 - name: Mr Andrew King
   type: both
   index: 5
+  hours: 
   position: SRE at Dojo
   bio: I have been mentoring for about 10 years now at all different levels.  I have good people skills and take active role in company development outside of engineering.  Currently an SRE, but 15 years as a back-end developer, various dev-ops roles has given me a wide range of technical experience.  30+ years in lots of firms have helped upskill my non-engineering skills.
   image: https://media.licdn.com/dms/image/C5603AQE0XArhruEvUQ/profile-displayphoto-shrink_400_400/0/1564754921783?e=1678924800&v=beta&t=cTGlgo8xfNjRy_P6bAnIcal5RV6O0TJyzWOZleE-c9A
@@ -140,6 +151,7 @@
   languages: English
   skills:
     experience: 16+ years
+    years: 16
     areas:
       - Site Reliability Engineering
       - Engineering management
@@ -160,6 +172,7 @@
 - name: Sandy Chuchuca
   type: both
   index: 6
+  hours: 
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
   bio: Fullstack engineer, studied Computing Science, I always commute by cycling and love a night out. My journey started as a backend engineer and soon I realised how fun was frontend too. I've worked mainly in start-ups.
   image: https://media.licdn.com/dms/image/C4E03AQFCWtRB-3jQ4A/profile-displayphoto-shrink_800_800/0/1516879496498?e=1678924800&v=beta&t=pVSaJqYCNMSxumZjieZ2CU_z9d0gI54JmCDjAm5erTU
@@ -167,6 +180,7 @@
   languages: English, Spanish
   skills:
     experience: 10 years
+    years: 10
     areas:
       - Web & Mobile development
     languages: Javascript/Typescript, HTML/CSS, Java, Ruby
@@ -182,6 +196,7 @@
 - name: Ayla Cura
   type: both
   index: 7
+  hours: 
   position: Software Engineer Apprentice, 100Devs
   bio: I am currently engaged in developing the front-end of an app for an organisation in the UK as well as working on my personal full-stack web application project. I have experience in building full-stack web applications, including an e-commerce site for a pet supply shop catering to dogs and cats, a story-maker app for children learning English.
   image: https://media.licdn.com/dms/image/D4D03AQGSrE8QJM8q0g/profile-displayphoto-shrink_400_400/0/1665007217197?e=1679529600&v=beta&t=aDeDRudqfPNc0BUILh-4D1_xfeJaZ3Q12JT86h5-ZEo
@@ -189,6 +204,7 @@
   languages: English, Turkish
   skills:
     experience: 1-2 years
+    years: 2
     areas:
       - Frontend Developer
       - Fullstack Developer
@@ -206,6 +222,7 @@
 - name: Jo Dorning
   type: ad-hoc
   index: 8
+  hours: 
   position: Data Scientist, Mars
   bio: I transitioned into data science after doing a PhD in animal behaviour. I found the journey intimidating and hard and have experienced impostors syndrome and the challenges of moving up the ladder, so would love to help others navigate this journey.
   image: https://media.licdn.com/dms/image/C4E03AQE48xVlToz5bQ/profile-displayphoto-shrink_400_400/0/1516888649245?e=1679529600&v=beta&t=hU3EKlvul8fDZrK_7IdVriP0GIBaxzMbc9Ac3-Tfgus
@@ -213,6 +230,7 @@
   languages: English
   skills:
     experience: 4-5 years
+    years: 5
     areas:
       - Data Science
       - Machine Learning
@@ -232,6 +250,7 @@
 - name: Stephanie Senoner
   type: both
   index: 9
+  hours: 
   position: Senior Software Engineer, Zopa
   bio: I have a non tech background (Psychology and Business education) and am a career switcher myself. Therefore I know the challenges, problems, at the beginning but also understand the opportunities with it. I work in tech for 5 years now, from Junior to Senior in different companies (size, sector). Worked as backend developer as well ad Full stack but focus now on Frontend (React, NextJS)
   image: https://media.licdn.com/dms/image/C5603AQEgUcVoS6A9Gw/profile-displayphoto-shrink_800_800/0/1580195654636?e=2147483647&v=beta&t=gr-ZQxPVHch5gbH7Mnmr6gSjyxL2mYAsPh09CwEvEec
@@ -239,6 +258,7 @@
   languages: English
   skills:
     experience: 4-5 years
+    years: 5
     areas:
       - Frontend Developer
       - Fullstack Developer
@@ -261,6 +281,7 @@
 - name: Nassim Bordbar
   type: both
   index: 10
+  hours: 
   position: Data Scientist, TDR Capital
   bio: Using data to understand companies
   image: https://media.licdn.com/dms/image/C4E03AQG85dFm9Qz9-g/profile-displayphoto-shrink_400_400/0/1524055602757?e=1680134400&v=beta&t=LJIY4McfD0Tax0PU_LYg4t6NYi3Y_9y1ebLODJvp0R4
@@ -268,6 +289,7 @@
   languages: English
   skills:
     experience: 7-10 years
+    years: 10
     areas:
       - Business Analysis
       - Data Science
@@ -288,6 +310,7 @@
 - name: Ken Pemberton
   type: both
   index: 11
+  hours: 
   position: PEOPLE-FIRST servant-leadership of technical teams
   bio: I started coding as a teenager, and 40 years later it still fascinates me, although I've stepped away from programming now to focus on honing my management skills as a servant-leader. So while I won't be able to help you actually write code, I might be able to help guide you past the self-doubt that's inevitable as you step up to something new, be it a career or a promotion.
   image: https://ca.slack-edge.com/TGYGA50DQ-U04L55J9HFC-20e36da38907-192
@@ -295,6 +318,7 @@
   languages: English
   skills:
     experience: 16+ Years
+    years: 16
     areas:
       - Engineering management
     focus:
@@ -310,6 +334,7 @@
 - name: Shelly Gabriela Leal
   type: ad-hoc
   index: 13
+  hours: 
   position: Senior Data Analyst, Trivago
   bio: I have four years of experience as a data analyst (stack - SQL, Python, Qlik, Looker, PowerBI, Google Cloud and Hive). I have worked so far in three different types of company - in the military, for a startup in Brazil, and now I work abroad for Trivago, an international company. So far I have not only acquired experience with leadership (team of 2-3 people in the data team) but also learned how to design relevant metrics to improve customers' and advertisers' experience with the platform. The achievement I am most proud of is to have given more than one presentation so far in my career, related to my technical background and career, to both stakeholders and other women in IT.
   image: https://media.licdn.com/dms/image/C4E03AQEBMJVDaxUtjQ/profile-displayphoto-shrink_400_400/0/1625951196857?e=1680134400&v=beta&t=q-wqKPs99p7dBainJtx38hJG7eN258FkijIt61WxToM
@@ -317,6 +342,7 @@
   languages: English, Portuguese
   skills:
     experience: 4-5 Years
+    years: 5
     areas:
       - Business Analysis
       - Data Science
@@ -336,6 +362,7 @@
 - name: Neha Garg
   type: both
   index: 14
+  hours: 
   position: Graduate Teaching Assistant, University of Regina
   bio: | 
     Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc. <br> 
@@ -347,6 +374,7 @@
   languages: English
   skills:
     experience: 7-10 Years
+    years: 10
     areas:
       - Distributed Systems
       - Product Management
@@ -378,6 +406,7 @@
 - name: Jamica Ortiz
   type: ad-hoc
   index: 15
+  hours: 
   position: Senior Engineering Manager, Thought Machine
   bio: I'm an engineering leader with over 15 years experience in Software Engineering. I currently run a small engineering organisation of about 35 people building a critical component in Thought Machine's core product offering. I have mentored people in the WWC-London mentorship programme as well as in the Women's Engineering Society. I've been working in Fintech for the last 4 years
   image: https://media.licdn.com/dms/image/C4E03AQFv40ydcaJtWg/profile-displayphoto-shrink_400_400/0/1568930248948?e=1680134400&v=beta&t=VHAlZvUkvHepSKQjhf4BLjyP8GD0qOaCXpvP-qTMXCI
@@ -385,6 +414,7 @@
   languages: English
   skills:
     experience: 10-15 Years
+    years: 15
     areas:
       - Engineering management
       - Project Management
@@ -402,28 +432,3 @@
     extra: Transitioning to Engineering Management, moving to Senior/Staff/Principal Engineering roles
   network:
     - linkedin: https://www.linkedin.com/in/jortizbr/
-
-- name: Leo Parkes-Neptune
-  disabled: true
-  type: both
-  index: 12
-  position: Senior Software Engineer, MoonPay
-  bio: https://github.com/thesammy2010
-  image: https://ca.slack-edge.com/TGYGA50DQ-U04L2HJHKEH-gfece7b3198d-192
-  location: London, United Kingdom
-  languages: English
-  skills:
-    experience: 2-4 Years
-    areas:
-      - Data Engineering
-      - Backend Developer
-    languages: Python, Go
-    focus:
-      - Grow from beginner to mid-level
-      - Grow from mid-level to senior-level
-      - Switch career to IT
-    mentee: Any
-    extra: Interview, resume review, test driven development, problem solving, object oriented programming, abstraction, writing good clear functions and documentation
-  network:
-    - linkedin: https://www.linkedin.com/mwlite/in/leo-pn
-    - github: https://github.com/thesammy2010
