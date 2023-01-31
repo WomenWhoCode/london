@@ -1,20 +1,19 @@
 - name: Rajani Rao
   type: both
   index: 0
+  hours: 4
   position: Principal Engineer at U-Blox Cambridge
   bio: |
-    Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.
-    
-    <br> <br>Rajani leads with grit and passion, and adopting a growth mindset, she approaches adversity as an opportunity to grow and learn, and come up with innovative solutions to challenging problems.
-    
-    <br> <br>She has over 20 years of software and engineering experience in companies including Philips, NXP Semiconductors and Geotate. Having worked with a variety of teams and work cultures in various countries including India, France, Italy, Switzerland, Netherlands and the UK, she has built on a vast array of experiences and challenges along the way.
-    
-    <br> <br>Throughout her career Rajani has worked on first-of-a-kind projects. This entails quickly getting up to speed, coming up with novel solutions to engineering problems and delivering  functional prototypes/products. This taps into Rajani's natural curiosity and desire to keep up with latest technology trends.
+    Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.<br>
+    Rajani leads with grit and passion, and adopting a growth mindset, she approaches adversity as an opportunity to grow and learn, and come up with innovative solutions to challenging problems.
+    <br>She has over 20 years of software and engineering experience in companies including Philips, NXP Semiconductors and Geotate. Having worked with a variety of teams and work cultures in various countries including India, France, Italy, Switzerland, Netherlands and the UK, she has built on a vast array of experiences and challenges along the way.
+    <br>Throughout her career Rajani has worked on first-of-a-kind projects. This entails quickly getting up to speed, coming up with novel solutions to engineering problems and delivering  functional prototypes/products. This taps into Rajani's natural curiosity and desire to keep up with latest technology trends.
   image: https://ca.slack-edge.com/TGYGA50DQ-U03CU94BKUL-52f8734464ad-512
   location: Cambridge
   languages: English
   skills:
     experience: 16+ years
+    years: 16
     areas:
       - Distributed Systems
       - Site Reliability Engineering
@@ -34,6 +33,7 @@
     - linkedin: https://www.linkedin.com/in/rajaniraog/
 
 - name: Eleonora Belova
+  hours: 3
   position: QA Engineer at ReaQta, an IBM Company, Director at Women Who Code London
   type: both
   index: 1
@@ -45,7 +45,8 @@
     - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
     - github: https://github.com/nora-weisser
   skills:
-    experience: 2 years
+    experience: 2-4 years
+    years: 4
     areas:
       - Quality Assurance
     mentee: I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
@@ -57,6 +58,7 @@
     extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines
 
 - name: Irina Kamalova
+  hours: 2
   type: both
   index: 2
   position: Backend Software Engineer at Revolut
@@ -66,6 +68,7 @@
   languages: English
   skills:
     experience: 5-7 years
+    years: 7
     areas:
         - Backend Developer
         - Distributed Systems
@@ -80,7 +83,8 @@
     - github: https://github.com/irenkamalova
 
 - name: Adriana Zencke Zimmermann
-  bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science in Brazil and have been working as a Software Engineer for over 12 years, and in the last years focused on the backend, which I found to be my passion. I was born in Brazil and moved to Germany for about 7 years and now I am in Spain. I am always excited to help others, my goal is to empower women and support them with the difficulties I had and still have from time to time.
+  hours: 2
+  bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
   position: Senior Software Engineer at Personio
   image: https://media.licdn.com/dms/image/C4E03AQFb3yz9xF917A/profile-displayphoto-shrink_800_800/0/1650927176851?e=1678320000&v=beta&t=soCLefighqi-aVaO40bQxgs4z5tDj9X5ZCD09jaP3as
   location: València, Spain
@@ -89,6 +93,7 @@
   languages: Portuguese, English
   skills:
     experience: 10-15 years
+    years: 15
     areas:
       - Backend Developer
       - Distributed Systems
@@ -107,6 +112,7 @@
     - medium: https://medium.com/@dricazenck
 
 - name: Aishwarya Nair
+  hours: 1
   type: ad-hoc
   index: 4
   position: Data scientist at Trivago
@@ -116,6 +122,7 @@
   languages: English
   skills:
     experience: 5-7 years
+    years: 7
     areas:
       - Data Science
       - Machine Learning
@@ -134,6 +141,7 @@
     - linkedin: www.linkedin.com/in/aishwarya-nair-data-scientist
 
 - name: Mr Andrew King
+  hours: 4
   type: both
   index: 5
   position: SRE at Dojo
@@ -143,6 +151,7 @@
   languages: English
   skills:
     experience: 16+ years
+    years: 16
     areas:
       - Site Reliability Engineering
       - Engineering management
@@ -161,6 +170,7 @@
     - linkedin: https://www.linkedin.com/in/andrewkingit/
 
 - name: Sandy Chuchuca
+  hours: 4
   type: both
   index: 6
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
@@ -170,6 +180,7 @@
   languages: English, Spanish
   skills:
     experience: 10 years
+    years: 10
     areas:
       - Web & Mobile development
     languages: Javascript/Typescript, HTML/CSS, Java, Ruby
@@ -183,6 +194,7 @@
     - linkedin: https://github.com/sandycho
 
 - name: Ayla Cura
+  hours: 4
   type: both
   index: 7
   position: Software Engineer Apprentice, 100Devs
@@ -192,6 +204,7 @@
   languages: English, Turkish
   skills:
     experience: 1-2 years
+    years: 2
     areas:
       - Frontend Developer
       - Fullstack Developer
@@ -207,6 +220,7 @@
     - github: https://github.com/aylacura
 
 - name: Jo Dorning
+  hours: 2
   type: ad-hoc
   index: 8
   position: Data Scientist, Mars
@@ -216,6 +230,7 @@
   languages: English
   skills:
     experience: 4-5 years
+    years: 5
     areas:
       - Data Science
       - Machine Learning
@@ -233,6 +248,7 @@
 
 
 - name: Stephanie Senoner
+  hours: 5
   type: both
   index: 9
   position: Senior Software Engineer, Zopa
@@ -242,6 +258,7 @@
   languages: English
   skills:
     experience: 4-5 years
+    years: 5
     areas:
       - Frontend Developer
       - Fullstack Developer
@@ -262,6 +279,7 @@
 
 
 - name: Nassim Bordbar
+  hours: 2 
   type: both
   index: 10
   position: Data Scientist, TDR Capital
@@ -271,6 +289,7 @@
   languages: English
   skills:
     experience: 7-10 years
+    years: 10
     areas:
       - Business Analysis
       - Data Science
@@ -289,6 +308,7 @@
     - linkedin: https://www.linkedin.com/in/nassimbordbar/
 
 - name: Ken Pemberton
+  hours: 4
   type: both
   index: 11
   position: PEOPLE-FIRST servant-leadership of technical teams
@@ -298,6 +318,7 @@
   languages: English
   skills:
     experience: 16+ Years
+    years: 16
     areas:
       - Engineering management
     focus:
@@ -311,6 +332,7 @@
     - website: https://grumpyoldfart.org/
 
 - name: Shelly Gabriela Leal
+  hours: 2
   type: ad-hoc
   index: 13
   position: Senior Data Analyst, Trivago
@@ -320,6 +342,7 @@
   languages: English, Portuguese
   skills:
     experience: 4-5 Years
+    years: 5
     areas:
       - Business Analysis
       - Data Science
@@ -337,23 +360,21 @@
     - medium: https://medium.com/@shellyleal
 
 - name: Neha Garg
+  hours: 3
   type: both
   index: 14
   position: Graduate Teaching Assistant, University of Regina
   bio: | 
-    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc.<br>
-    Skilled in:<br>
-    1. Software development and cloud technologies; <br>
-    2. Databases - MySQL, Oracle, MongoDB; <br>
-    3. Docker; <br>
-    4. CI/CD - GitHub Actions, Jenkins, Hudson; <br>
-    5. Storage - Redis, PostgreSQL; <br>
-    6. Cloud - AWS, Microsoft Azure, Oracle Cloud; <br>
+    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc. <br> 
+    Skilled in: Software development and cloud technologies; 
+    Databases - MySQL, Oracle, MongoDB, Docker; 
+    CI/CD - GitHub Actions, Jenkins, Hudson; Storage - Redis, PostgreSQL; Cloud - AWS, Microsoft Azure, Oracle Cloud; <br>
   image: https://media.licdn.com/dms/image/C5103AQHJ_W7Qp0G7uA/profile-displayphoto-shrink_400_400/0/1568094576913?e=1680134400&v=beta&t=zrHI-nesPJeHQkeuS4oJ7Ndb-p3BSRPJQzaxVpIHA-k
   location: Canada
   languages: English
   skills:
     experience: 7-10 Years
+    years: 10
     areas:
       - Distributed Systems
       - Product Management
@@ -383,6 +404,7 @@
     - linkedin: https://www.linkedin.com/in/neha-garg-7739bb18/
 
 - name: Jamica Ortiz
+  hours: 2
   type: ad-hoc
   index: 15
   position: Senior Engineering Manager, Thought Machine
@@ -392,6 +414,7 @@
   languages: English
   skills:
     experience: 10-15 Years
+    years: 15
     areas:
       - Engineering management
       - Project Management
@@ -409,28 +432,3 @@
     extra: Transitioning to Engineering Management, moving to Senior/Staff/Principal Engineering roles
   network:
     - linkedin: https://www.linkedin.com/in/jortizbr/
-
-- name: Leo Parkes-Neptune
-  disabled: true
-  type: both
-  index: 12
-  position: Senior Software Engineer, MoonPay
-  bio: https://github.com/thesammy2010
-  image: https://ca.slack-edge.com/TGYGA50DQ-U04L2HJHKEH-gfece7b3198d-192
-  location: London, United Kingdom
-  languages: English
-  skills:
-    experience: 2-4 Years
-    areas:
-      - Data Engineering
-      - Backend Developer
-    languages: Python, Go
-    focus:
-      - Grow from beginner to mid-level
-      - Grow from mid-level to senior-level
-      - Switch career to IT
-    mentee: Any
-    extra: Interview, resume review, test driven development, problem solving, object oriented programming, abstraction, writing good clear functions and documentation
-  network:
-    - linkedin: https://www.linkedin.com/mwlite/in/leo-pn
-    - github: https://github.com/thesammy2010

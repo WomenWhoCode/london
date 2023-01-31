@@ -9,8 +9,8 @@ title: Meet our community of mentors!
         Below you can view all our mentors. The Application starts in February, 2023.
     </div>
 
-    {% for mentor in site.data.mentors %}
-        {% if mentor.disabled == Nil %}
+    {% assign m = site.data.mentors | sort: "type" | reverse %}
+    {% for mentor in m %}
         <div class="card">
             <div class="row">
                 
@@ -111,7 +111,6 @@ title: Meet our community of mentors!
                     </div>
                 </div>
             </div>
-            {% endif %}
         </div>
     {% endfor %}
 </div>
