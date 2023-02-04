@@ -63,10 +63,8 @@
   index: 2
   position: Backend Software Engineer at Revolut
   bio: |
-    Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut.
-    <br>Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. <br> Apart from being a strong developer and a good team player, in the last 2-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Director of community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than twice.
-    <br>Currently, shes working at Revolut and building a platform for retail products. That includes support services to handle our 20 million clients, handle huge throughput and provide law latency for data flow. 
-    <br>Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”
+    Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. <br> Apart from being a strong developer and a good team player, in the last 2-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Director of community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than twice.
+    <br>Currently, shes working at Revolut and building a platform for retail products. That includes support services to handle our 20 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”
   image: https://ca.slack-edge.com/TGYGA50DQ-U01H51ELUNB-889f0bd6db5d-512
   location: London, United Kingdom
   languages: English, Russian
@@ -183,10 +181,11 @@
   type: both
   index: 6
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
-  bio: My journey started in 2009 when I started studying Computer Science in Madrid. In my first two roles, I worked as a Backend Engineer with Ruby and Java. 
+  bio: |
+    My journey started in 2009 when I started studying Computer Science in Madrid. In my first two roles, I worked as a Backend Engineer with Ruby and Java. 
     When I moved to the UK, I was determined to become a Fullstack Engineer, which led me to work with the design team, Javascript and mobile development.
     As I mainly worked in startups, I'm used to wearing many hats, the fast pace and lean development.
-To keep up with trends, I constantly seek tech and networking events.
+    To keep up with trends, I constantly seek tech and networking events.
 Recent stack: JS/TS, GraphQL, Nestjs/Nextjs, AWS, Kubernetes, React Native, Vuejs"
   image: https://media.licdn.com/dms/image/C4E03AQFCWtRB-3jQ4A/profile-displayphoto-shrink_800_800/0/1516879496498?e=1678924800&v=beta&t=pVSaJqYCNMSxumZjieZ2CU_z9d0gI54JmCDjAm5erTU
   location: London, UK
