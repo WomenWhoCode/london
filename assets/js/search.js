@@ -10,15 +10,21 @@ var controllerSearch = (function(jQuery) {
     }
 
     let filterInputMap = new Map([
-        [Filter.KEYWORDS, " input[name='keywords']"],
+        [Filter.KEYWORDS, " input[name='mentor-data']"],
         [Filter.TYPE, " input[name='type]'"],
         [Filter.EXPERIENCE, " input[name='exp]"],
-        [Filter.AREA, " input[name='area]"],
-        [Filter.FOCUS, " input[name='focus]]"]
+        [Filter.AREA, " input[name='mentor-data]"],
+        [Filter.FOCUS, " input[name='mentor-data]]"]
       ]);
 
+    let params = new URLSearchParams(window.location.search);
     var totalMentors;
-    var params;
+    let $keywords = jQuery("#keywords");
+    let $area = jQuery("#area");
+    let $experience = jQuery("#experience");
+    let $focus = jQuery("#focus");
+    let $type = jQuery("#mentorship-type");
+    let $form = jQuery(".mentor-filter");
     
     let showMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).removeClass(HIDE_CLASS);
@@ -34,21 +40,30 @@ var controllerSearch = (function(jQuery) {
             'value': value.toLowerCase()
         };
     };
+    let applyKeywordsParam = function() {
+        var keywords = params.get([Filter.KEYWORDS]);
+        
+        if (keywords) {
+            let filter = paramToFilter(Filter.KEYWORDS, keywords);
+            $keywords.val(keywords);
+            filterMentors([filter]);
+        }
+    };
 
     let applyFilters = function() {
-        var keywords = params.get([Filter.KEYWORDS]);
-        var type = params.get(Filter.KEYWORDS);
-        var experience = params.get(Filter.EXPERIENCE);
-        var area = params.get(Filter.AREA);
-        var focus = params.get(Filter.FOCUS);
+        let filters = [];
 
-        var filters = []
-        if (isDefined(keywords)) {
-            let filter = paramToFilter(Filter.KEYWORDS, keywords);
-            filters.push(filter);
+        if ($keywords.val()) {
+            filters.push(paramToFilter(Filter.KEYWORDS, $keywords.val()));
         }
 
-        //TODO ADD OTHER FILTERS
+        if ($area.val()) {
+            filters.push(paramToFilter(Filter.KEYWORDS, $area.val()));
+        }
+
+        if ($focus.val()) {
+            filters.push(paramToFilter(Filter.KEYWORDS, $focus.val()));
+        }
 
         filterMentors(filters);
     };
@@ -98,17 +113,36 @@ var controllerSearch = (function(jQuery) {
         return element.length > 0
     };
 
-    let getAllParams = function() {
-        return new URLSearchParams(window.location.search);
+    var initEvents = function() {
+        $keywords.change(function() {
+            applyFilters();
+        });
+
+        $area.change(function() {
+            applyFilters();
+        });
+
+        $focus.change(function() {
+            applyFilters();
+        });
+        
+        $experience.change(function() {
+            //TODO
+        });
+        
+        $type.change(function() {
+            //TODO
+        });
+
+        $form.submit(function(e){
+            return false;
+        });    
     };
 
     let init = function() {
         totalMentors = jQuery(".card").length;
-        params = getAllParams();
-
-        if (location.search !== '') {
-            applyFilters();
-        }
+        initEvents();
+        applyKeywordsParam();
     };
 
     return {
