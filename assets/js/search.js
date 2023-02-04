@@ -36,11 +36,11 @@ var controllerSearch = (function(jQuery) {
     };
 
     let applyFilters = function() {
-        var keywords = params[Filter.KEYWORDS];
-        var type = params[Filter.KEYWORDS];
-        var experience = params[Filter.EXPERIENCE];
-        var area = params[Filter.AREA];
-        var focus = params[Filter.FOCUS];
+        var keywords = params.get([Filter.KEYWORDS]);
+        var type = params.get(Filter.KEYWORDS);
+        var experience = params.get(Filter.EXPERIENCE);
+        var area = params.get(Filter.AREA);
+        var focus = params.get(Filter.FOCUS);
 
         var filters = []
         if (isDefined(keywords)) {
@@ -99,14 +99,7 @@ var controllerSearch = (function(jQuery) {
     };
 
     let getAllParams = function() {
-        var vars = [], param;
-        var values = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-        for(let i = 0; i < values.length; i++) {
-            param = values[i].split('=');
-            vars.push(param[0]);
-            vars[param[0]] = param[1];
-        }
-        return vars;
+        return new URLSearchParams(window.location.search);
     };
 
     let init = function() {
