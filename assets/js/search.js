@@ -23,7 +23,7 @@ var controllerSearch = (function(jQuery) {
     let $area = jQuery("#area");
     let $experience = jQuery("#experience");
     let $focus = jQuery("#focus");
-    let $type = jQuery("#mentorship-type");
+    let $type = jQuery("input[name='mentorship-type']");
     let $form = jQuery(".mentor-filter");
     
     let showMentorCard = function(index) {
@@ -40,6 +40,7 @@ var controllerSearch = (function(jQuery) {
             'value': value.toLowerCase()
         };
     };
+
     let applyKeywordsParam = function() {
         var keywords = params.get([Filter.KEYWORDS]);
         
@@ -63,6 +64,11 @@ var controllerSearch = (function(jQuery) {
 
         if ($focus.val()) {
             filters.push(paramToFilter(Filter.KEYWORDS, $focus.val()));
+        }
+
+        let $typeSelected = jQuery("input[name='mentorship-type']:checked");
+        if ($typeSelected.val()) {
+            filters.push(paramToFilter(Filter.KEYWORDS, $typeSelected.val()));
         }
 
         filterMentors(filters);
@@ -131,7 +137,7 @@ var controllerSearch = (function(jQuery) {
         });
         
         $type.change(function() {
-            //TODO
+            applyFilters();
         });
 
         $form.submit(function(e){

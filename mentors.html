@@ -122,15 +122,15 @@ title: Meet our community of mentors!
                 </div>
             </div>
             <input type="hidden" name="index" value="{{mentor.index}}">
-            <input type="hidden" name="type" value="{{mentor.type}}">
             <input type="hidden" name="exp" value="{{mentor.skills.years}}">
-            <input type="hidden" name="mentor-data" value="
-                {{mentor.name | downcase}} 
-                {{mentor.bio | normalize_whitespace | downcase}} 
-                {{mentor.skills.languages | downcase}} 
-                {{mentor.skills.extra | normalize_whitespace | downcase}} 
-                {{mentor.skills.focus | array_to_sentence_string | downcase}} 
-                {{mentor.skills.areas | array_to_sentence_string | downcase}}">
+            <input type="hidden" name="mentor-data" 
+                value="{{mentor.name | downcase}} 
+                    {{mentor.bio | normalize_whitespace | downcase}} 
+                    {% if mentor.type == 'both' %}long term relationship and ad-hoc {% else %}{{mentor.type | downcase}}{% endif %}
+                    {{mentor.skills.languages | downcase}} 
+                    {{mentor.skills.extra | normalize_whitespace | downcase}} 
+                    {{mentor.skills.focus | array_to_sentence_string | downcase}} 
+                    {{mentor.skills.areas | array_to_sentence_string | downcase}}">
         </div>
     {% endfor %}
 </div>
