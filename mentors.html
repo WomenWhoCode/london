@@ -11,11 +11,18 @@ title: Meet our community of mentors!
     <div class="description">
         Below you can view all our mentors. The mentee's application starts in February, 2023.
     </div>
-
-    {% assign m = site.data.mentors | sort: "hours" | reverse %}
-    {% for mentor in m %}
     
-        <div class="card" id="mentor-card-{{mentor.index}}">            
+    <!-- 
+        Filter mentors using jekyll
+        {% assign m = site.data.mentors | where_exp: "m", "m.name contains 'a'" %}
+        {% assign m = m | where_exp: "m", "m.type == 'both'" %}
+        {% assign m = m | where_exp: "m", "m.skills.languages contains 'Java'" %} 
+    -->
+
+    {% assign mentors = site.data.mentors | sort: "hours" | reverse %}
+    {% for mentor in mentors %}
+    
+        <div class="card" id="mentor-card-{{mentor.index}}">
             <div class="row">
                 <div class="col-md-3">
                     <img src="{{mentor.image}}" class="card-img" alt="...">
@@ -114,6 +121,18 @@ title: Meet our community of mentors!
                     </div>
                 </div>
             </div>
+            <input type="hidden" name="index" value="{{mentor.index}}">
+            <input type="hidden" name="type" value="{{mentor.type}}">
+            <input type="hidden" name="exp" value="{{mentor.skills.years}}">
+            <input type="hidden" name="focus" value="{{mentor.skills.focus}}">
+            <input type="hidden" name="area" value="{{mentor.skills.areas}}">
+            <input type="hidden" name="keywords" value="
+                {{mentor.name | downcase}} 
+                {{mentor.bio | normalize_whitespace | downcase}} 
+                {{mentor.skills.languages | downcase}} 
+                {{mentor.skills.extra | normalize_whitespace | downcase}} 
+                {{mentor.skills.focus | array_to_sentence_string | downcase}} 
+                {{mentor.skills.areas | array_to_sentence_string | downcase}}">
         </div>
     {% endfor %}
 </div>
