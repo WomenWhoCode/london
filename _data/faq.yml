@@ -1,4 +1,4 @@
-- question: Who can participate in a mentorship program?
+- question: Who can participate in a mentorship programme?
   answer: Our mentorship programme is open to anyone who is looking to improve their skills or advance their careers. Whether you’re an experienced professional looking to give back to the community, or a student or new professional seeking guidance and support, our program has something for everyone.
   index: 1
 
@@ -7,16 +7,16 @@
   index: 2
 
 - question: I haven't mentored before. Could I sign up?
-  answer: Of course, first-time mentors are welcome in the program! Please take a look at our Mentor’s Pocketbook on Resources Page to help you get started!
+  answer: Of course, first-time mentors are welcome in the programme! Please take a look at our Mentor’s Pocketbook on Resources Page to help you get started!
   index: 3
 
 - question: How often do mentors and mentees meet?
   answer: The frequency of meetings between mentors and mentees can vary depending on the goals and the needs of the mentee and the availability of both parties. Some relationships require weekly meetings, while others may only require monthly or quarterly meetings.
   index: 4
 
-- question: What are the benefits of participating in a mentorship program?
+- question: What are the benefits of participating in a mentorship programme?
   answer: |
-    Participating in a mentorship program can provide mentees with access to valuable skills, knowledge, and networks, as well as guidance and support in achieving their goals.<br>
+    Participating in a mentorship programme can provide mentees with access to valuable skills, knowledge, and networks, as well as guidance and support in achieving their goals.<br>
     Mentors can also benefit from the experience by improving their leadership and mentoring skills, as well as gaining a sense of satisfaction in helping others succeed.
   index: 5
 
@@ -49,37 +49,45 @@
     It's also important to have realistic expectations of the mentorship.
   index: 10
 
-- question: What is Notion?
-  answer: Notion is a productivity and note-taking tool which provides a variety of features to keep track of progress. We recommend using this tool during mentorship experience. Or template can help mentors and mentees be organized and to be on track. At the beginning of the cycle we will conduct a webinar on how to get the most out of Notion note-taking experience.
-  index: 11
-
-- question: What are the goals and objectives of the mentorship programme? What is expected of me as a mentor?
+- question: What is expected of me as a mentor?
   answer: |
-    The goals and objectives of a mentorship programme may change in light of different needs and circumstances. However, some common goals and objectives include:<br>
-    1. Professional development: To provide mentees with guidance and support as they navigate their career and personal growth. <br>
-    2. Skill development: To help mentees develop specific skills and knowledge that will be valuable to them in their current or future roles. <br>
-    3. Career guidance: To help mentees set and achieve career goals, and to provide them with the tools and resources needed to succeed in their chosen field. <br>
-    4. Personal development: To provide mentees with guidance and support as they navigate their personal growth and well-being. <br> <br>
     As a mentor, you will be expected to provide guidance, advice, and support to your mentee as they navigate their professional and personal development. 
     You will be expected to share your own experiences and knowledge, and provide constructive feedback. 
     You will also be expected to help the mentee set and achieve goals, and to introduce them to new opportunities that can help them advance in their career. <br><br>
     <a href="code-of-conduct.html">Please, find more information in Code of Conduct for Mentors</a>
   index: 12
 
+- question: What are the goals and objectives of the mentorship programme?
+  answer: |
+    The goals and objectives of a mentorship programme may change in light of different needs and circumstances. However, some common goals and objectives include:<br>
+    1. Professional development: To provide mentees with guidance and support as they navigate their career and personal growth. <br>
+    2. Skill development: To help mentees develop specific skills and knowledge that will be valuable to them in their current or future roles. <br>
+    3. Career guidance: To help mentees set and achieve career goals, and to provide them with the tools and resources needed to succeed in their chosen field. <br>
+    4. Personal development: To provide mentees with guidance and support as they navigate their personal growth and well-being.
+  index: 13
+
 - question: What are the expectations for mentees in the mentorship programme?
   answer: 
     The expectations for mentees may include setting and achieving goals, being open to feedback and guidance, actively seeking out opportunities to learn, and being committed to their own personal and professional growth. Mentees are expected to actively participate in the mentorship relationship, be open to learning and be willing to share their own experiences and knowledge. <br>
     <a href="code-of-conduct.html">Please, find more information in Code of Conduct for Mentees</a>
-  index: 13
+  index: 14
 
-- question: What is the time commitment for participating in this programme and how long does a mentorship cycle last? 
+- question: What is the time commitment for participating in this programme? 
   answer: |
-    
     1. Meeting frequency: Mentors and mentees are expected to meet on a regular basis, such as weekly or monthly. It should be discussed between the mentor and mentee during the introduction meeting. <br>
     2. Meeting duration: Meetings can be scheduled for different durations, usually lasting between 30 minutes to an hour depending on availability and needs. <br>
-    3. Programme duration: Mentorship programs lasts from 20th of April till 1st of November 2023. <br><br>
+    3. Programme duration: Mentorship programme lasts from 20th of April till 1st of November 2023. <br><br>
+
     It's important for both the mentor and mentee to have a clear understanding of the time commitment required for the mentorship programme. 
     They should also be able to set their own schedule and make adjustments as needed, as long as it is mutually agreed upon. 
     It is important for both parties to make the most of their time together and try to achieve the goals they set together. <br><br>
     <a href="code-of-conduct.html">Please, find more information in Code of Conduct</a>
-  index: 14
+  index: 15
+
+- question: How long does a mentorship cycle last? 
+  answer: The Mentorship programme lasts from 20th of April till 1st of November 2023.
+  index: 16
+
+- question: What is Notion?
+  answer: Notion is a productivity and note-taking tool which provides a variety of features to keep track of progress. We recommend using this tool during mentorship experience. Or template can help mentors and mentees be organized and to be on track. At the beginning of the cycle we will conduct a webinar on how to get the most out of Notion note-taking experience.
+  index: 11
