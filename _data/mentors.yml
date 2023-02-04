@@ -34,7 +34,7 @@
 
 - name: Eleonora Belova
   hours: 3
-  position: QA Engineer at ReaQta, an IBM Company, Director at Women Who Code London
+  position: QA Engineer at ReaQta, an IBM Company
   type: both
   index: 1
   location: Amsterdam, Netherlands
@@ -79,13 +79,13 @@
         - Data Engineering
     languages: Java, Kotlin, Scala, Python
     focus:
-      - grow from mid-level to senior-level	grow beyond
+      - grow from mid-level to senior-level
       - grow from beginner to mid-level
       - change specialisation to IT
     mentee: A mentee who wants to grow from Mid to Senior, or want to change their job and prepare for an interview for Mid/Senior position. Based in London, working in Fintech.
+    extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview, Pets Projects, Concurrency, Databases, System Design, Low level application design, TDD, DDD, Software Architecture, Distributive Systems, Integration with stack holders, CQRS, Deployment, Data Migration, Stability
   network:
     - linkedin: https://www.linkedin.com/in/irina-kamalova/
-    - github: https://github.com/irenkamalova
 
 - name: Adriana Zencke Zimmermann
   hours: 2
@@ -103,9 +103,9 @@
       - Backend Developer
       - Distributed Systems
       - Fullstack Developer
-      - Distriibuted Systems
+      - QA
       - FrontEnd Developer
-    languages: Java, Javascript, Kotlin, Python
+    languages: Java, Javascript, Kotlin, Python, Ruby
     focus:
       - grow from mid-level to senior-level
       - grow from beginner to mid-level
@@ -163,8 +163,7 @@
     areas:
       - Site Reliability Engineering
       - Engineering management
-      - Security
-      - Project Management
+      - Distributed systems
       - DevOps
       - Backend Developer
     languages: C, Go, Python
@@ -209,7 +208,7 @@ Recent stack: JS/TS, GraphQL, Nestjs/Nextjs, AWS, Kubernetes, React Native, Vuej
       - grow beyond senior level
       - change specialisation within IT
     mentee: I'd like to meet a passionate, determined and ready for the challenge.
-    extra: Productivity, networking
+    extra: Software Development Strategies, CV Review, Preparation for The Technical Interview, Learning path, From beginner to mid-level, From mid-level to senior, Productivity, Resources,
   network:
     - linkedin: https://github.com/sandycho
 
