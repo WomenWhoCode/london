@@ -1,6 +1,7 @@
 var controllerSearch = (function(jQuery) {
     const HIDE_CLASS = "d-none";
     const MENTOR_CARD = "#mentor-card-";
+    const TYPE_CHECKED = "input[name='mentorship-type']:checked";
     const Filter = {
         KEYWORDS: "keywords",
         TYPE: "type",
@@ -19,19 +20,32 @@ var controllerSearch = (function(jQuery) {
 
     let params = new URLSearchParams(window.location.search);
     var totalMentors;
+
     let $keywords = jQuery("#keywords");
     let $area = jQuery("#area");
     let $experience = jQuery("#experience");
     let $focus = jQuery("#focus");
     let $type = jQuery("input[name='mentorship-type']");
     let $form = jQuery(".mentor-filter");
+    let $emptyMsg = jQuery("#no-mentors-msg");
+    let $descriptionMsg = jQuery(".description");
     
     let showMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).removeClass(HIDE_CLASS);
+
+        if (!$emptyMsg.hasClass("d-none")) {
+            $emptyMsg.addClass(HIDE_CLASS);
+            $descriptionMsg.removeClass(HIDE_CLASS);
+        }
     };
     
     let hideMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).addClass(HIDE_CLASS);
+
+        if (jQuery(".card.d-none").length === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
+            $emptyMsg.removeClass(HIDE_CLASS);
+            $descriptionMsg.addClass(HIDE_CLASS);
+        }
     };
     
     let paramToFilter = function(key, value) {
@@ -66,7 +80,7 @@ var controllerSearch = (function(jQuery) {
             filters.push(paramToFilter(Filter.KEYWORDS, $focus.val()));
         }
 
-        let $typeSelected = jQuery("input[name='mentorship-type']:checked");
+        let $typeSelected = jQuery(TYPE_CHECKED);
         if ($typeSelected.val()) {
             filters.push(paramToFilter(Filter.KEYWORDS, $typeSelected.val()));
         }

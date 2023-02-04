@@ -124,6 +124,10 @@
     .card-mentees span {
         @extend .link;
     }
+
+    .alert-info {
+        border-color: $teal;
+    }
 }
 
 .search {
