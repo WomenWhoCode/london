@@ -1,7 +1,7 @@
 - name: Rajani Rao
+  hours: 4
   type: both
   index: 0
-  hours: 4
   position: Principal Engineer at U-Blox Cambridge
   bio: |
     Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.<br>
@@ -383,10 +383,14 @@
   index: 14
   position: Graduate Teaching Assistant, University of Regina
   bio: | 
-    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc. <br> 
-    Skilled in: Software development and cloud technologies; 
-    Databases - MySQL, Oracle, MongoDB, Docker; 
-    CI/CD - GitHub Actions, Jenkins, Hudson; Storage - Redis, PostgreSQL; Cloud - AWS, Microsoft Azure, Oracle Cloud; <br>
+    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc.
+    Skilled in: 
+      Software development and cloud technologies;
+      Databases - MySQL, Oracle, MongoDB;
+      Docker;
+      CI/CD - GitHub Actions, Jenkins, Hudson;
+      Storage - Redis, PostgreSQL;
+      Cloud - AWS, Microsoft Azure, Oracle Cloud;
   image: https://media.licdn.com/dms/image/C5103AQHJ_W7Qp0G7uA/profile-displayphoto-shrink_400_400/0/1568094576913?e=1680134400&v=beta&t=zrHI-nesPJeHQkeuS4oJ7Ndb-p3BSRPJQzaxVpIHA-k
   location: Canada
   languages: English
@@ -408,16 +412,16 @@
       - Switch career to IT
     mentee: needs help with AWS cloud or technology related stuff
     extra: |  
-      <br> 1. Software development and cloud technologies; <br>
-      2. Databases: MySQL, Oracle, MongoDB; <br>
-      3. Docker; <br>
-      4. CI/CD: GitHub Actions, Jenkins, Hudson; <br>
-      5. Storage: Redis, PostgreSQL; <br>
-      6. Cloud: AWS, Microsoft Azure, Oracle Cloud; <br> <br>
+      Software development and cloud technologies;
+      Databases: MySQL, Oracle, MongoDB;
+      Docker;
+      CI/CD: GitHub Actions, Jenkins, Hudson;
+      Storage: Redis, PostgreSQL;
+      Cloud: AWS, Microsoft Azure, Oracle Cloud;
       
-      - Experience migrating Monolithic to Microservice architecture. <br>
-      - Experience in Software development on Java/JEE technologies including Spring Boot, spring data, Hibernate etc. <br>
-      - Training and mentoring skills. <br>
+      Experience migrating Monolithic to Microservice architecture. 
+      Experience in Software development on Java/JEE technologies including Spring Boot, spring data, Hibernate etc.
+      Training and mentoring skills.
   network:
     - linkedin: https://www.linkedin.com/in/neha-garg-7739bb18/
 

@@ -2,18 +2,24 @@
 layout: default
 title: Meet our community of mentors!
 ---
+
+<h1>{{page.title}}</h1>
+
+{% include search_mentor.html %}
+
 <div class="mentors container">
-    <h1>{{page.title}}</h1>
-
     <div class="description">
-        Below you can view all our mentors. The Application starts in February, 2023.
+        Below you can view all our mentors. The mentee's application starts in February, 2023.
     </div>
-
-    {% assign m = site.data.mentors | sort: "type" | reverse %}
-    {% for mentor in m %}
-        <div class="card">
+    <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
+        Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
+    </div>
+    
+    {% assign mentors = site.data.mentors | sort: "hours" | reverse %}
+    {% for mentor in mentors %}
+    
+        <div class="card" id="mentor-card-{{mentor.index}}">
             <div class="row">
-                
                 <div class="col-md-3">
                     <img src="{{mentor.image}}" class="card-img" alt="...">
                     <div class="card-link">
@@ -111,6 +117,16 @@ title: Meet our community of mentors!
                     </div>
                 </div>
             </div>
+            <input type="hidden" name="index" value="{{mentor.index}}">
+            <input type="hidden" name="exp" value="{{mentor.skills.years}}">
+            <input type="hidden" name="mentor-data" 
+                value="{{mentor.name | downcase}} 
+                    {{mentor.bio | normalize_whitespace | downcase}} 
+                    {% if mentor.type == 'both' %}long term relationship and ad-hoc {% else %}{{mentor.type | downcase}}{% endif %}
+                    {{mentor.skills.languages | downcase}} 
+                    {{mentor.skills.extra | normalize_whitespace | downcase}} 
+                    {{mentor.skills.focus | array_to_sentence_string | downcase}} 
+                    {{mentor.skills.areas | array_to_sentence_string | downcase}}">
         </div>
     {% endfor %}
 </div>
