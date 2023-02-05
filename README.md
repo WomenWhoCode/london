@@ -25,6 +25,7 @@ Create a Jekyll site. For more information, see "Creating a GitHub Pages site wi
 We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem dependencies, reduces Jekyll build errors, and prevents environment-related bugs. To install Bundler:
 
 2. Install Ruby. For more information, see [Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+   
 3. Install Bundler. For more information, see [Bundler](https://bundler.io/)
 
 #### Building and run
