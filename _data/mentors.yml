@@ -186,7 +186,6 @@
     When I moved to the UK, I was determined to become a Fullstack Engineer, which led me to work with the design team, Javascript and mobile development.
     As I mainly worked in startups, I'm used to wearing many hats, the fast pace and lean development.
     To keep up with trends, I constantly seek tech and networking events.
-  Recent stack: JS/TS, GraphQL, Nestjs/Nextjs, AWS, Kubernetes, React Native, Vuejs"
   image: https://media.licdn.com/dms/image/C4E03AQFCWtRB-3jQ4A/profile-displayphoto-shrink_800_800/0/1516879496498?e=1678924800&v=beta&t=pVSaJqYCNMSxumZjieZ2CU_z9d0gI54JmCDjAm5erTU
   location: London, UK
   languages: English, Spanish
@@ -199,7 +198,7 @@
       - Distributed systems
       - Site reliability Engineering
       - DevOps
-    languages: Javascript
+    languages: Javascript, JS/TS, GraphQL, Nestjs/Nextjs, AWS, Kubernetes, React Native, Vuejs
     focus:
       - switch career to IT
       - grow from beginner to mid-level
