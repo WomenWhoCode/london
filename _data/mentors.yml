@@ -2,14 +2,14 @@
   hours: 4
   type: both
   index: 0
-  position: Principal Engineer at U-Blox Cambridge
+  position: Principal Engineer, U-Blox Cambridge
   bio: |
     Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.<br>
     Rajani leads with grit and passion, and adopting a growth mindset, she approaches adversity as an opportunity to grow and learn, and come up with innovative solutions to challenging problems.
     <br>She has over 20 years of software and engineering experience in companies including Philips, NXP Semiconductors and Geotate. Having worked with a variety of teams and work cultures in various countries including India, France, Italy, Switzerland, Netherlands and the UK, she has built on a vast array of experiences and challenges along the way.
     <br>Throughout her career Rajani has worked on first-of-a-kind projects. This entails quickly getting up to speed, coming up with novel solutions to engineering problems and delivering  functional prototypes/products. This taps into Rajani's natural curiosity and desire to keep up with latest technology trends.
   image: https://ca.slack-edge.com/TGYGA50DQ-U03CU94BKUL-52f8734464ad-512
-  location: Cambridge
+  location: Cambridge, UK
   languages: English
   skills:
     experience: 16+ years
@@ -34,16 +34,13 @@
 
 - name: Eleonora Belova
   hours: 3
-  position: QA Engineer at ReaQta, an IBM Company
+  position: QA Engineer, ReaQta, an IBM Company
   type: both
   index: 1
-  location: Amsterdam, Netherlands
+  location: Amsterdam, the Netherlands
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: https://media.licdn.com/dms/image/C4E03AQEV0jEE1z0BbA/profile-displayphoto-shrink_800_800/0/1651913271528?e=1678320000&v=beta&t=zc9ZQRqg5_MBq1m_WRsqRyyZsJ5xDyfnGE6bktR6RgE
   languages: English
-  network:
-    - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-    - github: https://github.com/nora-weisser
   skills:
     experience: 2-4 years
     years: 4
@@ -56,12 +53,15 @@
       - grow from beginner to mid-level
       - change specialisation within IT
     extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines
+  network:
+    - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - github: https://github.com/nora-weisser
 
 - name: Irina Kamalova
   hours: 2
   type: both
   index: 2
-  position: Backend Software Engineer at Revolut
+  position: Backend Software Engineer, Revolut
   bio: |
     Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. <br> Apart from being a strong developer and a good team player, in the last 2-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Director of community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than twice.
     <br>Currently, shes working at Revolut and building a platform for retail products. That includes support services to handle our 20 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”
@@ -72,9 +72,9 @@
     experience: 5-7 years
     years: 7
     areas:
-        - Backend Developer
-        - Distributed Systems
-        - Data Engineering
+      - Backend Developer
+      - Distributed Systems
+      - Data Engineering
     languages: Java, Kotlin, Scala, Python
     focus:
       - grow from mid-level to senior-level
@@ -88,7 +88,7 @@
 - name: Adriana Zencke Zimmermann
   hours: 2
   bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
-  position: Senior Software Engineer at Personio
+  position: Senior Software Engineer, Personio
   image: https://media.licdn.com/dms/image/C4E03AQFb3yz9xF917A/profile-displayphoto-shrink_800_800/0/1650927176851?e=1678320000&v=beta&t=soCLefighqi-aVaO40bQxgs4z5tDj9X5ZCD09jaP3as
   location: València, Spain
   type: both
@@ -120,7 +120,7 @@
   hours: 1
   type: ad-hoc
   index: 4
-  position: Data scientist at Trivago
+  position: Data scientist, Trivago
   bio: An experienced Data Scientist who likes to develop business ideas into implementable solutions by leveraging the power of Technology. Professional with 5+ years of experience in NLP, Computer Vision and Recommender models. Motivated by the challenge of working in cross-functional teams and leading projects from beginning to end. Passionate about mentoring and inspiring young women in the field of STEM.
   image: https://media.licdn.com/dms/image/C4D03AQH1AWGXCGOuGw/profile-displayphoto-shrink_800_800/0/1614802363650?e=1678924800&v=beta&t=yGX2gKOWaLEJqTnCMoR-DVD2ZNGGn6zXuQik3PFas_Q
   location: Germany
@@ -150,7 +150,7 @@
   hours: 4
   type: both
   index: 5
-  position: SRE at Dojo
+  position: SRE, Dojo
   bio: I have been mentoring for about 10 years now at all different levels.  I have good people skills and take active role in company development outside of engineering.  Currently an SRE, but 15 years as a back-end developer, various dev-ops roles has given me a wide range of technical experience.  30+ years in lots of firms have helped upskill my non-engineering skills.
   image: https://media.licdn.com/dms/image/C5603AQE0XArhruEvUQ/profile-displayphoto-shrink_400_400/0/1564754921783?e=1678924800&v=beta&t=cTGlgo8xfNjRy_P6bAnIcal5RV6O0TJyzWOZleE-c9A
   location: Yorkshire, UK
@@ -296,7 +296,7 @@
 
 
 - name: Nassim Bordbar
-  hours: 2 
+  hours: 2
   type: both
   index: 10
   position: Data Scientist, TDR Capital
@@ -381,7 +381,7 @@
   type: both
   index: 14
   position: Graduate Teaching Assistant, University of Regina
-  bio: | 
+  bio: |
     Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc.
     Skilled in: 
       Software development and cloud technologies;
@@ -410,7 +410,7 @@
       - Grow from beginner to mid-level
       - Switch career to IT
     mentee: needs help with AWS cloud or technology related stuff
-    extra: |  
+    extra: |
       Software development and cloud technologies;
       Databases: MySQL, Oracle, MongoDB;
       Docker;
@@ -450,3 +450,297 @@
     extra: Transitioning to Engineering Management, moving to Senior/Staff/Principal Engineering roles
   network:
     - linkedin: https://www.linkedin.com/in/jortizbr/
+
+
+- name: Leo Parkes-Neptune
+  hours: 2
+  type: both
+  index: 16
+  position: Senior Software Engineer, MoonPay
+  bio: Based in London, with a history of working in start ups, I’ve had my experience trying on different hats before settling in as a backend / data engineer. Currently at MoonPay I design and build streaming and batch pipelines as well as developer tools within the team. Also sitting within product teams to know the development lifecycle of a feature from concept to end-to-end testing. My strongest skills are in Python, Go, OO (Object Oriented) programming, TDD (test driven design), abstraction, writing clean and concise code and champion technical best practises. Mostly familiar with GCP and to a lesser extent AWS
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04L2HJHKEH-b39d8d1b7a09-512
+  location: London, UK
+  languages: English
+  skills:
+    experience: 2-4 Years
+    years: 4
+    areas:
+      - Data Engineering
+      - Backend Developer
+    languages: Python, Go
+    focus:
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+    mentee: Any technical level from graduate to senior
+    extra: Interview, resume review, test driven development, problem solving, object oriented programming, abstraction, writing good clear functions and documentation
+  network:
+    - linkedin: https://www.linkedin.com/mwlite/in/leo-pn
+    - github: https://github.com/thesammy2010
+
+
+- name: Elizaveta Svitanko
+  hours: 2
+  type: ad-hoc
+  index: 17
+  position: Web engineer, Spotify
+  bio:  I am Liza, an accomplished and experienced engineer with a diverse background. I have had the opportunity to work with some of the best companies such as Google, CERN, Cisco and Yandex. I have experience in both machine learning and frontend development, and I have a variety of interesting projects under my belt. I am versatile and have a wide range of skills and experience in different areas of engineering.
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04M5V9561G-cac122c7dd2e-512
+  location: London, UK
+  languages: English, Russian
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - Frontend Developer
+    languages: JavaScript, C++, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    mentee: The kind of mentee who would like to gain some experience in the field and/or make a new career move
+    extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview etc.
+  network:
+    - linkedin: https://www.linkedin.com/in/elizaveta-svitanko/
+
+
+- name: Yana Lunts
+  hours: 5
+  type: long-term
+  index: 18
+  position: SDET (Software developer in test), Apple
+  bio: I've been working as Senior AQA for over 5 years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
+  image: https://media.licdn.com/dms/image/C4D03AQEDlDrMalftEg/profile-displayphoto-shrink_400_400/0/1658152071537?e=1681344000&v=beta&t=rP1KKM9cF3XHp6J41G3vxEGwMlnVMEkBiFPFSxtOBQE
+  location: London, UK
+  languages: English, Polish, Russian
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - QA
+      - Backend Developer
+    languages: Java, JavaScript, Swift, Python
+    focus:
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+    mentee: I am looking for a person who wants to work in IT out of passion and curiosity
+    extra: QA, Resume Review, Preparation for the technical interview, knowledge expansion
+  network:
+    - linkedin: https://www.linkedin.com/in/yana-lunts-a93a7818b/
+
+- name: Cherrelle Morales
+  hours: 3
+  type: both
+  index: 19
+  position: Senior Technical Consultant, Capita
+  bio: I’m a Web Developer since 2012. A Front End Specialist. Currently employed by Capita. Been mentoring Juniors in and outside work, especially in WWC.
+  image: https://media.licdn.com/dms/image/C4D03AQHvKMoTXO73ow/profile-displayphoto-shrink_400_400/0/1583952693159?e=1681344000&v=beta&t=FZMthOwiukn9gbMldKIplfXLxOPhzirPGpYACfRhUOo
+  location: Newcastle Upon Tyne, UK
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    areas:
+      - Frontend Developer
+      - Project Management
+    languages: JavaScript
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: Junior, Graduate, Beginner
+    extra: Agile / Scrum, Resume Review, Preparation for The Technical Interview, Project Management, Front End technologies
+  network:
+    - linkedin: https://www.linkedin.com/in/cherrelle-morales-b7752325/
+
+- name: Preeja Babu
+  hours: 3
+  type: ad-hoc
+  index: 20
+  position: Data Scientist, Keepflying
+  bio: Competent Data Scientist capable of ensuring successful delivery of machine learning solutions and products for Multinational experience for the development and delivery of multi-tenant AI/ML solution. 5+ years research experience with 8+ publications, and time-critical completion of 4 machine learning projects in varies domain security, healthcare, machine translation and source code plagiarism detection.
+  image: https://media.licdn.com/dms/image/C4D03AQEeogRHkpw-cQ/profile-displayphoto-shrink_400_400/0/1646548153748?e=1681344000&v=beta&t=8qEpjvebzAQgKecsA_9m8Ek5wt_NKKdBpMiD5s6NrYE
+  location: Paris
+  languages: English
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Machine Learning
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+    mentee: Graduates and post graduates
+    extra: Machine learning algorithms
+  network:
+    - linkedin: https://www.linkedin.com/in/preejababu/
+
+- name: Olga Ponkratova
+  hours: 3
+  type: long-term
+  index: 21
+  position: Software engineer android, Meta
+  bio: 10 years in IT (5 in analytics, 5 in engineering). Love mentoring people and growing their potential.
+  image: https://media.licdn.com/dms/image/C4E03AQHipyamEcy2Ug/profile-displayphoto-shrink_400_400/0/1536660437897?e=1681344000&v=beta&t=coWKah3AqDW0oZVTYq481Wj0V-fmasfQOdq5OTBfYWY
+  location: London, UK
+  languages: English, Russian
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Android
+      - Engineering management
+      - QA
+    languages: Kotlin, Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
+    mentee: I'm good at setting personal goals, prioritisation and identifying strategy for personal and career growth. I can mentor in setting up collaborative environment, work with different people and communication. I would prefer to work with aspiring mentee in this area as I also need to grow myself. Apart from this, Android development for beginners.
+    extra: Android development, Prioritisation, Productivity, Collaboration with cross functional teams, Identifying strategy for project leading and executing, Personal and career growth, Resume review, Interview preparation
+  network:
+    - linkedin: https://www.linkedin.com/in/olgaponkratova/
+
+- name: Seyoung Joo
+  hours: 3
+  type: long-term
+  index: 22
+  position: Frontend engineer, Fanduel
+  bio: I was a photographer and changed my career 2years ago after I graduated coding bootcamp. I moved to London from South Korea and now working as a mid-level software engineer at Fanduel. I have 1 year and 8months experience. I love React, Javascript, HTML and CSS
+  image: https://media.licdn.com/dms/image/D4E03AQGUlA57YBNZEA/profile-displayphoto-shrink_400_400/0/1669934425396?e=1681344000&v=beta&t=c8CnG-KExdem7eYDtRuVmOh6tTyMnq4l32CrFGvDBnY
+  location: London, UK
+  languages: English
+  skills:
+    experience: 1-2 Years
+    years: 2
+    areas:
+      - Frontend Developer
+    languages: Javascript
+    focus:
+      - Switch career to IT
+    mentee: Someone trying to switch their career to frontend developer or someone trying to get a job as a junior
+    extra: Resume Review, Interview Preparation and Tips (for both Technical and Cultural), Software Development Skill (about React, Javascript and HTML/CSS)
+  network:
+    - linkedin: https://www.linkedin.com/in/seyoungj/
+
+- name: Ana Nogal
+  hours: 2
+  type: both
+  index: 23
+  position: Senior iOS Developer, Novoda
+  bio: |
+    I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture.
+    <br>I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
+  image: https://media.licdn.com/dms/image/C5603AQF7MwCoVEVmlg/profile-displayphoto-shrink_400_400/0/1656005412705?e=1681344000&v=beta&t=IfdY9dKC-egsxd39Y3EV8Z42S28cNqnLcJXT_9krK8k
+  location: Barcelona, Spain
+  languages: English, Spanish, Portuguese
+  skills:
+    experience: 16+ Years
+    years: 16
+    areas:
+      - iOS
+      - Fullstack Developer
+      - Android
+    languages: Swift, Kotlin, Javascript, C#
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    mentee: Well, I like to help essentially. I have had mentees that needed more a hands on, pair-programming with them, and others that orientation was enough. I'm ok with both scenarios.
+    extra: TDD, Clean code, Refactoring, Team dynamics, Mock interview, PR reviews, Code Principles
+  network:
+    - linkedin: https://www.linkedin.com/in/ananogal/
+    - twitter: https://twitter.com/anainogal
+    - website: https://www.ananogal.com/
+
+- name: Natalia Gorchakova
+  hours: 4
+  type: both
+  index: 24
+  position: Staff Software Engineer, Google
+  bio: I have around 15 years of experience in IT. From the very beginning I worked with Java. I have experience of being a team lead for Data Engineering team for 7 years (building the data lake on premis and AWS). I worked with Java, Scala (only for Spark) and Kotlin. Previous year I worked as an individual contributor in Revolut (Kotlin, backend)  and after that I joined Google (GCP area). I helped my team members to grow (juniors, mids, seniors up to technical specialists).
+  image: https://media.licdn.com/dms/image/C4E03AQFTMZBWkRK7gQ/profile-displayphoto-shrink_400_400/0/1516301769083?e=1681344000&v=beta&t=f8G6w97btPiq9NiDZrlEEn7RNGYXA_FHyW-2SG-eT78
+  location: Poland, Krakow
+  languages: English, Russian
+  skills:
+    experience: 10-15 Years
+    years: 15
+    areas:
+      - Backend Developer
+      - Data Engineering
+      - Distributed Systems
+      - Engineering management
+      - Project Management
+    languages: Java, Kotlin, Scala
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Grow beyond senior level
+      - Change specialisation within IT
+    mentee: The person who is already in IT area (backend, I'm not confident in other areas)
+    extra: Development lifecycle, find weak points and build a plan for development, time management
+  network:
+    - linkedin: https://www.linkedin.com/in/natalia-gorchakova/
+
+
+- name: Bryan Boreham
+  hours: 4
+  type: ad-hoc
+  index: 25
+  position: Distinguished Engineer, Grafana Labs
+  bio: Keen to help people understand computer systems and achieve their potential. Broad and deep knowledge of cloud and distributed systems. 25 years at Principle Engineer level and above. Member of the Kubernetes and Prometheus projects.
+  image: https://media.licdn.com/dms/image/C4D03AQGsoMZtBNfLsw/profile-displayphoto-shrink_400_400/0/1623063317821?e=1681344000&v=beta&t=JaQ3EXo6xRb1oQSgOixfwUCQjZD3AxTcsXXImUqEABk
+  location: London, UK
+  languages: English
+  skills:
+    experience: 16+ Years
+    years: 16
+    areas:
+      - DevOps
+      - Engineering management
+      - Site Reliability Engineering
+      - Backend Developer
+      - Distributed Systems
+    languages: Java, C, Rust, C++, Go
+    focus:
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    mentee: Someone who is interested in a deep understanding of technology, and how people work with technology.
+    extra: System design, how to present your ideas, performance optimisation, career advancement, preparation for technical interview.
+  network:
+    - linkedin: https://www.linkedin.com/in/bryanboreham
+    - twitter: https://twitter.com/bboreham
+
+- name: Bhawana Haritwal
+  hours: 4
+  type: both
+  index: 26
+  position: Senior Software Engineer
+  bio: |
+    Bhawana is a Senior DevOps Engineer who transitioned from QA. She loves automating manual repeatable tasks, using a plethora of tools and technologies. Bhawana has significant experience in both DevOps and QA practices and processes. Possessing a good understanding of the essentials of safety and quality.
+    <br>Bhawana is a leader at the Women Who Code - London network leading the DevOps special interest group. She is also a member of the BCS DevSecOps committee and a STEM ambassador.
+  image: https://media.licdn.com/dms/image/C4D03AQGsoMZtBNfLsw/profile-displayphoto-shrink_400_400/0/1623063317821?e=1681344000&v=beta&t=JaQ3EXo6xRb1oQSgOixfwUCQjZD3AxTcsXXImUqEABk
+  location: London, UK
+  languages: English
+  skills:
+    experience: 7-10 years
+    years: 10
+    areas:
+      - DevOps
+    languages: Python
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+    mentee: Anyone interested in building / growing a career within DevOps
+    extra: AWS, Kubernetes, Terraform, Git/Github, Docker, CI/CD, Resume Review, Mock Interviews
+  network:
+    - linkedin: https://www.linkedin.com/in/bhawanaharitwal/
+    - github: https://github.com/bharitwal
