@@ -124,4 +124,22 @@
     .card-mentees span {
         @extend .link;
     }
+
+    .alert-info {
+        border-color: $teal;
+    }
+}
+
+.search {
+    @extend .mentors;
+    @extend .container;
+
+    .form-group {
+        margin-top: 10px;
+        margin-right: 10px !important;
+    }
+
+    .search-type {
+        margin-top: 20px;
+    }
 }

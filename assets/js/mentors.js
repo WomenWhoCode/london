@@ -37,7 +37,6 @@ var controllerMentors = (function(jQuery) {
         jQuery("#skills-"+index).addClass(classHide);
     }
 
-
     var init = function() {
         initEvents();
         showPresentation();
