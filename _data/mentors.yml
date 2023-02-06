@@ -504,37 +504,10 @@
   network:
     - linkedin: https://www.linkedin.com/in/elizaveta-svitanko/
 
-
-- name: Yana Lunts
-  hours: 5
-  type: long-term
-  index: 18
-  position: SDET (Software developer in test), Apple
-  bio: I've been working as Senior AQA for over 5 years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
-  image: https://media.licdn.com/dms/image/C4D03AQEDlDrMalftEg/profile-displayphoto-shrink_400_400/0/1658152071537?e=1681344000&v=beta&t=rP1KKM9cF3XHp6J41G3vxEGwMlnVMEkBiFPFSxtOBQE
-  location: London, UK
-  languages: English, Polish, Russian
-  skills:
-    experience: 5-7 Years
-    years: 7
-    areas:
-      - QA
-      - Backend Developer
-    languages: Java, JavaScript, Swift, Python
-    focus:
-      - Switch career to IT
-      - Change specialisation within IT
-      - Grow beyond senior level
-      - Grow from mid-level to senior-level
-    mentee: I am looking for a person who wants to work in IT out of passion and curiosity
-    extra: QA, Resume Review, Preparation for the technical interview, knowledge expansion
-  network:
-    - linkedin: https://www.linkedin.com/in/yana-lunts-a93a7818b/
-
 - name: Cherrelle Morales
   hours: 3
   type: both
-  index: 19
+  index: 18
   position: Senior Technical Consultant, Capita
   bio: I’m a Web Developer since 2012. A Front End Specialist. Currently employed by Capita. Been mentoring Juniors in and outside work, especially in WWC.
   image: https://media.licdn.com/dms/image/C4D03AQHvKMoTXO73ow/profile-displayphoto-shrink_400_400/0/1583952693159?e=1681344000&v=beta&t=FZMthOwiukn9gbMldKIplfXLxOPhzirPGpYACfRhUOo
@@ -558,7 +531,7 @@
 - name: Preeja Babu
   hours: 3
   type: ad-hoc
-  index: 20
+  index: 19
   position: Data Scientist, Keepflying
   bio: Competent Data Scientist capable of ensuring successful delivery of machine learning solutions and products for Multinational experience for the development and delivery of multi-tenant AI/ML solution. 5+ years research experience with 8+ publications, and time-critical completion of 4 machine learning projects in varies domain security, healthcare, machine translation and source code plagiarism detection.
   image: https://media.licdn.com/dms/image/C4D03AQEeogRHkpw-cQ/profile-displayphoto-shrink_400_400/0/1646548153748?e=1681344000&v=beta&t=8qEpjvebzAQgKecsA_9m8Ek5wt_NKKdBpMiD5s6NrYE
@@ -580,7 +553,7 @@
 - name: Olga Ponkratova
   hours: 3
   type: long-term
-  index: 21
+  index: 20
   position: Software engineer android, Meta
   bio: 10 years in IT (5 in analytics, 5 in engineering). Love mentoring people and growing their potential.
   image: https://media.licdn.com/dms/image/C4E03AQHipyamEcy2Ug/profile-displayphoto-shrink_400_400/0/1536660437897?e=1681344000&v=beta&t=coWKah3AqDW0oZVTYq481Wj0V-fmasfQOdq5OTBfYWY
@@ -606,7 +579,7 @@
 - name: Seyoung Joo
   hours: 3
   type: long-term
-  index: 22
+  index: 21
   position: Frontend engineer, Fanduel
   bio: I was a photographer and changed my career 2years ago after I graduated coding bootcamp. I moved to London from South Korea and now working as a mid-level software engineer at Fanduel. I have 1 year and 8months experience. I love React, Javascript, HTML and CSS
   image: https://media.licdn.com/dms/image/D4E03AQGUlA57YBNZEA/profile-displayphoto-shrink_400_400/0/1669934425396?e=1681344000&v=beta&t=c8CnG-KExdem7eYDtRuVmOh6tTyMnq4l32CrFGvDBnY
@@ -628,7 +601,7 @@
 - name: Ana Nogal
   hours: 2
   type: both
-  index: 23
+  index: 22
   position: Senior iOS Developer, Novoda
   bio: |
     I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture.
@@ -658,7 +631,7 @@
 - name: Natalia Gorchakova
   hours: 4
   type: both
-  index: 24
+  index: 23
   position: Staff Software Engineer, Google
   bio: I have around 15 years of experience in IT. From the very beginning I worked with Java. I have experience of being a team lead for Data Engineering team for 7 years (building the data lake on premis and AWS). I worked with Java, Scala (only for Spark) and Kotlin. Previous year I worked as an individual contributor in Revolut (Kotlin, backend)  and after that I joined Google (GCP area). I helped my team members to grow (juniors, mids, seniors up to technical specialists).
   image: https://media.licdn.com/dms/image/C4E03AQFTMZBWkRK7gQ/profile-displayphoto-shrink_400_400/0/1516301769083?e=1681344000&v=beta&t=f8G6w97btPiq9NiDZrlEEn7RNGYXA_FHyW-2SG-eT78
@@ -689,7 +662,7 @@
 - name: Bryan Boreham
   hours: 4
   type: ad-hoc
-  index: 25
+  index: 24
   position: Distinguished Engineer, Grafana Labs
   bio: Keen to help people understand computer systems and achieve their potential. Broad and deep knowledge of cloud and distributed systems. 25 years at Principle Engineer level and above. Member of the Kubernetes and Prometheus projects.
   image: https://media.licdn.com/dms/image/C4D03AQGsoMZtBNfLsw/profile-displayphoto-shrink_400_400/0/1623063317821?e=1681344000&v=beta&t=JaQ3EXo6xRb1oQSgOixfwUCQjZD3AxTcsXXImUqEABk
@@ -720,7 +693,7 @@
 - name: Bhawana Haritwal
   hours: 4
   type: both
-  index: 26
+  index: 25
   position: Senior Software Engineer
   bio: |
     Bhawana is a Senior DevOps Engineer who transitioned from QA. She loves automating manual repeatable tasks, using a plethora of tools and technologies. Bhawana has significant experience in both DevOps and QA practices and processes. Possessing a good understanding of the essentials of safety and quality.
