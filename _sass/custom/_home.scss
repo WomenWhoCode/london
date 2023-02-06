@@ -97,24 +97,25 @@
                 &::after {
                     position: absolute;
                     content: "";
-                    background-color: #212529;
+                    background-color: $teal;
                     top: 50px;
                     left: 163px;
                     height: 4px;
-                    width: 68%;
+                    width: 72%;
                     display: inline-block;
                     z-index: -1;
                 }
             }
         }
+
         .circle {
             margin: auto;
             height: 58px;
             width: 58px;
             border-radius: 50%;
-            border: 4px solid #212529;  
+            border: 4px solid $teal;  
             display: flex;
-            background-color: white;
+            background-color: $white;
             
             .icon {
                 &.check {
@@ -138,11 +139,18 @@
         .card-wrapper {
             background-color: transparent;
         }
+
         .card-transparency {
             background-color: transparent;
         }
+
         .photo {
              width: 800px;
+         }
+
+         .bi-bell {
+            width: 86% !important;
+            padding-left: 7px;
          }
      }
      
@@ -152,6 +160,7 @@
         .carousel-indicators li {
              background-color: $teal;
         }
+
         .carousel-control-prev-icon {
              background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
         }
