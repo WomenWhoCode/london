@@ -49,4 +49,19 @@
     width: 100%;
     background: $teal;
   }
+
+  .dropdown-menu li {
+    display: block;
+  }
+
+  @include media-breakpoint-down(lg) { 
+    .dropdown-menu {
+      border-color: transparent;
+      border-left: 2px solid $dropdown-border-color;
+
+      .nav-link {
+        font-size: $font-size-base;
+      }
+    }
+  }
 }

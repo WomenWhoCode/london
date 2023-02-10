@@ -7,12 +7,17 @@
 - name: Resources
   link: resources
   index: 3
+- name: How it works
+  index: 4
+  subfolderitems:
+      - page: LONG-TERM RELATIONSHIPS TIMELINE
+        url: timeline
+      - page: AD-HOC MENTORSHIP TIMELINE
+        url: adhoc-timeline
+      - page: CODE OF CONDUCT
+        url: code-of-conduct
+      - page: FAQ
+        url: faq
 - name: Team
   link: team
-  index: 4
-- name: Code of conduct
-  link: code-of-conduct
   index: 5
-- name: FAQ
-  link: faq
-  index: 6
