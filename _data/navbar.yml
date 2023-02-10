@@ -3,21 +3,21 @@
   index: 0
 - name: Mentors
   link: mentors
-  index: 2
+  index: 1
 - name: Resources
   link: resources
-  index: 3
+  index: 2
 - name: How it works
-  index: 4
+  index: 3
   subfolderitems:
-      - page: LONG-TERM RELATIONSHIPS TIMELINE
+      - page: Long-term relationship timeline
         url: timeline
-      - page: AD-HOC MENTORSHIP TIMELINE
+      - page: Ad-hoc mentorship timeline
         url: adhoc-timeline
-      - page: CODE OF CONDUCT
+      - page: Code of conduct
         url: code-of-conduct
       - page: FAQ
         url: faq
 - name: Team
   link: team
-  index: 5
+  index: 4
