@@ -779,40 +779,10 @@
   network:
     - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
     
-- name: Hasan Diwan
-  hours: 2
-  type: ad-hoc
-  index: 28
-  position: Consultant, Samsung
-  bio: |
-    Heading the pricing team at the San Francisco Federal Reserve for the General Motors IPO in 2010
-  image: https://media.licdn.com/dms/image/C4E03AQHWnrvPdS35Pg/profile-displayphoto-shrink_400_400/0/1661588761729?e=1681344000&v=beta&t=xWc-JySqEaMF-w-wwQuLYoT75R18DDwGKogMz-U3-Wo
-  location: San Francisco, USA
-  languages: English, French
-  skills:
-    experience: 16 years
-    years: 16
-    areas:
-      - DevOps
-      - Backend Developer
-      - Security
-      - Site Reliability Engineering
-      - Data Science
-    languages: Python, Java, Ruby
-    focus:
-      - Switch career to IT
-      - Grow from beginner to mid-level
-      - Change specialisation within IT
-      - Grow from mid-level to senior-level
-      - Grow beyond senior level
-    mentee: Any
-    extra: Resume Review, Software Development strategies
-  network:
-    
 - name: Anushka Yadav
   hours: 5
   type: long-term
-  index: 29
+  index: 28
   position: Machine Learning Associate, PWC
   bio: |
     I am currently a Machine learning Associate-2 at PwC.I have 2 years of applied machine learning expertise in the e-commerce space. My area of interest includes Machine Learning, Natural language Processing, Deep Learning, and Computer vision. I take a keen interest in exploring new technologies and solving problems. My strengths include my ability to learn things fast and gain expertise in them.
