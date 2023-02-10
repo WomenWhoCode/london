@@ -717,3 +717,120 @@
   network:
     - linkedin: https://www.linkedin.com/in/bhawanaharitwal/
     - github: https://github.com/bharitwal
+
+- name: Tara Hofton
+  hours: 2
+  type: ad-hoc
+  index: 26
+  position: Engineering Manager, Elliptic
+  bio: |
+    As a technology leader and engineering manager, I help cross-functional teams deliver products that businesses need, users love and the team is proud of. I enjoy working across multiple disciplines including software development, data science, DevOps, InfoSec, hiring, coaching and career development.
+  image: https://media.licdn.com/dms/image/C4D03AQFAC_F4NFvLFA/profile-displayphoto-shrink_800_800/0/1623172919980?e=1681344000&v=beta&t=9xXfWId7dIgpCrXLOmNePXKx6Q9lOOu8RUIC773dNiU
+  location: St Albans & London, UK
+  languages: English
+  skills:
+    experience: 16+ Years
+    years: 16
+    areas:
+      - Engineering management
+      - Data Engineering
+      - Fullstack Developer
+      - Data Science
+    languages: Python, JavaScript, C#
+    focus:
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: I am open to meeting mentees with a variety of different levels of experience.
+    extra: System design, career development, learning resources, interview technique, CV review, goal setting.
+  network:
+    - linkedin: https://www.linkedin.com/in/tarahofton
+    
+- name: Tatiana Cramer
+  hours: 4
+  type: both
+  index: 27
+  position: Lead MLOps engineer, Conundrum
+  bio: |
+    Ex-googler, now in an ml-startup that grew 5 times in people in a year. Saw it from corporate side as well as from enterpreneurial and small-scale side. Back in uni I struggled with seeing connection between pure theory and its applications. Now I see it, but forgot the theory. The biggest problems are not  technical ones, I believe; Communication is the key.
+  image: https://media.licdn.com/dms/image/C5103AQF39XYkzRGRew/profile-displayphoto-shrink_800_800/0/1516464664776?e=1681344000&v=beta&t=GrVCk_sJandazsCNAvNphKDUHT_2AOu4gh6CTJb4Sdw
+  location: London, UK
+  languages: English, Russian, French
+  skills:
+    experience: 7-10 years
+    years: 10
+    areas:
+      - Product Management
+      - Engineering management
+      - Machine Learning
+      - Data Engineering
+      - Distributed Systems
+    languages: Python, Go, Scala, C++
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+    mentee: Happy to meet mentees curious about intersection of tech and social(organizational) domains
+    extra: Project and team development, Resume review, career change or any open discussion
+  network:
+    - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
+    
+- name: Hasan Diwan
+  hours: 2
+  type: ad-hoc
+  index: 28
+  position: Consultant, Samsung
+  bio: |
+    Heading the pricing team at the San Francisco Federal Reserve for the General Motors IPO in 2010
+  image: https://media.licdn.com/dms/image/C4E03AQHWnrvPdS35Pg/profile-displayphoto-shrink_400_400/0/1661588761729?e=1681344000&v=beta&t=xWc-JySqEaMF-w-wwQuLYoT75R18DDwGKogMz-U3-Wo
+  location: San Francisco, USA
+  languages: English, French
+  skills:
+    experience: 16 years
+    years: 16
+    areas:
+      - DevOps
+      - Backend Developer
+      - Security
+      - Site Reliability Engineering
+      - Data Science
+    languages: Python, Java, Ruby
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    mentee: Any
+    extra: Resume Review, Software Development strategies
+  network:
+    
+- name: Anushka Yadav
+  hours: 5
+  type: long-term
+  index: 29
+  position: Machine Learning Associate, PWC
+  bio: |
+    I am currently a Machine learning Associate-2 at PwC.I have 2 years of applied machine learning expertise in the e-commerce space. My area of interest includes Machine Learning, Natural language Processing, Deep Learning, and Computer vision. I take a keen interest in exploring new technologies and solving problems. My strengths include my ability to learn things fast and gain expertise in them.
+  image: https://media.licdn.com/dms/image/D5603AQETgcYbtrYAmA/profile-displayphoto-shrink_800_800/0/1675005087725?e=1681344000&v=beta&t=LWgH3Kt_aFKHSw67NALJS_dbr6uwBTDEdwLZSiFA67E
+  location: Bengaluru, India
+  languages: English, Russian, French
+  skills:
+    experience: 2-4 years
+    years: 2
+    areas:
+      - Machine Learning
+      - Data Engineering
+      - Data Science
+    languages: Python, C++, C
+    focus:
+      - Change specialisation within IT
+      - Switch career to IT
+    mentee: Someone looking to get started with Machine Learning or a beginner wanting to specialize in Natural language processing.
+    extra: Resume Review, Preparing for ML interviews, NLP, Applying for masters degree in AI.
+  network:
+    - linkedin: https://www.linkedin.com/in/anushka-yadav/
