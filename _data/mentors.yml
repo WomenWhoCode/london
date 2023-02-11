@@ -554,7 +554,7 @@
   hours: 3
   type: long-term
   index: 20
-  position: Software engineer android, Meta
+  position: Software engineer android
   bio: 10 years in IT (5 in analytics, 5 in engineering). Love mentoring people and growing their potential.
   image: https://media.licdn.com/dms/image/C4E03AQHipyamEcy2Ug/profile-displayphoto-shrink_400_400/0/1536660437897?e=1681344000&v=beta&t=coWKah3AqDW0oZVTYq481Wj0V-fmasfQOdq5OTBfYWY
   location: London, UK
@@ -658,7 +658,6 @@
   network:
     - linkedin: https://www.linkedin.com/in/natalia-gorchakova/
 
-
 - name: Bryan Boreham
   hours: 4
   type: ad-hoc
@@ -723,8 +722,7 @@
   type: ad-hoc
   index: 26
   position: Engineering Manager, Elliptic
-  bio: |
-    As a technology leader and engineering manager, I help cross-functional teams deliver products that businesses need, users love and the team is proud of. I enjoy working across multiple disciplines including software development, data science, DevOps, InfoSec, hiring, coaching and career development.
+  bio: As a technology leader and engineering manager, I help cross-functional teams deliver products that businesses need, users love and the team is proud of. I enjoy working across multiple disciplines including software development, data science, DevOps, InfoSec, hiring, coaching and career development.
   image: https://media.licdn.com/dms/image/C4D03AQFAC_F4NFvLFA/profile-displayphoto-shrink_800_800/0/1623172919980?e=1681344000&v=beta&t=9xXfWId7dIgpCrXLOmNePXKx6Q9lOOu8RUIC773dNiU
   location: St Albans & London, UK
   languages: English
@@ -788,7 +786,7 @@
     I am currently a Machine learning Associate-2 at PwC.I have 2 years of applied machine learning expertise in the e-commerce space. My area of interest includes Machine Learning, Natural language Processing, Deep Learning, and Computer vision. I take a keen interest in exploring new technologies and solving problems. My strengths include my ability to learn things fast and gain expertise in them.
   image: https://media.licdn.com/dms/image/D5603AQETgcYbtrYAmA/profile-displayphoto-shrink_800_800/0/1675005087725?e=1681344000&v=beta&t=LWgH3Kt_aFKHSw67NALJS_dbr6uwBTDEdwLZSiFA67E
   location: Bengaluru, India
-  languages: English, Russian, French
+  languages: English
   skills:
     experience: 2-4 years
     years: 2
