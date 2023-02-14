@@ -534,7 +534,7 @@
   index: 19
   position: Data Scientist, Keepflying
   bio: Competent Data Scientist capable of ensuring successful delivery of machine learning solutions and products for Multinational experience for the development and delivery of multi-tenant AI/ML solution. 5+ years research experience with 8+ publications, and time-critical completion of 4 machine learning projects in varies domain security, healthcare, machine translation and source code plagiarism detection.
-  image: https://media.licdn.com/dms/image/C4D03AQEeogRHkpw-cQ/profile-displayphoto-shrink_400_400/0/1646548153748?e=1681344000&v=beta&t=8qEpjvebzAQgKecsA_9m8Ek5wt_NKKdBpMiD5s6NrYE
+  image: https://media.licdn.com/dms/image/D4E03AQElKpYMThoSDA/profile-displayphoto-shrink_800_800/0/1676268606871?e=1681948800&v=beta&t=NKq8Lyk2xTM-BIXOHYvlzhwzG_g5tDwQYTmR-7Gx0yc
   location: Paris
   languages: English
   skills:
@@ -802,3 +802,34 @@
     extra: Resume Review, Preparing for ML interviews, NLP, Applying for masters degree in AI.
   network:
     - linkedin: https://www.linkedin.com/in/anushka-yadav/
+
+- name: Hasan Diwan
+  hours: 2
+  type: ad-hoc
+  index: 29
+  position: Consultant, Samsung
+  bio: Heading the pricing team at the San Francisco Federal Reserve for the General Motors IPO in 2010
+  image: https://ca.slack-edge.com/TGYGA50DQ-U020GQ021S8-586f92278f6e-512
+  location: San Francisco, USA
+  languages: English, French
+  skills:
+    experience: 16+ years
+    years: 16
+    areas:
+      - Backend Developer
+      - DevOps
+      - Data Science
+      - Security
+      - Site Reliability Engineering
+    languages: Python, Java, Ruby
+    focus:
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    mentee: Any
+    extra: Resume Review, Software Development strategies
+  network:
+    - Website: https://units.d8u.us/resume?src=wwcLondon
+    - Twitter: https://units.d8u.us/twitter
