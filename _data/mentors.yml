@@ -831,5 +831,5 @@
     mentee: Any
     extra: Resume Review, Software Development strategies
   network:
-    - Website: https://units.d8u.us/resume?src=wwcLondon
-    - Twitter: https://units.d8u.us/twitter
+    - website: https://units.d8u.us/resume?src=wwcLondon
+    - twitter: https://units.d8u.us/twitter
