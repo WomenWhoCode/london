@@ -12,8 +12,8 @@
   subfolderitems:
       - page: Long-term relationship timeline
         url: timeline
-      - page: Ad-hoc mentorship timeline
-        url: adhoc-timeline
+      
+ 
       - page: Code of conduct
         url: code-of-conduct
       - page: FAQ
