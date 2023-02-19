@@ -49,4 +49,23 @@
     width: 100%;
     background: $teal;
   }
+
+  .navbar .dropdown > a[aria-expanded="true"]:hover::after, .dropdown > a.active-nav::after {
+    background: transparent;
+  }
+
+  .dropdown-menu li {
+    display: block;
+  }
+
+  @include media-breakpoint-down(lg) { 
+    .dropdown-menu {
+      border-color: transparent;
+      border-left: 2px solid $dropdown-border-color;
+
+      .nav-link {
+        font-size: $font-size-base;
+      }
+    }
+  }
 }
