@@ -833,3 +833,87 @@
   network:
     - website: https://units.d8u.us/resume?src=wwcLondon
     - twitter: https://units.d8u.us/twitter
+
+- name: Hersi Kopani
+  hours: 5
+  type: long-term
+  index: 30
+  position: Java Software Engineer, Volvo Group
+  bio: |
+    I am an experienced Java developer with industry experience building websites and web applications. Strong engineering background with a Master of Science (MSc) focused in Information Security from the University of Tirana. I'm passionate about learning the latest and greatest technologies in software development. I enjoy creating sleek and responsive applications in addition to being user-friendly. <br> I love working in fast-paced environments, having a team spirit, analyzing, planning, and solving various problems during the workday.
+    Interested in AI, ML, Information Security, IoT. Passionate programmer on java with its frameworks.
+  image: data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+  location: London, UK
+  languages: English, Italian
+  skills:
+    experience: 4-5 years
+    years: 5
+    areas:
+      - Backend Developer
+      - Product Management
+      - Frontend Developer
+      - DevOps
+    languages: Java, JavaScript
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: Passionate for better oportunities.
+    extra: Software Development Strategies, System Design, Resume Review, Code challenged preparation, Tech interviews preparation, Soft skills interview preparation.
+  network:
+    - linkedin: https://www.linkedin.com/in/hersi-kopani-146506179/
+
+- name: Monal Sanghvi
+  hours: 2
+  type: ad-hoc
+  index: 31
+  position: Director of Engineering, Tray.io
+  bio: Over 12 years of experience (Tray.io, Morgan Stanley, UBS), 7 years being hands-on with code, now a manager of managers and senior engineering leads. Passion for frontend engineering and effective cross-functional collaboration. Likes to talk about Fintech and scaling tech startups.
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04C47PS0PR-7f5e7fa88d9b-512
+  location: London, UK
+  languages: English
+  skills:
+    experience: 10-15 years
+    years: 15
+    areas:
+      - Engineering management
+      - Product Management
+      - Frontend Developer
+      - DevOps
+      - Project Management
+    languages: Java, JavaScript
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
+      - Switch career to IT
+      - Change specialisation within IT
+    mentee: Who is ambitious and prefers open, honest and straightforward communication, possibly neurodivergent (as I am).
+    extra: Engineering Management, Product Development, Career Pivots.
+  network:
+    - linkedin: https://www.linkedin.com/in/monalsanghvi/
+    - twitter: https://twitter.com/monalsanghvi
+
+- name: Alisa Ivanenko
+  hours: 3
+  type: long-term
+  index: 32
+  position: Java Software Engineer, Mettle
+  bio: Graduated in 2015 with BSc Computer Science, worked in gambling, fashion, SaaS. Switched into Fintech sector 2 months ago. Always coded in Java. Currently a Mentor for Riga Tech Girls (Jan - June 2023). Participated in several Hackathons pre-pandemic.
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04PSFF0LMQ-5d4c714c1ab7-512
+  location: London, UK
+  languages: English, Russian
+  skills:
+    experience: 5-7 years
+    years: 5-7
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - QA
+    languages: Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: A mentee who needs some assistance in putting together the entire picture and orient themselves better in the industry. More-less independent. Ideally familiar with some Java.
+    extra: Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review, Agile workflow lifecycle from developer's perspective, Overview of the interview process in London, Java programming-where to start, Java programming-what is actually needed to succeed in the industry.
+  network:
+    - linkedin: https://www.linkedin.com/in/alisa-iv/
