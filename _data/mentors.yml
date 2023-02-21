@@ -842,7 +842,7 @@
   bio: |
     I am an experienced Java developer with industry experience building websites and web applications. Strong engineering background with a Master of Science (MSc) focused in Information Security from the University of Tirana. I'm passionate about learning the latest and greatest technologies in software development. I enjoy creating sleek and responsive applications in addition to being user-friendly. <br> I love working in fast-paced environments, having a team spirit, analyzing, planning, and solving various problems during the workday.
     Interested in AI, ML, Information Security, IoT. Passionate programmer on java with its frameworks.
-  image: data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+  image: https://ca.slack-edge.com/TGYGA50DQ-U04D90VJY66-84ca69c46836-512
   location: London, UK
   languages: English, Italian
   skills:
