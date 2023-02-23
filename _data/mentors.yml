@@ -917,3 +917,29 @@
     extra: Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review, Agile workflow lifecycle from developer's perspective, Overview of the interview process in London, Java programming-where to start, Java programming-what is actually needed to succeed in the industry.
   network:
     - linkedin: https://www.linkedin.com/in/alisa-iv/
+
+- name: Yana Lunts
+  hours: 5
+  type: long-term
+  index: 33
+  position: SDET (Software developer in test), Apple
+  bio: I've been working as Senior AQA for over 5 years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
+  image: https://media.licdn.com/dms/image/C4D03AQEDlDrMalftEg/profile-displayphoto-shrink_400_400/0/1658152071537?e=1681344000&v=beta&t=rP1KKM9cF3XHp6J41G3vxEGwMlnVMEkBiFPFSxtOBQE
+  location: London, UK
+  languages: English, Polish, Russian
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - QA
+      - Backend Developer
+    languages: Java, JavaScript, Swift, Python
+    focus:
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+    mentee: I am looking for a person who wants to work in IT out of passion and curiosity
+    extra: QA, Resume Review, Preparation for the technical interview, knowledge expansion
+  network:
+    - linkedin: https://www.linkedin.com/in/yana-lunts-a93a7818b/
