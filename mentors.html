@@ -111,10 +111,13 @@ title: Mentors
                                     {% for area in mentor.skills.areas %} 
                                         <li>{{area}}</li>
                                     {% endfor %}
+                                    {% for focus in mentor.skills.focus %} 
+                                        <li>{{focus}}</li>
+                                    {% endfor %}
                                 </ul>
                             </p>
                             {% if mentor.skills.extra %}
-                                <p class="card-text"><label>Potential mentoring topics</label>: {{mentor.skills.extra}}</p>
+                                <p class="card-text"><label>Other potential mentoring topics</label>: {{mentor.skills.extra}}</p>
                             {% endif %}
                         </div>
                     </div>
