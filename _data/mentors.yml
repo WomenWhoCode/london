@@ -943,3 +943,29 @@
     extra: QA, Resume Review, Preparation for the technical interview, knowledge expansion
   network:
     - linkedin: https://www.linkedin.com/in/yana-lunts-a93a7818b/
+
+- name: Bomee Ryu
+  hours: 3
+  type: long-term
+  index: 33
+  position: Android Developer, Sky UK
+  bio: I have been working as an Android developer for over 5 years. I am currently working at Sky UK. I've come to London from Seoul in late 2019. I would like to share my experience working with companies, from start-ups to big companies, from one to the other country. I am always very keen to learn new tech skills. (I can do Java but love Kotlin. and I am learning Flutter these days!) I would love to support and empower women who get into this industry through this mentorship programme.
+  image: https://media.licdn.com/dms/image/C4E03AQH0OVAdcolqdw/profile-displayphoto-shrink_400_400/0/1662765907633?e=1683158400&v=beta&t=QCy3QwhII54tPdyK4HF1HfZ4pENuKuYey8I3_N5rxqI
+  location: London, UK
+  languages: English
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Android
+    languages: Java, Kotlin
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch from IC to management position
+    mentee: Who is trying to change their career path into IT, Entry/Junior level
+    extra: Resume Review, Preparation for the Technical Interview, Clean code for Android development
+  network:
+    - linkedin: https://www.linkedin.com/in/bomeeryu/
