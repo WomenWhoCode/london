@@ -719,7 +719,7 @@
 
 - name: Tara Hofton
   hours: 2
-  type: ad-hoc
+  type: both
   index: 26
   position: Engineering Manager, Elliptic
   bio: As a technology leader and engineering manager, I help cross-functional teams deliver products that businesses need, users love and the team is proud of. I enjoy working across multiple disciplines including software development, data science, DevOps, InfoSec, hiring, coaching and career development.
