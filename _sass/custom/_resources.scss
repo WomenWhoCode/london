@@ -1,4 +1,5 @@
 .resources {
+  padding: 15px;
 
   .card {
     height: 100%;
@@ -16,11 +17,6 @@
 
   .card-title{
       margin-bottom: 10px;
-  }
-
-  .material,
-  .blog {
-    @extend .my-7;
   }
 
   .blog {
@@ -46,11 +42,6 @@
       object-fit: cover;
       object-position: left;
     }
-
-    a {
-      font-weight: bold;
-      font-size: $font-size-md;
-    }
   }
 
   .stretched-link {
@@ -64,4 +55,11 @@
   }
 }
 
+.resources__block {
+  margin-bottom: 7rem;
+}
 
+.resources__block a {
+  font-weight: bold;
+  font-size: $font-size-md;
+}
