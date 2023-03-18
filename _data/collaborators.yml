@@ -1,5 +1,5 @@
 - name: Lily Nguyen
-  image: assets/images/contributors/1.jpeg
+  image: assets/images/collaborators/1.jpeg
   position: UX/UI Engineer
   comment: Website Collaborator
   network:
@@ -9,7 +9,7 @@
       link: https://github.com/lilyndk
 
 - name: Sumeyya Javaid
-  image: assets/images/contributors/2.jpeg
+  image: assets/images/collaborators/2.jpeg
   position: Full-stack Developer
   comment: Website Collaborator
   network:
@@ -21,7 +21,7 @@
       link: https://github.com/j4sum
 
 - name: Naureen Imran
-  image: assets/images/contributors/3.png
+  image: assets/images/collaborators/3.png
   position: Full-stack Developer
   comment: Website Collaborator
   network:
@@ -31,7 +31,7 @@
       link: https://github.com/goldfishdolphin
 
 - name: Ying Tung (Sharon) Lau
-  image: assets/images/contributors/4.jpeg
+  image: assets/images/collaborators/4.jpeg
   position: Front-end Developer
   comment: Website Collaborator
   network:
@@ -53,7 +53,7 @@
       link: https://github.com/sandycho
 
 - name: Yuqing Wang
-  image: assets/images/contributors/6.png
+  image: assets/images/collaborators/5.png
   position: Full-stack Developer
   comment: Website Collaborator
   network:
@@ -63,7 +63,7 @@
       link: https://github.com/yuqingwang98
 
 - name: Idayat Sanni
-  image: assets/images/contributors/7.jpeg
+  image: assets/images/collaborators/6.jpeg
   position: Front-end Developer
   comment: Website Collaborator
   network:
@@ -73,7 +73,7 @@
       link: https://github.com/IdayatSanni
 
 - name: Rossella Ferrandino
-  image: assets/images/contributors/8.jpeg
+  image: assets/images/collaborators/7.jpeg
   position: Front-end Developer
   comment: Website Collaborator
   network:
