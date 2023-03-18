@@ -186,7 +186,7 @@
     When I moved to the UK, I was determined to become a Fullstack Engineer, which led me to work with the design team, Javascript and mobile development.
     As I mainly worked in startups, I'm used to wearing many hats, the fast pace and lean development.
     To keep up with trends, I constantly seek tech and networking events.
-  image: https://media.licdn.com/dms/image/C4E03AQFCWtRB-3jQ4A/profile-displayphoto-shrink_800_800/0/1516879496498?e=1678924800&v=beta&t=pVSaJqYCNMSxumZjieZ2CU_z9d0gI54JmCDjAm5erTU
+  image: assets/images/mentors/6.jpeg
   location: London, UK
   languages: English, Spanish
   skills:
@@ -208,7 +208,8 @@
     mentee: I'd like to meet a passionate, determined and ready for the challenge.
     extra: Software Development Strategies, CV Review, Preparation for The Technical Interview, Learning path, From beginner to mid-level, From mid-level to senior, Productivity, Resources,
   network:
-    - linkedin: https://github.com/sandycho
+    - linkedin: https://www.linkedin.com/in/sandy-chuchuca-ordonez
+    - github: https://github.com/sandycho
 
 - name: Ayla Cura
   hours: 4
