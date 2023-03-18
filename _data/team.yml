@@ -21,7 +21,7 @@
 - name: Marina Aguiar
   position: Communication and Networking
   comment: Programme support
-  image: https://ca.slack-edge.com/TGYGA50DQ-U03T0RQ7K55-51b45a041b09-512
+  image: assets/images/team/1.jpeg
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/marina-aguiar/
@@ -30,7 +30,7 @@
 - name: Elena Fedorova
   position: Designer
   comment: Website and design support
-  image: https://ca.slack-edge.com/TGYGA50DQ-U03GVBT00CV-aa80f66d5b8d-512
+  image: assets/images/team/2.png
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
