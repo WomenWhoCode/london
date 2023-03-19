@@ -15,7 +15,7 @@ title: Mentors
         Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
     </div>
     
-    {% assign mentors = site.data.mentors | sort: "hour" | reverse %}
+    {% assign mentors = site.data.mentors | sort: "type" | reverse %}
     {% for mentor in mentors %}
     
         <div class="card" id="mentor-card-{{mentor.index}}">
