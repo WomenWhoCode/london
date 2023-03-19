@@ -1020,3 +1020,72 @@
     extra: Understanding business value of the code, RESTful API design, Breaking down a problem, Importance of clean code and documentation, Career change, Returning to work after a break, Agile workflow and sprints (developer's prespective)
   network:
     - linkedin: https://www.linkedin.com/in/madhurachaganty
+
+- name: Mira Davidson
+  hours: 2
+  position: Software Engineer, Labstep
+  type: both
+  index: 37
+  location: United Kingdom, London
+  bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
+  image: assets/images/mentors/37.jpeg
+  languages: English
+  skills:
+    experience: 2-4 years
+    years: 4
+    areas:
+      - Machine Learning
+      - Frontend Developer
+      - Fullstack Developer
+    mentee: Anyone recently moving into tech from either a non-tech or tech background. I could be most helpful when interseted in startup environments.
+    languages: JavaScript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+    extra: Transitioning into a career in software. Personal development. Frontend development.
+  network:
+    - linkedin: https://www.linkedin.com/in/mira-davidson/
+
+- name: Kajal Negi Khabra
+  hours: 2
+  position: Frontend Developer, Loopline
+  type: both
+  index: 38
+  location: Berlin
+  bio: Have mentored many colleagues professionally
+  image: assets/images/mentors/38.jpeg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - Frontend Developer
+    mentee: Enthusiastic
+    languages: JavaScript
+    focus:
+      - Grow from mid-level to senior-level
+    extra: Software Development
+  network:
+    - twitter: https://twitter.com/KarishmaNegi9 
+
+- name: Sophia lan
+  hours: 2
+  position: CEO, WInvest
+  type: both
+  index: 39
+  location: United Kingdom, London
+  bio: I am an early stage tech founder with years of start up experience. I would like to support women in tech and bring more brilliant women into the tech scheme with my support and connection.
+  image: assets/images/mentors/39.jpeg
+  languages: English
+  skills:
+    experience: 1-2 Years
+    years: 2
+    mentee: Someone whose keen on progressing their career (building their own startup, progressing into leadership role)
+    areas:
+      -
+    languages: 
+    focus:
+      - Switch career to IT
+    extra: Career progress, career advice, career coaching
+  network:
+    - linkedin: https://www.linkedin.com/in/sophia-lan-a60827109/
