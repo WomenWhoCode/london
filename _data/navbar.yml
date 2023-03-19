@@ -10,10 +10,10 @@
 - name: How it works
   index: 3
   subfolderitems:
-      - page: Long-term relationship timeline
+      - page: Timeline
         url: timeline
-      
- 
+      - page: Study Group
+        url: study-group
       - page: Code of conduct
         url: code-of-conduct
       - page: FAQ
