@@ -1089,3 +1089,32 @@
     extra: Career progress, career advice, career coaching
   network:
     - linkedin: https://www.linkedin.com/in/sophia-lan-a60827109/
+
+- name: Shailaja Koppu
+  hours: 2
+  position: Staff software engineer (Architect), Apple
+  type: both
+  index: 40
+  location: United Kingdom, London
+  bio: 17+ years of experience, worked for most of big tech companies, experience leading teams, designing complex distributed and low latency systems, driving projects in fast faced environments
+  image: assets/images/mentors/40.jpeg
+  languages: English
+  skills:
+    experience: 16 Years
+    years: 16
+    mentee: Someone aspiring to grow in the career
+    areas:
+      - Distributed Systems
+      - Backend Developer
+      - Engineering management
+      - Fullstack Developer
+      - Site Reliability Engineering
+    languages: C, Java, C++
+    focus:
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - management position
+    extra: Software design and development, team leading strategies, system design interviews, coding interviews, motivating teams
+  network:
+    - linkedin: https://uk.linkedin.com/in/shailajakoppu
