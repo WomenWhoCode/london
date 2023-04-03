@@ -1118,3 +1118,30 @@
     extra: Software design and development, team leading strategies, system design interviews, coding interviews, motivating teams
   network:
     - linkedin: https://uk.linkedin.com/in/shailajakoppu
+
+- name: Marichka Offen
+  hours: 5
+  position: Front End Engineer, Prefect
+  type: ad-hoc
+  index: 41
+  location: Sterling, VA, USA
+  bio: I am a front end developer with 5 years of experience. I am a bootcamp grad, and went through it all from feeling like an impostor in the sphere I don't belong because I don't have a formal education in CS, to successfully leading and presenting my own projects. I am experienced in various JavaScript tools, frameworks and libraries (Vue, React, Node, D3 etc.) as well as HTML and multiple CSS frameworks and supersets.
+  image: assets/images/mentors/41.jpeg
+  languages: English
+  skills:
+    experience: 4+ Years
+    years: 4
+    mentee: I'm looking for Mentee who needs help understanding new/complex concepts of Front End languages and tools. Mentee who needs a mentor to sit down with them, go through the material, explain something in many different ways to make it clear and answer all possible question.
+    areas:
+      - Frontend Developer
+      - QA
+      - Project Management
+      - Fullstack Developer
+      - Product Management
+    languages: C#, JavaScript
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Code review, confusing concepts review, resume review, preparation for the technical interview
+  network:
+    - linkedin: https://www.linkedin.com/in/marichka-offen/
