@@ -10,7 +10,7 @@
 - name: How it works
   index: 3
   subfolderitems:
-      - page: Timeline
+      - page: LONG-TERM FORMAT TIMELINE
         url: timeline
       - page: AD-HOC FORMAT TIMELINE
         url: ad-hoc-timeline
