@@ -12,6 +12,8 @@
   subfolderitems:
       - page: Timeline
         url: timeline
+      - page: AD-HOC FORMAT TIMELINE
+        url: ad-hoc-timeline
       - page: Study Group
         url: study-group
       - page: Code of conduct
