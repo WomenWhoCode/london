@@ -10,9 +10,9 @@
 - name: How it works
   index: 3
   subfolderitems:
-      - page: LONG-TERM FORMAT TIMELINE
+      - page: LONG-TERM TIMELINE
         url: timeline
-      - page: AD-HOC FORMAT TIMELINE
+      - page: AD-HOC TIMELINE
         url: ad-hoc-timeline
       - page: Study Group
         url: study-group
