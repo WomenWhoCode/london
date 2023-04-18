@@ -457,6 +457,30 @@
   network:
     - linkedin: https://www.linkedin.com/in/elizaveta-svitanko/
 
+- name: Cherrelle Morales
+  hours: 3
+  type: both
+  index: 18
+  position: Senior Technical Consultant, Capita
+  bio: I’m a Web Developer since 2012. A Front End Specialist. Currently employed by Capita. Been mentoring Juniors in and outside work, especially in WWC.
+  image: assets/images/mentors/18.jpeg
+  location: Newcastle Upon Tyne, UK
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    areas:
+      - Frontend Developer
+      - Project Management
+    languages: JavaScript
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: Junior, Graduate, Beginner
+    extra: Agile / Scrum, Resume Review, Preparation for The Technical Interview, Project Management, Front End technologies
+  network:
+    - linkedin: https://www.linkedin.com/in/cherrelle-morales-b7752325/
+
 - name: Preeja Babu
   hours: 3
   type: ad-hoc
