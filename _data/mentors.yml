@@ -764,7 +764,7 @@
 - name: Monal Sanghvi
   hours: 2
   type: ad-hoc
-  index: 30
+  index: 31
   position: Director of Engineering, Tray.io
   bio: Over 12 years of experience (Tray.io, Morgan Stanley, UBS), 7 years being hands-on with code, now a manager of managers and senior engineering leads. Passion for frontend engineering and effective cross-functional collaboration. Likes to talk about Fintech and scaling tech startups.
   image: assets/images/mentors/31.png
@@ -792,34 +792,10 @@
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
     - twitter: https://twitter.com/monalsanghvi
 
-- name: Dakshika Chauhan
-  hours: 2
-  type: long-term
-  index: 31
-  position: Senior Business Analyst, Amazon
-  bio: I have 5 years of experience in the field of analytics with specialization in SQL, Amazon Redshift, Amazon s3, Glue, Data visualization and Modeling Tools like Quicksight, PowerBI, Tableau, Datastudio, Lucidchart. I enjoy making complex simple, data analytics is a powerful skill that helps me achieve that. I have worked in 4 different industries, consulting banking, insurance , retail to enable data driven decisions in Business Operations. I have an intermediate Python experience, as I continue to hone my skills I love sharing what I have learnt in my journey for better collaboration and support in community.
-  image: assets/images/mentors/41.jpeg
-  location: USA
-  languages: English
-  skills:
-    experience: 5-7 years
-    years: 7
-    areas:
-      - Engineering management
-      - Data Engineering
-      - Product Management
-      - Project Management
-      - Business Analysis
-    languages: JavaScript, Python
-    mentee: Motivated Individual
-    extra: Strategies, Preparation for Technical Interviews, Resume Review, Data Analytics
-  network:
-    - linkedin: https://www.linkedin.com/in/dakshika-chauhan-2021/
-
 - name: Yana Lunts
   hours: 5
   type: long-term
-  index: 32
+  index: 33
   position: SDET (Software developer in test), Apple
   bio: I've been working as Senior AQA for over 5 years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
   image: assets/images/mentors/33.jpeg
@@ -845,7 +821,7 @@
 - name: Bomee Ryu
   hours: 3
   type: long-term
-  index: 33
+  index: 34
   position: Android Developer, Sky UK
   bio: I have been working as an Android developer for over 5 years. I am currently working at Sky UK. I've come to London from Seoul in late 2019. I would like to share my experience working with companies, from start-ups to big companies, from one to the other country. I am always very keen to learn new tech skills. (I can do Java but love Kotlin. and I am learning Flutter these days!) I would love to support and empower women who get into this industry through this mentorship programme.
   image: assets/images/mentors/34.jpeg
@@ -871,7 +847,7 @@
 - name: Bisi Josh-Falade
   hours: 4
   type: both
-  index: 34
+  index: 35
   position: Freelancer, Etidelar
   bio: I staretd out as a Business Analyst and grew organically within the Software Development Life cycle to head a Product Team. As a result, I have deep experience in technical specifications, requirements elicitation, quality assurance/testing and technical support. I have led project teams that built and deployed payment solutions and have helped others to scale their products.
   image: assets/images/mentors/35.png
@@ -895,7 +871,7 @@
 - name: Madhura Chaganty
   hours: 3
   type: long-term
-  index: 35
+  index: 36
   position: Team Lead, Paythru Ltd.
   bio: I am currently working as team lead in Paythru - EV Charging And Payments. I have been backend developer for more than 15 years, designing and implementing backend architecture. I am passionate about exploring new technologies. Recently I explored Hyperledger Fabric (v2.0) to get some hands-on experience in Blockchain.I would love to support someone who wants to get into backend development.
   image: assets/images/mentors/36.png
@@ -922,7 +898,7 @@
   hours: 2
   position: Software Engineer, Labstep
   type: both
-  index: 36
+  index: 37
   location: United Kingdom, London
   bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
   image: assets/images/mentors/37.jpeg
@@ -947,7 +923,7 @@
   hours: 2
   position: Frontend Developer, Loopline
   type: both
-  index: 37
+  index: 38
   location: Berlin
   bio: Have mentored many colleagues professionally
   image: assets/images/mentors/38.jpeg
@@ -969,7 +945,7 @@
   hours: 2
   position: CEO, WInvest
   type: both
-  index: 38
+  index: 39
   location: United Kingdom, London
   bio: I am an early stage tech founder with years of start up experience. I would like to support women in tech and bring more brilliant women into the tech scheme with my support and connection.
   image: assets/images/mentors/39.jpeg
@@ -991,7 +967,7 @@
   hours: 2
   position: Staff software engineer (Architect), Apple
   type: both
-  index: 39
+  index: 40
   location: United Kingdom, London
   bio: 17+ years of experience, worked for most of big tech companies, experience leading teams, designing complex distributed and low latency systems, driving projects in fast faced environments
   image: assets/images/mentors/40.jpeg
@@ -1015,3 +991,27 @@
     extra: Software design and development, team leading strategies, system design interviews, coding interviews, motivating teams
   network:
     - linkedin: https://uk.linkedin.com/in/shailajakoppu
+
+- name: Dakshika Chauhan
+  hours: 2
+  type: long-term
+  index: 41
+  position: Senior Business Analyst, Amazon
+  bio: I have 5 years of experience in the field of analytics with specialization in SQL, Amazon Redshift, Amazon s3, Glue, Data visualization and Modeling Tools like Quicksight, PowerBI, Tableau, Datastudio, Lucidchart. I enjoy making complex simple, data analytics is a powerful skill that helps me achieve that. I have worked in 4 different industries, consulting banking, insurance , retail to enable data driven decisions in Business Operations. I have an intermediate Python experience, as I continue to hone my skills I love sharing what I have learnt in my journey for better collaboration and support in community.
+  image: assets/images/mentors/41.jpeg
+  location: USA
+  languages: English
+  skills:
+    experience: 5-7 years
+    years: 7
+    areas:
+      - Engineering management
+      - Data Engineering
+      - Product Management
+      - Project Management
+      - Business Analysis
+    languages: JavaScript, Python
+    mentee: Motivated Individual
+    extra: Strategies, Preparation for Technical Interviews, Resume Review, Data Analytics
+  network:
+    - linkedin: https://www.linkedin.com/in/dakshika-chauhan-2021/
