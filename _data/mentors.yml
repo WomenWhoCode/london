@@ -377,6 +377,54 @@
     - linkedin: https://www.linkedin.com/in/shelly-leal/
     - medium: https://medium.com/@shellyleal
 
+- name: Neha Garg
+  hours: 3
+  type: both
+  index: 14
+  position: Graduate Teaching Assistant, University of Regina
+  bio: |
+    Pursuing Masters in Computer Science from the University of Regina. Experienced Engineer with a demonstrated history of working in various domains including eCommerce, finance, e-learning etc.
+    Skilled in: 
+      Software development and cloud technologies;
+      Databases - MySQL, Oracle, MongoDB;
+      Docker;
+      CI/CD - GitHub Actions, Jenkins, Hudson;
+      Storage - Redis, PostgreSQL;
+      Cloud - AWS, Microsoft Azure, Oracle Cloud;
+  image: assets/images/mentors/14.jpeg
+  location: Canada
+  languages: English
+  skills:
+    experience: 7-10 Years
+    years: 10
+    areas:
+      - Distributed Systems
+      - Product Management
+      - Project Management
+      - Security
+      - QA
+    languages: Java
+    focus:
+      - Switch from IC to management position
+      - Change specialisation within IT
+      - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: needs help with AWS cloud or technology related stuff
+    extra: |
+      Software development and cloud technologies;
+      Databases: MySQL, Oracle, MongoDB;
+      Docker;
+      CI/CD: GitHub Actions, Jenkins, Hudson;
+      Storage: Redis, PostgreSQL;
+      Cloud: AWS, Microsoft Azure, Oracle Cloud;
+      
+      Experience migrating Monolithic to Microservice architecture. 
+      Experience in Software development on Java/JEE technologies including Spring Boot, spring data, Hibernate etc.
+      Training and mentoring skills.
+  network:
+    - linkedin: https://www.linkedin.com/in/neha-garg-7739bb18/
+
 - name: Jamica Ortiz
   hours: 2
   type: ad-hoc
@@ -502,6 +550,32 @@
     extra: Machine learning algorithms
   network:
     - linkedin: https://www.linkedin.com/in/preejababu/
+
+- name: Olga Ponkratova
+  hours: 3
+  type: long-term
+  index: 20
+  position: Software engineer android
+  bio: 10 years in IT (5 in analytics, 5 in engineering). Love mentoring people and growing their potential.
+  image: assets/images/mentors/20.jpeg
+  location: London, UK
+  languages: English, Russian
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Android
+      - Engineering management
+      - QA
+    languages: Kotlin, Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
+    mentee: I'm good at setting personal goals, prioritisation and identifying strategy for personal and career growth. I can mentor in setting up collaborative environment, work with different people and communication. I would prefer to work with aspiring mentee in this area as I also need to grow myself. Apart from this, Android development for beginners.
+    extra: Android development, Prioritisation, Productivity, Collaboration with cross functional teams, Identifying strategy for project leading and executing, Personal and career growth, Resume review, Interview preparation
+  network:
+    - linkedin: https://www.linkedin.com/in/olgaponkratova/
 
 - name: Seyoung Joo
   hours: 3
@@ -761,6 +835,34 @@
     - website: https://units.d8u.us/resume?src=wwcLondon
     - twitter: https://units.d8u.us/twitter
 
+- name: Hersi Kopani
+  hours: 5
+  type: long-term
+  index: 30
+  position: Java Software Engineer, Volvo Group
+  bio: |
+    I am an experienced Java developer with industry experience building websites and web applications. Strong engineering background with a Master of Science (MSc) focused in Information Security from the University of Tirana. I'm passionate about learning the latest and greatest technologies in software development. I enjoy creating sleek and responsive applications in addition to being user-friendly. <br> I love working in fast-paced environments, having a team spirit, analyzing, planning, and solving various problems during the workday.
+    Interested in AI, ML, Information Security, IoT. Passionate programmer on java with its frameworks.
+  image: assets/images/mentors/30.png
+  location: London, UK
+  languages: English, Italian
+  skills:
+    experience: 4-5 years
+    years: 5
+    areas:
+      - Backend Developer
+      - Product Management
+      - Frontend Developer
+      - DevOps
+    languages: Java, JavaScript
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: Passionate for better oportunities.
+    extra: Software Development Strategies, System Design, Resume Review, Code challenged preparation, Tech interviews preparation, Soft skills interview preparation.
+  network:
+    - linkedin: https://www.linkedin.com/in/hersi-kopani-146506179/
+
 - name: Monal Sanghvi
   hours: 2
   type: ad-hoc
@@ -791,6 +893,31 @@
   network:
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
     - twitter: https://twitter.com/monalsanghvi
+
+- name: Alisa Ivanenko
+  hours: 3
+  type: long-term
+  index: 32
+  position: Java Software Engineer, Mettle
+  bio: Graduated in 2015 with BSc Computer Science, worked in gambling, fashion, SaaS. Switched into Fintech sector 2 months ago. Always coded in Java. Currently a Mentor for Riga Tech Girls (Jan - June 2023). Participated in several Hackathons pre-pandemic.
+  image: assets/images/mentors/32.jpeg
+  location: London, UK
+  languages: English, Russian
+  skills:
+    experience: 5-7 years
+    years: 7
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - QA
+    languages: Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: A mentee who needs some assistance in putting together the entire picture and orient themselves better in the industry. More-less independent. Ideally familiar with some Java.
+    extra: Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review, Agile workflow lifecycle from developer's perspective, Overview of the interview process in London, Java programming-where to start, Java programming-what is actually needed to succeed in the industry.
+  network:
+    - linkedin: https://www.linkedin.com/in/alisa-iv/
 
 - name: Yana Lunts
   hours: 5
@@ -992,30 +1119,6 @@
   network:
     - linkedin: https://uk.linkedin.com/in/shailajakoppu
 
-- name: Dakshika Chauhan
-  hours: 2
-  type: long-term
-  index: 42
-  position: Senior Business Analyst, Amazon
-  bio: I have 5 years of experience in the field of analytics with specialization in SQL, Amazon Redshift, Amazon s3, Glue, Data visualization and Modeling Tools like Quicksight, PowerBI, Tableau, Datastudio, Lucidchart. I enjoy making complex simple, data analytics is a powerful skill that helps me achieve that. I have worked in 4 different industries, consulting banking, insurance , retail to enable data driven decisions in Business Operations. I have an intermediate Python experience, as I continue to hone my skills I love sharing what I have learnt in my journey for better collaboration and support in community.
-  image: assets/images/mentors/42.jpeg
-  location: USA
-  languages: English
-  skills:
-    experience: 5-7 years
-    years: 7
-    areas:
-      - Engineering management
-      - Data Engineering
-      - Product Management
-      - Project Management
-      - Business Analysis
-    languages: JavaScript, Python
-    mentee: Motivated Individual
-    extra: Strategies, Preparation for Technical Interviews, Resume Review, Data Analytics
-  network:
-    - linkedin: https://www.linkedin.com/in/dakshika-chauhan-2021/
-    
 - name: Marichka Offen
   hours: 5
   position: Front End Engineer, Prefect
