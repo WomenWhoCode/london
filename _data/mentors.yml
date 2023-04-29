@@ -147,8 +147,8 @@
     - linkedin: www.linkedin.com/in/aishwarya-nair-data-scientist
 
 - name: Mr Andrew King
-  hours: 4
-  type: both
+  hours: 0
+  type: long-term
   index: 5
   position: SRE, Dojo
   bio: I have been mentoring for about 10 years now at all different levels.  I have good people skills and take active role in company development outside of engineering.  Currently an SRE, but 15 years as a back-end developer, various dev-ops roles has given me a wide range of technical experience.  30+ years in lots of firms have helped upskill my non-engineering skills.
@@ -504,7 +504,7 @@
     - linkedin: https://www.linkedin.com/in/preejababu/
 
 - name: Seyoung Joo
-  hours: 3
+  hours: 0
   type: long-term
   index: 21
   position: Frontend engineer, Fanduel
@@ -705,7 +705,7 @@
     - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
     
 - name: Anushka Yadav
-  hours: 5
+  hours: 0
   type: long-term
   index: 28
   position: Machine Learning Associate, PWC
@@ -793,7 +793,7 @@
     - twitter: https://twitter.com/monalsanghvi
 
 - name: Yana Lunts
-  hours: 5
+  hours: 0
   type: long-term
   index: 33
   position: SDET (Software developer in test), Apple
@@ -819,7 +819,7 @@
     - linkedin: https://www.linkedin.com/in/yana-lunts-a93a7818b/
 
 - name: Bomee Ryu
-  hours: 3
+  hours: 0
   type: long-term
   index: 34
   position: Android Developer, Sky UK
@@ -869,7 +869,7 @@
     - linkedin: https://www.linkedin.com/in/bisijoshfalade
 
 - name: Madhura Chaganty
-  hours: 3
+  hours: 0
   type: long-term
   index: 36
   position: Team Lead, Paythru Ltd.
@@ -1021,7 +1021,7 @@
     - github: https://github.com/marichka-offen
 
 - name: Dakshika Chauhan
-  hours: 2
+  hours: 0
   position: Senior Business Analyst, Amazon
   type: long-term
   index: 42

@@ -13,6 +13,14 @@
         align-content: center;
         border-right: 1px solid rgba(0,0,0,0.125);
         border-radius: 0.25rem;
+
+        a {
+            margin-left: 15px !important;
+        }
+
+        .card-text {
+            padding-left: 30px !important;
+        }
     }
 
     .link {
