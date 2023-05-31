@@ -9,7 +9,7 @@ title: Mentors
 
 <div class="mentors container">
     <small class="description">
-        Ad-hoc session (one-time session) registration will be available in <b>June</b>.
+        Ad-hoc session (one-time session) registration will be available in <b>April</b>.
     </small>
     <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
         Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
@@ -22,6 +22,14 @@ title: Mentors
             <div class="row">
                 <div class="col-md-3">
                     <img src="{{mentor.image}}" class="card-img" alt="...">
+                    {% if mentor.type != 'long-term' %}
+                            <a href="#" class="btn" data-tf-popup="lADb5J9z" data-tf-iframe-props="title=Mentee Registration" 
+                            data-tf-medium="snippet" data-tf-hidden="mentor={{mentor.name}}">Apply for this mentor</a>
+                    {% else %}
+                    <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Only available for long-term mentorship">
+                        Long Term <span>{% include icons/question-fill.svg %}</span>
+                    </p>
+                    {% endif %}
                 </div>
 
                 <div class="col-md-9">
