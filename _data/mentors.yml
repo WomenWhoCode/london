@@ -763,10 +763,10 @@
 
 - name: Monal Sanghvi
   hours: 2
-  type: ad-hoc
+  type: both
   index: 31
-  position: Director of Engineering, Tray.io
-  bio: Over 12 years of experience (Tray.io, Morgan Stanley, UBS), 7 years being hands-on with code, now a manager of managers and senior engineering leads. Passion for frontend engineering and effective cross-functional collaboration. Likes to talk about Fintech and scaling tech startups.
+  position: Senior Engineering Manager, Zoa
+  bio: 12+ years of experience, building innovative products, leading technical teams in complex financial services environments and fast-paced SaaS startups. Deep expertise in web applications. Global mindset. I believe we have a lot to learn from each other in tech, regardless of seniority, and this is also what makes working in this industry so fun.
   image: assets/images/mentors/31.png
   location: London, UK
   languages: English
@@ -776,28 +776,30 @@
     areas:
       - Engineering management
       - Product Management
-      - Frontend Developer
+      - Fullstack Developer
       - DevOps
-      - Project Management
+      - QA
+      - Security
     languages: Java, JavaScript
     focus:
+      - Grow from beginner to mid-level
       - Grow from mid-level to senior-level
       - Grow beyond senior level
       - Switch from IC to management position
       - Switch career to IT
       - Change specialisation within IT
-    mentee: Who is ambitious and prefers open, honest and straightforward communication, possibly neurodivergent (as I am).
-    extra: Engineering Management, Product Development, Career Pivots.
+    mentee: Someone who appreciates open and honest communication and is looking to learn
+    extra: Product Development, Building a fulfilling career
   network:
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
     - twitter: https://twitter.com/monalsanghvi
 
-- name: Yana Lunts
+- name: Iana Luntc
   hours: 0
   type: long-term
   index: 33
   position: SDET (Software developer in test), Apple
-  bio: I've been working as Senior AQA for over 5 years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
+  bio: I’ve been working as Senior AQA for many years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
   image: assets/images/mentors/33.jpeg
   location: London, UK
   languages: English, Polish, Russian
