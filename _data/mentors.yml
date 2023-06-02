@@ -792,12 +792,12 @@
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
     - twitter: https://twitter.com/monalsanghvi
 
-- name: Yana Lunts
+- name: Yana Luntc
   hours: 0
   type: long-term
   index: 33
   position: SDET (Software developer in test), Apple
-  bio: I've been working as Senior AQA for over 5 years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
+  bio: I've been working as Senior AQA for many years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
   image: assets/images/mentors/33.jpeg
   location: London, UK
   languages: English, Polish, Russian
@@ -1021,7 +1021,7 @@
     - github: https://github.com/marichka-offen
 
 - name: Dakshika Chauhan
-  hours: 0
+  hours: 2
   position: Senior Business Analyst, Amazon
   type: long-term
   index: 42
@@ -1045,3 +1045,27 @@
     extra: Strategies, Preparation for Technical Interviews, Resume Review, Data Analytics
   network:
     - linkedin: https://www.linkedin.com/in/dakshika-chauhan-2021/
+
+- name: Jenny Johnson
+  hours: 3
+  position: Senior Software Engineer, Isla
+  type: Both
+  index: 43
+  location: London
+  bio: High performing software engineer with 7+ years of experience with strong focus on full-stack and front end development.
+  image: assets/images/mentors/42.jpg
+  languages: English
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Driven, ambitious, eager to learn. Wanting to level up their coding skills, best practices, etc
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+    languages: Python, JavaScript, Java, C#
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Best practices, clean code, resume review, code reviews
+  network:
+    - linkedin: https://www.linkedin.com/in/jjohnson001
