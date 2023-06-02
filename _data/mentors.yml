@@ -1099,3 +1099,27 @@
     extra: Software Development Strategies, Interview Prep and Resume Review
   network:
     - linkedin: https://www.linkedin.com/in/zarafshan-waheed-01928a160/
+
+- name: Jenny Johnson
+  hours: 3
+  position: Senior Software Engineer, Isla
+  type: Both
+  index: 45
+  location: London
+  bio: High performing software engineer with 7+ years of experience with strong focus on full-stack and front end development.
+  image: assets/images/mentors/45.jpeg
+  languages: English
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Driven, ambitious, eager to learn. Wanting to level up their coding skills, best practices, etc
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+    languages: JavaScript, Java, C#, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Best practices, clean code, resume review, code reviews
+  network:
+    - linkedin: https://www.linkedin.com/in/jjohnson001
