@@ -1082,7 +1082,7 @@
   type: ad-hoc
   index: 44
   location: Pakistan
-  bio: I have around 2 year of working experience with data engineering. I have been working in designing batch pipleines using spark. I have hands on working experinece with AWS, Azure and Databricks. I was and Electrical Engineering graduate and die to very small number of jobs in Electrical domain I switched to Data Engineering
+  bio: I have around 2 year of working experience with data engineering. I have been working in designing batch pipelines using spark. I have hands on working experience with AWS, Azure and Databricks. I was and Electrical Engineering graduate and due to my love for data and coding I switched to Data Engineering.
   image: assets/images/mentors/44.jpg
   languages: English
   skills:
@@ -1123,3 +1123,26 @@
     extra: Best practices, clean code, resume review, code reviews
   network:
     - linkedin: https://www.linkedin.com/in/jjohnson001
+
+- name: Atibhi Agrawal
+  hours: 3
+  position: Software Engineer, Amazon
+  type: Both
+  index: 46
+  location: London
+  bio: My name is Atibhi Agrawal and I work at Amazon UK with Prime Video. I've been with Amazon for 6 months before which I worked at Twitter. I have a master's degree and have done internships at Google, Morgan Stanley, Grafana Labs and Open Source Organizations. I have experience in backend and DevOps technologies. I'm passionate about helping folks get into tech and progress in their career and have previously volunteered with Women Who Code India as well as opened a Lean In Chapter in my college.
+  image: assets/images/mentors/46.jpeg
+  languages: English
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: Someone who's looking to get into tech and is sincere.
+    areas:
+      - Backend Developer
+      - Frontend Developer
+    languages: C++, Go
+    focus:
+      - Switch career to IT
+    extra: Software Development Strategies, Resume Review, Interview Preparation, Internships, Backend
+  network:
+    - linkedin: https://www.linkedin.com/in/atibhia
