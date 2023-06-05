@@ -1103,7 +1103,7 @@
 - name: Jenny Johnson
   hours: 3
   position: Senior Software Engineer, Isla
-  type: Both
+  type: both
   index: 45
   location: London
   bio: High performing software engineer with 7+ years of experience with strong focus on full-stack and front end development.
@@ -1127,7 +1127,7 @@
 - name: Atibhi Agrawal
   hours: 3
   position: Software Engineer, Amazon
-  type: Both
+  type: both
   index: 46
   location: London
   bio: My name is Atibhi Agrawal and I work at Amazon UK with Prime Video. I've been with Amazon for 6 months before which I worked at Twitter. I have a master's degree and have done internships at Google, Morgan Stanley, Grafana Labs and Open Source Organizations. I have experience in backend and DevOps technologies. I'm passionate about helping folks get into tech and progress in their career and have previously volunteered with Women Who Code India as well as opened a Lean In Chapter in my college.
@@ -1146,3 +1146,26 @@
     extra: Software Development Strategies, Resume Review, Interview Preparation, Internships, Backend
   network:
     - linkedin: https://www.linkedin.com/in/atibhia
+
+- name: Vedangi Mukadam
+  hours: 5
+  position: Software Development Engineer II, Amazon
+  type: both
+  index: 47
+  location: London
+  bio: I have almost 3 years of experience in the tech industry. I completed my undergraduate from IIT (ISM) Dhanbad in 2020. Since then I have worked with Microsoft and Google. I have experience in data engineering and backend. I'm extremely passionate about women in tech and I have volunteered for multiple events including GHC proposal reviewer. I have also mentored college students and helped resolve their doubts. I'm also proficient in Data Structures and Algorithms and can help students prep for it.
+  image: assets/images/mentors/47.svg
+  languages: English
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: Someone who's still new to the industry and would either like to get into tech or grow from beginner to mid.
+    areas:
+      - Backend Developer
+    languages: C++, Java, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Resume Review, Preparation for the Technical Interview, Data Structures And Algorithms, Growing from beginner to mid level Software Engineer
+  network:
+    - linkedin: https://www.linkedin.com/in/vedangi-mukadam
