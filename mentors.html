@@ -9,15 +9,15 @@ title: Mentors
 
 <div class="mentors container">
     <small class="description">
-        Ad-hoc session (one-time session) registration will be available in <b>June</b>.
+        Ad-hoc session (one-time session) registration will be available on  <b>July 1st until 7th</b>.
     </small>
     <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
         Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
     </div>
-    
+
     {% assign mentors = site.data.mentors | sort: "hours" | reverse %}
     {% for mentor in mentors %}
-    
+
         <div class="card" id="mentor-card-{{mentor.index}}">
             <div class="row">
                 <div class="col-md-3">
