@@ -25,7 +25,7 @@ title: Resources
 
     <div class="resources__block events">
         <h1>Mentorship Events</h1>
-        
+
         {% for event in site.data.events %}
             {% if event.enabled %}
             <div class="row">
@@ -33,11 +33,11 @@ title: Resources
                     <div class="card">
                         <div class="row">
 
-                            <div class="col-md-5 col-lg-4">
+                            <div class="col-md-5 col-lg-5">
                                 <img class="card-image" src="assets/images/events/{{event.index}}.jpg" alt="">
                             </div>
 
-                            <div class="col-md-7 col-lg-8">
+                            <div class="col-md-7 col-lg-7">
                                 <div class="card-body">
                                     <h4 class="card-title">{{event.title}} <small>{{event.subtitle}}</small></h4>
                                     <p>{{event.date}} | {{event.format}}</p>
@@ -77,7 +77,7 @@ title: Resources
 
     <div class="resources__block blog">
         <h1>Mentorship Blog Posts</h1>
-        
+
         {% for blog in site.data.blogs %}
             <div class="row">
                 <div class="col-12 mt-3">
@@ -94,7 +94,7 @@ title: Resources
                                     <p>{{blog.date}} | {{blog.author}}</p>
                                     <div class="card-content">
                                         <p class="card-text">{{blog.description}}</p>
-                                
+
                                         <div class="link">
                                             <a href="{{blog.link}}" target="_blank" rel="noopener">Read more</a>
                                         </div>
