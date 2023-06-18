@@ -4,7 +4,7 @@ title: Resources
 ---
 
 <div class="container resources">
-    <div class="material">
+    <div class="resources__block material">
         <h1>Mentorship Resources</h1>
 
         <div class="row g-3">
@@ -14,7 +14,7 @@ title: Resources
                     <img src="{{resources.image}}" alt="pocketbook-mentees" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{resources.title}}</h5>
-                        <a href={{resources.link}} class="stretched-link" target="_blank">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
+                        <a href={{resources.link}} class="stretched-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
                     </div>
                 </div>
 
@@ -23,7 +23,57 @@ title: Resources
         </div>
     </div>
 
-    <div class="blog">
+    <div class="resources__block events">
+        <h1>Mentorship Events</h1>
+        
+        {% for event in site.data.events %}
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <div class="card">
+                        <div class="row">
+
+                            <div class="col-md-5 col-lg-4">
+                                <img class="card-image" src="assets/images/events/{{event.index}}.jpg" alt="event-image">
+                            </div>
+
+                            <div class="col-md-7 col-lg-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{event.title}}</h4>
+                                    <p>{{event.date}} | {{event.format}}</p>
+                                    <div class="card-content">
+                                        <p class="card-text">{{event.description}}</p>
+                                        <div class="links">Check more:</div>
+                                        <ul>
+                                            {% for link in event.links %}
+                                                {% if link.meetup %}
+                                                    <li>
+                                                        <a href="{{link.meetup}}" target="_blank" rel="noopener">{% include icons/meetup2.svg %}</a>
+                                                    </li>
+                                                {% endif %}
+                                                {% if link.youtube %}
+                                                    <li>
+                                                        <a href="{{link.youtube}}" target="_blank" rel="noopener">{% include icons/youtube.svg %}</a>
+                                                    </li>
+                                                {% endif %}
+                                                {% if link.material %}
+                                                    <li>
+                                                        <a href="{{link.material}}" target="_blank" rel="noopener">{% include icons/google-drive.svg %}</a>
+                                                    </li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="resources__block blog">
         <h1>Mentorship Blog Posts</h1>
         
         {% for blog in site.data.blogs %}
@@ -44,7 +94,7 @@ title: Resources
                                         <p class="card-text">{{blog.description}}</p>
                                 
                                         <div class="link">
-                                            <a href="{{blog.link}}" target="_blank">Read more</a>
+                                            <a href="{{blog.link}}" target="_blank" rel="noopener">Read more</a>
                                         </div>
                                     </div>
                                 </div>

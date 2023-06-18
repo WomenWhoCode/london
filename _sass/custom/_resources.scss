@@ -1,5 +1,7 @@
 .resources {
 
+  padding: 15px;
+
   .card {
     height: 100%;
   }
@@ -18,9 +20,44 @@
       margin-bottom: 10px;
   }
 
-  .material,
-  .blog {
-    @extend .my-7;
+  &__block {
+    margin-bottom: 7rem;
+  }
+
+  .events {
+
+    a {
+      font-weight: bold;
+      font-size: $font-size-md;
+      
+      svg {
+        height: 40px !important;
+        width: 40px !important;
+        fill: $teal !important;
+      }
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: left;
+    }
+
+    .links {
+      color: $teal;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-inline-start: 0 !important;
+      margin-top: 10px;
+    }
+
+    li { 
+      display: inline; 
+      margin-right: 20px;
+    } 
   }
 
   .blog {
