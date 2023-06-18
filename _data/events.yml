@@ -10,7 +10,7 @@
 
 - title: How to get the most out of Mentorship Program?
   subtitle: Panel Discussion
-  date: 2022
+  date: July 7, 2022
   format: online
   index: 1
   description: Announce the mentorship program 3.0! During our session, we will present you with the background of our mentorship program, what to expect and how you can register as a mentor or a mentee! We will wrap up an event with a panel discussion where experienced mentors will share insights and answer your questions
@@ -18,14 +18,24 @@
     - youtube: https://www.youtube.com/watch?v=AuDyfjDr9rA
     - meetup: https://www.meetup.com/women-who-code-london/events/286468360
 
+- title: A Simple Approach to Thinking about Career Goals
+  date: January 20, 2022
+  format: online
+  index: 4
+  description: This presentation introduces a way to explore possibilities of where you want to grow, define what you want to focus on now, break down your goal, and achieve your goal over a series of small steps.
+  links:
+    - youtube: https://www.youtube.com/watch?v=r8BlBJlWuoM
+    - meetup: https://www.meetup.com/women-who-code-london/events/283175447/
+
 - title: Mentorship Programme 2.0 Kickoff
-  date: March 11, 2021
+  date: September 30, 2021
   format: online
   index: 2
   description: WWCode London is excited to invite you to the official kick-off of our Mentorship Programme 2.0.
   links:
     - youtube: https://www.youtube.com/watch?v=x2PJ0v_lAlM
     - meetup: https://www.meetup.com/women-who-code-london/events/280821455/
+  
 
 - title: How to start? Practical Tips from experienced mentors
   date: March 11, 2021
