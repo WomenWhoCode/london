@@ -27,6 +27,7 @@ title: Resources
         <h1>Mentorship Events</h1>
         
         {% for event in site.data.events %}
+            {% if event.enabled %}
             <div class="row">
                 <div class="col-12 mt-3">
                     <div class="card">
@@ -70,6 +71,7 @@ title: Resources
                     </div>
                 </div>
             </div>
+            {% endif %}
         {% endfor %}
     </div>
 

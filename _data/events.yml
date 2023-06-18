@@ -7,6 +7,7 @@
   links:
     - youtube: https://www.youtube.com/watch?v=AuDyfjDr9rA
     - meetup: https://www.meetup.com/women-who-code-london/events/291487877
+  enabled: true
 
 - title: How to get the most out of Mentorship Program?
   subtitle: Panel Discussion
@@ -17,6 +18,7 @@
   links:
     - youtube: https://www.youtube.com/watch?v=AuDyfjDr9rA
     - meetup: https://www.meetup.com/women-who-code-london/events/286468360
+  enabled: false
 
 - title: A Simple Approach to Thinking about Career Goals
   date: January 20, 2022
@@ -26,6 +28,7 @@
   links:
     - youtube: https://www.youtube.com/watch?v=r8BlBJlWuoM
     - meetup: https://www.meetup.com/women-who-code-london/events/283175447/
+  enabled: false
 
 - title: Mentorship Programme 2.0 Kickoff
   date: September 30, 2021
@@ -35,7 +38,7 @@
   links:
     - youtube: https://www.youtube.com/watch?v=x2PJ0v_lAlM
     - meetup: https://www.meetup.com/women-who-code-london/events/280821455/
-  
+  enabled: false
 
 - title: How to start? Practical Tips from experienced mentors
   date: March 11, 2021
@@ -44,4 +47,5 @@
   description: We, at Women Who Code, choose to challenge the fact that women are less likely to have a sponsor who advocates and opens doors for them (source leanin.org/mentor-her). One of the ways to solve this is to provide a platform for people to connect based on professional merits.
   links:
     - youtube: https://www.youtube.com/watch?v=VxF2Br-mZTU&list=PLVcEZG2JPVhcxbBrvAfF0I4YSme5sCYcL&index=6
-    - meetup: https://www.meetup.com/women-who-code-london/events/276567937/      
+    - meetup: https://www.meetup.com/women-who-code-london/events/276567937/
+  enabled: false
