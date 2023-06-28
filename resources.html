@@ -5,7 +5,8 @@ title: Resources
 
 <div class="container resources">
     <div class="resources__block material">
-        <h1>Mentorship Resources</h1>
+        <h1>Resources</h1>
+        <h2>Mentorship Resources</h2>
 
         <div class="row g-3">
             {% for resources in site.data.resources %}
@@ -24,7 +25,7 @@ title: Resources
     </div>
 
     <div class="resources__block events">
-        <h1>Mentorship Events</h1>
+        <h2>Mentorship Events</h2>
 
         {% for event in site.data.events %}
             {% if event.enabled %}
@@ -76,7 +77,7 @@ title: Resources
     </div>
 
     <div class="resources__block blog">
-        <h1>Mentorship Blog Posts</h1>
+        <h2>Mentorship Blog Posts</h2>
 
         {% for blog in site.data.blogs %}
             <div class="row">
