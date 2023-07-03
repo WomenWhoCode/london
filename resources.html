@@ -5,7 +5,7 @@ title: Resources
 
 <div class="container resources">
     <div class="resources__block material">
-        <h2>Resources</h2>
+        <h1>Resources</h1>
 
         <div class="row g-3">
             {% for resources in site.data.resources %}
@@ -25,7 +25,6 @@ title: Resources
 
     <div class="resources__block events">
         <h2>Events</h2>
-
         {% for event in site.data.events %}
             {% if event.enabled %}
             <div class="row">

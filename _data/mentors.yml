@@ -1169,3 +1169,66 @@
     extra: Resume Review, Preparation for the Technical Interview, Data Structures And Algorithms, Growing from beginner to mid level Software Engineer
   network:
     - linkedin: https://www.linkedin.com/in/vedangi-mukadam
+
+- name: Elena Gordienko
+  hours: 4
+  position: iOS Engineer, Cuvva
+  type: Both
+  index: 48
+  location: London
+  bio: |
+    I have 8 years of experience as an iOS engineer – as a product or a platform/core team member in product companies, including Flo Health and inDrive. 
+    <br> I enjoy developing and participating in tech initiatives that improve processes and developer experience.
+  image: assets/images/mentors/48.jpeg
+  languages: English, Russian, French
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: No preferences here
+    areas:
+      - iOS
+      - Engineering management
+      - QA
+      - Security
+      - Frontend Developer
+    languages: Swift, Java
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow beyond senior level
+    extra: Resume Review; Mock Tech Interview; Software Development etc
+  network:
+    - linkedin: https://www.linkedin.com/in/lena-gordienko
+
+- name: Albina Gimaletdinova
+  hours: 4
+  position: Software Engineer, Yandex
+  type: Both
+  index: 49
+  location: Moscow
+  bio: |
+    Software engineer with 4+ years of experience in successfully developing and scaling projects in fintech and e-commerce that serve millions of users. Main areas of interest: Java, Kotlin, Database design.
+  image: assets/images/mentors/49.jpeg
+  languages: English, Russian
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Committed & eager to work
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - Fullstack Developer
+      - Data Engineering
+      - Project Management
+    languages: Java
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: General mentorship, Resume and portfolio review, Practice mock interviews
+  network:
+    - linkedin: https://www.linkedin.com/in/albina-gimaletdinova/
