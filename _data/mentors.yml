@@ -182,7 +182,7 @@
   index: 6
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
   bio: |
-    My journey started in 2009 when I started studying Computer Science in Madrid. In my first two roles, I worked as a Backend Engineer with Ruby and Java. 
+    My journey started in 2009 when I started studying Computer Science in Madrid. In my first two roles, I worked as a Backend Engineer with Ruby and Java.
     When I moved to the UK, I was determined to become a Fullstack Engineer, which led me to work with the design team, Javascript and mobile development.
     As I mainly worked in startups, I'm used to wearing many hats, the fast pace and lean development.
     To keep up with trends, I constantly seek tech and networking events.
@@ -672,7 +672,7 @@
     extra: System design, career development, learning resources, interview technique, CV review, goal setting.
   network:
     - linkedin: https://www.linkedin.com/in/tarahofton
-    
+
 - name: Tatiana Cramer
   hours: 4
   type: both
@@ -703,7 +703,7 @@
     extra: Project and team development, Resume review, career change or any open discussion
   network:
     - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
-    
+
 - name: Anushka Yadav
   hours: 0
   type: long-term
@@ -941,7 +941,7 @@
       - Grow from mid-level to senior-level
     extra: Software Development
   network:
-    - twitter: https://twitter.com/KarishmaNegi9 
+    - twitter: https://twitter.com/KarishmaNegi9
 
 - name: Sophia lan
   hours: 2
@@ -958,7 +958,7 @@
     mentee: Someone whose keen on progressing their career (building their own startup, progressing into leadership role)
     areas:
       -
-    languages: 
+    languages:
     focus:
       - Switch career to IT
     extra: Career progress, career advice, career coaching
@@ -1062,15 +1062,15 @@
     years: 7
     mentee: Someone who is open minded, open to learn, LGBTQ+ friendly, inexperienced is OK!
     areas:
-      - Machine Learning	
+      - Machine Learning
       - Fullstack Developer
-      - Data Science	
-      - Backend Developer	
+      - Data Science
+      - Backend Developer
       - Security
     languages: Python, JavaScript, Rust
     focus:
-      - Grow from beginner to mid-level	
-      - Switch career to IT 
+      - Grow from beginner to mid-level
+      - Switch career to IT
       - Change specialisation within IT
     extra: Anything they’d like to discuss! Here are some examples if they may be helpful; how to get into tech, how to climb up the ladder in tech, how to learn new languages / skills, how to leverage LLMs (chatGPT) to their advantage, guidance around starting and completing a personal hobby project that can lead to a job offer, culture in tech industry, setting boundaries in tech industry
   network:
@@ -1093,9 +1093,9 @@
       - Data Engineering
     languages: Python, C
     focus:
-      - Grow from beginner to mid-level	
-      - Switch career to IT	 
-      - Change specialisation within IT	
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
     extra: Software Development Strategies, Interview Prep and Resume Review
   network:
     - linkedin: https://www.linkedin.com/in/zarafshan-waheed-01928a160/
@@ -1177,7 +1177,7 @@
   index: 48
   location: London
   bio: |
-    I have 8 years of experience as an iOS engineer – as a product or a platform/core team member in product companies, including Flo Health and inDrive. 
+    I have 8 years of experience as an iOS engineer – as a product or a platform/core team member in product companies, including Flo Health and inDrive.
     <br> I enjoy developing and participating in tech initiatives that improve processes and developer experience.
   image: assets/images/mentors/48.jpeg
   languages: English, Russian, French
@@ -1256,7 +1256,8 @@
       - Grow from beginner to mid-level
       - Grow from mid-level to senior-level
       - Change specialisation within IT
-    extra: Resume Review, Preparation for the Interviews, Career development and job search in Germany, QA management: tools and process organization in the product company.
+    extra: |
+       Resume Review, Preparation for the Interviews, Career development and job search in Germany, QA management: tools and process organization in the product company.
   network:
     - linkedin: https://www.linkedin.com/in/qa-anastasia
 
