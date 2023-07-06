@@ -86,7 +86,7 @@
     - linkedin: https://www.linkedin.com/in/irina-kamalova/
 
 - name: Adriana Zencke Zimmermann
-  hours: 2
+  hours: 1
   bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
   position: Senior Software Engineer, Personio
   image: assets/images/mentors/3.jpeg
@@ -1232,3 +1232,83 @@
     extra: General mentorship, Resume and portfolio review, Practice mock interviews
   network:
     - linkedin: https://www.linkedin.com/in/albina-gimaletdinova/
+
+- name: Anastasia
+  hours: 5
+  position: QA Specialist and Mentor, Trivago
+  type: Both
+  index: 50
+  location: Düsseldorf, Germany
+  bio: ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
+  image: assets/images/mentors/50.jpeg
+  languages: English, Russian
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Sometimes you understand you need a change but need a veiw from another perspective, because we don't know what we don't know. I'm looking for a proactive individual, who wants a change, ready to apply, open to share and exchange.
+    areas:
+      - QA
+      - Project Management
+      - Product Management
+    languages: Java, Javascript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+    extra: "Resume Review, Preparation for the Interviews, Career development and job search in Germany, QA management: tools and process organization in the product company."
+  network:
+    - linkedin: https://www.linkedin.com/in/qa-anastasia
+
+- name: Ayliah Fani
+  hours: 4
+  position: Data Scientist, Rolls-Royce Plc.
+  type: ad-hoc
+  index: 51
+  location: London
+  bio: I specialise in Natural Language Processing. One of my favourite projects was information extraction from scientific papers so that industry was aware of novel research and could put it into practice.
+  image: assets/images/mentors/51.jpeg
+  languages: English
+  skills:
+    experience: 1-2 Years
+    years: 2
+    mentee: Anyone looking to enter data science, or jr. data scientist looking at how to navigate their progression
+    areas:
+      - Data Science
+      - Machine Learning
+      - Project Management
+      - Business Analysis
+      - Product Management
+    languages: Python
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    extra: Resume review, tech interview prep, machine learning workflow, specialisms in data science
+  network:
+    - linkedin: https://www.linkedin.com/in/ayliahfani
+
+- name: Bernardo Alecrim
+  hours: 2
+  position: Senior iOS Engineer, Revolut
+  type: ad-hoc
+  index: 52
+  location: Barcelona, Spain
+  bio: |
+    After starting my software development career at the Apple Developer Academy, I worked with high-performance teams on everything from advanced authentication systems to leading creative applications at companies like Filmr, CESAR, Banco Modal and Revolut; the apps I've developed have been featured multiple times as "App of The Day" and "App we Love" by Apple.
+    I am currently working alongside an incredibly talented team at Revolut on an amazing banking experience for our customers.
+  image: assets/images/mentors/52.jpeg
+  languages: English, Portuguese
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Either someone that needs to evolve their soft skills in order to progress their careers from a more junior position or someone that would like technical mentorship in iOS development.
+    areas:
+      - iOS
+    languages: Swift
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: Mobile application architecture, iOS development, Backend Swift development, Mock interviews
+  network:
+    - linkedin: https://www.linkedin.com/in/bernardoalecrim/
