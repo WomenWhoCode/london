@@ -1,7 +1,7 @@
 - name: Rajani Rao
   hours: 4
   type: both
-  index: 2
+  index: 1
   position: Principal Engineer, U-Blox Cambridge
   bio: |
     Rajani works for u-blox as a Principal Engineer, architecting and developing cutting edge IOT and security solutions for Positioning, Cellular and Wireless systems. As a certified AWS Solutions Architect, Rajani designs highly available, and scalable Serverless cloud services for U-Blox.<br>
@@ -36,7 +36,7 @@
   hours: 3
   position: QA Engineer, ReaQta, an IBM Company
   type: both
-  index: 1
+  index: 2
   location: Amsterdam, the Netherlands
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: assets/images/mentors/1.jpeg
@@ -60,7 +60,7 @@
 - name: Irina Kamalova
   hours: 2
   type: both
-  index: 7
+  index: 3
   position: Backend Software Engineer, Revolut
   bio: |
     Irina is a backend SWE at Revolut and the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. <br> Apart from being a strong developer and a good team player, in the last 2-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Director of community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than twice.
@@ -92,7 +92,7 @@
   image: assets/images/mentors/3.jpeg
   location: València, Spain
   type: ad-hoc
-  index: 3
+  index: 4
   languages: Portuguese, English
   skills:
     experience: 10-15 years
@@ -119,7 +119,7 @@
 - name: Aishwarya Nair
   hours: 1
   type: ad-hoc
-  index: 4
+  index: 5
   position: Data scientist, Trivago
   bio: An experienced Data Scientist who likes to develop business ideas into implementable solutions by leveraging the power of Technology. Professional with 5+ years of experience in NLP, Computer Vision and Recommender models. Motivated by the challenge of working in cross-functional teams and leading projects from beginning to end. Passionate about mentoring and inspiring young women in the field of STEM.
   image: assets/images/mentors/4.jpeg
@@ -149,7 +149,7 @@
 - name: Mr Andrew King
   hours: 0
   type: long-term
-  index: 5
+  index: 6
   position: SRE, Dojo
   bio: I have been mentoring for about 10 years now at all different levels.  I have good people skills and take active role in company development outside of engineering.  Currently an SRE, but 15 years as a back-end developer, various dev-ops roles has given me a wide range of technical experience.  30+ years in lots of firms have helped upskill my non-engineering skills.
   image: assets/images/mentors/5.jpeg
@@ -179,7 +179,7 @@
 - name: Sandy Chuchuca
   hours: 4
   type: both
-  index: 6
+  index: 7
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
   bio: |
     My journey started in 2009 when I started studying Computer Science in Madrid. In my first two roles, I worked as a Backend Engineer with Ruby and Java.
@@ -380,7 +380,7 @@
 - name: Jamica Ortiz
   hours: 2
   type: ad-hoc
-  index: 15
+  index: 14
   position: Senior Engineering Manager, Thought Machine
   bio: I'm an engineering leader with over 15 years experience in Software Engineering. I currently run a small engineering organisation of about 35 people building a critical component in Thought Machine's core product offering. I have mentored people in the WWC-London mentorship programme as well as in the Women's Engineering Society. I've been working in Fintech for the last 4 years
   image: assets/images/mentors/15.jpeg
@@ -408,7 +408,7 @@
 - name: Leo Parkes-Neptune
   hours: 2
   type: both
-  index: 16
+  index: 15
   position: Senior Software Engineer, MoonPay
   bio: Based in London, with a history of working in start ups, I’ve had my experience trying on different hats before settling in as a backend / data engineer. Currently at MoonPay I design and build streaming and batch pipelines as well as developer tools within the team. Also sitting within product teams to know the development lifecycle of a feature from concept to end-to-end testing. My strongest skills are in Python, Go, OO (Object Oriented) programming, TDD (test driven design), abstraction, writing clean and concise code and champion technical best practises. Mostly familiar with GCP and to a lesser extent AWS
   image: assets/images/mentors/16.png
@@ -434,7 +434,7 @@
 - name: Elizaveta Svitanko
   hours: 2
   type: ad-hoc
-  index: 17
+  index: 16
   position: Web engineer, Spotify
   bio:  I am Liza, an accomplished and experienced engineer with a diverse background. I have had the opportunity to work with some of the best companies such as Google, CERN, Cisco and Yandex. I have experience in both machine learning and frontend development, and I have a variety of interesting projects under my belt. I am versatile and have a wide range of skills and experience in different areas of engineering.
   image: assets/images/mentors/17.jpeg
@@ -460,7 +460,7 @@
 - name: Cherrelle Morales
   hours: 3
   type: both
-  index: 18
+  index: 17
   position: Senior Technical Consultant, Capita
   bio: I’m a Web Developer since 2012. A Front End Specialist. Currently employed by Capita. Been mentoring Juniors in and outside work, especially in WWC.
   image: assets/images/mentors/18.jpeg
@@ -484,7 +484,7 @@
 - name: Preeja Babu
   hours: 3
   type: ad-hoc
-  index: 19
+  index: 18
   position: Data Scientist, Keepflying
   bio: Competent Data Scientist capable of ensuring successful delivery of machine learning solutions and products for Multinational experience for the development and delivery of multi-tenant AI/ML solution. 5+ years research experience with 8+ publications, and time-critical completion of 4 machine learning projects in varies domain security, healthcare, machine translation and source code plagiarism detection.
   image: assets/images/mentors/19.jpeg
@@ -506,7 +506,7 @@
 - name: Seyoung Joo
   hours: 0
   type: long-term
-  index: 21
+  index: 19
   position: Frontend engineer, Fanduel
   bio: I was a photographer and changed my career 2years ago after I graduated coding bootcamp. I moved to London from South Korea and now working as a mid-level software engineer at Fanduel. I have 1 year and 8months experience. I love React, Javascript, HTML and CSS
   image: assets/images/mentors/21.jpeg
@@ -528,7 +528,7 @@
 - name: Ana Nogal
   hours: 2
   type: both
-  index: 22
+  index: 20
   position: Senior iOS Developer, Novoda
   bio: |
     I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture.
@@ -558,7 +558,7 @@
 - name: Natalia Gorchakova
   hours: 4
   type: both
-  index: 23
+  index: 21
   position: Staff Software Engineer, Google
   bio: I have around 15 years of experience in IT. From the very beginning I worked with Java. I have experience of being a team lead for Data Engineering team for 7 years (building the data lake on premis and AWS). I worked with Java, Scala (only for Spark) and Kotlin. Previous year I worked as an individual contributor in Revolut (Kotlin, backend)  and after that I joined Google (GCP area). I helped my team members to grow (juniors, mids, seniors up to technical specialists).
   image: assets/images/mentors/23.jpeg
@@ -588,7 +588,7 @@
 - name: Bryan Boreham
   hours: 4
   type: ad-hoc
-  index: 24
+  index: 22
   position: Distinguished Engineer, Grafana Labs
   bio: Keen to help people understand computer systems and achieve their potential. Broad and deep knowledge of cloud and distributed systems. 25 years at Principle Engineer level and above. Member of the Kubernetes and Prometheus projects.
   image: assets/images/mentors/24.jpeg
@@ -619,7 +619,7 @@
 - name: Bhawana Haritwal
   hours: 4
   type: both
-  index: 25
+  index: 23
   position: Senior Software Engineer
   bio: |
     Bhawana is a Senior DevOps Engineer who transitioned from QA. She loves automating manual repeatable tasks, using a plethora of tools and technologies. Bhawana has significant experience in both DevOps and QA practices and processes. Possessing a good understanding of the essentials of safety and quality.
@@ -647,7 +647,7 @@
 - name: Tara Hofton
   hours: 2
   type: both
-  index: 26
+  index: 24
   position: Engineering Manager, Elliptic
   bio: As a technology leader and engineering manager, I help cross-functional teams deliver products that businesses need, users love and the team is proud of. I enjoy working across multiple disciplines including software development, data science, DevOps, InfoSec, hiring, coaching and career development.
   image: assets/images/mentors/26.jpeg
@@ -676,7 +676,7 @@
 - name: Tatiana Cramer
   hours: 4
   type: both
-  index: 27
+  index: 25
   position: Lead MLOps engineer, Conundrum
   bio: |
     Ex-googler, now in an ml-startup that grew 5 times in people in a year. Saw it from corporate side as well as from enterpreneurial and small-scale side. Back in uni I struggled with seeing connection between pure theory and its applications. Now I see it, but forgot the theory. The biggest problems are not  technical ones, I believe; Communication is the key.
@@ -707,7 +707,7 @@
 - name: Anushka Yadav
   hours: 0
   type: long-term
-  index: 28
+  index: 26
   position: Machine Learning Associate, PWC
   bio: |
     I am currently a Machine learning Associate-2 at PwC.I have 2 years of applied machine learning expertise in the e-commerce space. My area of interest includes Machine Learning, Natural language Processing, Deep Learning, and Computer vision. I take a keen interest in exploring new technologies and solving problems. My strengths include my ability to learn things fast and gain expertise in them.
@@ -733,7 +733,7 @@
 - name: Hasan Diwan
   hours: 2
   type: ad-hoc
-  index: 29
+  index: 27
   position: Consultant, Samsung
   bio: Heading the pricing team at the San Francisco Federal Reserve for the General Motors IPO in 2010
   image: assets/images/mentors/29.png
@@ -764,7 +764,7 @@
 - name: Monal Sanghvi
   hours: 2
   type: both
-  index: 31
+  index: 28
   position: Senior Engineering Manager, Zoa
   bio: 12+ years of experience, building innovative products, leading technical teams in complex financial services environments and fast-paced SaaS startups. Deep expertise in web applications. Global mindset. I believe we have a lot to learn from each other in tech, regardless of seniority, and this is also what makes working in this industry so fun.
   image: assets/images/mentors/31.png
@@ -797,7 +797,7 @@
 - name: Iana Luntc
   hours: 0
   type: long-term
-  index: 33
+  index: 29
   position: SDET (Software developer in test), Apple
   bio: I’ve been working as Senior AQA for many years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
   image: assets/images/mentors/33.jpeg
@@ -823,7 +823,7 @@
 - name: Bomee Ryu
   hours: 3
   type: both
-  index: 34
+  index: 30
   position: Android Developer, Sky UK
   bio: I have been working as an Android developer for over 5 years. I am currently working at Sky UK. I've come to London from Seoul in late 2019. I would like to share my experience working with companies, from start-ups to big companies, from one to the other country. I am always very keen to learn new tech skills. (I can do Java but love Kotlin. and I am learning Flutter these days!) I would love to support and empower women who get into this industry through this mentorship programme.
   image: assets/images/mentors/34.jpeg
@@ -849,7 +849,7 @@
 - name: Bisi Josh-Falade
   hours: 4
   type: both
-  index: 35
+  index: 31
   position: Freelancer, Etidelar
   bio: I staretd out as a Business Analyst and grew organically within the Software Development Life cycle to head a Product Team. As a result, I have deep experience in technical specifications, requirements elicitation, quality assurance/testing and technical support. I have led project teams that built and deployed payment solutions and have helped others to scale their products.
   image: assets/images/mentors/35.png
@@ -873,7 +873,7 @@
 - name: Madhura Chaganty
   hours: 0
   type: long-term
-  index: 36
+  index: 32
   position: Team Lead, Paythru Ltd.
   bio: I am currently working as team lead in Paythru - EV Charging And Payments. I have been backend developer for more than 15 years, designing and implementing backend architecture. I am passionate about exploring new technologies. Recently I explored Hyperledger Fabric (v2.0) to get some hands-on experience in Blockchain.I would love to support someone who wants to get into backend development.
   image: assets/images/mentors/36.png
@@ -900,7 +900,7 @@
   hours: 2
   position: Software Engineer, Labstep
   type: both
-  index: 37
+  index: 33
   location: United Kingdom, London
   bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
   image: assets/images/mentors/37.jpeg
@@ -925,7 +925,7 @@
   hours: 2
   position: Frontend Developer, Loopline
   type: both
-  index: 38
+  index: 34
   location: Berlin
   bio: Have mentored many colleagues professionally
   image: assets/images/mentors/38.jpeg
@@ -947,7 +947,7 @@
   hours: 2
   position: CEO, WInvest
   type: both
-  index: 39
+  index: 35
   location: United Kingdom, London
   bio: I am an early stage tech founder with years of start up experience. I would like to support women in tech and bring more brilliant women into the tech scheme with my support and connection.
   image: assets/images/mentors/39.jpeg
@@ -969,7 +969,7 @@
   hours: 2
   position: Staff software engineer (Architect), Apple
   type: both
-  index: 40
+  index: 36
   location: United Kingdom, London
   bio: 17+ years of experience, worked for most of big tech companies, experience leading teams, designing complex distributed and low latency systems, driving projects in fast faced environments
   image: assets/images/mentors/40.jpeg
@@ -998,7 +998,7 @@
   hours: 5
   position: Front End Engineer, Prefect
   type: ad-hoc
-  index: 41
+  index: 37
   location: Sterling, VA, USA
   bio: I am a front end developer with 5 years of experience. I am a bootcamp grad, and went through it all from feeling like an impostor in the sphere I don't belong because I don't have a formal education in CS, to successfully leading and presenting my own projects. I am experienced in various JavaScript tools, frameworks and libraries (Vue, React, Node, D3 etc.) as well as HTML and multiple CSS frameworks and supersets.
   image: assets/images/mentors/41.jpg
@@ -1026,7 +1026,7 @@
   hours: 0
   position: Senior Business Analyst, Amazon
   type: long-term
-  index: 42
+  index: 38
   location: USA
   bio: I have 5 years of experience in the field of analytics with specialization in SQL, Amazon Redshift, Amazon s3, Glue, Data visualization and Modeling Tools like Quicksight, PowerBI, Tableau, Datastudio, Lucidchart. I enjoy making complex simple, data analytics is a powerful skill that helps me achieve that. I have worked in 4 different industries, consulting banking, insurance , retail to enable data driven decisions in Business Operations. I have an intermediate Python experience, as I continue to hone my skills I love sharing what I have learnt in my journey for better collaboration and support in community.
   image: assets/images/mentors/42.jpg
@@ -1052,7 +1052,7 @@
   hours: 4
   position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
   type: both
-  index: 43
+  index: 39
   location: London
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
   image: assets/images/mentors/43.jpg
@@ -1080,7 +1080,7 @@
   hours: 2
   position: Data Engineer, Netsol Pvt Ltd
   type: ad-hoc
-  index: 44
+  index: 40
   location: Pakistan
   bio: I have around 2 year of working experience with data engineering. I have been working in designing batch pipelines using spark. I have hands on working experience with AWS, Azure and Databricks. I was and Electrical Engineering graduate and due to my love for data and coding I switched to Data Engineering.
   image: assets/images/mentors/44.jpg
@@ -1104,7 +1104,7 @@
   hours: 3
   position: Senior Software Engineer, Isla
   type: both
-  index: 45
+  index: 41
   location: London
   bio: High performing software engineer with 7+ years of experience with strong focus on full-stack and front end development.
   image: assets/images/mentors/45.jpeg
@@ -1128,7 +1128,7 @@
   hours: 3
   position: Software Engineer, Amazon
   type: both
-  index: 46
+  index: 42
   location: London
   bio: My name is Atibhi Agrawal and I work at Amazon UK with Prime Video. I've been with Amazon for 6 months before which I worked at Twitter. I have a master's degree and have done internships at Google, Morgan Stanley, Grafana Labs and Open Source Organizations. I have experience in backend and DevOps technologies. I'm passionate about helping folks get into tech and progress in their career and have previously volunteered with Women Who Code India as well as opened a Lean In Chapter in my college.
   image: assets/images/mentors/46.jpeg
@@ -1151,7 +1151,7 @@
   hours: 5
   position: Software Development Engineer II, Amazon
   type: both
-  index: 47
+  index: 43
   location: London
   bio: I have almost 3 years of experience in the tech industry. I completed my undergraduate from IIT (ISM) Dhanbad in 2020. Since then I have worked with Microsoft and Google. I have experience in data engineering and backend. I'm extremely passionate about women in tech and I have volunteered for multiple events including GHC proposal reviewer. I have also mentored college students and helped resolve their doubts. I'm also proficient in Data Structures and Algorithms and can help students prep for it.
   image: assets/images/mentors/47.svg
@@ -1174,7 +1174,7 @@
   hours: 4
   position: iOS Engineer, Cuvva
   type: Both
-  index: 48
+  index: 44
   location: London
   bio: |
     I have 8 years of experience as an iOS engineer – as a product or a platform/core team member in product companies, including Flo Health and inDrive.
@@ -1206,7 +1206,7 @@
   hours: 4
   position: Software Engineer, Yandex
   type: Both
-  index: 49
+  index: 45
   location: Moscow
   bio: |
     Software engineer with 4+ years of experience in successfully developing and scaling projects in fintech and e-commerce that serve millions of users. Main areas of interest: Java, Kotlin, Database design.
@@ -1237,7 +1237,7 @@
   hours: 5
   position: QA Specialist and Mentor, Trivago
   type: Both
-  index: 50
+  index: 46
   location: Düsseldorf, Germany
   bio: ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/50.jpeg
@@ -1265,7 +1265,7 @@
   hours: 4
   position: Data Scientist, Rolls-Royce Plc.
   type: ad-hoc
-  index: 51
+  index: 47
   location: London
   bio: I specialise in Natural Language Processing. One of my favourite projects was information extraction from scientific papers so that industry was aware of novel research and could put it into practice.
   image: assets/images/mentors/51.jpeg
@@ -1293,7 +1293,7 @@
   hours: 2
   position: Senior iOS Engineer, Revolut
   type: ad-hoc
-  index: 52
+  index: 48
   location: Barcelona, Spain
   bio: |
     After starting my software development career at the Apple Developer Academy, I worked with high-performance teams on everything from advanced authentication systems to leading creative applications at companies like Filmr, CESAR, Banco Modal and Revolut; the apps I've developed have been featured multiple times as "App of The Day" and "App we Love" by Apple.
