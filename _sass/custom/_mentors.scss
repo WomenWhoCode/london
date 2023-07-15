@@ -127,6 +127,10 @@
             font-weight: $font-weight-bold !important;
             margin-bottom: 0;
         }
+        
+        + .btn{
+            margin-top: 10px;
+        }
     }
 
     .card-mentees span {
@@ -135,6 +139,18 @@
 
     .alert-info {
         border-color: $teal;
+    }
+
+    .content-overflow{
+        width: 100%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+
+    .show-content{
+        -webkit-line-clamp: revert;
     }
 }
 
