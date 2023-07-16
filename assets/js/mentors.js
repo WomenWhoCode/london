@@ -3,9 +3,19 @@ var controllerMentors = (function(jQuery) {
     var presentationButton = jQuery(".presentation");
     var menteesButton = jQuery(".mentees");
     var tooltip = jQuery('[data-toggle="tooltip"]');
+    const TOGGLE_BUTTON = jQuery('.toggle-content');
 
     var classActive = "active";
     var classHide = "d-none";
+    const TOGGLE_CONTENT = "content-overflow"; 
+
+    var classActive = "active";
+    var classHide = "d-none";
+
+    const CONTENT = {
+        'SHOW_MORE': 'Show more',
+        'SHOW_LESS': 'Show Less'
+    }
 
     var showPresentation = function(index) {
         jQuery("#bt-p-"+index).addClass(classActive);
@@ -36,11 +46,20 @@ var controllerMentors = (function(jQuery) {
         jQuery("#presentation-"+index).addClass(classHide);
         jQuery("#skills-"+index).addClass(classHide);
     }
+    // Toggle Bio
+    const toggleContentSection = () => {
+        TOGGLE_BUTTON.click(function(){
+            $(this).prev().toggleClass(TOGGLE_CONTENT);
+            $(this).text(CONTENT.SHOW_MORE ? CONTENT.SHOW_LESS : CONTENT.SHOW_MORE)
+        })
+    }
+
 
     var init = function() {
         initEvents();
         showPresentation();
         tooltip.tooltip();
+        toggleContentSection();
     };
 
     var initEvents = function() {
