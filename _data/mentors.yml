@@ -1102,11 +1102,11 @@
 
 - name: Jenny Johnson
   hours: 3
-  position: Senior Software Engineer, Isla
+  position: Senior Software Engineer, Islacare
   type: both
   index: 41
   location: London
-  bio: High performing software engineer with 7+ years of experience with strong focus on full-stack and front end development.
+  bio: I have 7+ years of software development experience across start-ups, corporates, and non-profits. I currently work at Islacare, a healthcare startup, with primary focus on front-end development. I career switched into software development and now have been working longer in this field than anything else. I am passionate about diversifying STEM and helping people transition into tech.
   image: assets/images/mentors/45.jpeg
   languages: English
   skills:
