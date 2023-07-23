@@ -1,64 +1,52 @@
 var controllerMentors = (function(jQuery) {
-    var skillsButton = jQuery(".skills");
-    var presentationButton = jQuery(".presentation");
-    var menteesButton = jQuery(".mentees");
+    var skillsButton = jQuery('.skills');
+    var presentationButton = jQuery('.presentation');
+    var menteesButton = jQuery('.mentees');
     var tooltip = jQuery('[data-toggle="tooltip"]');
-    const TOGGLE_BUTTON = jQuery('.toggle-content');
+    var toggleContent = jQuery('.toggle-content');
 
-    var classActive = "active";
-    var classHide = "d-none";
-    const TOGGLE_CONTENT = "content-overflow"; 
-
-    var classActive = "active";
-    var classHide = "d-none";
-
+    const CLASS_ACTIVE = 'active';
+    const CLASS_HIDDEN = 'd-none';
+    const TOGGLE_CONTENT = 'content-overflow';
     const CONTENT = {
         'SHOW_MORE': 'Show more',
         'SHOW_LESS': 'Show less'
     }
 
     var showPresentation = function(index) {
-        jQuery("#bt-p-"+index).addClass(classActive);
-        jQuery("#bt-s-"+index).removeClass(classActive);
-        jQuery("#bt-m-"+index).removeClass(classActive);
+        jQuery("#bt-p-"+index).addClass(CLASS_ACTIVE);
+        jQuery("#bt-s-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-m-"+index).removeClass(CLASS_ACTIVE);
 
-        jQuery("#presentation-"+index).removeClass(classHide);
-        jQuery("#skills-"+index).addClass(classHide);
-        jQuery("#mentees-"+index).addClass(classHide);
+        jQuery("#presentation-"+index).removeClass(CLASS_HIDDEN);
+        jQuery("#skills-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);
     }
 
     var showSkills = function(index) {
-        jQuery("#bt-s-"+index).addClass(classActive);
-        jQuery("#bt-p-"+index).removeClass(classActive);
-        jQuery("#bt-m-"+index).removeClass(classActive);
-        
-        jQuery("#presentation-"+index).addClass(classHide);
-        jQuery("#mentees-"+index).addClass(classHide);
-        jQuery("#skills-"+index).removeClass(classHide);
+        jQuery("#bt-s-"+index).addClass(CLASS_ACTIVE);
+        jQuery("#bt-p-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-m-"+index).removeClass(CLASS_ACTIVE);
+
+        jQuery("#presentation-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#skills-"+index).removeClass(CLASS_HIDDEN);
     }
 
     var showMenteesData = function(index) {
-        jQuery("#bt-m-"+index).addClass(classActive);
-        jQuery("#bt-p-"+index).removeClass(classActive);
-        jQuery("#bt-s-"+index).removeClass(classActive);
+        jQuery("#bt-m-"+index).addClass(CLASS_ACTIVE);
+        jQuery("#bt-p-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-s-"+index).removeClass(CLASS_ACTIVE);
 
-        jQuery("#mentees-"+index).removeClass(classHide);
-        jQuery("#presentation-"+index).addClass(classHide);
-        jQuery("#skills-"+index).addClass(classHide);
+        jQuery("#mentees-"+index).removeClass(CLASS_HIDDEN);
+        jQuery("#presentation-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#skills-"+index).addClass(CLASS_HIDDEN);
     }
-    const toggleBioSection = () => {
-        TOGGLE_BUTTON.click(function(){
-            $(this).prev().toggleClass(TOGGLE_CONTENT);
-            $(this).text(CONTENT.SHOW_MORE ? CONTENT.SHOW_LESS : CONTENT.SHOW_MORE)
-        })
-    }
-
 
     var init = function() {
         initEvents();
         showPresentation();
         tooltip.tooltip();
-        toggleBioSection();
     };
 
     var initEvents = function() {
@@ -72,6 +60,16 @@ var controllerMentors = (function(jQuery) {
 
         menteesButton.click(function() {
             showMenteesData(jQuery(this).data('index'));
+        });
+
+        toggleContent.click(function() {
+            jQuery(this).prev().toggleClass(TOGGLE_CONTENT);
+
+            if (jQuery(this).text() === CONTENT.SHOW_MORE) {
+              jQuery(this).text(CONTENT.SHOW_LESS);
+            } else {
+              jQuery(this).text(CONTENT.SHOW_MORE);
+            }
         });
     };
 
