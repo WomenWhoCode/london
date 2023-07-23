@@ -46,7 +46,7 @@ var controllerMentors = (function(jQuery) {
         jQuery("#presentation-"+index).addClass(classHide);
         jQuery("#skills-"+index).addClass(classHide);
     }
-    const toggleContentSection = () => {
+    const toggleBioSection = () => {
         TOGGLE_BUTTON.click(function(){
             $(this).prev().toggleClass(TOGGLE_CONTENT);
             $(this).text(CONTENT.SHOW_MORE ? CONTENT.SHOW_LESS : CONTENT.SHOW_MORE)
@@ -58,7 +58,7 @@ var controllerMentors = (function(jQuery) {
         initEvents();
         showPresentation();
         tooltip.tooltip();
-        toggleContentSection();
+        toggleBioSection();
     };
 
     var initEvents = function() {
