@@ -141,7 +141,7 @@
         border-color: $teal;
     }
 
-    .content-overflow{
+    .content-overflow {
         width: 100%;
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -149,7 +149,7 @@
         overflow: hidden;
     }
 
-    .show-content{
+    .show-content {
         -webkit-line-clamp: revert;
     }
 }
