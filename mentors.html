@@ -39,7 +39,7 @@ title: Mentors
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <h4 class="card-title">
                             {{mentor.name}}
                         </h4>
@@ -47,17 +47,17 @@ title: Mentors
                             <h5 class="position">{{mentor.position}}</h5>
                             <p class="card-text"><label>Based in</label>: {{mentor.location}}</p>
                             <p class="card-text justify-text content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
-                            <button class="btn btn-primary toggle-content">Show More</button>
+                            <button class="btn btn-primary toggle-content">Show more</button>
                         </div>
-                        
+
                         <div id="skills-{{mentor.index}}" class="card-skills d-none">
                             <p class="card-text"><label>Tech Experience</label>: {{mentor.skills.experience}}</p>
                             <p class="card-text"><label>Language(s)</label>: {{mentor.languages}}</p>
-                            
+
                             {% if mentor.skills.languages %}
                                 <p class="card-text"><label>Programming languages</label>: {{mentor.skills.languages}}</p>
                             {% endif %}
-                            
+
                             <p class="network">
                                 {% for network in mentor.network %}
                                     {% if network.linkedin %}
@@ -87,12 +87,12 @@ title: Mentors
                                     {% endif %}
                                 {% endfor %}
                             </p>
-                            
+
                         </div>
 
                         <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
                             <p class="card-text" data-toggle="tooltip" data-html="true" title="<b>Ad-Hoc:</b> request a session when necessary. <br><b>Long term relationship:</b> at least one mentoring program cycle.">
-                                <label>Type of mentoring</label>:  
+                                <label>Type of mentoring</label>:
                                 {% if mentor.type == 'both' %}
                                     Long term relationship and Ad-Hoc
                                 {% else %}
@@ -102,12 +102,12 @@ title: Mentors
                             </p>
                             <p class="card-text justify-text"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
                             <p class="card-text">
-                                <label>Areas to support the mentee</label>: 
+                                <label>Areas to support the mentee</label>:
                                 <ul>
-                                    {% for area in mentor.skills.areas %} 
+                                    {% for area in mentor.skills.areas %}
                                         <li>{{area}}</li>
                                     {% endfor %}
-                                    {% for focus in mentor.skills.focus %} 
+                                    {% for focus in mentor.skills.focus %}
                                         <li>{{focus}}</li>
                                     {% endfor %}
                                 </ul>
@@ -121,13 +121,13 @@ title: Mentors
             </div>
             <input type="hidden" name="index" value="{{mentor.index}}">
             <input type="hidden" name="exp" value="{{mentor.skills.years}}">
-            <input type="hidden" name="mentor-data" 
-                value="{{mentor.name | downcase}} 
-                    {{mentor.bio | normalize_whitespace | downcase}} 
+            <input type="hidden" name="mentor-data"
+                value="{{mentor.name | downcase}}
+                    {{mentor.bio | normalize_whitespace | downcase}}
                     {% if mentor.type == 'both' %}long-term and ad-hoc {% else %}{{mentor.type | downcase}}{% endif %}
-                    {{mentor.skills.languages | downcase}} 
-                    {{mentor.skills.extra | normalize_whitespace | downcase}} 
-                    {{mentor.skills.focus | array_to_sentence_string | downcase}} 
+                    {{mentor.skills.languages | downcase}}
+                    {{mentor.skills.extra | normalize_whitespace | downcase}}
+                    {{mentor.skills.focus | array_to_sentence_string | downcase}}
                     {{mentor.skills.areas | array_to_sentence_string | downcase}}">
         </div>
     {% endfor %}

@@ -127,7 +127,7 @@
             font-weight: $font-weight-bold !important;
             margin-bottom: 0;
         }
-        
+
         + .btn {
             margin-top: 10px;
         }
@@ -145,12 +145,33 @@
         width: 100%;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
         overflow: hidden;
     }
 
     .show-content {
         -webkit-line-clamp: revert;
+    }
+
+    .card-presentation {
+
+      .btn-primary {
+        padding: 0!important;
+        background-color: $white !important;
+        font-size: $font-size-sm;
+
+        &:focus {
+          border-color: $white !important;
+        }
+
+        &:hover {
+          background-color: $white !important;
+          color: $teal !important;
+          text-decoration: underline !important;
+
+          cursor: pointer !important;
+        }
+      }
     }
 }
 
