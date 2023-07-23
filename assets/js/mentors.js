@@ -14,7 +14,7 @@ var controllerMentors = (function(jQuery) {
 
     const CONTENT = {
         'SHOW_MORE': 'Show more',
-        'SHOW_LESS': 'Show Less'
+        'SHOW_LESS': 'Show less'
     }
 
     var showPresentation = function(index) {
