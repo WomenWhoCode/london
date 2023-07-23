@@ -46,7 +46,6 @@ var controllerMentors = (function(jQuery) {
         jQuery("#presentation-"+index).addClass(classHide);
         jQuery("#skills-"+index).addClass(classHide);
     }
-    // Toggle Bio
     const toggleContentSection = () => {
         TOGGLE_BUTTON.click(function(){
             $(this).prev().toggleClass(TOGGLE_CONTENT);
