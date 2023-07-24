@@ -1313,3 +1313,28 @@
     extra: Mobile application architecture, iOS development, Backend Swift development, Mock interviews
   network:
     - linkedin: https://www.linkedin.com/in/bernardoalecrim/
+
+- name: Sonali Goel
+  hours: 3
+  position: Senior Developer, Yoox-Net-A-Porter
+  type: ad-hoc
+  index: 49
+  location: London, Uk
+  bio: An accomplished technical lead with over a decade of experience in the technology field have successfully led global teams in various capacities. Worked as a consultant in the past and currently working as a senior SME for a luxury online fashion brand, have excelled in designing and implementing scalable applications. Always keen to learn something new and ready to take up challenges.
+  image: assets/images/mentors/53.jpeg
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: New to tech or someone who needs some guidance about tech world or someone needs to grow
+    areas:
+      - Backend Developer
+      - Engineering management
+      - DevOps
+    languages: Java, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: Software Development Processes and Overview, Guidance on how to prepare for Interviews, BDD and TDD approach to development. AWS solution guidance/path for study or certifications.
+  network:
+    - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
