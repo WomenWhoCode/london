@@ -1338,3 +1338,41 @@
     extra: Software Development Processes and Overview, Guidance on how to prepare for Interviews, BDD and TDD approach to development. AWS solution guidance/path for study or certifications.
   network:
     - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
+
+
+- name: Dima Mikhailovich
+  hours: 3
+  position: CTO & Co-founder, Konstructly Ltd
+  type: long-term
+  index: 50
+  location: London, UK
+  bio: |
+    Since 2022 CTO & Co-founder Konstructly
+    <br> VP Software Engineer JP Morgan Chase
+    <br> Backend Engineer and Technical Product Owner Revolut
+    <br> Backend Engineer and Team leader Bostongene
+
+    <br>
+    Before that Educational experience and physics and math teacher or tutor
+  image: assets/images/mentors/54.jpg
+  languages: English, Russian
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: a mentee with a strong will
+    areas:
+      - Backend Developer
+      - Engineering management
+      - Project Management
+      - Product Management
+      - Data Engineering
+    languages: Kotlin, Java, C++
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow beyond senior level
+      - Switch career to IT
+    extra: Software development strategies, Technical Task prioritisation, Domain Driven Development
+  network:
+    - twitter: https://twitter.com/dmitryvim
