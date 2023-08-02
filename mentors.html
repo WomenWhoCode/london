@@ -46,8 +46,8 @@ title: Mentors
                         <div id="presentation-{{mentor.index}}" class="card-presentation">
                             <h5 class="position">{{mentor.position}}</h5>
                             <p class="card-text"><label>Based in</label>: {{mentor.location}}</p>
-                            <p class="card-text justify-text content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
-                            <button class="btn btn-primary toggle-content">Show more</button>
+                            <p id="card-text-{{mentor.index}}" class="card-text justify-text content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
+                            <button id="btn-show-more-{{mentor.index}}" class="btn btn-primary toggle-content">Show more</button>
                         </div>
 
                         <div id="skills-{{mentor.index}}" class="card-skills d-none">
