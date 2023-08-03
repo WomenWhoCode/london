@@ -23,11 +23,16 @@ var controllerMentors = (function(jQuery) {
         jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);   
         
         jQuery('.card-presentation')
-        .each( function(index) {
-            if(jQuery('#card-text-'+index).prop("scrollHeight") <= jQuery('#card-text-'+index).prop("clientHeight")){
-                jQuery('#btn-show-more-'+index).addClass(CLASS_HIDDEN); 
+        .each( 
+            function(index) {
+                let cardHeight = jQuery('#card-text-'+index).prop('scrollHeight');
+                let clientHeight = jQuery('#card-text-'+index).prop('clientHeight');
+
+                if(cardHeight <= clientHeight) {
+                    jQuery('#btn-show-more-'+index).addClass(CLASS_HIDDEN); 
+                }
             }
-        });
+        );
     }
 
     var showSkills = function(index) {
