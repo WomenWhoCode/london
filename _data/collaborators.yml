@@ -1,7 +1,72 @@
+- name: Eleonora Belova
+  index: 1
+  position: Lead
+  program: Mentortship
+  image: assets/images/mentors/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser
+
+- name: Adriana Zimmermann
+  index: 2
+  position: Director
+  program: Mentortship
+  image: assets/images/mentors/3.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/dricazenck/
+    - name: github
+      link: https://github.com/dricazenck
+
+- name: Marina Aguiar
+  index: 3
+  position: Lead
+  program: Mentortship
+  image: assets/images/team/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/marina-aguiar/
+    - name: github
+      link: https://github.com/marinaaguiar
+
+- name: Elena Fedorova
+  index: 4
+  position: Evangelist
+  program: Mentortship
+  image: assets/images/team/2.png
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
+
+- name: Naureen Imran
+  index: 4
+  image: assets/images/collaborators/3.png
+  position: Volunteer
+  program: Mentortship
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/naureen-imran-744932227/
+    - name: github
+      link: https://github.com/goldfishdolphin
+
+- name: Idayat Sanni
+  index: 5
+  image: assets/images/collaborators/6.jpeg
+  position: Volunteer
+  program: Mentortship
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
+    - name: github
+      link: https://github.com/IdayatSanni
+
 - name: Lily Nguyen
+  index: 6
   image: assets/images/collaborators/1.jpeg
-  position: UX/UI Engineer
-  comment: Website Collaborator
+  position: Volunteer
+  program: Mentortship
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/lilynguyendk/
@@ -9,9 +74,10 @@
       link: https://github.com/lilyndk
 
 - name: Sumeyya Javaid
+  index: 7
   image: assets/images/collaborators/2.jpeg
-  position: Full-stack Developer
-  comment: Website Collaborator
+  position: Volunteer
+  program: Mentortship
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/sumeyya-javaid/
@@ -20,20 +86,11 @@
     - name: github
       link: https://github.com/j4sum
 
-- name: Naureen Imran
-  image: assets/images/collaborators/3.png
-  position: Full-stack Developer
-  comment: Website Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/naureen-imran-744932227/
-    - name: github
-      link: https://github.com/goldfishdolphin
-
 - name: Ying Tung (Sharon) Lau
+  index: 8
   image: assets/images/collaborators/4.jpeg
-  position: Front-end Developer
-  comment: Website Collaborator
+  position: Volunteer
+  program: Mentortship
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/yingtunglau/
@@ -43,9 +100,10 @@
       link: https://blog.sharonytlau.xyz/
 
 - name: Sandy Chuchuca
+  index: 9
   image: assets/images/mentors/6.jpeg
-  position: Senior Software Engineer
-  comment: Website Collaborator
+  position: Volunteer
+  program: Mentortship
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/sandy-chuchuca-ordonez/
@@ -53,29 +111,20 @@
       link: https://github.com/sandycho
 
 - name: Yuqing Wang
+  index: 10
   image: assets/images/collaborators/5.png
-  position: Full-stack Developer
-  comment: Website Collaborator
+  position: Volunteer
+  program: Mentortship
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/yuqingwang42/
     - name: github
       link: https://github.com/yuqingwang98
 
-- name: Idayat Sanni
-  image: assets/images/collaborators/6.jpeg
-  position: Front-end Developer
-  comment: Website Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
-    - name: github
-      link: https://github.com/IdayatSanni
-
 - name: Rossella Ferrandino
   image: assets/images/collaborators/7.jpeg
-  position: Front-end Developer
-  comment: Website Collaborator
+  position: Volunteer
+  program: Mentortship
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/rossella-ferrandino-67601226/

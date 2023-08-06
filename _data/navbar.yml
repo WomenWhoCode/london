@@ -4,12 +4,11 @@
 - name: Mentors
   link: mentors
   index: 1
-- name: Resources
-  link: resources
+- name: Mentorship
   index: 2
-- name: How it works
-  index: 3
   subfolderitems:
+      - page: Resources
+        url: resources
       - page: LONG-TERM TIMELINE
         url: timeline
       - page: AD-HOC TIMELINE
@@ -20,6 +19,6 @@
         url: code-of-conduct
       - page: FAQ
         url: faq
-- name: Team
+- name: People
   link: team
-  index: 4
+  index: 3

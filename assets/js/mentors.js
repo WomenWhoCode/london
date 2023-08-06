@@ -20,19 +20,16 @@ var controllerMentors = (function(jQuery) {
 
         jQuery("#presentation-"+index).removeClass(CLASS_HIDDEN);
         jQuery("#skills-"+index).addClass(CLASS_HIDDEN);
-        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);   
-        
-        jQuery('.card-presentation')
-        .each( 
-            function(index) {
-                let cardHeight = jQuery('#card-text-'+index).prop('scrollHeight');
-                let clientHeight = jQuery('#card-text-'+index).prop('clientHeight');
+        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);
 
-                if(cardHeight <= clientHeight) {
-                    jQuery('#btn-show-more-'+index).addClass(CLASS_HIDDEN); 
-                }
+        jQuery('.card-presentation').each(function(index) {
+            let cardHeight = jQuery('#card-text-'+index).prop('scrollHeight');
+            let clientHeight = jQuery('#card-text-'+index).prop('clientHeight');
+
+            if (cardHeight <= clientHeight) {
+                jQuery('#btn-show-more-'+index).addClass(CLASS_HIDDEN);
             }
-        );
+        });
     }
 
     var showSkills = function(index) {
@@ -74,7 +71,7 @@ var controllerMentors = (function(jQuery) {
             showMenteesData(jQuery(this).data('index'));
         });
 
-        toggleContent.click(function() {            
+        toggleContent.click(function() {
             jQuery(this).prev().toggleClass(TOGGLE_CONTENT);
 
             if (jQuery(this).text() === CONTENT.SHOW_MORE) {

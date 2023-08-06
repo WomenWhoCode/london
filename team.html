@@ -1,71 +1,27 @@
 ---
 layout: default
-title: Team
+title: People
 ---
-
 <div class="container team">
-    <div class="section">
-        <h1>Meet our core team</h1>
-
-        <div class="row g-3">
-            {% for person in site.data.team %}
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">{{person.name}}</h5>
-                        <p class="card-text">{{person.position}}</small></p>
-                        <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
-                        <span class="network">
-                            {% for network in person.network %}
-                                {% if network.name=="linkedin" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="twitter" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="medium" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="github" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                                {% endif %}
-                            {% endfor %}
-                        </span>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-
     <div class="section contributors">
-        <h2>Contributors</h2>
+        <h2>People</h2>
         <div class="row g-3">
-            {% for person in site.data.collaborators %}
+            {% for colaborator in site.data.collaborators %}
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="contributors card">
-                    <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">{{person.name}}</h5>
-                        <p class="card-text">{{person.position}}</p>
-                        <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
-                        <span class="network">
-                            {% for network in person.network %}
-                                {% if network.name=="linkedin" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="twitter" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="medium" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="github" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                                {% endif %}
-                            {% endfor %}
-                        </span>
+                <div class="contributors card" data-index="{{colaborator.index}}">
+                    <img src="{{colaborator.image}}" alt="profile photo" class="profile photo card-img-top">
+                    <div id="colaborator-{{colaborator.index}}" class="card-body d-none">
+                        <h5 class="card-title">
+                          <span class="network">
+                              {% for network in colaborator.network %}
+                                  {% if network.name=="linkedin" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                                  {% endif %}
+                              {% endfor %}
+                          </span>
+                          {{colaborator.name}}
+                        </h5>
+                        <p class="card-text">{{colaborator.position}}</p>
                     </div>
                 </div>
             </div>
@@ -74,10 +30,10 @@ title: Team
     </div>
 
     <div class="section">
-        <h2>Feel free to join us as a contributor!</h2>
-
+        <h3>Want to make a difference? Collaborate with us!</h3>
+        <p>If you are interested fill the form below and we will get in touch with you. We look for colaborator who could help organize events, find speakers, moderate talks and many other activities.</p>
         <p class="mt-4 d-flex justify-content-center">
-            <a href="https://github.com/WomenWhoCode/london#contributing" target="_blank" class="btn btn-primary">click here to learn more</a>
+            <a href="https://wwcode.typeform.com/volunteer" target="_blank" class="btn btn-primary">Become a volunteer</a>
         </p>
     </div>
 </div>
