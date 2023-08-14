@@ -9,7 +9,7 @@ title: Team
             {% for colaborator in site.data.collaborators %}
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="contributors card" data-index="{{colaborator.index}}">
-                    <img src="{{colaborator.image}}" alt="profile photo" class="profile photo card-img-top">
+                    <img src="{{colaborator.image}}" alt="{{colaborator.name}}" class="profile photo card-img-top">
                     <div id="colaborator-{{colaborator.index}}" class="card-body d-none">
                         <h5 class="card-title">
                           <span class="network">
