@@ -11,7 +11,7 @@
   image: assets/images/mentors/2.jpeg
   location: Cambridge, UK
   languages: English
-  availablility: "2023-08-25"
+  availability: "2023-08-25"
   skills:
     experience: 16+ years
     years: 16
@@ -42,7 +42,7 @@
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: assets/images/mentors/1.jpeg
   languages: English
-  availablility: "2023-09-25"
+  availability: "2023-09-25"
   skills:
     experience: 2-4 years
     years: 4
@@ -1159,7 +1159,7 @@
   bio: I have almost 3 years of experience in the tech industry. I completed my undergraduate from IIT (ISM) Dhanbad in 2020. Since then I have worked with Microsoft and Google. I have experience in data engineering and backend. I'm extremely passionate about women in tech and I have volunteered for multiple events including GHC proposal reviewer. I have also mentored college students and helped resolve their doubts. I'm also proficient in Data Structures and Algorithms and can help students prep for it.
   image: assets/images/mentors/47.svg
   languages: English
-  availablility: "2023-08-25"
+  availability: "2023-08-25"
   skills:
     experience: 2-4 Years
     years: 4
@@ -1246,7 +1246,7 @@
   bio: ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/50.jpeg
   languages: English, Ukrainian, Russian
-  availablility: "2023-08-25"
+  availability: "2023-08-25"
   skills:
     experience: 7-10 Years
     years: 10
