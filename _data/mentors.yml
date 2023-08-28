@@ -11,6 +11,9 @@
   image: assets/images/mentors/2.jpeg
   location: Cambridge, UK
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ years
     years: 16
@@ -41,6 +44,9 @@
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: assets/images/mentors/1.jpeg
   languages: English
+  availability:
+    september: false
+    october: true
   skills:
     experience: 2-4 years
     years: 4
@@ -68,6 +74,9 @@
   image: assets/images/mentors/7.jpeg
   location: London, United Kingdom
   languages: English, Russian
+  availability:
+    september: true
+    october: true
   skills:
     experience: 5-7 years
     years: 7
@@ -94,6 +103,9 @@
   type: ad-hoc
   index: 4
   languages: Portuguese, English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 10-15 years
     years: 15
@@ -125,6 +137,9 @@
   image: assets/images/mentors/4.jpeg
   location: Germany
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 5-7 years
     years: 7
@@ -189,6 +204,9 @@
   image: assets/images/mentors/6.jpeg
   location: London, UK
   languages: English, Spanish
+  availability:
+    september: false
+    october: false
   skills:
     experience: 7-10 years
     years: 10
@@ -220,6 +238,9 @@
   image: assets/images/mentors/8.jpeg
   location: Turkey
   languages: English, Turkish
+  availability:
+    september: false
+    october: false
   skills:
     experience: 1-2 years
     years: 2
@@ -246,6 +267,9 @@
   image: assets/images/mentors/9.jpeg
   location: London
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 4-5 years
     years: 5
@@ -274,6 +298,9 @@
   image: assets/images/mentors/10.jpeg
   location: London
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 4-5 years
     years: 5
@@ -305,6 +332,9 @@
   image: assets/images/mentors/11.jpeg
   location: London
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 7-10 years
     years: 10
@@ -334,6 +364,9 @@
   image: assets/images/mentors/12.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ Years
     years: 16
@@ -358,6 +391,9 @@
   image: assets/images/mentors/13.jpeg
   location: Düsseldorf, Germany
   languages: English, Portuguese
+  availability:
+    september: false
+    october: false
   skills:
     experience: 4-5 Years
     years: 5
@@ -386,6 +422,9 @@
   image: assets/images/mentors/15.jpeg
   location: London, UK
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 10-15 Years
     years: 15
@@ -414,6 +453,9 @@
   image: assets/images/mentors/16.png
   location: London, UK
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 2-4 Years
     years: 4
@@ -440,6 +482,9 @@
   image: assets/images/mentors/17.jpeg
   location: London, UK
   languages: English, Russian
+  availability:
+    september: false
+    october: false
   skills:
     experience: 5-7 Years
     years: 7
@@ -466,6 +511,9 @@
   image: assets/images/mentors/18.jpeg
   location: Newcastle Upon Tyne, UK
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 10-15 Years
     years: 15
@@ -490,6 +538,9 @@
   image: assets/images/mentors/19.jpeg
   location: Paris
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 4-5 Years
     years: 5
@@ -536,6 +587,9 @@
   image: assets/images/mentors/22.jpeg
   location: Barcelona, Spain
   languages: English, Spanish, Portuguese
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ Years
     years: 16
@@ -564,6 +618,9 @@
   image: assets/images/mentors/23.jpeg
   location: Poland, Krakow
   languages: English, Russian
+  availability:
+    september: false
+    october: false
   skills:
     experience: 10-15 Years
     years: 15
@@ -594,6 +651,9 @@
   image: assets/images/mentors/24.jpeg
   location: London, UK
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ Years
     years: 16
@@ -627,6 +687,9 @@
   image: assets/images/mentors/25.jpeg
   location: London, UK
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 7-10 years
     years: 10
@@ -653,6 +716,9 @@
   image: assets/images/mentors/26.jpeg
   location: St Albans & London, UK
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ Years
     years: 16
@@ -683,6 +749,9 @@
   image: assets/images/mentors/27.jpeg
   location: London, UK
   languages: English, Russian, French
+  availability:
+    september: false
+    october: true
   skills:
     experience: 7-10 years
     years: 10
@@ -739,6 +808,9 @@
   image: assets/images/mentors/29.png
   location: San Francisco, USA
   languages: English, French
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ years
     years: 16
@@ -770,6 +842,9 @@
   image: assets/images/mentors/31.png
   location: London, UK
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 10-15 years
     years: 15
@@ -829,6 +904,9 @@
   image: assets/images/mentors/34.jpeg
   location: London, UK
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 4-5 Years
     years: 5
@@ -855,6 +933,9 @@
   image: assets/images/mentors/35.png
   location: Lagos, Nigeria
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 10-15 Years
     years: 15
@@ -905,6 +986,9 @@
   bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
   image: assets/images/mentors/37.jpeg
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 2-4 years
     years: 4
@@ -930,6 +1014,9 @@
   bio: Have mentored many colleagues professionally
   image: assets/images/mentors/38.jpeg
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 5-7 Years
     years: 7
@@ -952,6 +1039,9 @@
   bio: I am an early stage tech founder with years of start up experience. I would like to support women in tech and bring more brilliant women into the tech scheme with my support and connection.
   image: assets/images/mentors/39.jpeg
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 1-2 Years
     years: 2
@@ -974,6 +1064,9 @@
   bio: 17+ years of experience, worked for most of big tech companies, experience leading teams, designing complex distributed and low latency systems, driving projects in fast faced environments
   image: assets/images/mentors/40.jpeg
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 16+ Years
     years: 16
@@ -1003,6 +1096,9 @@
   bio: I am a front end developer with 5 years of experience. I am a bootcamp grad, and went through it all from feeling like an impostor in the sphere I don't belong because I don't have a formal education in CS, to successfully leading and presenting my own projects. I am experienced in various JavaScript tools, frameworks and libraries (Vue, React, Node, D3 etc.) as well as HTML and multiple CSS frameworks and supersets.
   image: assets/images/mentors/41.jpg
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 4+ Years
     years: 4
@@ -1057,6 +1153,9 @@
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
   image: assets/images/mentors/43.jpg
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 5-7 Years
     years: 7
@@ -1085,6 +1184,9 @@
   bio: I have around 2 year of working experience with data engineering. I have been working in designing batch pipelines using spark. I have hands on working experience with AWS, Azure and Databricks. I was and Electrical Engineering graduate and due to my love for data and coding I switched to Data Engineering.
   image: assets/images/mentors/44.jpg
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 1-2 Years
     years: 2
@@ -1109,6 +1211,9 @@
   bio: I have 7+ years of software development experience across start-ups, corporates, and non-profits. I currently work at Islacare, a healthcare startup, with primary focus on front-end development. I career switched into software development and now have been working longer in this field than anything else. I am passionate about diversifying STEM and helping people transition into tech.
   image: assets/images/mentors/45.jpeg
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 7-10 Years
     years: 10
@@ -1133,6 +1238,9 @@
   bio: My name is Atibhi Agrawal and I work at Amazon UK with Prime Video. I've been with Amazon for 6 months before which I worked at Twitter. I have a master's degree and have done internships at Google, Morgan Stanley, Grafana Labs and Open Source Organizations. I have experience in backend and DevOps technologies. I'm passionate about helping folks get into tech and progress in their career and have previously volunteered with Women Who Code India as well as opened a Lean In Chapter in my college.
   image: assets/images/mentors/46.jpeg
   languages: English
+  availability:
+    september: false
+    october: false
   skills:
     experience: 2-4 Years
     years: 4
@@ -1156,6 +1264,9 @@
   bio: I have almost 3 years of experience in the tech industry. I completed my undergraduate from IIT (ISM) Dhanbad in 2020. Since then I have worked with Microsoft and Google. I have experience in data engineering and backend. I'm extremely passionate about women in tech and I have volunteered for multiple events including GHC proposal reviewer. I have also mentored college students and helped resolve their doubts. I'm also proficient in Data Structures and Algorithms and can help students prep for it.
   image: assets/images/mentors/47.svg
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 2-4 Years
     years: 4
@@ -1181,6 +1292,9 @@
     <br> I enjoy developing and participating in tech initiatives that improve processes and developer experience.
   image: assets/images/mentors/48.jpeg
   languages: English, Russian, French
+  availability:
+    september: true
+    october: true
   skills:
     experience: 7-10 Years
     years: 10
@@ -1212,6 +1326,9 @@
     Software engineer with 4+ years of experience in successfully developing and scaling projects in fintech and e-commerce that serve millions of users. Main areas of interest: Java, Kotlin, Database design.
   image: assets/images/mentors/49.jpeg
   languages: English, Russian
+  availability:
+    september: false
+    october: false
   skills:
     experience: 4-5 Years
     years: 5
@@ -1242,6 +1359,9 @@
   bio: ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/50.jpeg
   languages: English, Ukrainian, Russian
+  availability:
+    september: true
+    october: false
   skills:
     experience: 7-10 Years
     years: 10
@@ -1270,6 +1390,9 @@
   bio: I specialise in Natural Language Processing. One of my favourite projects was information extraction from scientific papers so that industry was aware of novel research and could put it into practice.
   image: assets/images/mentors/51.jpeg
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 1-2 Years
     years: 2
@@ -1300,6 +1423,9 @@
     I am currently working alongside an incredibly talented team at Revolut on an amazing banking experience for our customers.
   image: assets/images/mentors/52.jpeg
   languages: English, Portuguese
+  availability:
+    september: true
+    october: true
   skills:
     experience: 5-7 Years
     years: 7
@@ -1323,6 +1449,9 @@
   bio: An accomplished technical lead with over a decade of experience in the technology field have successfully led global teams in various capacities. Worked as a consultant in the past and currently working as a senior SME for a luxury online fashion brand, have excelled in designing and implementing scalable applications. Always keen to learn something new and ready to take up challenges.
   image: assets/images/mentors/53.jpg
   languages: English
+  availability:
+    september: true
+    october: true
   skills:
     experience: 10-15 Years
     years: 15
