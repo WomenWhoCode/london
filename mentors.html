@@ -22,19 +22,19 @@ title: Mentors
             <div class="row">
                 <div class="col-md-3">
                     <img src="{{mentor.image}}" class="card-img" alt="...">
-                    {% if mentor.type != 'long-term' %}
-                            {% if mentor.availability.september %}
-                            <a href="#" class="btn" data-tf-popup="lADb5J9z" data-tf-iframe-props="title=Mentee Registration"
-                            data-tf-medium="snippet" data-tf-hidden="mentor={{mentor.name}}">Apply for this mentor</a>
-                            {% else %}
-                            <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" title="This mentor is not available for ad-hoc sessions in September">
-                            Not Available <span>{% include icons/question-fill.svg %}</span>
-                            {% endif %}
-                    {% else %}
-                    <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Only available for long-term mentorship">
-                        Long Term <span>{% include icons/question-fill.svg %}</span>
-                    </p>
-                    {% endif %}
+<!--                    {% if mentor.type != 'long-term' %}-->
+<!--                            {% if mentor.availability.september %}-->
+<!--                            <a href="#" class="btn" data-tf-popup="lADb5J9z" data-tf-iframe-props="title=Mentee Registration"-->
+<!--                            data-tf-medium="snippet" data-tf-hidden="mentor={{mentor.name}}">Apply for this mentor</a>-->
+<!--                            {% else %}-->
+<!--                            <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" title="This mentor is not available for ad-hoc sessions in September">-->
+<!--                            Not Available <span>{% include icons/question-fill.svg %}</span>-->
+<!--                            {% endif %}-->
+<!--                    {% else %}-->
+<!--                    <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Only available for long-term mentorship">-->
+<!--                        Long Term <span>{% include icons/question-fill.svg %}</span>-->
+<!--                    </p>-->
+<!--                    {% endif %}-->
                 </div>
 
                 <div class="col-md-9">
