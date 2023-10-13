@@ -56,11 +56,11 @@ git fetch upstream
 git merge upstream/main
 ```
 
-**6.**  ### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
+#### Check out the [Github Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn more about syncing a forked repository.
 
-**7.** Make your changes to the source code.
+**6.** Make your changes to the source code.
 
-**8.** Stage your changes and commit:
+**7.** Stage your changes and commit:
 ```bash
 git add <file/folder>
 ```
@@ -69,15 +69,15 @@ git add <file/folder>
 git commit 
 ```
 
-**9.** Push your local commits to the remote repository:
+**8.** Push your local commits to the remote repository:
 
 ```bash
 git push origin YourBranchName
 ```
 
-**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+**9.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**11.** **Congratulations!** You've made your first contribution to [**WWCode-London**](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md)! 🙌🏼
+**10.** **Congratulations!** You've made your first contribution to [**WWCode-London**](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
@@ -90,7 +90,7 @@ to work on. Help is always welcome, and no contribution is too small!
 
 Here are some things you can do today to get started contributing:
 
-1. You can browse the issues labeled as [help wanted](https://github.com/WomenWhoCode/london/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/WomenWhoCode/WWCode-London/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to see who is looking for help.
+1. You can browse the issues labeled as [help wanted](https://github.com/WomenWhoCode/london/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/WomenWhoCode/london/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to see who is looking for help.
 
 The `good first issue` label also indicates that Women Who Code - London Members have committed to providing extra assistance for newcontributors.
 
