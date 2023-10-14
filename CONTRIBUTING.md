@@ -77,7 +77,7 @@ git push origin YourBranchName
 
 **9.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**10.** **Congratulations!** You've made your first contribution to [**WWCode-London**](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md)! 🙌🏼
+**10.** **Congratulations!** You've made your first contribution to [**WWCode-London**](https://github.com/WomenWhoCode/london)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
@@ -122,7 +122,7 @@ The `good first issue` label also indicates that Women Who Code - London Members
 
 ## Reporting issues OR suggesting changes/features to the existing repo:
 
-1. In order to discuss changes, you are welcome to [open an issue](https://github.com/WomenWhoCode/london/issues) about what you would like to contribute. Enhancements are always encouraged and appreciated.
+1. In order to discuss changes, you are welcome to [open an issue](https://github.com/WomenWhoCode/london/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
 2. A repository owner will review the issue and provide feedback.
    
 ## All the best! 🥇
