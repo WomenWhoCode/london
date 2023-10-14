@@ -41,7 +41,9 @@
                         {% if network.youtube %}
                         <span> <a href="{{network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
                         {% endif %}
-                        
+                        {% if network.instagram %}
+                        <span> <a href="{{network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
+                        {% endif %}                    
                     {% endfor %}
                 </p>
              </div>
