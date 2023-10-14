@@ -1553,8 +1553,7 @@
   type: both
   index: 52
   location: London, United Kingdom
-  bio: |
-   Hello, I am Mehul Varsha Singh, a recent graduate from the University of Nottingham with a first-class degree in Computer Science specializing in Artificial Intelligence. Currently, I’m pursuing my Master’s degree in Business Analytics at UCL in London. My background involves Python, data science, and computer vision. I have worked as a research assistant at the Nanoscale and Microscale Research Centre at Nottingham, focusing on AI-driven computer vision. Additionally, I have gained practical experience as a data scientist intern at Shopee, a well-known e-commerce brand in Malaysia. My goal is to continue assisting individuals in entering and succeeding in the tech industry.
+  bio: Hello, I am Mehul Varsha Singh, a recent graduate from the University of Nottingham with a first-class degree in Computer Science specializing in Artificial Intelligence. Currently, I'm pursuing my Master's degree in Business Analytics at UCL in London. My background involves Python, data science, and computer vision. I have worked as a research assistant at the Nanoscale and Microscale Research Centre at Nottingham, focusing on AI-driven computer vision. Additionally, I have gained practical experience as a data scientist intern at Shopee, a well-known e-commerce brand in Malaysia. My goal is to continue assisting individuals in entering and succeeding in the tech industry.
   image: assets/images/mentors/56.jpg
   languages: English, Hindi
   availability:
@@ -1576,10 +1575,12 @@
       - Change specialisation within IT
       - Grow from mid-level to senior-level
       - Grow beyond senior level
-    extra: Resume Review: I can provide guidance on creating an effective resume tailored to the field of machine learning and computer science. Starting in Machine Learning: I can offer insights on how to begin a career or academic journey in the field of machine learning, including recommended resources, learning paths, and project ideas. Undergraduate Advice in Computer Science and AI: I can provide advice on course selection, academic planning, and extracurricular activities to excel in undergraduate studies focused on computer science and artificial intelligence. Basic Python and Machine Learning Mentorship: I can offer mentorship in Python programming, machine learning fundamentals, and practical tips for getting started with machine learning projects. Basic Python and Machine Learning Mentorship: I can offer mentorship in Python programming, machine learning fundamentals, and practical tips for getting started with machine learning projects.
+    extra: |
+      Resume Review: I can provide guidance on creating an effective resume tailored to the field of machine learning and computer science. Starting in Machine Learning: I can offer insights on how to begin a career or academic journey in the field of machine learning, including recommended resources, learning paths, and project ideas. Undergraduate Advice in Computer Science and AI: I can provide advice on course selection, academic planning, and extracurricular activities to excel in undergraduate studies focused on computer science and artificial intelligence. Basic Python and Machine Learning Mentorship: I can offer mentorship in Python programming, machine learning fundamentals, and practical tips for getting started with machine learning projects. Basic Python and Machine Learning Mentorship: I can offer mentorship in Python programming, machine learning fundamentals, and practical tips for getting started with machine learning projects.
+  network:
     - linkedin: https://www.linkedin.com/in/mehul-varsha-singh-65a5b4155
     - website: https://medium.com/@sona200308
-
+    
 - name: Claudia Lee
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
@@ -1587,7 +1588,7 @@
   index: 53
   location: London, United Kingdom
   bio: |
-   I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
+    I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
   image: assets/images/mentors/57.jpg
   languages: English
   skills:
@@ -1601,5 +1602,5 @@
       - Switch career to IT
       - Grow from beginner to mid-level
     extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
+  network:
     - linkedin: https://www.linkedin.com/in/claudialsm/
-    
