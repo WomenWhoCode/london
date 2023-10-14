@@ -43,7 +43,11 @@
                         {% endif %}
                         {% if network.instagram %}
                         <span> <a href="{{network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
-                        {% endif %}                    
+                        {% endif %}
+                        {% if network.slack %}
+                        <span> <a href="{{network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
+                        {% endif %}
+                
                     {% endfor %}
                 </p>
              </div>
