@@ -20,7 +20,7 @@
 
 Please check if your PR fulfills the following requirements:
 - [ ] I checked and followed the [contributor guide](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md) 
-- [ ] I run locally and tested my changes
-- [ ] I add the website after I tested locally
+- [ ] I have tested my changes locally.
+- [ ] I have added a screenshot from the website after I tested it locally
 
 <!--  Thanks for sending a pull request! -->
