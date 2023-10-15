@@ -19,7 +19,7 @@
 ## Pull request checklist
 
 Please check if your PR fulfills the following requirements:
-- [ ] I checked the [contributor guide](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md) 
+- [ ] I checked and followed the [contributor guide](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md) 
 - [ ] I run locally and tested my changes
 - [ ] I add the website after I tested locally
 
