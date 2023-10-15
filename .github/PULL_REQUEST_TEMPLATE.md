@@ -3,6 +3,14 @@
 ## Description
 <!--- Describe your changes in detail -->
 
+## Change Type
+- [ ] Bug Fix
+- [ ] New Feature
+- [ ] Code Refactor
+- [ ] Documentation
+- [ ] Other
+
+
 ## Related Issue
 <!--- If suggesting a new feature or change, please discuss it in an issue first -->
 <!--- If fixing a bug, there should be an issue describing it with steps to reproduce -->
@@ -19,7 +27,7 @@
 ## Pull request checklist
 
 Please check if your PR fulfills the following requirements:
-- [ ] I checked and followed the [contributor guide](https://github.com/WomenWhoCode/london/blob/main/CONTRIBUTING.md) 
+- [ ] I checked and followed the [contributor guide](CONTRIBUTING.md) 
 - [ ] I have tested my changes locally.
 - [ ] I have added a screenshot from the website after I tested it locally
 
