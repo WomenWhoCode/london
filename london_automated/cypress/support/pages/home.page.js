@@ -1,16 +1,20 @@
-//import cypressConfig from '../../../cypress.config';
-import homePageLocatorManager from '../locators/home_page.locate';
+import homeHeaderLocatorManager from '../locators/home_page/home_header.locate';
+import homeGeneralLocatorManager from '../locators/home_page/home_general.locate';
+import homeTimelineLocatorManager from '../locators/home_page/home_timeline.locate';
+import homeSupportLocatorManager from '../locators/home_page/home_support.locate';
+import homeFeedbackLocatorManager from '../locators/home_page/home_feedback.locate';
+import homeFooterLocatorManager from '../locators/home_page/home_footer.locate';
 
 export function openHomePage() {
   cy.visit(Cypress.config('baseUrl'));
 }
 
 export function verifyHomeTabs() {
-  homePageLocatorManager.getHomeTab();
-  homePageLocatorManager.getMentorsTab();
-  homePageLocatorManager.getResourcesTab();
-  homePageLocatorManager.getHowItWorksTab();
-  homePageLocatorManager.getTeamTab();
+  homeHeaderLocatorManager.getHomeTab();
+  homeHeaderLocatorManager.getMentorsTab();
+  homeHeaderLocatorManager.getResourcesTab();
+  homeHeaderLocatorManager.getHowItWorksTab();
+  homeHeaderLocatorManager.getTeamTab();
 }
 
 export const verifyActivePageUrl = (tabName) => {
@@ -38,43 +42,43 @@ export const verifyActivePageUrl = (tabName) => {
 export function verifyUIElements(tabName) {
   switch (tabName) {
     case 'Home':
-      homePageLocatorManager.getHomeBanner();
-      homePageLocatorManager.getHomeHeader();
-      homePageLocatorManager.getHomeSubheader();
-      homePageLocatorManager.getOverview();
-      homePageLocatorManager.getMentorTitle();
-      homePageLocatorManager.verifyMentorConditions();
-      homePageLocatorManager.getMenteeTitle();
-      homePageLocatorManager.verifyMenteeConditions();
-      homePageLocatorManager.getJoinAsMentorButton();
-      homePageLocatorManager.getCheckMentorsButton();
-      homePageLocatorManager.getTimelineTitle();
-      homePageLocatorManager.verifyTimelineIcons();
-      homePageLocatorManager.verifyTimelineCards();
-      homePageLocatorManager.verifyTimelineCardsDates();
-      homePageLocatorManager.getCheckDetailsButton();
-      homePageLocatorManager.getSupportTitle();
-      homePageLocatorManager.verifySupportIcons();
-      homePageLocatorManager.verifySupportCardTitles();
-      homePageLocatorManager.verifySupportCardDetails();
-      homePageLocatorManager.getFeedbackTitle();
-      homePageLocatorManager.getFeedbackBlock();
-      homePageLocatorManager.getFooter();
-      homePageLocatorManager.getFooterBrandLogo();
-      homePageLocatorManager.getFooterWWCInfo();
-      homePageLocatorManager.getWWCCopyright();
-      homePageLocatorManager.getFooterMentorshipHeader();
-      homePageLocatorManager.getFooterMentorshipSubheader();
-      homePageLocatorManager.getFollowUsLabel();
-      homePageLocatorManager.getStayTunedLabel();
-      homePageLocatorManager.getLinkedinUrl();
-      homePageLocatorManager.getInstagramUrl();
-      homePageLocatorManager.getTwitterUrl();
-      homePageLocatorManager.getGithubUrl();
-      homePageLocatorManager.getMeetupUrl();
-      homePageLocatorManager.getFacebookUrl();
-      homePageLocatorManager.getSlackUrl();
-      homePageLocatorManager.getYoutubeUrl();
+      homeHeaderLocatorManager.getHomeBanner();
+      homeHeaderLocatorManager.getHomeHeader();
+      homeHeaderLocatorManager.getHomeSubheader();
+      homeGeneralLocatorManager.getOverview();
+      homeGeneralLocatorManager.getMentorTitle();
+      homeGeneralLocatorManager.verifyMentorConditions();
+      homeGeneralLocatorManager.getMenteeTitle();
+      homeGeneralLocatorManager.verifyMenteeConditions();
+      homeGeneralLocatorManager.getJoinAsMentorButton();
+      homeGeneralLocatorManager.getCheckMentorsButton();
+      homeTimelineLocatorManager.getTimelineTitle();
+      homeTimelineLocatorManager.verifyTimelineIcons();
+      homeTimelineLocatorManager.verifyTimelineCards();
+      homeTimelineLocatorManager.verifyTimelineCardsDates();
+      homeTimelineLocatorManager.getCheckDetailsButton();
+      homeSupportLocatorManager.getSupportTitle();
+      homeSupportLocatorManager.verifySupportIcons();
+      homeSupportLocatorManager.verifySupportCardTitles();
+      homeSupportLocatorManager.verifySupportCardDetails();
+      homeFeedbackLocatorManager.getFeedbackTitle();
+      homeFeedbackLocatorManager.getFeedbackBlock();
+      homeFooterLocatorManager.getFooter();
+      homeFooterLocatorManager.getFooterBrandLogo();
+      homeFooterLocatorManager.getFooterWWCInfo();
+      homeFooterLocatorManager.getWWCCopyright();
+      homeFooterLocatorManager.getFooterMentorshipHeader();
+      homeFooterLocatorManager.getFooterMentorshipSubheader();
+      homeFooterLocatorManager.getFollowUsLabel();
+      homeFooterLocatorManager.getStayTunedLabel();
+      homeFooterLocatorManager.getLinkedinUrl();
+      homeFooterLocatorManager.getInstagramUrl();
+      homeFooterLocatorManager.getTwitterUrl();
+      homeFooterLocatorManager.getGithubUrl();
+      homeFooterLocatorManager.getMeetupUrl();
+      homeFooterLocatorManager.getFacebookUrl();
+      homeFooterLocatorManager.getSlackUrl();
+      homeFooterLocatorManager.getYoutubeUrl();
       break;
     case 'Mentors':
       break;
