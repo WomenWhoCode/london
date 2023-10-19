@@ -41,4 +41,24 @@ Access the page on browser: http://127.0.0.1:4000
 
 * [GitHub Pages Doc](https://docs.github.com/en/pages) 
 * [About GitHub Pages and Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
-* [Test locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) 
+* [Test locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+
+
+### How to Run End-To-End Testing Locally
+
+1. Open your Terminal in the `e2e-tests` folder, e.g. `cd ~/workspace/london/e2e-tests`
+2. `npm install cypress --save-dev` - This will install Cypress locally as a dev dependency for your project.
+3. Run `npx cypress open` from your project root
+4. Select E2E testing
+
+![Open Cypress](https://i.ibb.co/4VNPFjf/welcome-cypress.png)
+
+5. Select *E2E testing* option.
+
+6. Choose your browser and click *Start E2E testing in..*..
+
+![Browser Selection](https://i.ibb.co/kQxJpmJ/browser-selection.png)
+
+Now you can run any tests from *Specs*.
+
+For more details, please refer to the official [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress).
