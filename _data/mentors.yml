@@ -1,4 +1,5 @@
 - name: Rajani Rao
+  disabled: false 
   hours: 4
   type: both
   index: 1
@@ -36,6 +37,7 @@
     - linkedin: https://www.linkedin.com/in/rajaniraog/
 
 - name: Eleonora Belova
+  disabled: false
   hours: 3
   position: QA Engineer, ReaQta, an IBM Company
   type: both
@@ -64,6 +66,7 @@
     - github: https://github.com/nora-weisser
 
 - name: Irina Kamalova
+  disabled: false 
   hours: 2
   type: both
   index: 3
@@ -95,6 +98,7 @@
     - linkedin: https://www.linkedin.com/in/irina-kamalova/
 
 - name: Adriana Zencke Zimmermann
+  disabled: false 
   hours: 1
   bio: I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
   position: Senior Software Engineer, Personio
@@ -129,6 +133,7 @@
     - medium: https://medium.com/@dricazenck
 
 - name: Aishwarya Nair
+  disabled: false 
   hours: 1
   type: ad-hoc
   index: 5
@@ -162,6 +167,7 @@
     - linkedin: www.linkedin.com/in/aishwarya-nair-data-scientist
 
 - name: Mr Andrew King
+  disabled: false 
   hours: 0
   type: long-term
   index: 6
@@ -192,6 +198,7 @@
     - linkedin: https://www.linkedin.com/in/andrewkingit/
 
 - name: Sandy Chuchuca
+  disabled: false 
   hours: 4
   type: both
   index: 7
@@ -230,6 +237,7 @@
     - github: https://github.com/sandycho
 
 - name: Ayla Cura
+  disabled: false 
   hours: 4
   type: both
   index: 8
@@ -259,7 +267,8 @@
     - github: https://github.com/aylacura
 
 - name: Jo Dorning
-  hours: 2
+  disabled: false 
+   hours: 2
   type: ad-hoc
   index: 9
   position: Data Scientist, Mars
@@ -290,6 +299,7 @@
 
 
 - name: Stephanie Senoner
+  disabled: false 
   hours: 5
   type: both
   index: 10
@@ -324,6 +334,7 @@
 
 
 - name: Nassim Bordbar
+  disabled: false 
   hours: 2
   type: both
   index: 11
@@ -356,6 +367,7 @@
     - linkedin: https://www.linkedin.com/in/nassimbordbar/
 
 - name: Ken Pemberton
+  disabled: false 
   hours: 4
   type: both
   index: 12
@@ -383,6 +395,7 @@
     - website: https://grumpyoldfart.org/
 
 - name: Shelly Gabriela Leal
+  disabled: false 
   hours: 2
   type: ad-hoc
   index: 13
@@ -414,6 +427,7 @@
     - medium: https://medium.com/@shellyleal
 
 - name: Jamica Ortiz
+  disabled: false 
   hours: 2
   type: ad-hoc
   index: 14
@@ -445,6 +459,7 @@
 
 
 - name: Leo Parkes-Neptune
+  disabled: false 
   hours: 2
   type: both
   index: 15
@@ -474,6 +489,7 @@
 
 
 - name: Elizaveta Svitanko
+  disabled: false 
   hours: 2
   type: ad-hoc
   index: 16
@@ -503,6 +519,7 @@
     - linkedin: https://www.linkedin.com/in/elizaveta-svitanko/
 
 - name: Cherrelle Morales
+  disabled: false 
   hours: 3
   type: both
   index: 17
@@ -530,6 +547,7 @@
     - linkedin: https://www.linkedin.com/in/cherrelle-morales-b7752325/
 
 - name: Preeja Babu
+  disabled: false 
   hours: 3
   type: ad-hoc
   index: 18
@@ -555,6 +573,7 @@
     - linkedin: https://www.linkedin.com/in/preejababu/
 
 - name: Seyoung Joo
+  disabled: false 
   hours: 0
   type: long-term
   index: 19
@@ -577,6 +596,7 @@
     - linkedin: https://www.linkedin.com/in/seyoungj/
 
 - name: Ana Nogal
+  disabled: false 
   hours: 2
   type: both
   index: 20
@@ -610,6 +630,7 @@
     - website: https://www.ananogal.com/
 
 - name: Natalia Gorchakova
+  disabled: false 
   hours: 4
   type: both
   index: 21
@@ -643,6 +664,7 @@
     - linkedin: https://www.linkedin.com/in/natalia-gorchakova/
 
 - name: Bryan Boreham
+  disabled: false 
   hours: 4
   type: ad-hoc
   index: 22
@@ -677,6 +699,7 @@
     - twitter: https://twitter.com/bboreham
 
 - name: Bhawana Haritwal
+  disabled: false 
   hours: 4
   type: both
   index: 23
@@ -708,6 +731,7 @@
     - github: https://github.com/bharitwal
 
 - name: Tara Hofton
+  disabled: false 
   hours: 2
   type: both
   index: 24
@@ -740,6 +764,7 @@
     - linkedin: https://www.linkedin.com/in/tarahofton
 
 - name: Tatiana Cramer
+  disabled: false 
   hours: 4
   type: both
   index: 25
@@ -774,6 +799,7 @@
     - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
 
 - name: Anushka Yadav
+  disabled: false 
   hours: 0
   type: long-term
   index: 26
@@ -800,6 +826,7 @@
     - linkedin: https://www.linkedin.com/in/anushka-yadav/
 
 - name: Hasan Diwan
+  disabled: false 
   hours: 2
   type: ad-hoc
   index: 27
@@ -834,6 +861,7 @@
     - twitter: https://units.d8u.us/twitter
 
 - name: Monal Sanghvi
+  disabled: false 
   hours: 2
   type: both
   index: 28
@@ -870,6 +898,7 @@
     - twitter: https://twitter.com/monalsanghvi
 
 - name: Iana Luntc
+  disabled: false 
   hours: 0
   type: long-term
   index: 29
@@ -896,6 +925,7 @@
     - linkedin: https://www.linkedin.com/in/yana-lunts-a93a7818b/
 
 - name: Bomee Ryu
+  disabled: false 
   hours: 3
   type: both
   index: 30
@@ -925,6 +955,7 @@
     - linkedin: https://www.linkedin.com/in/bomeeryu/
 
 - name: Bisi Josh-Falade
+  disabled: false 
   hours: 4
   type: both
   index: 31
@@ -952,6 +983,7 @@
     - linkedin: https://www.linkedin.com/in/bisijoshfalade
 
 - name: Madhura Chaganty
+  disabled: false 
   hours: 0
   type: long-term
   index: 32
@@ -978,6 +1010,7 @@
     - linkedin: https://www.linkedin.com/in/madhurachaganty
 
 - name: Mira Davidson
+  disabled: false 
   hours: 2
   position: Software Engineer, Labstep
   type: both
@@ -1006,6 +1039,7 @@
     - linkedin: https://www.linkedin.com/in/mira-davidson/
 
 - name: Kajal Negi Khabra
+  disabled: false 
   hours: 2
   position: Frontend Developer, Loopline
   type: both
@@ -1031,6 +1065,7 @@
     - twitter: https://twitter.com/KarishmaNegi9
 
 - name: Sophia lan
+  disabled: false 
   hours: 2
   position: CEO, WInvest
   type: both
@@ -1056,6 +1091,7 @@
     - linkedin: https://www.linkedin.com/in/sophia-lan-a60827109/
 
 - name: Shailaja Koppu
+  disabled: false 
   hours: 2
   position: Staff software engineer (Architect), Apple
   type: both
@@ -1088,6 +1124,7 @@
     - linkedin: https://uk.linkedin.com/in/shailajakoppu
 
 - name: Marichka Offen
+  disabled: false 
   hours: 5
   position: Front End Engineer, Prefect
   type: ad-hoc
@@ -1119,6 +1156,7 @@
     - github: https://github.com/marichka-offen
 
 - name: Dakshika Chauhan
+  disabled: false 
   hours: 0
   position: Senior Business Analyst, Amazon
   type: long-term
@@ -1145,6 +1183,7 @@
     - linkedin: https://www.linkedin.com/in/dakshika-chauhan-2021/
 
 - name: Minsang Kim
+  disabled: false 
   hours: 4
   position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
   type: both
@@ -1176,6 +1215,7 @@
     - linkedin: https://www.linkedin.com/in/minsangkim142/
 
 - name: Zarafshan Shehzadi
+  disabled: false 
   hours: 2
   position: Data Engineer, Netsol Pvt Ltd
   type: ad-hoc
@@ -1203,6 +1243,7 @@
     - linkedin: https://www.linkedin.com/in/zarafshan-waheed-01928a160/
 
 - name: Jenny Johnson
+  disabled: false 
   hours: 3
   position: Senior Software Engineer, Islacare
   type: both
@@ -1230,6 +1271,7 @@
     - linkedin: https://www.linkedin.com/in/jjohnson001
 
 - name: Atibhi Agrawal
+  disabled: false 
   hours: 3
   position: Software Engineer, Amazon
   type: both
@@ -1256,6 +1298,7 @@
     - linkedin: https://www.linkedin.com/in/atibhia
 
 - name: Vedangi Mukadam
+  disabled: false 
   hours: 5
   position: Software Development Engineer II, Amazon
   type: both
@@ -1282,6 +1325,7 @@
     - linkedin: https://www.linkedin.com/in/vedangi-mukadam
 
 - name: Elena Gordienko
+  disabled: false 
   hours: 4
   position: iOS Engineer, Cuvva
   type: Both
@@ -1317,6 +1361,7 @@
     - linkedin: https://www.linkedin.com/in/lena-gordienko
 
 - name: Albina Gimaletdinova
+  disabled: false 
   hours: 4
   position: Software Engineer, Yandex
   type: Both
@@ -1351,6 +1396,7 @@
     - linkedin: https://www.linkedin.com/in/albina-gimaletdinova/
 
 - name: Anastasia
+  disabled: false 
   hours: 5
   position: QA Specialist and Mentor, Trivago
   type: Both
@@ -1382,6 +1428,7 @@
     - linkedin: https://www.linkedin.com/in/qa-anastasia
 
 - name: Ayliah Fani
+  disabled: false 
   hours: 4
   position: Data Scientist, Rolls-Royce Plc.
   type: ad-hoc
@@ -1413,6 +1460,7 @@
     - linkedin: https://www.linkedin.com/in/ayliahfani
 
 - name: Bernardo Alecrim
+  disabled: false 
   hours: 2
   position: Senior iOS Engineer, Revolut
   type: ad-hoc
@@ -1441,6 +1489,7 @@
     - linkedin: https://www.linkedin.com/in/bernardoalecrim/
 
 - name: Sonali Goel
+  disabled: false 
   hours: 3
   position: Senior Developer, Yoox-Net-A-Porter
   type: ad-hoc
@@ -1470,6 +1519,7 @@
 
 
 - name: Dima Mikhailovich
+  disabled: false 
   hours: 3
   position: CTO & Co-founder, Konstructly Ltd
   type: long-term
@@ -1507,6 +1557,7 @@
     - twitter: https://twitter.com/dmitryvim
 
 - name: Valeriia Amelchenia
+  disabled: false 
   hours: 5
   position: QA Engineer, Technical Writer (Freelancer)
   type: both
@@ -1548,6 +1599,7 @@
     - website: https://adplist.org/mentors/valeriia-amelchenia
 
 - name: Mehul Varsha Singh
+  disabled: false 
   hours: 3
   position: Student - Masters at UCL
   type: both
@@ -1582,6 +1634,7 @@
     - website: https://medium.com/@sona200308
     
 - name: Claudia Lee
+  disabled: false 
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
   type: long-term
