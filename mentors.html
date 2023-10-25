@@ -110,6 +110,9 @@ title: Mentors
                                 {% endif %}
                                 <span>{% include icons/question-fill.svg %}</span>
                             </p>
+                            {% if mentor.hours > 0 %}
+                                <p class="card-text justify-text"><label>Hours available per month</label>: {{mentor.hours}}</p>
+                            {% endif %}
                             <p class="card-text justify-text"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
                             <p class="card-text">
                                 <label>Areas to support the mentee</label>:
