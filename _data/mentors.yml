@@ -167,7 +167,7 @@
     - linkedin: www.linkedin.com/in/aishwarya-nair-data-scientist
 
 - name: Mr Andrew King
-  disabled: false 
+  disabled: true 
   hours: 0
   type: long-term
   index: 6
@@ -799,7 +799,7 @@
     - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
 
 - name: Anushka Yadav
-  disabled: false 
+  disabled: true 
   hours: 0
   type: long-term
   index: 26
