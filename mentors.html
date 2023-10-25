@@ -17,131 +17,132 @@ title: Mentors
 
     {% assign mentors = site.data.mentors | sort: "hours" | reverse %}
     {% for mentor in mentors %}
+        {% unless mentor.disabled %}
+            <div class="card" id="mentor-card-{{mentor.index}}">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{{mentor.image}}" class="card-img" alt="...">
+                    </div>
 
-        <div class="card" id="mentor-card-{{mentor.index}}">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="{{mentor.image}}" class="card-img" alt="...">
-                </div>
-
-                <div class="col-md-9">
-                    <div class="card-body">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <div class="nav-link active presentation" id="bt-p-{{mentor.index}}" data-index="{{mentor.index}}">Presentation</div>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="nav-link skills" data-index="{{mentor.index}}" id="bt-s-{{mentor.index}}">Skills</div>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="nav-link mentees" data-index="{{mentor.index}}" id="bt-m-{{mentor.index}}">Mentees</div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <h4 class="card-title">
-                            {{mentor.name}}
-                        </h4>
-                        <div id="presentation-{{mentor.index}}" class="card-presentation">
-                            <h5 class="position">{{mentor.position}}</h5>
-                            <p class="card-text"><label>Based in</label>: {{mentor.location}}</p>
-                            <p id="card-text-{{mentor.index}}" class="card-text justify-text content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
-                            <button id="btn-show-more-{{mentor.index}}" class="btn btn-primary toggle-content">Show more</button>
-                        </div>
-
-                        <div id="skills-{{mentor.index}}" class="card-skills d-none">
-                            <p class="card-text"><label>Tech Experience</label>: {{mentor.skills.experience}}</p>
-                            <p class="card-text"><label>Language(s)</label>: {{mentor.languages}}</p>
-
-                            {% if mentor.skills.languages %}
-                                <p class="card-text"><label>Programming languages</label>: {{mentor.skills.languages}}</p>
-                            {% endif %}
-
-                            <p class="network">
-                                {% for network in mentor.network %}
-                                    {% if network.linkedin %}
-                                        <span><a href="{{network.linkedin}}" target="_blank">
-                                            {% include icons/linkedin.svg %}
-                                        </a></span>
-                                    {% endif %}
-                                    {% if network.twitter %}
-                                        <a href="{{network.twitter}}" target="_blank">
-                                            {% include icons/twitter.svg %}
-                                        </a>
-                                    {% endif %}
-                                    {% if network.github %}
-                                        <a href="{{network.github}}" target="_blank">
-                                            {% include icons/github.svg %}
-                                        </a>
-                                    {% endif %}
-                                    {% if network.medium %}
-                                        <a href="{{network.medium}}" target="_blank">
-                                            {% include icons/medium.svg %}
-                                        </a>
-                                    {% endif %}
-                                    {% if network.website %}
-                                    <a href="{{network.website}}" target="_blank">
-                                        {% include icons/website.svg %}
-                                    </a>
-                                    {% endif %}
-                                    {% if network.instagram %}
-                                    <a href="{{network.instagram}}" target="_blank">
-                                        {% include icons/instagram.svg %}
-                                    </a>
-                                    {% endif %}
-                                    {% if network.telegram %}
-                                    <a href="{{network.telegram}}" target="_blank">
-                                        {% include icons/telegram.svg %}
-                                    </a>
-                                    {% endif %}
-                                {% endfor %}
-                            </p>
-
-                        </div>
-
-                        <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
-                            <p class="card-text" data-toggle="tooltip" data-html="true" title="<b>Ad-Hoc:</b> request a session when necessary. <br><b>Long term relationship:</b> at least one mentoring program cycle.">
-                                <label>Type of mentoring</label>:
-                                {% if mentor.type == 'both' %}
-                                    Long term relationship and Ad-Hoc
-                                {% else %}
-                                    {{mentor.type}}
-                                {% endif %}
-                                <span>{% include icons/question-fill.svg %}</span>
-                            </p>
-                            {% if mentor.hours > 0 %}
-                                <p class="card-text justify-text"><label>Hours available per month</label>: {{mentor.hours}}</p>
-                            {% endif %}
-                            <p class="card-text justify-text"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
-                            <p class="card-text">
-                                <label>Areas to support the mentee</label>:
-                                <ul>
-                                    {% for area in mentor.skills.areas %}
-                                        <li>{{area}}</li>
-                                    {% endfor %}
-                                    {% for focus in mentor.skills.focus %}
-                                        <li>{{focus}}</li>
-                                    {% endfor %}
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <div class="nav-link active presentation" id="bt-p-{{mentor.index}}" data-index="{{mentor.index}}">Presentation</div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="nav-link skills" data-index="{{mentor.index}}" id="bt-s-{{mentor.index}}">Skills</div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="nav-link mentees" data-index="{{mentor.index}}" id="bt-m-{{mentor.index}}">Mentees</div>
+                                    </li>
                                 </ul>
-                            </p>
-                            {% if mentor.skills.extra %}
-                                <p class="card-text"><label>Other potential mentoring topics</label>: {{mentor.skills.extra}}</p>
-                            {% endif %}
+                            </div>
+
+                            <h4 class="card-title">
+                                {{mentor.name}}
+                            </h4>
+                            <div id="presentation-{{mentor.index}}" class="card-presentation">
+                                <h5 class="position">{{mentor.position}}</h5>
+                                <p class="card-text"><label>Based in</label>: {{mentor.location}}</p>
+                                <p id="card-text-{{mentor.index}}" class="card-text justify-text content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
+                                <button id="btn-show-more-{{mentor.index}}" class="btn btn-primary toggle-content">Show more</button>
+                            </div>
+
+                            <div id="skills-{{mentor.index}}" class="card-skills d-none">
+                                <p class="card-text"><label>Tech Experience</label>: {{mentor.skills.experience}}</p>
+                                <p class="card-text"><label>Language(s)</label>: {{mentor.languages}}</p>
+
+                                {% if mentor.skills.languages %}
+                                    <p class="card-text"><label>Programming languages</label>: {{mentor.skills.languages}}</p>
+                                {% endif %}
+
+                                <p class="network">
+                                    {% for network in mentor.network %}
+                                        {% if network.linkedin %}
+                                            <span><a href="{{network.linkedin}}" target="_blank">
+                                                {% include icons/linkedin.svg %}
+                                            </a></span>
+                                        {% endif %}
+                                        {% if network.twitter %}
+                                            <a href="{{network.twitter}}" target="_blank">
+                                                {% include icons/twitter.svg %}
+                                            </a>
+                                        {% endif %}
+                                        {% if network.github %}
+                                            <a href="{{network.github}}" target="_blank">
+                                                {% include icons/github.svg %}
+                                            </a>
+                                        {% endif %}
+                                        {% if network.medium %}
+                                            <a href="{{network.medium}}" target="_blank">
+                                                {% include icons/medium.svg %}
+                                            </a>
+                                        {% endif %}
+                                        {% if network.website %}
+                                        <a href="{{network.website}}" target="_blank">
+                                            {% include icons/website.svg %}
+                                        </a>
+                                        {% endif %}
+                                        {% if network.instagram %}
+                                        <a href="{{network.instagram}}" target="_blank">
+                                            {% include icons/instagram.svg %}
+                                        </a>
+                                        {% endif %}
+                                        {% if network.telegram %}
+                                        <a href="{{network.telegram}}" target="_blank">
+                                            {% include icons/telegram.svg %}
+                                        </a>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+
+                            </div>
+
+                            <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
+                                <p class="card-text" data-toggle="tooltip" data-html="true" title="<b>Ad-Hoc:</b> request a session when necessary. <br><b>Long term relationship:</b> at least one mentoring program cycle.">
+                                    <label>Type of mentoring</label>:
+                                    {% if mentor.type == 'both' %}
+                                        Long term relationship and Ad-Hoc
+                                    {% else %}
+                                        {{mentor.type}}
+                                    {% endif %}
+                                    <span>{% include icons/question-fill.svg %}</span>
+                                </p>
+                                {% if mentor.hours > 0 %}
+                                    <p class="card-text justify-text"><label>Hours available per month</label>: {{mentor.hours}}</p>
+                                {% endif %}
+                                <p class="card-text justify-text"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
+                                <p class="card-text">
+                                    <label>Areas to support the mentee</label>:
+                                    <ul>
+                                        {% for area in mentor.skills.areas %}
+                                            <li>{{area}}</li>
+                                        {% endfor %}
+                                        {% for focus in mentor.skills.focus %}
+                                            <li>{{focus}}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </p>
+                                {% if mentor.skills.extra %}
+                                    <p class="card-text"><label>Other potential mentoring topics</label>: {{mentor.skills.extra}}</p>
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
                 </div>
+                <input type="hidden" name="index" value="{{mentor.index}}">
+                <input type="hidden" name="exp" value="{{mentor.skills.years}}">
+                <input type="hidden" name="mentor-data"
+                    value="{{mentor.name | downcase}}
+                        {{mentor.bio | normalize_whitespace | downcase}}
+                        {% if mentor.type == 'both' %}long-term and ad-hoc {% else %}{{mentor.type | downcase}}{% endif %}
+                        {{mentor.skills.languages | downcase}}
+                        {{mentor.skills.extra | normalize_whitespace | downcase}}
+                        {{mentor.skills.focus | array_to_sentence_string | downcase}}
+                        {{mentor.skills.areas | array_to_sentence_string | downcase}}">
             </div>
-            <input type="hidden" name="index" value="{{mentor.index}}">
-            <input type="hidden" name="exp" value="{{mentor.skills.years}}">
-            <input type="hidden" name="mentor-data"
-                value="{{mentor.name | downcase}}
-                    {{mentor.bio | normalize_whitespace | downcase}}
-                    {% if mentor.type == 'both' %}long-term and ad-hoc {% else %}{{mentor.type | downcase}}{% endif %}
-                    {{mentor.skills.languages | downcase}}
-                    {{mentor.skills.extra | normalize_whitespace | downcase}}
-                    {{mentor.skills.focus | array_to_sentence_string | downcase}}
-                    {{mentor.skills.areas | array_to_sentence_string | downcase}}">
-        </div>
+        {% endunless %}
     {% endfor %}
 </div>

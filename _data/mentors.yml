@@ -268,7 +268,7 @@
 
 - name: Jo Dorning
   disabled: false 
-   hours: 2
+  hours: 2
   type: ad-hoc
   index: 9
   position: Data Scientist, Mars
