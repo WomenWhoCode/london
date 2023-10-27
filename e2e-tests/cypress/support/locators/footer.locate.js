@@ -6,7 +6,7 @@ const FOOTER_MENTORSHIP_HEADER = ':nth-child(1) > .col-sm-4 > h5';
 const FOOTER_MENTORSHIP_SUBHEADER = ':nth-child(1) > .col-sm-4 > p > small';
 const FOLLOW_US_LABEL = ':nth-child(2) > .col-sm-4 > h5';
 const STAY_TUNED_LABEL = ':nth-child(2) > .col-sm-4 > :nth-child(2) > small';
-const SOCIAL_LINK_LINKEDIN = '.network > :nth-child(1)';
+const SOCIAL_LINK_LINKEDIN = ':nth-child(1)';
 const SOCIAL_LINK_INSTAGRAM = '.network > :nth-child(2)';
 const SOCIAL_LINK_TWITTER = '.network > :nth-child(3)';
 const SOCIAL_LINK_GITHUB = '.network > :nth-child(4)';
@@ -15,7 +15,7 @@ const SOCIAL_LINK_FACEBOOK = '.network > :nth-child(6)';
 const SOCIAL_LINK_SLACK = '.network > :nth-child(7)';
 const SOCIAL_LINK_YOUTUBE = '.network > :nth-child(8)';
 
-class homeFooterLocatorManager {
+class footerLocatorManager {
   getFooter = () => {
     return cy.get(FOOTER).shouldBeVisible();
   };
@@ -64,14 +64,7 @@ class homeFooterLocatorManager {
   };
 
   getLinkedinUrl = () => {
-    return cy
-      .get(SOCIAL_LINK_LINKEDIN)
-      .find('a')
-      .should(
-        'have.attr',
-        'href',
-        'https://www.linkedin.com/company/wwcodelondon/'
-      );
+    return cy.contains('Follow Us').next().next().find(SOCIAL_LINK_LINKEDIN);
   };
 
   getInstagramUrl = () => {
@@ -136,4 +129,4 @@ class homeFooterLocatorManager {
   };
 }
 
-export default new homeFooterLocatorManager();
+export default new footerLocatorManager();

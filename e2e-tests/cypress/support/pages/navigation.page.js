@@ -1,28 +1,62 @@
-import homeHeaderLocatorManager from '../locators/home_page/home_header.locate';
+import headerLocatorManager from '../locators/header.locate';
+import footerLocatorManager from '../locators/footer.locate';
 
 export function switchToPage(pageName) {
   switch (pageName) {
     case 'Home':
-      homeHeaderLocatorManager.getHomeTab().click();
+      headerLocatorManager.getHomeTab().click();
       cy.url().should('include', '/london');
       break;
     case 'Mentors':
-      homeHeaderLocatorManager.getMentorsTab().click();
+      headerLocatorManager.getMentorsTab().click();
       cy.url().should('include', '/london/mentors');
       break;
     case 'Resources':
-      homeHeaderLocatorManager.getResourcesTab().click();
+      headerLocatorManager.getResourcesTab().click();
       cy.url().should('include', '/london/resources');
       break;
     case 'How it works':
-      homeHeaderLocatorManager.getHowItWorksTab().click();
+      headerLocatorManager.getHowItWorksTab().click();
       cy.url().should('include', '/london');
       break;
     case 'Team':
-      homeHeaderLocatorManager.getTeamTab().click();
+      headerLocatorManager.getTeamTab().click();
       cy.url().should('include', '/london/team');
       break;
     default:
       break;
   }
+}
+
+export function verifyFooter() {
+  footerLocatorManager.getFooter();
+  footerLocatorManager.getFooterBrandLogo();
+  footerLocatorManager.getFooterWWCInfo();
+  footerLocatorManager.getWWCCopyright();
+  footerLocatorManager.getFooterMentorshipHeader();
+  footerLocatorManager.getFooterMentorshipSubheader();
+  footerLocatorManager.getFollowUsLabel();
+  footerLocatorManager.getStayTunedLabel();
+  footerLocatorManager.getLinkedinUrl();
+  footerLocatorManager.getInstagramUrl();
+  footerLocatorManager.getTwitterUrl();
+  footerLocatorManager.getGithubUrl();
+  footerLocatorManager.getMeetupUrl();
+  footerLocatorManager.getFacebookUrl();
+  footerLocatorManager.getSlackUrl();
+  footerLocatorManager.getYoutubeUrl();
+}
+
+export function verifyHeaderTabs() {
+  headerLocatorManager.getHomeTab();
+  headerLocatorManager.getMentorsTab();
+  headerLocatorManager.getResourcesTab();
+  headerLocatorManager.getHowItWorksTab();
+  headerLocatorManager.getTeamTab();
+}
+
+export function verifyHeader() {
+  headerLocatorManager.getHomeBanner();
+  headerLocatorManager.getHomeHeader();
+  headerLocatorManager.getHomeSubheader();
 }

@@ -6,7 +6,7 @@ const TEAM_TAB = '#nav-4';
 
 const BANNER = '.banner';
 
-class homeHeaderLocatorManager {
+class headerLocatorManager {
   getHomeTab = () => {
     return cy.get(HOME_TAB).shouldBeVisible();
   };
@@ -40,4 +40,4 @@ class homeHeaderLocatorManager {
   };
 }
 
-export default new homeHeaderLocatorManager();
+export default new headerLocatorManager();
