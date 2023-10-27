@@ -10,7 +10,6 @@
     }
   },
   "dependencies": {
-    "cy-verify-downloads": "0.1.11",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-downloadfile": "^1.2.3",
     "cypress-xpath": "^2.0.1"
