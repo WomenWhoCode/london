@@ -989,7 +989,7 @@
   index: 32
   position: Team Lead, Paythru Ltd.
   bio: I am currently working as team lead in Paythru - EV Charging And Payments. I have been backend developer for more than 15 years, designing and implementing backend architecture. I am passionate about exploring new technologies. Recently I explored Hyperledger Fabric (v2.0) to get some hands-on experience in Blockchain.I would love to support someone who wants to get into backend development.
-  image: assets/images/mentors/36.png
+  image: assets/images/mentors/36.svg
   location: United Kingdom
   languages: English
   skills:
@@ -1072,7 +1072,7 @@
   index: 35
   location: United Kingdom, London
   bio: I am an early stage tech founder with years of start up experience. I would like to support women in tech and bring more brilliant women into the tech scheme with my support and connection.
-  image: assets/images/mentors/39.jpeg
+  image: assets/images/mentors/39.svg
   languages: English
   availability:
     september: false
@@ -1098,7 +1098,7 @@
   index: 36
   location: United Kingdom, London
   bio: 17+ years of experience, worked for most of big tech companies, experience leading teams, designing complex distributed and low latency systems, driving projects in fast faced environments
-  image: assets/images/mentors/40.jpeg
+  image: assets/images/mentors/40.svg
   languages: English
   availability:
     september: true
