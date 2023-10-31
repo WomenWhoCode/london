@@ -2,11 +2,11 @@ const FFEDBACK_TITLE = '.feedback > h2';
 const FEEDBACK_BLOCK = '.active > .d-block';
 
 class homeFeedbackLocatorManager {
-  getFeedbackTitle = () => {
+  validateFeedbackTitle = () => {
     return cy
       .get(FFEDBACK_TITLE)
       .shouldBeVisible()
-      .contains('What do participants think about our Mentorship Programme?');
+      .should('contain', 'What do participants think about our Mentorship Programme?');
   };
 
   getFeedbackBlock = () => {

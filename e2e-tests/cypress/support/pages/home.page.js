@@ -30,22 +30,22 @@ export const verifyActivePageUrl = (tabName) => {
 };
 
 export function verifyHomeUIElements() {
-  homeGeneralLocatorManager.getOverview();
-  homeGeneralLocatorManager.getMentorTitle();
+  homeGeneralLocatorManager.validateOverview();
+  homeGeneralLocatorManager.validateMentorTitle();
   homeGeneralLocatorManager.verifyMentorConditions();
-  homeGeneralLocatorManager.getMenteeTitle();
+  homeGeneralLocatorManager.validateMentorTitle();
   homeGeneralLocatorManager.verifyMenteeConditions();
-  homeGeneralLocatorManager.getJoinAsMentorButton();
-  homeGeneralLocatorManager.getCheckMentorsButton();
-  homeTimelineLocatorManager.getTimelineTitle();
+  homeGeneralLocatorManager.validateJoinAsMentorButton();
+  homeGeneralLocatorManager.validateCheckMentorsButton();
+  homeTimelineLocatorManager.validateTimelineTitle();
   homeTimelineLocatorManager.verifyTimelineIcons();
   homeTimelineLocatorManager.verifyTimelineCards();
   homeTimelineLocatorManager.verifyTimelineCardsDates();
-  homeTimelineLocatorManager.getCheckDetailsButton();
-  homeSupportLocatorManager.getSupportTitle();
+  homeTimelineLocatorManager.validateCheckDetailsButton();
+  homeSupportLocatorManager.validateSupportTitle();
   homeSupportLocatorManager.verifySupportIcons();
   homeSupportLocatorManager.verifySupportCardTitles();
   homeSupportLocatorManager.verifySupportCardDetails();
-  homeFeedbackLocatorManager.getFeedbackTitle();
+  homeFeedbackLocatorManager.validateFeedbackTitle();
   homeFeedbackLocatorManager.getFeedbackBlock();
 }

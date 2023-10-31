@@ -31,11 +31,11 @@ class headerLocatorManager {
     return cy.get(BANNER).shouldBeVisible();
   };
 
-  getHomeHeader = () => {
+  validateHomeHeader = () => {
     return cy.get('h1').should('contain', 'Mentorship Programme 4.0');
   };
 
-  getHomeSubheader = () => {
+  validateHomeSubheader = () => {
     return cy.get('h3').should('contain', 'Women Who Code London');
   };
 }

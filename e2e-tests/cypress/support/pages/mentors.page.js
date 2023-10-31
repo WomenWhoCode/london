@@ -11,17 +11,17 @@ export function verifyMentorsData() {
 }
 
 export function verifyMentorsUIElements() {
-  mentorsLocatorManager.getMentorsPageHeader();
-  mentorsLocatorManager.getKeywordInput();
+  mentorsLocatorManager.validateMentorsPageHeader();
+  mentorsLocatorManager.validateKeywordInput();
   mentorsLocatorManager.verifyExperienceDropdownValues();
   mentorsLocatorManager.verifyAreaDropdownValues();
   mentorsLocatorManager.verifyMenteeFocusDropdownValues();
-  mentorsLocatorManager.getLongTermRadiobutton();
-  mentorsLocatorManager.getAdHocRadiobutton();
+  mentorsLocatorManager.validateLongTermRadiobutton();
+  mentorsLocatorManager.validateAdHocRadiobutton();
   mentorsLocatorManager
     .getMentorsCards()
     .should('have.length', EXPECTED_NUMBER_MENTORS_CARD);
-  mentorsLocatorManager.getPresentationTab();
-  mentorsLocatorManager.getSkillsTab();
-  mentorsLocatorManager.getMenteesTab();
+  mentorsLocatorManager.validatePresentationTab();
+  mentorsLocatorManager.validateSkillsTab();
+  mentorsLocatorManager.validateMenteesTab();
 }

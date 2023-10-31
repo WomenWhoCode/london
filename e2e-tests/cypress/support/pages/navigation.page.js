@@ -31,20 +31,20 @@ export function switchToPage(pageName) {
 export function verifyFooter() {
   footerLocatorManager.getFooter();
   footerLocatorManager.getFooterBrandLogo();
-  footerLocatorManager.getFooterWWCInfo();
-  footerLocatorManager.getWWCCopyright();
-  footerLocatorManager.getFooterMentorshipHeader();
-  footerLocatorManager.getFooterMentorshipSubheader();
-  footerLocatorManager.getFollowUsLabel();
-  footerLocatorManager.getStayTunedLabel();
-  footerLocatorManager.getLinkedinUrl();
-  footerLocatorManager.getInstagramUrl();
-  footerLocatorManager.getTwitterUrl();
-  footerLocatorManager.getGithubUrl();
-  footerLocatorManager.getMeetupUrl();
-  footerLocatorManager.getFacebookUrl();
-  footerLocatorManager.getSlackUrl();
-  footerLocatorManager.getYoutubeUrl();
+  footerLocatorManager.validateFooterWWCInfo();
+  footerLocatorManager.validateWWCCopyright();
+  footerLocatorManager.validateFooterMentorshipHeader();
+  footerLocatorManager.validateFooterMentorshipSubheader();
+  footerLocatorManager.validateFollowUsLabel();
+  footerLocatorManager.vaidateStayTunedLabel();
+  footerLocatorManager.validateLinkedinUrl();
+  footerLocatorManager.validateInstagramUrl();
+  footerLocatorManager.validateTwitterUrl();
+  footerLocatorManager.validateGithubUrl();
+  footerLocatorManager.validateMeetupUrl();
+  footerLocatorManager.validateFacebookUrl();
+  footerLocatorManager.validateSlackUrl();
+  footerLocatorManager.validateYoutubeUrl();
 }
 
 export function verifyHeaderTabs() {
@@ -57,6 +57,6 @@ export function verifyHeaderTabs() {
 
 export function verifyHeader() {
   headerLocatorManager.getHomeBanner();
-  headerLocatorManager.getHomeHeader();
-  headerLocatorManager.getHomeSubheader();
+  headerLocatorManager.validateHomeHeader();
+  headerLocatorManager.validateHomeSubheader();
 }

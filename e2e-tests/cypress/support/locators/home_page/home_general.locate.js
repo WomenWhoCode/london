@@ -14,7 +14,7 @@ const JOIN_AS_MENTOR_BUTTON = '.mentor > .mt-4 > .btn';
 const CHECK_OUT_MENTORS_BUTTON = '.mentee > .mt-4 > .btn';
 
 class homeGeneralLocatorManager {
-  getOverview = () => {
+  validateOverview = () => {
     return cy
       .get('.overview')
       .invoke('text')
@@ -34,7 +34,7 @@ class homeGeneralLocatorManager {
       });
   };
 
-  getMentorTitle = () => {
+  validateMentorTitle = () => {
     cy.get(MENTOR_TITLE)
       .should('exist')
       .and('contain', 'You should apply to be a ');
@@ -42,9 +42,15 @@ class homeGeneralLocatorManager {
     cy.get(MENTOR_TITLE).should('contain', ' if you:');
   };
 
-  getMenteeTitle = () => {
-    return cy.get(MENTEE_TITLE).shouldBeVisible();
+
+  validateMentorTitle = () => {
+    cy.get(MENTEE_TITLE)
+      .should('exist')
+      .and('contain', 'You should apply to be a ');
+    cy.get(MENTEE_TITLE).find('span').should('have.text', 'mentee');
+    cy.get(MENTEE_TITLE).should('contain', ' if you:');
   };
+
 
   verifyMentorConditions = () => {
     let areConditionsCorrect = false;
@@ -124,18 +130,18 @@ class homeGeneralLocatorManager {
     return areConditionsCorrect;
   };
 
-  getJoinAsMentorButton = () => {
+  validateJoinAsMentorButton = () => {
     return cy
       .get(JOIN_AS_MENTOR_BUTTON)
       .shouldBeVisible()
-      .contains('Join as a Mentor');
+      .should('contain', 'Join as a Mentor');
   };
 
-  getCheckMentorsButton = () => {
+  validateCheckMentorsButton = () => {
     return cy
       .get(CHECK_OUT_MENTORS_BUTTON)
       .shouldBeVisible()
-      .contains('Check our Mentors');
+      .should('contain', 'Check our Mentors');
   };
 }
 

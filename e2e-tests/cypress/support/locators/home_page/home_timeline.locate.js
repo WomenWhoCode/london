@@ -23,8 +23,8 @@ const TIMELINE_CARD_DATE_4 =
 const CHECK_DETAILS_BUTTON = '.text-center > .btn';
 
 class homeTimelineLocatorManager {
-  getTimelineTitle = () => {
-    return cy.get(TIMELINE_TITLE).shouldBeVisible().contains('Timeline');
+  validateTimelineTitle = () => {
+    return cy.get(TIMELINE_TITLE).shouldBeVisible().should('contain', 'Timeline')
   };
 
   verifyTimelineIcons = () => {
@@ -125,11 +125,11 @@ class homeTimelineLocatorManager {
     return areConditionsCorrect;
   };
 
-  getCheckDetailsButton = () => {
+  validateCheckDetailsButton = () => {
     return cy
       .get(CHECK_DETAILS_BUTTON)
       .shouldBeVisible()
-      .contains('Check more details');
+      .should('contain', 'Check more details');
   };
 }
 

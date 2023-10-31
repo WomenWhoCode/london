@@ -6,14 +6,14 @@ const FOOTER_MENTORSHIP_HEADER = ':nth-child(1) > .col-sm-4 > h5';
 const FOOTER_MENTORSHIP_SUBHEADER = ':nth-child(1) > .col-sm-4 > p > small';
 const FOLLOW_US_LABEL = ':nth-child(2) > .col-sm-4 > h5';
 const STAY_TUNED_LABEL = ':nth-child(2) > .col-sm-4 > :nth-child(2) > small';
-const SOCIAL_LINK_LINKEDIN = ':nth-child(1)';
-const SOCIAL_LINK_INSTAGRAM = '.network > :nth-child(2)';
-const SOCIAL_LINK_TWITTER = '.network > :nth-child(3)';
-const SOCIAL_LINK_GITHUB = '.network > :nth-child(4)';
-const SOCIAL_LINK_MEETUP = '.network > :nth-child(5)';
-const SOCIAL_LINK_FACEBOOK = '.network > :nth-child(6)';
-const SOCIAL_LINK_SLACK = '.network > :nth-child(7)';
-const SOCIAL_LINK_YOUTUBE = '.network > :nth-child(8)';
+const SOCIAL_LINK_LINKEDIN = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > a'
+const SOCIAL_LINK_INSTAGRAM = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(2) > a'
+const SOCIAL_LINK_TWITTER = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(3) > a'
+const SOCIAL_LINK_GITHUB = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(4) > a'
+const SOCIAL_LINK_MEETUP = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(5) > a'
+const SOCIAL_LINK_FACEBOOK = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(6) > a'
+const SOCIAL_LINK_SLACK = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(7) > a'
+const SOCIAL_LINK_YOUTUBE = '.footer > .container > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(8) > a'
 
 class footerLocatorManager {
   getFooter = () => {
@@ -24,67 +24,64 @@ class footerLocatorManager {
     return cy.get(FOOTER_WWC_LOGO).shouldBeVisible();
   };
 
-  getFooterWWCInfo = () => {
+  validateFooterWWCInfo = () => {
     return cy
       .get(FOOTER_WWC_INFO)
       .shouldBeVisible()
-      .contains('Women Who Code is a 501(c)(3) not-for-profit organization.');
+      .should('contain', 'Women Who Code is a 501(c)(3) not-for-profit organization.');
   };
 
-  getWWCCopyright = () => {
+  validateWWCCopyright = () => {
     return cy
       .get(FOOTER_WWC_COPYRIGHT)
       .shouldBeVisible()
-      .contains('© 2023 Women Who Code London');
+      .should('contain', '© 2023 Women Who Code London');
   };
 
-  getFooterMentorshipHeader = () => {
+  validateFooterMentorshipHeader = () => {
     return cy
       .get(FOOTER_MENTORSHIP_HEADER)
       .shouldBeVisible()
-      .contains('Mentorship Programme');
+      .should('contain', 'Mentorship Programme');
   };
 
-  getFooterMentorshipSubheader = () => {
+  validateFooterMentorshipSubheader = () => {
     return cy
       .get(FOOTER_MENTORSHIP_SUBHEADER)
       .shouldBeVisible()
-      .contains('Women Who Code London');
+      .should('contain', 'Women Who Code London');
   };
 
-  getFollowUsLabel = () => {
-    return cy.get(FOLLOW_US_LABEL).shouldBeVisible().contains('Follow Us');
+  validateFollowUsLabel = () => {
+    return cy.get(FOLLOW_US_LABEL).shouldBeVisible().should('contain', 'Follow Us');
   };
 
-  getStayTunedLabel = () => {
+  vaidateStayTunedLabel = () => {
     return cy
       .get(STAY_TUNED_LABEL)
       .shouldBeVisible()
-      .contains('Join us on social media and stay tuned.');
+      .should('contain','Join us on social media and stay tuned.');
   };
 
-  getLinkedinUrl = () => {
-    return cy.contains('Follow Us').next().next().find(SOCIAL_LINK_LINKEDIN);
+  validateLinkedinUrl = () => {
+    return cy.get(SOCIAL_LINK_LINKEDIN).should('have.attr', 'href', 'https://www.linkedin.com/company/wwcodelondon/')
   };
 
-  getInstagramUrl = () => {
+  validateInstagramUrl = () => {
     return cy
       .get(SOCIAL_LINK_INSTAGRAM)
-      .find('a')
       .should('have.attr', 'href', 'https://www.instagram.com/wwcodelondon');
   };
 
-  getTwitterUrl = () => {
+  validateTwitterUrl = () => {
     return cy
       .get(SOCIAL_LINK_TWITTER)
-      .find('a')
       .should('have.attr', 'href', 'https://twitter.com/WWCodeLondon');
   };
 
-  getGithubUrl = () => {
+  validateGithubUrl = () => {
     return cy
       .get(SOCIAL_LINK_GITHUB)
-      .find('a')
       .should(
         'have.attr',
         'href',
@@ -92,10 +89,9 @@ class footerLocatorManager {
       );
   };
 
-  getMeetupUrl = () => {
+  validateMeetupUrl = () => {
     return cy
       .get(SOCIAL_LINK_MEETUP)
-      .find('a')
       .should(
         'have.attr',
         'href',
@@ -103,17 +99,15 @@ class footerLocatorManager {
       );
   };
 
-  getFacebookUrl = () => {
+  validateFacebookUrl = () => {
     return cy
       .get(SOCIAL_LINK_FACEBOOK)
-      .find('a')
       .should('have.attr', 'href', 'https://www.facebook.com/wwcodelondon/');
   };
 
-  getSlackUrl = () => {
+  validateSlackUrl = () => {
     return cy
       .get(SOCIAL_LINK_SLACK)
-      .find('a')
       .should(
         'have.attr',
         'href',
@@ -121,10 +115,9 @@ class footerLocatorManager {
       );
   };
 
-  getYoutubeUrl = () => {
+  validateYoutubeUrl = () => {
     return cy
       .get(SOCIAL_LINK_YOUTUBE)
-      .find('a')
       .should('have.attr', 'href', 'https://youtube.com/user/WomenWhoCode');
   };
 }

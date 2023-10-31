@@ -16,11 +16,11 @@ const SUPPORT_CARD_DETAILS_3 =
   '.support > .row > :nth-child(3) > .card > .card-body > p';
 
 class homeSupportLocatorManager {
-  getSupportTitle = () => {
+  validateSupportTitle = () => {
     return cy
       .get(SUPPORT_TITLE)
       .shouldBeVisible()
-      .contains('We are going to support you along the way!');
+      .should('contain', 'We are going to support you along the way!');
   };
 
   verifySupportIcons = () => {
