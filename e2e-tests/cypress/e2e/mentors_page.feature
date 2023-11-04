@@ -2,7 +2,7 @@ Feature: Mentors Page
 
   Background:
     When I visit Home page
-    Then I switch to "Mentors" page
+    Then I switch to "MENTORS" page
 
   Scenario: As a user, I can open Mentors page and verify mentors data
     And I verify mentors data

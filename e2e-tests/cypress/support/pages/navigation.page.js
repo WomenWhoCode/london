@@ -3,25 +3,30 @@ import footerLocatorManager from '../locators/footer.locate';
 
 export function switchToPage(pageName) {
   switch (pageName) {
-    case 'Home':
+    case 'HOME':
       headerLocatorManager.getHomeTab().click();
       cy.url().should('include', '/london');
       break;
-    case 'Mentors':
+    case 'MENTORS':
       headerLocatorManager.getMentorsTab().click();
       cy.url().should('include', '/london/mentors');
       break;
-    case 'Resources':
+    case 'RESOURCES':
       headerLocatorManager.getResourcesTab().click();
       cy.url().should('include', '/london/resources');
       break;
-    case 'How it works':
+    case 'HOW IT WORKS':
       headerLocatorManager.getHowItWorksTab().click();
       cy.url().should('include', '/london');
       break;
-    case 'Team':
+    case 'TEAM':
       headerLocatorManager.getTeamTab().click();
       cy.url().should('include', '/london/team');
+      break;
+    case 'LONG-TERM TIMELINE':
+      headerLocatorManager.getHowItWorksTab().click();
+      cy.contains(pageName).click();
+      cy.url().should('include', '/london/timeline');
       break;
     default:
       break;

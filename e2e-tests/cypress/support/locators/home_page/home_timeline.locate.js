@@ -24,7 +24,10 @@ const CHECK_DETAILS_BUTTON = '.text-center > .btn';
 
 class homeTimelineLocatorManager {
   validateTimelineTitle = () => {
-    return cy.get(TIMELINE_TITLE).shouldBeVisible().should('contain', 'Timeline')
+    return cy
+      .get(TIMELINE_TITLE)
+      .shouldBeVisible()
+      .should('contain', 'Timeline');
   };
 
   verifyTimelineIcons = () => {
@@ -130,6 +133,10 @@ class homeTimelineLocatorManager {
       .get(CHECK_DETAILS_BUTTON)
       .shouldBeVisible()
       .should('contain', 'Check more details');
+  };
+
+  getCheckDetailsButton = () => {
+    return cy.get(CHECK_DETAILS_BUTTON).shouldBeVisible();
   };
 }
 

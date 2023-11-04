@@ -49,3 +49,8 @@ export function verifyHomeUIElements() {
   homeFeedbackLocatorManager.validateFeedbackTitle();
   homeFeedbackLocatorManager.getFeedbackBlock();
 }
+
+export function clickCheckMoreDetails() {
+  homeTimelineLocatorManager.getCheckDetailsButton().click();
+  cy.url().should('include', '/london/timeline');
+}
