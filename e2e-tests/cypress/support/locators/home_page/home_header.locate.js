@@ -11,6 +11,7 @@ class homeHeaderLocatorManager {
 
   validateHomeSubheader = () => {
     return cy.get('h3').should('contain', 'Women Who Code London');
-  };}
+  };
+}
 
   export default new homeHeaderLocatorManager();

@@ -55,7 +55,6 @@ export function verifyHeaderTabs() {
   headerLocatorManager.getTeamTab();
 }
 
-
 export function verifyHeaderLogo() {
   headerLocatorManager.getHeaderLogo();
 }
