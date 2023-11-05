@@ -56,3 +56,8 @@ export function verifyHomeHeader() {
   homeHeaderLocatorManager.validateHomeHeader();
   homeHeaderLocatorManager.validateHomeSubheader();
 }
+
+export function clickCheckMoreDetails() {
+  homeTimelineLocatorManager.getCheckDetailsButton().click();
+  cy.url().should('include', '/london/timeline');
+}

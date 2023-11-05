@@ -3,6 +3,7 @@ import {
   openHomePage,
   verifyActivePageUrl,
   verifyHomeUIElements,
+  clickCheckMoreDetails,
 } from '../pages/home.page';
 
 When('I visit Home page', () => {
@@ -15,4 +16,8 @@ And('I verify the {string} active tab url', (tabName) => {
 
 And('I verify all UI elements on the Home page', (tabName) => {
   verifyHomeUIElements();
+});
+
+And('I click Check more details button', () => {
+  clickCheckMoreDetails();
 });
