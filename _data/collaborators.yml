@@ -42,25 +42,25 @@
     - name: medium
       link: https://blog.sharonytlau.xyz/
 
-- name: Sandy Chuchuca
-  image: assets/images/mentors/6.jpeg
-  position: Senior Software Engineer
+- name: Airat Yusuff
+  image: assets/images/collaborators/8.jpeg
+  position: Software Engineer
   comment: Website Collaborator
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/sandy-chuchuca-ordonez/
+      link: https://www.linkedin.com/in/khairah-yusuff/
     - name: github
-      link: https://github.com/sandycho
+      link: https://github.com/khairahscorner
 
-- name: Yuqing Wang
-  image: assets/images/collaborators/5.png
-  position: Full-stack Developer
+- name: Neha Sharma
+  image: assets/images/collaborators/5.jpeg
+  position: Principal Engineer
   comment: Website Collaborator
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/yuqingwang42/
+      link: https://www.linkedin.com/in/nehha/
     - name: github
-      link: https://github.com/yuqingwang98
+      link: https://github.com/Neha
 
 - name: Idayat Sanni
   image: assets/images/collaborators/6.jpeg
@@ -72,12 +72,12 @@
     - name: github
       link: https://github.com/IdayatSanni
 
-- name: Rossella Ferrandino
-  image: assets/images/collaborators/7.jpeg
-  position: Front-end Developer
-  comment: Website Collaborator
+- name: Valeriia Amelchenia
+  image: assets/images/mentors/55.jpeg
+  position: Software QA Engineer
+  comment: Test Automation
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/rossella-ferrandino-67601226/
+      link: https://www.linkedin.com/in/valeriia-amelchenia
     - name: github
-      link: https://github.com/RossellaFer
+      link: https://github.com/vamelchenia
