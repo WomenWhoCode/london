@@ -2,7 +2,6 @@ var controllerSearch = (function(jQuery) {
     const HIDE_CLASS = "d-none";
     const MENTOR_CARD = "#mentor-card-";
     const MENTOR_CARD_HIDDEN = ".card.d-none";
-    const TYPE_CHECKED = "input[name='mentorship-type']:checked";
     const Filter = {
         KEYWORDS: "keywords",
         EXPERIENCE: "exp"
@@ -20,10 +19,12 @@ var controllerSearch = (function(jQuery) {
     let $area = jQuery("#area");
     let $experience = jQuery("#experience");
     let $focus = jQuery("#focus");
-    let $type = jQuery("input[name='mentorship-type']");
+    let $type = jQuery("#type");
     let $form = jQuery(".mentor-filter");
     let $emptyMsg = jQuery("#no-mentors-msg");
     let $descriptionMsg = jQuery(".description");
+    let $searchBtn = jQuery("#search");
+    let $clearBtn = jQuery("#clear-btn");
     
     let showMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).removeClass(HIDE_CLASS);
@@ -79,9 +80,8 @@ var controllerSearch = (function(jQuery) {
             filters.push(paramToFilter(Filter.KEYWORDS, $focus.val()));
         }
 
-        let $typeSelected = jQuery(TYPE_CHECKED);
-        if ($typeSelected.val()) {
-            filters.push(paramToFilter(Filter.KEYWORDS, $typeSelected.val()));
+        if ($type.val()) {
+            filters.push(paramToFilter(Filter.KEYWORDS, $type.val()));
         }
 
         if ($experience.val()) {
@@ -98,6 +98,12 @@ var controllerSearch = (function(jQuery) {
     let removeFilters = function(){
         jQuery(MENTOR_CARD_HIDDEN).removeClass(HIDE_CLASS);
         applyMentorsMsg();
+
+        $keywords.val("");
+        $area.val("");
+        $focus.val("");
+        $type.val("");
+        $experience.val("");
     };
 
     let filterMentors = function(filters) {
@@ -177,7 +183,15 @@ var controllerSearch = (function(jQuery) {
 
         $form.submit(function(e){
             return false;
-        });    
+        }); 
+
+        $searchBtn.click(function() {
+            applyFilters();
+        }); 
+
+        $clearBtn.click(function() {
+            removeFilters();
+        }); 
     };
 
     let init = function() {
