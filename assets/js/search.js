@@ -55,6 +55,15 @@ var controllerSearch = (function(jQuery) {
         };
     };
 
+    let experienceFilter = function(key, value, min, max) {
+        return {
+            'key': key,
+            'value': value.toLowerCase(),
+            'min': min,
+            'max': max
+        };
+    };
+
     let applyKeywordsParam = function() {
         var keywords = params.get([Filter.KEYWORDS]);
         
@@ -85,7 +94,9 @@ var controllerSearch = (function(jQuery) {
         }
 
         if ($experience.val()) {
-            filters.push(paramToFilter(Filter.EXPERIENCE, $experience.val()));
+            let min = $experience.find(":selected").data("min");
+            let max = $experience.find(":selected").data("max");
+            filters.push(experienceFilter(Filter.EXPERIENCE, $experience.val(), min, max));
         }
 
         if (isDefined(filters)) {
@@ -135,7 +146,9 @@ var controllerSearch = (function(jQuery) {
             let inputHidden = jQuery(inputHiddenId);
 
             if (filter.key === Filter.EXPERIENCE) {
-                if (isDefined(inputHidden) &&  parseInt(inputHidden.val()) >= parseInt(filter.value)) {
+                let min = filter.min;
+                let max = filter.max;
+                if (isDefined(inputHidden) &&  parseInt(inputHidden.val()) >= min && parseInt(inputHidden.val()) <= max) {
                     hasFilter++;
                 }
 
