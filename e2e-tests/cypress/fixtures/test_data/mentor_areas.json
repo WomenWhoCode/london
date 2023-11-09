@@ -1,0 +1,52 @@
+{
+  "areaOptions": [
+    {
+      "label": "Area in tech"
+    },
+    {
+      "label": "QA"
+    },
+    {
+      "label": "Backend Developer"
+    },
+    {
+      "label": "Frontend Developer"
+    },
+    {
+      "label": "Fullstack Developer"
+    },
+    {
+      "label": "DevOps"
+    },
+    {
+      "label": "Distributed Systems"
+    },
+    {
+      "label": "Data Science"
+    },
+    {
+      "label": "Data Engineering"
+    },
+    {
+      "label": "Android"
+    },
+    {
+      "label": "iOS"
+    },
+    {
+      "label": "Business Analysis"
+    },
+    {
+      "label": "Product Management"
+    },
+    {
+      "label": "Project Management"
+    },
+    {
+      "label": "Machine Learning"
+    },
+    {
+      "label": "Engineering management"
+    }
+  ]
+}

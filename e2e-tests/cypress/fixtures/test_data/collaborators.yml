@@ -1,0 +1,83 @@
+- name: Lily Nguyen
+  image: assets/images/collaborators/1.jpeg
+  position: UX/UI Engineer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/lilynguyendk/
+    - name: github
+      link: https://github.com/lilyndk
+
+- name: Sumeyya Javaid
+  image: assets/images/collaborators/2.jpeg
+  position: Full-stack Developer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sumeyya-javaid/
+    - name: twitter
+      link: https://twitter.com/_jasum_
+    - name: github
+      link: https://github.com/j4sum
+
+- name: Naureen Imran
+  image: assets/images/collaborators/3.png
+  position: Full-stack Developer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/naureen-imran-744932227/
+    - name: github
+      link: https://github.com/goldfishdolphin
+
+- name: Ying Tung (Sharon) Lau
+  image: assets/images/collaborators/4.jpeg
+  position: Front-end Developer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/yingtunglau/
+    - name: github
+      link: https://github.com/sharonytlau
+    - name: medium
+      link: https://blog.sharonytlau.xyz/
+
+- name: Sandy Chuchuca
+  image: assets/images/mentors/6.jpeg
+  position: Senior Software Engineer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sandy-chuchuca-ordonez/
+    - name: github
+      link: https://github.com/sandycho
+
+- name: Yuqing Wang
+  image: assets/images/collaborators/5.png
+  position: Full-stack Developer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/yuqingwang42/
+    - name: github
+      link: https://github.com/yuqingwang98
+
+- name: Idayat Sanni
+  image: assets/images/collaborators/6.jpeg
+  position: Front-end Developer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
+    - name: github
+      link: https://github.com/IdayatSanni
+
+- name: Rossella Ferrandino
+  image: assets/images/collaborators/7.jpeg
+  position: Front-end Developer
+  comment: Website Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/rossella-ferrandino-67601226/
+    - name: github
+      link: https://github.com/RossellaFer
