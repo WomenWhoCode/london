@@ -573,7 +573,7 @@
     - linkedin: https://www.linkedin.com/in/preejababu/
 
 - name: Seyoung Joo
-  disabled: false 
+  disabled: true 
   hours: 0
   type: long-term
   index: 19
@@ -898,7 +898,7 @@
     - twitter: https://twitter.com/monalsanghvi
 
 - name: Iana Luntc
-  disabled: false 
+  disabled: true 
   hours: 0
   type: long-term
   index: 29
@@ -983,7 +983,7 @@
     - linkedin: https://www.linkedin.com/in/bisijoshfalade
 
 - name: Madhura Chaganty
-  disabled: false 
+  disabled: true 
   hours: 0
   type: long-term
   index: 32
@@ -1156,7 +1156,7 @@
     - github: https://github.com/marichka-offen
 
 - name: Dakshika Chauhan
-  disabled: false 
+  disabled: true 
   hours: 0
   position: Senior Business Analyst, Amazon
   type: long-term
