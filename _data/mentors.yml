@@ -1364,7 +1364,7 @@
   disabled: false 
   hours: 4
   position: Software Engineer, Yandex
-  type: Both
+  type: both
   index: 45
   location: Moscow
   bio: |
@@ -1399,7 +1399,7 @@
   disabled: false 
   hours: 5
   position: QA Specialist and Mentor, Trivago
-  type: Both
+  type: both
   index: 46
   location: Düsseldorf, Germany
   bio: ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
