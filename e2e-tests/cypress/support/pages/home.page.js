@@ -2,6 +2,7 @@ import homeGeneralLocatorManager from '../locators/home_page/home_general.locate
 import homeTimelineLocatorManager from '../locators/home_page/home_timeline.locate';
 import homeSupportLocatorManager from '../locators/home_page/home_support.locate';
 import homeFeedbackLocatorManager from '../locators/home_page/home_feedback.locate';
+import homeHeaderLocatorManager from '../locators/home_page/home_header.locate';
 
 export function openHomePage() {
   cy.visit(Cypress.config('baseUrl'));
@@ -48,6 +49,12 @@ export function verifyHomeUIElements() {
   homeSupportLocatorManager.verifySupportCardDetails();
   homeFeedbackLocatorManager.validateFeedbackTitle();
   homeFeedbackLocatorManager.getFeedbackBlock();
+}
+
+export function verifyHomeHeader() {
+  homeHeaderLocatorManager.getHomeBanner();
+  homeHeaderLocatorManager.validateHomeHeader();
+  homeHeaderLocatorManager.validateHomeSubheader();
 }
 
 export function clickCheckMoreDetails() {

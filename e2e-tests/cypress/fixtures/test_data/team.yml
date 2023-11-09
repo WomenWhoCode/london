@@ -1,0 +1,36 @@
+- name: Eleonora Belova
+  position: Programme Coordinator
+  comment: Managing the Programme
+  image: assets/images/mentors/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser
+- name: Adriana Zenck Zimmermann
+  position: Website Coordinator
+  comment: Programme support
+  image: assets/images/mentors/3.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/dricazenck/
+    - name: github
+      link: https://github.com/dricazenck
+    - name: medium
+      link: https://medium.com/@dricazenck
+- name: Marina Aguiar
+  position: Communication and Networking
+  comment: Programme support
+  image: assets/images/team/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/marina-aguiar/
+    - name: github
+      link: https://github.com/marinaaguiar
+- name: Elena Fedorova
+  position: Designer
+  comment: Website and design support
+  image: assets/images/team/2.png
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/elena-fedorova-9ab270237/

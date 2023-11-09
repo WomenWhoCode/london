@@ -3,8 +3,7 @@ const MENTORS_TAB = '#nav-1';
 const RESOURCES_TAB = '#nav-2';
 const HOW_IT_WORKS_TAB = '#drop3';
 const TEAM_TAB = '#nav-4';
-
-const BANNER = '.banner';
+const HEADER_LOGO = '.navbar-brand > .brand';
 
 class headerLocatorManager {
   getHomeTab = () => {
@@ -27,16 +26,8 @@ class headerLocatorManager {
     return cy.get(TEAM_TAB).shouldBeVisible();
   };
 
-  getHomeBanner = () => {
-    return cy.get(BANNER).shouldBeVisible();
-  };
-
-  validateHomeHeader = () => {
-    return cy.get('h1').should('contain', 'Mentorship Programme 4.0');
-  };
-
-  validateHomeSubheader = () => {
-    return cy.get('h3').should('contain', 'Women Who Code London');
+  getHeaderLogo = () => {
+    return cy.get(HEADER_LOGO).shouldBeVisible();
   };
 }
 
