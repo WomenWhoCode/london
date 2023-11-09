@@ -180,12 +180,30 @@
     @extend .container;
 
     .form-group {
-        margin-top: 10px;
-        margin-right: 10px !important;
+        margin-right: 1.5rem;
     }
 
     .search-type {
         margin-top: 20px;
+    }
+
+    ::placeholder {
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-primary {
+        background-color: $teal;
+        color: $white;
+    }
+    .custom-input {
+        background-image: url('../../assets/images/search.png');
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        padding-left: 40px;
+    }
+    #clear-btn {
+        cursor: pointer;
+        opacity: 0.5;
     }
 }
 .alert {
