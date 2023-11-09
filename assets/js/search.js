@@ -25,6 +25,7 @@ var controllerSearch = (function(jQuery) {
     let $descriptionMsg = jQuery(".description");
     let $searchBtn = jQuery("#search");
     let $clearBtn = jQuery("#clear-btn");
+    let $toggleFilterBtn = jQuery('#toggle-filters');
     
     let showMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).removeClass(HIDE_CLASS);
@@ -205,6 +206,12 @@ var controllerSearch = (function(jQuery) {
         $clearBtn.click(function() {
             removeFilters();
         }); 
+
+        $toggleFilterBtn.click(function() { 
+            $clearBtn.toggleClass('d-none');
+            jQuery('#toggle-container').toggleClass("mt-5");
+            jQuery("#filters-container").toggleClass('d-none');
+        });
     };
 
     let init = function() {

@@ -25,7 +25,7 @@ title: Mentors
     {% assign mentors = site.data.mentors | sort: "hours" | reverse %}
     {% for mentor in mentors %}
         {% if mentor.disabled %}
-            <div class="card display-none" id="mentor-card-{{mentor.index}}"></div>
+            <div class="card d-none" id="mentor-card-{{mentor.index}}"></div>
         {% else %}
             <div class="card" id="mentor-card-{{mentor.index}}">
                 <div class="row">

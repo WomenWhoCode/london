@@ -205,11 +205,11 @@
         cursor: pointer;
         opacity: 0.5;
     }
+    #toggle-filters {
+        cursor: pointer;
+    }
 }
 .alert {
     border-color: grey;
     border-width: 3px;
-}
-.display-none {
-    display: none;
 }
