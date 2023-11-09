@@ -24,7 +24,9 @@ title: Mentors
 
     {% assign mentors = site.data.mentors | sort: "hours" | reverse %}
     {% for mentor in mentors %}
-        {% unless mentor.disabled %}
+        {% if mentor.disabled %}
+            <div class="card display-none" id="mentor-card-{{mentor.index}}"></div>
+        {% else %}
             <div class="card" id="mentor-card-{{mentor.index}}">
                 <div class="row">
                     <div class="col-md-3">
@@ -144,12 +146,12 @@ title: Mentors
                 <input type="hidden" name="mentor-data"
                     value="{{mentor.name | downcase}}
                         {{mentor.bio | normalize_whitespace | downcase}}
-                        {% if mentor.type == 'both' %}long-term and ad-hoc {% else %}{{mentor.type | downcase}}{% endif %}
+                        {{mentor.type | downcase}}
                         {{mentor.skills.languages | downcase}}
                         {{mentor.skills.extra | normalize_whitespace | downcase}}
                         {{mentor.skills.focus | array_to_sentence_string | downcase}}
                         {{mentor.skills.areas | array_to_sentence_string | downcase}}">
             </div>
-        {% endunless %}
+        {% endif %}
     {% endfor %}
 </div>
