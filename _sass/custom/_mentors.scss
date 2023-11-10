@@ -195,20 +195,15 @@
         background-color: $teal;
         color: $white;
     }
+
     .custom-input {
         background-image: url('../../assets/images/search.png');
         background-repeat: no-repeat;
         background-position: 10px center;
         padding-left: 40px;
     }
-    #clear-btn {
-        cursor: pointer;
-        opacity: 0.5;
-    }
-    #toggle-filters {
-        cursor: pointer;
-    }
 }
+
 .alert {
     border-color: grey;
     border-width: 3px;

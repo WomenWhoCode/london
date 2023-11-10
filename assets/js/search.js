@@ -208,9 +208,9 @@ var controllerSearch = (function(jQuery) {
         }); 
 
         $toggleFilterBtn.click(function() { 
-            $clearBtn.toggleClass(HIDE_CLASS));
+            $clearBtn.toggleClass(HIDE_CLASS);
             jQuery('#toggle-container').toggleClass("mt-5");
-            jQuery("#filters-container").toggleClass(HIDE_CLASS));
+            jQuery("#filters-container").toggleClass(HIDE_CLASS);
         });
     };
 
