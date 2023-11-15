@@ -5,9 +5,9 @@ const BLOG_POSTS_HEADER = '.blog > h2';
 const BLOG_CARDS = '.blog .card';
 
 // expected results files
-const RESOURCES_FILE = 'test_data/resources.yml';
-const EVENTS_FILE = 'test_data/events.yml';
-const BLOG_POSTS_FILE = 'test_data/blogs.yml';
+const RESOURCES_FILE = 'temporary/resources.yml';
+const EVENTS_FILE = 'temporary/events.yml';
+const BLOG_POSTS_FILE = 'temporary/blogs.yml';
 
 // resources elements
 const RESOURCES_TITLE = '.card-title';
@@ -46,7 +46,6 @@ class resourcesLocatorManager {
   };
 
   validateResourcesCards = () => {
-    const YAML = require('yamljs');
     cy.fixture(RESOURCES_FILE).then((file) => {
       const expectedResources = YAML.parse(file);
       this.getResourcesCards()
@@ -73,7 +72,6 @@ class resourcesLocatorManager {
   };
 
   validateEventCards = () => {
-    const YAML = require('yamljs');
     cy.fixture(EVENTS_FILE).then((file) => {
       const expectedEvents = YAML.parse(file);
       this.getEventsCards()
@@ -105,7 +103,6 @@ class resourcesLocatorManager {
   };
 
   validateBlogPostsCards = () => {
-    const YAML = require('yamljs');
     cy.fixture(BLOG_POSTS_FILE).then((file) => {
       const expectedBlogs = YAML.parse(file);
       cy.get(BLOG_CARDS)
