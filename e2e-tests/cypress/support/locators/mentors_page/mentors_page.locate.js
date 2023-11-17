@@ -3,23 +3,22 @@ const KEYWORD_INPUT = '#keywords';
 const EXPERIENCE_DROPDOWN = '#experience';
 const AREA_DROPDOWN = '#area';
 const MENTEE_FOCUS = '#focus';
-const LONG_TERM_RADIOBUTTON = '.form-inline > :nth-child(5)';
-const AD_HOC_RADIOBUTTON = '.form-inline  > :nth-child(6)';
+const FORMAT_DROPDOWN = '#type';
 
-//Mentors cards (1st one in the list)
-//const MENTORS_CARDS = '.mentors .card';
 const MENTORS_CARDS = '.card:not(.d-none)';
-const PRESENTATION_TAB = '#bt-p-51';
-const SKILLS_TAB = '#bt-s-51';
-const MENTEES_TAB = '#bt-m-51';
-// const SHOW_MORE_BUTTON = '#btn-show-more-51';
 
-const MENTORS_FILE = 'temporary/mentors.yml';
+const PRESENTATION_TAB = '.presentation';
 const MENTORS_TITLE = '.card-title';
-const MENTORS_POSITION = '.card-presentation .position';
-const MENTORS_LOCATION = '.card-presentation .card-text';
-const MENTORS_BIO = '.card-presentation .card-text';
-const SHOW_MORE_BUTTON = '.card-presentation .show-more';
+const MENTORS_POSITION = '.card-presentation > .position';
+const PRESENTATION_CARD = '.card-presentation > .card-text';
+const SHOW_MORE_BUTTON = '.card-presentation > .show-more';
+const SKILLS_TAB = '.skills';
+const SKILLS_CARD = '.card-skills';
+const NETWORK_LINKS = '.network';
+const MENTEES_TAB = '.mentees';
+const MENTEES_CARD = '.card-mentees > .card-text';
+
+const TOGGLE_ADVANCED_FILTERS = '#toggle-filters';
 
 class mentorsLocatorManager {
   validateMentorsAlert = () => {
@@ -44,7 +43,7 @@ class mentorsLocatorManager {
     return cy
       .get(KEYWORD_INPUT)
       .shouldBeVisible()
-      .should('have.attr', 'placeholder', 'Keywords');
+      .should('have.attr', 'placeholder', 'Search by mentor’s name...');
   };
 
   verifyExperienceDropdownValues = () => {
@@ -59,9 +58,9 @@ class mentorsLocatorManager {
     });
   };
 
-  verifyAreaDropdownValues = () => {
-    cy.fixture('test_data/mentor_areas.json').then((mentors) => {
-      const options = mentors.areaOptions;
+  verifyExpertiseDropdownValues = () => {
+    cy.fixture('test_data/mentor_expertise.json').then((expertises) => {
+      const options = expertises.expertOptions;
       cy.get(AREA_DROPDOWN)
         .children('option')
         .should('have.length', options.length)
@@ -72,29 +71,27 @@ class mentorsLocatorManager {
   };
 
   verifyMenteeFocusDropdownValues = () => {
-    const referenceValues = [
-      'Mentee Focus',
-      'Switch career to IT',
-      'Grow from beginner to mid-level',
-      'Grow from mid-level to senior-level',
-      'Grow beyond senior level',
-      'Switch from IC to management position',
-      'Change specialisation within IT',
-    ];
-
-    cy.get(MENTEE_FOCUS)
-      .children('option')
-      .should('have.length', referenceValues.length)
-      .each(($option, index) => {
-        cy.wrap($option).should('contain', referenceValues[index]);
-      });
+    cy.fixture('test_data/mentee_focus.json').then((options) => {
+      const menteeOptions = options.menteeOptions;
+      cy.get(MENTEE_FOCUS)
+        .children('option')
+        .should('have.length', menteeOptions.length)
+        .each(($option, index) => {
+          cy.wrap($option).should('contain', menteeOptions[index].label);
+        });
+    });
   };
 
-  validateLongTermRadiobutton = () => {
-    return cy
-      .get(LONG_TERM_RADIOBUTTON)
-      .find('label')
-      .should('contain', 'Long Term relationship');
+  validateFormatOptions = () => {
+    cy.fixture('test_data/mentor_formats.json').then((formats) => {
+      const formatOptions = formats.formatOptions;
+      cy.get(FORMAT_DROPDOWN)
+        .children('option')
+        .should('have.length', formatOptions.length)
+        .each(($option, index) => {
+          cy.wrap($option).should('contain', formatOptions[index].label);
+        });
+    });
   };
 
   validateAdHocRadiobutton = () => {
@@ -137,44 +134,139 @@ class mentorsLocatorManager {
   };
 
   validateMentorByPosition = (option, mentorPosition) => {
-    cy.wrap(option)
-      .find(MENTORS_POSITION)
-      .should('contain', mentorPosition);
+    cy.wrap(option).find(MENTORS_POSITION).should('contain', mentorPosition);
   };
 
   validateMentorByLocation = (option, mentorLocation) => {
     cy.wrap(option)
-      .find(MENTORS_LOCATION).contains(':nth-child(2)', ': ' + mentorLocation).should('exist');
+      .find(PRESENTATION_CARD)
+      .contains(':nth-child(2)', ': ' + mentorLocation)
+      .should('exist');
   };
 
   validateMentorByBio = (option, mentorBio) => {
-    // const formattedBio = mentorBio.replace(/<br>/g, '');
-    // const formattedBio = mentorBio.replace(/^\s*(?:<br>\s*)*[\r\n]/gm, '');
-
-
-    cy.contains('Show more').click({force: true});
-    // cy.wrap(option)
-    //   .find(MENTORS_BIO).contains(':nth-child(2)', ': ' + formattedBio).should('exist');
-   // const formattedBio = mentorBio.split(/\.\s+/);
-    // const formattedBio = mentorBio.split(/[\.\s]+|<br>/);
+    cy.contains('Show more').click({ force: true });
     const extracts = mentorBio.split('<br>');
-    const cleanedExtracts = extracts.map(extract => extract.replace(/<br>/g, ''));
+    const cleanedExtracts = extracts.map((extract) =>
+      extract.replace(/<br>/g, '').trim()
+    );
 
-    cleanedExtracts.forEach((sentence, index) => {
-      cy.log(`Sentence ${index + 1}: ${sentence}`);
-      cy.wrap(option).find(MENTORS_BIO).contains(sentence);
+    cleanedExtracts.forEach((sentence) => {
+      cy.wrap(option).find(PRESENTATION_CARD).contains(sentence.trim());
     });
-    // cy.wrap(option).find(MENTORS_BIO).last().contains(': Senior QA engineer with over than 4 years of dedicated experience in maintaining product quality at the highest level. Proficient in establishing effective workflows in QA team and collaborating with the teams of developers, analysts and project management.');
-      // cy.wrap(option).find(MENTORS_BIO).then(($mentorBio) => { 
-      //   const phrases = $mentorBio.split('. ');
-      //   phrases.forEach((phrase) => {
-      //     cy.contains(':nth-child(2)', phrase).should('exist');
-      //   });
-
-      //  });
-      // .find(MENTORS_BIO).should('exist');
   };
-  
+
+  getSkillsTab = () => {
+    return cy.get(SKILLS_TAB).shouldBeVisible();
+  };
+
+  getSkillsTabLocator = () => {
+    return SKILLS_TAB;
+  };
+
+  validateTechExperience = (option, techExperience) => {
+    cy.wrap(option).find(SKILLS_TAB).click();
+    cy.wrap(option)
+      .find(SKILLS_CARD)
+      .find('.card-text')
+      .contains(':nth-child(1)', techExperience);
+  };
+
+  validateLanguages = (option, languages) => {
+    cy.wrap(option)
+      .find(SKILLS_CARD)
+      .find('.card-text')
+      .contains(':nth-child(2)', languages);
+  };
+
+  validateProgrammingLanguages = (option, programmingLanguages) => {
+    cy.wrap(option)
+      .find(SKILLS_CARD)
+      .find('.card-text')
+      .contains(':nth-child(3)', programmingLanguages);
+  };
+
+  validateSocialLinks = (option, testDataLinks) => {
+    //Since we are not adding Youtube links to mentors crds, we skip it for now.
+    testDataLinks = testDataLinks.filter(
+      (link) => Object.keys(link)[0] !== 'youtube'
+    );
+
+    cy.wrap(option)
+      .find(NETWORK_LINKS)
+      .children()
+      .each(($child, index) => {
+        const value = Object.values(testDataLinks[index]).toString();
+        if ($child.is('span')) {
+          // Needed to process the first LinkedIn link because it's wrapped into a span
+          const linkedinLink = $child.find('a');
+          cy.wrap(linkedinLink).should('have.attr', 'href', value);
+          return;
+        } else if ($child.is('a')) {
+          //Process all links except for LinkedIn
+          cy.wrap($child).should('have.attr', 'href', value);
+        } else {
+          cy.log('Unexpected element type:', $child.prop('tagName'));
+        }
+      });
+  };
+
+  validateMentoringTypes = (option, mentoringTypes) => {
+    cy.wrap(option).find(MENTEES_TAB).click();
+    var mentoringTypeDisplayed =
+      mentoringTypes === 'both'
+        ? 'Long term relationship and Ad-Hoc'
+        : mentoringTypes;
+
+    cy.wrap(option)
+      .find(MENTEES_CARD)
+      .contains(':nth-child(1)', ': ' + mentoringTypeDisplayed);
+  };
+
+  validateAvailableHours = (option, hours) => {
+    cy.wrap(option)
+      .find(MENTEES_CARD)
+      .eq(1)
+      .contains(':nth-child(2)', ': ' + hours)
+      .should('exist');
+  };
+
+  validateIdealMentee = (option, menteeInfo) => {
+    cy.wrap(option)
+      .find(MENTEES_CARD)
+      .eq(2)
+      .contains(menteeInfo)
+      .should('exist');
+  };
+
+  validateAreasAndFocus = (option, areas, focus) => {
+    cy.wrap(option)
+      .find('.card-mentees')
+      .children()
+      .eq(4)
+      .children()
+      .each(($child, index) => {
+        cy.get($child)
+          .invoke('text')
+          .then((text) => {
+            const focusIndex = index - areas.length;
+            if (index < areas.length && areas[index] !== null) {
+              expect(text.trim()).to.equal(areas[index].trim());
+            } else if (focus[focusIndex] != null) {
+              const correctIndex = index - areas.length;
+              expect(text.trim()).to.equal(focus[correctIndex].trim());
+            }
+          });
+      });
+  };
+
+  validateExtraMentoringTopics = (option, extraTopics) => {
+    cy.wrap(option).find(MENTEES_CARD).contains(extraTopics.trim());
+  };
+
+  getToggleAdvancedFiltersButton = () => {
+    return cy.get(TOGGLE_ADVANCED_FILTERS).shouldBeVisible();
+  };
 }
 
 export default new mentorsLocatorManager();

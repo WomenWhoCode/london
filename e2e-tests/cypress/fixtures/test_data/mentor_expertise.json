@@ -1,7 +1,7 @@
 {
-  "areaOptions": [
+  "expertOptions": [
     {
-      "label": "Area in tech"
+      "label": "Expertise"
     },
     {
       "label": "QA"

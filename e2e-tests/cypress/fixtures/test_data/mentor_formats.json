@@ -1,0 +1,16 @@
+{
+  "formatOptions": [
+    {
+      "label": "Format"
+    },
+    {
+      "label": "Ad-Hoc"
+    },
+    {
+      "label": "Long Term relationship"
+    },
+    {
+      "label": "Both"
+    }
+  ]
+}
