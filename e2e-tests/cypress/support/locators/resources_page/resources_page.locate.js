@@ -45,23 +45,12 @@ class resourcesLocatorManager {
     return cy.get(RESOURCES_CARDS).should('exist');
   };
 
-  validateResourcesCards = () => {
-    cy.fixture(RESOURCES_FILE).then((file) => {
-      const expectedResources = YAML.parse(file);
-      this.getResourcesCards()
-        .should('have.length', expectedResources.length)
-        .each(($option, index) => {
-          cy.wrap($option)
-            .find(RESOURCES_TITLE)
-            .should('contain', expectedResources[index].title);
-          cy.wrap($option).find(RESOURCES_IMAGE).shouldBeVisible();
-          cy.validateLink(
-            $option,
-            RESOURCE_LINK,
-            expectedResources[index].link
-          );
-        });
-    });
+  validateResourcesCards = (option, expectedEvents, index) => {
+    cy.wrap(option)
+      .find(RESOURCES_TITLE)
+      .should('contain', expectedEvents[index].title);
+    cy.wrap(option).find(RESOURCES_IMAGE).shouldBeVisible();
+    cy.validateLink(option, RESOURCE_LINK, expectedEvents[index].link);
   };
 
   getEventsHeaders = () => {
@@ -119,28 +108,21 @@ class resourcesLocatorManager {
     return cy.get(BLOG_CARDS).should('exist');
   };
 
-  validateBlogPostsCards = () => {
-    cy.fixture(BLOG_POSTS_FILE).then((file) => {
-      const expectedBlogs = YAML.parse(file);
-      cy.get(BLOG_CARDS)
-        .should('have.length', expectedBlogs.length)
-        .each(($option, index) => {
-          cy.wrap($option)
-            .find(BLOG_TITLE)
-            .should('contain', expectedBlogs[index].title);
-          cy.wrap($option)
-            .find(BLOG_DESCRIPTION)
-            .should('contain', expectedBlogs[index].description);
-          cy.wrap($option).find(BLOG_IMAGE).shouldBeVisible();
-          cy.wrap($option)
-            .find(BLOG_DATE_AUTHOR)
-            .should(
-              'contain',
-              expectedBlogs[index].date + ' | ' + expectedBlogs[index].author
-            );
-          cy.validateLink($option, BLOG_LINK, expectedBlogs[index].link);
-        });
-    });
+  validateBlogPostsCards = (option, expectedBlogs, index) => {
+    cy.wrap(option)
+      .find(BLOG_TITLE)
+      .should('contain', expectedBlogs[index].title);
+    cy.wrap(option)
+      .find(BLOG_DESCRIPTION)
+      .should('contain', expectedBlogs[index].description);
+    cy.wrap(option).find(BLOG_IMAGE).shouldBeVisible();
+    cy.wrap(option)
+      .find(BLOG_DATE_AUTHOR)
+      .should(
+        'contain',
+        expectedBlogs[index].date + ' | ' + expectedBlogs[index].author
+      );
+    cy.validateLink(option, BLOG_LINK, expectedBlogs[index].link);
   };
 }
 
