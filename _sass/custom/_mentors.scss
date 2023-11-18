@@ -208,3 +208,28 @@
     border-color: grey;
     border-width: 3px;
 }
+
+#search-container {
+    @include media-breakpoint-down(sm) {  
+       padding-left: 0;
+       margin-top: 1rem;
+    }
+}
+
+#filters-container > div:last-child .form-group {
+    @include media-breakpoint-up(lg) {  
+        margin-right: 0;
+    }
+}
+
+#filters-container > div:nth-child(even) .form-group {
+    @include media-breakpoint-down(md) {  
+        margin-right: 0;
+    }
+}
+
+#filters-container > div .form-group {
+    @include media-breakpoint-down(xs) {  
+        margin-right: 0;
+    }
+}
