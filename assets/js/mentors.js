@@ -2,6 +2,7 @@ var controllerMentors = (function(jQuery) {
     var skillsButton = jQuery('.skills');
     var presentationButton = jQuery('.presentation');
     var menteesButton = jQuery('.mentees');
+    let reviewsButton = jQuery('.reviews');
     var tooltip = jQuery('[data-toggle="tooltip"]');
     var toggleContent = jQuery('.toggle-content');
 
@@ -17,10 +18,12 @@ var controllerMentors = (function(jQuery) {
         jQuery("#bt-p-"+index).addClass(CLASS_ACTIVE);
         jQuery("#bt-s-"+index).removeClass(CLASS_ACTIVE);
         jQuery("#bt-m-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-v-"+index).removeClass(CLASS_ACTIVE);
 
         jQuery("#presentation-"+index).removeClass(CLASS_HIDDEN);
         jQuery("#skills-"+index).addClass(CLASS_HIDDEN);
-        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);   
+        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#reviews-"+index).addClass(CLASS_HIDDEN);
         
         jQuery('.card-presentation')
         .each( 
@@ -39,20 +42,37 @@ var controllerMentors = (function(jQuery) {
         jQuery("#bt-s-"+index).addClass(CLASS_ACTIVE);
         jQuery("#bt-p-"+index).removeClass(CLASS_ACTIVE);
         jQuery("#bt-m-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-v-"+index).removeClass(CLASS_ACTIVE);
 
         jQuery("#presentation-"+index).addClass(CLASS_HIDDEN);
         jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);
         jQuery("#skills-"+index).removeClass(CLASS_HIDDEN);
+        jQuery("#reviews-"+index).addClass(CLASS_HIDDEN);
     }
 
     var showMenteesData = function(index) {
         jQuery("#bt-m-"+index).addClass(CLASS_ACTIVE);
         jQuery("#bt-p-"+index).removeClass(CLASS_ACTIVE);
         jQuery("#bt-s-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-v-"+index).removeClass(CLASS_ACTIVE);
 
         jQuery("#mentees-"+index).removeClass(CLASS_HIDDEN);
         jQuery("#presentation-"+index).addClass(CLASS_HIDDEN);
         jQuery("#skills-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#reviews-"+index).addClass(CLASS_HIDDEN);
+    }
+
+     var showReviewsData = function(index) {
+        jQuery("#bt-m-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-p-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-s-"+index).removeClass(CLASS_ACTIVE);
+        jQuery("#bt-v-"+index).addClass(CLASS_ACTIVE);
+
+
+        jQuery("#mentees-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#presentation-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#skills-"+index).addClass(CLASS_HIDDEN);
+        jQuery("#reviews-"+index).removeClass(CLASS_HIDDEN);
     }
 
     var init = function() {
@@ -72,6 +92,10 @@ var controllerMentors = (function(jQuery) {
 
         menteesButton.click(function() {
             showMenteesData(jQuery(this).data('index'));
+        });
+
+        reviewsButton.click(function() {
+            showReviewsData(jQuery(this).data('index'));
         });
 
         toggleContent.click(function() {            

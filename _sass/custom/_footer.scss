@@ -28,6 +28,7 @@
     .network {
         margin-top: 10px;
         display: flex;
+        flex-wrap: wrap;
 
         a {
             border-radius: 100%;
@@ -37,6 +38,11 @@
                 height: 30px;
                 width: 30px;
                 fill: $white !important;
+
+                @include media-breakpoint-down(md) {  
+                    height: 20px;
+                    width: 20px;
+                }
             }
 
             svg:hover {

@@ -1,0 +1,240 @@
+- index: 1
+  feedback:
+    - score: 5
+      date: 20230724
+      date-f: 24 July 2023
+      feedback: Fantastic. We really clicked. I am honoured that such an accomplished professional is gifting me her time and attention, and I try to make the most of it.
+      name: Zsuzsanna
+
+- index: 4
+  feedback:
+    - score: 5
+      date: 20230606
+      date-f: 6 June 2023
+      feedback: Adriana was amazing! I had just started my first gig as a Junior FrontEnd engineer, feeling all kinds of self-doubt and overwhelmed by the new skills I needed to learn. Adriana offered the support and guidance I needed to feel more confident and navigate the demands of my role.
+      name: Nicolle
+      type: Ad-hoc Session
+    - score: 5
+      date: 20230531
+      date-f: 31 May 2023
+      feedback:
+      name: Julia
+      type: Ad-hoc Session
+    - score: 5
+      date: 20230608
+      date-f: 8 June 2023
+      feedback:
+      name: Illa
+      type: Ad-hoc Session
+
+- index: 5
+  feedback:
+    - score: 5
+      date: 20230621
+      date-f: 21 June 2023
+      type: Ad-hoc Session
+      name: Karina
+      feedback: It was great talking to an experienced data scientist, committed to monitoring. Thank you so much for giving me this opportunity to talk with her.
+    - score: 5
+      date: 20231001
+      date-f: 1 October 2023
+      type: Ad-hoc Session
+      name: Hai
+      feedback: The mentor was excellent and knowledgeable.
+    - score: 5
+      date: 20231024
+      type: Ad-hoc Session
+      date-f: 24 October 2023
+      name: Karina
+      feedback: Aisha listened to me, gave me practical suggestions to help me and motivated me a lot. Thank you so much to Aisha and the program!
+    - score: 5
+      date: 20231025
+      type: Ad-hoc Session
+      date-f: 25 October 2023
+      name: Katja
+      feedback: I found Aisha very friendly and easy to talk to. She gave me some great insights on what I need to get clear on to make my job search more targeted, and also suggested alternatives to looking externally. She brought my focus back to the question "what makes me happy". Super valuable session!
+
+- index: 10
+  feedback:
+    - score: 5
+      type: Long Term Mentorship
+      date: 20230724
+      date-f: 24 July 2023
+      name: Anonymous
+      feedback: I'm grateful for her time and patience and I really like the resources she has shared with me so far
+
+- index: 11
+  feedback:
+    - score: 5
+      name: Emily
+      type: Long Term Mentorship
+      date: 20230720
+      date-f: 20 July 2023
+      feedback: It was really great! I couldn’t thank my mentor enough. Thank you so much for hosting such meaningful program! It was truly life changing.
+    - score: 4
+      date: 20231106
+      date-f: 6 November 2023
+      type: Long Term Mentorship
+      feedback: It was a weird time because I applied for the mentorship when I was looking for a job and then I found a job just before it started so that limited the amount of help that Nassim could give just because of my situation, I still greatly enjoyed it and found it very helpful
+      name: Ana
+
+- index: 13
+  feedback:
+    - score: 5
+      date: 20230622
+      date-f: 22 June 2023
+      type: Ad-hoc Session
+      name: Karina
+      feedback: I made punctual que questions and concerns. Shelly was assertive in make me some questions to understand my points and support me pointing out skills I should improve and proving references where I could learn them. She gave me the direction I needed, now it's up to me to practice. I appreciate that.
+
+- index: 17
+  feedback:
+    - score: 5
+      date: 20230802
+      type: Ad-hoc Session
+      date-f: 02 August 2023
+      feedback: Thanks for this great opportunity; we have additional meetings with mentees, which also greatly helps. I achieved one of my goals (we set at the beginning of this program), and I am working on the rest.
+      name: Anonymous
+
+- index: 19
+  feedback:
+    - score: 3
+      date: 20230724
+      date-f: 24 July 2023
+      type: Long Term Mentorship
+      name: Grace
+      feedback: My mentor is always available to help when I need some guidance.
+
+- index: 20
+  feedback:
+    - score: 5
+      date: 20230720
+      date-f: 20 July 2023
+      type: Long Term Mentorship
+      feedback: She is very good and organized, she always comes with new ideas and support
+      name: Anonymous
+    - score: 5
+      date: 20230726
+      date-f: 26 July 2023
+      name: Marina
+      type: Long Term Mentorship
+      feedback: It's great! She has been so supportive in all aspects. I have learned tons of good practices with her, she is very patient and committed to leveling up my technical skills. And we have a great exchange of ideas. She also has helped build my confidence as a developer.
+    - score: 5
+      date: 20231107
+      name: Marina
+      type: Long Term Mentorship
+      date-f: 7 November 2023
+      feedback: The mentorship had an excellent impact on my personal and professional growth. It provided me with valuable insights into fundamental technical concepts in my field, such as unit testing. I was able to have a clearer path on where to begin and, throughout the process, identify areas for improvement. Moreover, having someone to talk to during moments of demotivation and gaining a broader perspective on the market were essential aspects of my growth.
+
+- index: 24
+  feedback:
+    - score: 5
+      date: 20230722
+      date-f: 22 July 2023
+      name: Gayle
+      type: Long Term Mentorship
+      feedback: My mentee journey with Tara has been amazing. Tara is very patient and very passionate about her job, about engineering and about mentoring. Since I became her mentee, Tara has helped me with code blockers, emotional and general study issues. Her patience and complete dedication to the mentoring sessions is just fantastic and has helped me to grow and become more confident in my new career path as a career switcher into tech. She communicates very effectively with me whenever she needs to, and I in turn have learned how to communicate better too. Tara's advice and insights are always very practical and straight to the point. To help me learn and become better, she also assumes the role of a student and pushes me to figure things out in ways I would not think of. I am really very grateful to her mentoring and could not have asked for a better mentor. Thank you WWC-London
+    - score: 3
+      date: 20230801
+      date-f: 01 August 2023
+      name: Anonymous
+      type: Ad-hoc Session
+      feedback: Due to limited of time. Not much time for me as a mentee to learn more about the mentor.
+
+- index: 25
+  feedback:
+    - score: 5
+      name: Darya
+      type: Long Term Mentorship
+      date: 20230721
+      date-f: 21 July 2023
+      feedback: Thanks a lot for the mentoring program, it's a great way to grow professionally and get support and help!
+
+- index: 29
+  feedback:
+    - score: 5
+      type: Ad-hoc Session
+      date: 20230803
+      date-f: 3 August 2023
+      feedback: Having a mentor is a great and motivating experience and I am grateful for being accepted into the program. It means a lot.
+      name: Anonymous
+
+- index: 30
+  feedback:
+    - score: 5
+      date: 20230722
+      date-f: 22 July 2023
+      type: Ad-hoc Session
+      feedback: I learned a new language
+      name: Anonymous
+
+- index: 32
+  feedback:
+    - score: 5
+      name: Maribel
+      type: Long Term Mentorship
+      date: 20230720
+      date-f: 20 July 2023
+      feedback: I value how Madhura is supporting me. Thanks to her, I am increasing my self-confidence. Also, I can ask her any doubt and she kindly provides feedback. I am very happy. I also appreciate that the mentorship is open to people not based in London.
+      name: Maribel
+    - score: 5
+      date: 20230720
+      date-f: 20 July 2023
+      type: Long Term Mentorship
+      name: Maribel
+      feedback: I think the most valuable thing I am gonna get from this program is that it is not impossible to return from a career break, that female backend developers exist and that I have the skills to become one. Also, ideas on how to tackle a job hunting process.
+
+- index: 33
+  feedback:
+    - score: 5
+      name: Seda
+      type: Long Term Mentorship
+      date: 20230720
+      date-f: 20 July 2023
+      feedback: Achived my goal. I have been trying to find a place for myself in tech industry since I've made the career decision . The most important thing is never stop belive in yourself and what you capabile of . Keep work hard stuck with your goal and make it happen whatever it takes . When I signed the job contract I was still saying myself like 'did I make it ? I stll can't belive it :) ' This is the most exited thing that I had so far . I wonder what is next :).
+    - score: 5
+      date: 20230720
+      date-f: 20 July 2023
+      name: Seda
+      type: Long Term Mentorship
+      feedback: Having a mentor push you to understand who you are what you can do or not what should be focus and things you did wrong and make them right . When we talk I realised how strong I am and what I have been dealed with and got over them.
+    - score: 5
+      date: 20231031
+      date-f: 31 October 2023
+      feedback: I had so many difficult times that I have been through and having a mentor during this time who stood to support me and talked with me is a very helpful way to put myself together and move on with my life
+      name: Seda
+      type: Long Term Mentorship
+
+- index: 41
+  feedback:
+    - score: 5
+      date: 20230725
+      type: Ad-hoc Session
+      date-f: 25 July 2023
+      feedback: I am delighted to have Jenny as my mentor. The level of support, assistance, and care she provides is truly remarkable. Our conversations are incredibly comfortable, and I eagerly anticipate each new session.
+      name: Anonymous
+    - score: 5
+      date: 20230801
+      type: Ad-hoc Session
+      date-f: 1 August 2023
+      feedback: Yes, to be honest it was very insightful and interesting session. We discussed the topics that I need to work upon. She was constantly resolving all my doubts. We had set the goals to achieve my target and overall it was wonderful session I must say.
+      name: Anonymous
+
+- index: 44
+  feedback:
+    - score: 5
+      date: 20230721
+      date-f: 21 July 2023
+      type: Ad-hoc Session
+      feedback: Elena listened to all my problems and queries and provided solutions to them. It was a really insightful conversation with her. Her way of approaching to solutions of my different problems was very detailed. Her guidance is goal oriented that I must say. I couldn't have asked for a better mentor.
+      name: Anonymous
+
+- index: 46
+  feedback:
+    - score: 5
+      date: 20230714
+      date-f: 14 July 2023
+      type: Ad-hoc Session
+      feedback: I really loved talking to Anastasia, I've got ton of ideas and insights! We developed the whole plan on how I can improve my career path!
+      name: Eleonora
+      type: Ad-hoc Session

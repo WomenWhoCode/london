@@ -120,10 +120,29 @@
         }
     }
 
+    div .card-reviews {
+        height: 300px;
+        overflow: auto;
+    }
+
+    .stars, .stars0 {
+        background: transparent url("stars.png") no-repeat top left;
+        width:100px;
+        height:20px;
+        display:inline-block;
+        margin-top: 15px;
+        transform: scalex(-1);
+    }
+    .stars1 {background-position:-20px;}
+    .stars2 {background-position:-40px;}
+    .stars3 {background-position:-60px;}
+    .stars4 {background-position:-80px;}
+    .stars5 {background-position:-100px;}
+
     .card-text {
         margin-top: 10px !important;
 
-        label {
+        label, span {
             font-weight: $font-weight-bold !important;
             margin-bottom: 0;
         }
@@ -207,4 +226,29 @@
 .alert {
     border-color: grey;
     border-width: 3px;
+}
+
+#search-container {
+    @include media-breakpoint-down(sm) {  
+       padding-left: 0;
+       margin-top: 1rem;
+    }
+}
+
+#filters-container > div:last-child .form-group {
+    @include media-breakpoint-up(lg) {  
+        margin-right: 0;
+    }
+}
+
+#filters-container > div:nth-child(even) .form-group {
+    @include media-breakpoint-down(md) {  
+        margin-right: 0;
+    }
+}
+
+#filters-container > div .form-group {
+    @include media-breakpoint-down(xs) {  
+        margin-right: 0;
+    }
 }
