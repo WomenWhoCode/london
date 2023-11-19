@@ -53,7 +53,7 @@ git fetch upstream
 ```
 
 ```bash
-git merge upstream/master
+git merge upstream/main
 ```
 
 #### Check out the [Github Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn more about syncing a forked repository.
