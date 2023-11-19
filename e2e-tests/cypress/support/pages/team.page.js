@@ -1,8 +1,11 @@
 import teamLocatorManager from '../locators/team_page/team_page.locate';
 
 const EXPECTED_NUMBER_TEAM_CARDS = 12; // as of November 5th, 2023
-const COLLABORATORS_FILE = 'temporary/collaborators.yml';
-const TEAM_FILE = 'temporary/team.yml';
+const COLLABORATORS_FILE = 'collaborators.yml';
+const COLLABORATORS_FILE_PATH = Cypress.config('temporaryFolderRelativePath') + COLLABORATORS_FILE
+const TEAM_FILE = 'team.yml';
+const TEAM_FILE_PATH = Cypress.config('temporaryFolderRelativePath') + TEAM_FILE
+
 
 export function verifyTeamPageUIElements() {
   teamLocatorManager.validateTeamHeader();
@@ -15,8 +18,8 @@ export function verifyTeamPageUIElements() {
 }
 
 export function verifyTeamData() {
-  cy.copyDataFile('team.yml');
-  cy.fixture(TEAM_FILE).then((file) => {
+  cy.copyDataFile(TEAM_FILE);
+  cy.fixture(TEAM_FILE_PATH).then((file) => {
     const expectedData = YAML.parse(file);
     teamLocatorManager.getCoreTeamCards()
       .should('have.length', expectedData.length)
@@ -30,8 +33,8 @@ export function verifyTeamData() {
 }
 
 export function verifyCollaboratorsData() {
-  cy.copyDataFile('collaborators.yml');
-  cy.fixture(COLLABORATORS_FILE).then((file) => {
+  cy.copyDataFile(COLLABORATORS_FILE);
+  cy.fixture(COLLABORATORS_FILE_PATH).then((file) => {
     const expectedData = YAML.parse(file);
     teamLocatorManager.getCollaboratorsCards()
       .should('have.length', expectedData.length)

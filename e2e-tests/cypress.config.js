@@ -4,7 +4,8 @@ const cucumber = require('cypress-cucumber-preprocessor').default;
 
 module.exports = defineConfig({
   experimentalModifyObstructiveThirdPartyCode: true,
-  testDataTemporaryFolder: 'cypress/fixtures/temporary/',
+  temporaryFolderAbsolutePath: 'cypress/fixtures/temporary/',
+  temporaryFolderRelativePath: '/temporary/',
   sourceDataFolder: '../_data/',
   e2e: {
     baseUrl: 'https://womenwhocode.github.io/london',

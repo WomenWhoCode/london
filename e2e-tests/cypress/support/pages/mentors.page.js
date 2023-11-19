@@ -1,20 +1,22 @@
 import mentorsLocatorManager from '../locators/mentors_page/mentors_page.locate';
 
 const EXPECTED_NUMBER_MENTORS_CARD = 47; // as of November 18th, 2023
-const MENTORS_FILE = 'temporary/mentors.yml';
+const MENTORS_FILE = 'mentors.yml';
+const MENTORS_FILE_PATH = Cypress.config('temporaryFolderRelativePath') + MENTORS_FILE
+
 
 export function verifyMentorsDataPresentation() {
   //Copy test data
-  cy.copyDataFile('mentors.yml');
+  cy.copyDataFile(MENTORS_FILE);
 
-  cy.fixture(MENTORS_FILE).then((file) => {
+  cy.fixture(MENTORS_FILE_PATH).then((file) => {
     //Parse and sort YAML data to be the same with the website
     const expectedMentors = YAML.parse(file);
     expectedMentors.sort((a, b) => {
       const hoursDiff = b.hours - a.hours;
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
-    //Filter zero hours mentors
+    //Filter disabled mentors
     const filteredMentorData = expectedMentors.filter(item => !item.disabled);
     mentorsLocatorManager
       .getMentorsCards()
@@ -33,16 +35,16 @@ export function verifyMentorsDataPresentation() {
 
 export function verifyMentorsDataSkills() {
   //Copy test data
-  cy.copyDataFile('mentors.yml');
+  cy.copyDataFile(MENTORS_FILE);
 
-  cy.fixture(MENTORS_FILE).then((file) => {
+  cy.fixture(MENTORS_FILE_PATH).then((file) => {
     //Parse and sort YAML data to be the same with the website
     const expectedMentors = YAML.parse(file);
     expectedMentors.sort((a, b) => {
       const hoursDiff = b.hours - a.hours;
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
-    //Filter zero hours mentors
+    //Filter disabled mentors
     const filteredMentorData = expectedMentors.filter(item => !item.disabled);
     mentorsLocatorManager
       .getMentorsCards()
@@ -74,16 +76,16 @@ export function verifyMentorsDataSkills() {
 
 export function verifyMentorsDataMentees() {
   //Copy test data
-  cy.copyDataFile('mentors.yml');
+  cy.copyDataFile(MENTORS_FILE);
 
-  cy.fixture(MENTORS_FILE).then((file) => {
+  cy.fixture(MENTORS_FILE_PATH).then((file) => {
     //Parse and sort YAML data to be the same with the website
     const expectedMentors = YAML.parse(file);
     expectedMentors.sort((a, b) => {
       const hoursDiff = b.hours - a.hours;
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
-    //Filter zero hours mentors
+    //Filter disabled mentors
     const filteredMentorData = expectedMentors.filter(item => !item.disabled);
     mentorsLocatorManager
       .getMentorsCards()

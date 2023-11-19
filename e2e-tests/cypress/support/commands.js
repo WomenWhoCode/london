@@ -1,5 +1,5 @@
 const SUCCESS_STATUS_CODE = 200;
-const TEMPORARY_TEST_FOLDER = Cypress.config('testDataTemporaryFolder');
+const TEMPORARY_TEST_FOLDER = Cypress.config('temporaryFolderAbsolutePath');
 const SOURCE_TEST_FOLDER = Cypress.config('sourceDataFolder');
 const YAML = require('yamljs');
 
