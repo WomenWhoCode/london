@@ -213,7 +213,7 @@ class mentorsLocatorManager {
 
   validateMentoringTypes = (option, mentoringTypes) => {
     cy.wrap(option).find(MENTEES_TAB).click();
-    var mentoringTypeDisplayed =
+    let mentoringTypeDisplayed =
       mentoringTypes === 'both'
         ? 'Long term relationship and Ad-Hoc'
         : mentoringTypes;
@@ -250,7 +250,7 @@ class mentorsLocatorManager {
           .invoke('text')
           .then((text) => {
             const focusIndex = index - areas.length;
-            if (index < areas.length && areas[index] !== null) {
+            if (index < areas.length && areas[index] != null) {
               expect(text.trim()).to.equal(areas[index].trim());
             } else if (focus[focusIndex] != null) {
               const correctIndex = index - areas.length;

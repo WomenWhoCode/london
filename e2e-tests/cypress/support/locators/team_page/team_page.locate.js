@@ -7,6 +7,10 @@ const MEMBER_CARD_TEXT = '.card > .card-body > .card-text';
 const NETWORK_LINKS = '.network';
 
 class teamLocatorManager {
+  assertLink(linkObject, expected) {
+    cy.wrap(linkObject).should('have.attr', 'href', expected.trim());
+  }
+
   validateTeamHeader = () => {
     return cy
       .get('h1')
@@ -79,11 +83,7 @@ class teamLocatorManager {
       .children()
       .each(($child, index) => {
         const linkObject = $child.find('a');
-        cy.wrap(linkObject).should(
-          'have.attr',
-          'href',
-          expectedNetworks[index].link.trim()
-        );
+        this.assertLink(linkObject, expectedNetworks[index].link.trim());
       });
   };
 
@@ -114,11 +114,7 @@ class teamLocatorManager {
       .children()
       .each(($child, index) => {
         const linkObject = $child.find('a');
-        cy.wrap(linkObject).should(
-          'have.attr',
-          'href',
-          expectedNetworks[index].link.trim()
-        );
+        this.assertLink(linkObject, expectedNetworks[index].link.trim());
       });
   };
 }

@@ -4,11 +4,6 @@ const EVENTS_CARDS = '.events .card';
 const BLOG_POSTS_HEADER = '.blog > h2';
 const BLOG_CARDS = '.blog .card';
 
-// expected results files
-const RESOURCES_FILE = 'temporary/resources.yml';
-const EVENTS_FILE = 'temporary/events.yml';
-const BLOG_POSTS_FILE = 'temporary/blogs.yml';
-
 // resources elements
 const RESOURCES_TITLE = '.card-title';
 const RESOURCES_IMAGE = '.card-img-top';

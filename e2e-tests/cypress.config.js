@@ -1,5 +1,5 @@
 const { defineConfig } = require('cypress');
-const { rmdir } = require('fs')
+const { rmdir } = require('fs');
 const cucumber = require('cypress-cucumber-preprocessor').default;
 
 module.exports = defineConfig({
@@ -12,19 +12,19 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber());
       on('task', {
-      deleteDataTempFolder(folderName) {
-        console.log('deleting folder %s', folderName)
-  
-        return new Promise((resolve) => {
-          rmdir(folderName, { maxRetries: 10, recursive: true }, (err) => {
-            if (err) {
-              console.error(err)
-            }
-            resolve(null)
-          })
-        })
-      }
-    });
+        deleteDataTempFolder(folderName) {
+          console.log('deleting folder %s', folderName);
+
+          return new Promise((resolve) => {
+            rmdir(folderName, { maxRetries: 10, recursive: true }, (err) => {
+              if (err) {
+                console.error('Error to delete temp folder', err);
+              }
+              resolve(null);
+            });
+          });
+        },
+      });
     },
   },
 });

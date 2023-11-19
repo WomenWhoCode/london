@@ -9,23 +9,23 @@ export function verifyMentorsDataPresentation() {
 
   cy.fixture(MENTORS_FILE).then((file) => {
     //Parse and sort YAML data to be the same with the website
-    const expectedEvents = YAML.parse(file);
-    expectedEvents.sort((a, b) => {
+    const expectedMentors = YAML.parse(file);
+    expectedMentors.sort((a, b) => {
       const hoursDiff = b.hours - a.hours;
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
     //Filter zero hours mentors
-    const hoursZeroObjectsFilter = expectedEvents.filter(
+    const hoursZeroObjectsFilter = expectedMentors.filter(
       (entry) => entry.hours === 0
     );
     const zeroHours = hoursZeroObjectsFilter.length;
-    const nonZeroMentors = expectedEvents.length - zeroHours;
+    const nonZeroMentors = expectedMentors.length - zeroHours;
 
     mentorsLocatorManager
       .getMentorsCards()
       .should('have.length', nonZeroMentors)
       .each(($option, index) => {
-        const sortedMentor = expectedEvents[index];
+        const sortedMentor = expectedMentors[index];
         mentorsLocatorManager.validateMentorByName($option, sortedMentor.name);
         mentorsLocatorManager.validateMentorByPosition(
           $option,
@@ -42,23 +42,23 @@ export function verifyMentorsDataSkills() {
 
   cy.fixture(MENTORS_FILE).then((file) => {
     //Parse and sort YAML data to be the same with the website
-    const expectedEvents = YAML.parse(file);
-    expectedEvents.sort((a, b) => {
+    const expectedMentors = YAML.parse(file);
+    expectedMentors.sort((a, b) => {
       const hoursDiff = b.hours - a.hours;
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
     //Filter zero hours mentors
-    const hoursZeroObjectsFilter = expectedEvents.filter(
+    const hoursZeroObjectsFilter = expectedMentors.filter(
       (entry) => entry.hours === 0
     );
     const zeroHours = hoursZeroObjectsFilter.length;
-    const nonZeroMentors = expectedEvents.length - zeroHours;
+    const nonZeroMentors = expectedMentors.length - zeroHours;
 
     mentorsLocatorManager
       .getMentorsCards()
       .should('have.length', nonZeroMentors)
       .each(($option, index) => {
-        const sortedMentor = expectedEvents[index];
+        const sortedMentor = expectedMentors[index];
 
         mentorsLocatorManager.validateTechExperience(
           $option,
@@ -88,23 +88,23 @@ export function verifyMentorsDataMentees() {
 
   cy.fixture(MENTORS_FILE).then((file) => {
     //Parse and sort YAML data to be the same with the website
-    const expectedEvents = YAML.parse(file);
-    expectedEvents.sort((a, b) => {
+    const expectedMentors = YAML.parse(file);
+    expectedMentors.sort((a, b) => {
       const hoursDiff = b.hours - a.hours;
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
     //Filter zero hours mentors
-    const hoursZeroObjectsFilter = expectedEvents.filter(
+    const hoursZeroObjectsFilter = expectedMentors.filter(
       (entry) => entry.hours === 0
     );
     const zeroHours = hoursZeroObjectsFilter.length;
-    const nonZeroMentors = expectedEvents.length - zeroHours;
+    const nonZeroMentors = expectedMentors.length - zeroHours;
 
     mentorsLocatorManager
       .getMentorsCards()
       .should('have.length', nonZeroMentors)
       .each(($option, index) => {
-        const sortedMentor = expectedEvents[index];
+        const sortedMentor = expectedMentors[index];
    
         mentorsLocatorManager.validateMentoringTypes(
           $option,

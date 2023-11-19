@@ -1,4 +1,6 @@
 const SUCCESS_STATUS_CODE = 200;
+const TEMPORARY_TEST_FOLDER = Cypress.config('testDataTemporaryFolder');
+const SOURCE_TEST_FOLDER = Cypress.config('sourceDataFolder');
 const YAML = require('yamljs');
 
 
@@ -7,20 +9,20 @@ Cypress.Commands.add('shouldBeVisible', { prevSubject: true }, (subject) => {
 });
 
 Cypress.Commands.add('validateLink', (subject, linkLocator, expectedLink) => {
-  cy.wrap(subject).find(linkLocator)
+  cy.wrap(subject)
+    .find(linkLocator)
     .should('have.attr', 'href', expectedLink)
-    .then(link => {
-      cy
-      .request(link.prop('href'))
-      .its('status')
-      .should('eq', SUCCESS_STATUS_CODE);
+    .then((link) => {
+      cy.request(link.prop('href'))
+        .its('status')
+        .should('eq', SUCCESS_STATUS_CODE);
     });
 });
 
 Cypress.Commands.add('copyDataFile', (fileName) => {
-  const testDataPath = Cypress.config('testDataTemporaryFolder') + fileName;
-  const sourcePath = Cypress.config('sourceDataFolder') + fileName;
-  
+  const testDataPath = TEMPORARY_TEST_FOLDER + fileName;
+  const sourcePath = SOURCE_TEST_FOLDER + fileName;
+
   cy.readFile(sourcePath).then((file) => {
     const expectedResources = YAML.parse(file);
     const yamlString = YAML.stringify(expectedResources);
@@ -29,5 +31,5 @@ Cypress.Commands.add('copyDataFile', (fileName) => {
 });
 
 afterEach(() => {
-  cy.task('deleteDataTempFolder', Cypress.config('testDataTemporaryFolder'))
+  cy.task('deleteDataTempFolder', TEMPORARY_TEST_FOLDER);
 });
