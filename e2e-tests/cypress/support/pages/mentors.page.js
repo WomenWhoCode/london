@@ -15,17 +15,12 @@ export function verifyMentorsDataPresentation() {
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
     //Filter zero hours mentors
-    const hoursZeroObjectsFilter = expectedMentors.filter(
-      (entry) => entry.hours === 0
-    );
-    const zeroHours = hoursZeroObjectsFilter.length;
-    const nonZeroMentors = expectedMentors.length - zeroHours;
-
+    const filteredMentorData = expectedMentors.filter(item => !item.disabled);
     mentorsLocatorManager
       .getMentorsCards()
-      .should('have.length', nonZeroMentors)
+      .should('have.length', filteredMentorData.length)
       .each(($option, index) => {
-        const sortedMentor = expectedMentors[index];
+        const sortedMentor = filteredMentorData[index];
         mentorsLocatorManager.validateMentorByName($option, sortedMentor.name);
         mentorsLocatorManager.validateMentorByPosition(
           $option,
@@ -48,17 +43,12 @@ export function verifyMentorsDataSkills() {
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
     //Filter zero hours mentors
-    const hoursZeroObjectsFilter = expectedMentors.filter(
-      (entry) => entry.hours === 0
-    );
-    const zeroHours = hoursZeroObjectsFilter.length;
-    const nonZeroMentors = expectedMentors.length - zeroHours;
-
+    const filteredMentorData = expectedMentors.filter(item => !item.disabled);
     mentorsLocatorManager
       .getMentorsCards()
-      .should('have.length', nonZeroMentors)
+      .should('have.length', filteredMentorData.length)
       .each(($option, index) => {
-        const sortedMentor = expectedMentors[index];
+        const sortedMentor = filteredMentorData[index];
 
         mentorsLocatorManager.validateTechExperience(
           $option,
@@ -94,17 +84,12 @@ export function verifyMentorsDataMentees() {
       return hoursDiff !== 0 ? hoursDiff : b.index - a.index;
     });
     //Filter zero hours mentors
-    const hoursZeroObjectsFilter = expectedMentors.filter(
-      (entry) => entry.hours === 0
-    );
-    const zeroHours = hoursZeroObjectsFilter.length;
-    const nonZeroMentors = expectedMentors.length - zeroHours;
-
+    const filteredMentorData = expectedMentors.filter(item => !item.disabled);
     mentorsLocatorManager
       .getMentorsCards()
-      .should('have.length', nonZeroMentors)
+      .should('have.length', filteredMentorData.length)
       .each(($option, index) => {
-        const sortedMentor = expectedMentors[index];
+        const sortedMentor = filteredMentorData[index];
    
         mentorsLocatorManager.validateMentoringTypes(
           $option,
