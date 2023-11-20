@@ -2,7 +2,7 @@ Feature: Resources Page
 
   Background:
     When I visit Home page
-    Then I switch to "Resources" page
+    Then I switch to "RESOURCES" page
 
   Scenario: As a user, I can open "Resources" Page and verify UI elements
     Then I verify all the header's tabs
