@@ -73,9 +73,9 @@ title: Mentors
                                 <p class="network">
                                     {% for network in mentor.network %}
                                         {% if network.linkedin %}
-                                            <span><a href="{{network.linkedin}}" target="_blank">
+                                            <a href="{{network.linkedin}}" target="_blank">
                                                 {% include icons/linkedin.svg %}
-                                            </a></span>
+                                            </a>
                                         {% endif %}
                                         {% if network.twitter %}
                                             <a href="{{network.twitter}}" target="_blank">
@@ -105,6 +105,11 @@ title: Mentors
                                         {% if network.telegram %}
                                         <a href="{{network.telegram}}" target="_blank">
                                             {% include icons/telegram.svg %}
+                                        </a>
+                                        {% endif %}
+                                        {% if network.youtube %}
+                                        <a href="{{network.youtube}}" target="_blank">
+                                            {% include icons/youtube.svg %}
                                         </a>
                                         {% endif %}
                                     {% endfor %}
