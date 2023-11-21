@@ -1,0 +1,25 @@
+{
+  "menteeOptions": [
+    {
+      "label": "Mentee Focus"
+    },
+    {
+      "label": "Switch career to IT"
+    },
+    {
+      "label": "Grow from beginner to mid-level"
+    },
+    {
+      "label": "Grow from mid-level to senior-level"
+    },
+    {
+      "label": "Grow beyond senior level"
+    },
+    {
+      "label": "Switch from IC to management position"
+    },
+    {
+      "label": "Change specialisation within IT"
+    }
+  ]
+}
