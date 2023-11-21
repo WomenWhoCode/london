@@ -18,7 +18,6 @@ const TIMELINE_DESCRIPTION_6 = ':nth-child(6) > .description';
 const TIMELINE_DESCRIPTION_7 = ':nth-child(7) > .description';
 const TIMELINE_DESCRIPTION_8 = ':nth-child(8) > .description';
 
-
 class adHocLocateManager {
   getPageHeader = () => {
     return cy.get(PAGE_HEADER).shouldBeVisible();
@@ -33,127 +32,89 @@ class adHocLocateManager {
   };
 
   validateTimelineHeaders = () => {
-    let areConditionsCorrect = false;
-
     cy.get(TIMELINE_HEADER_1)
       .should('exist')
-      .and('contain', 'Application period')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_2)
+      .and('contain', 'Application period');
+    cy.get(TIMELINE_HEADER_2)
       .should('exist')
-      .and('contain', 'Mentee selection')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_3)
+      .and('contain', 'Mentee selection');
+    cy.get(TIMELINE_HEADER_3)
       .should('exist')
-      .and('contain', 'Mentor notification')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_4)
+      .and('contain', 'Mentor notification');
+    cy.get(TIMELINE_HEADER_4)
       .should('exist')
-      .and('contain', 'Scheduling sessions')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_5)
+      .and('contain', 'Scheduling sessions');
+    cy.get(TIMELINE_HEADER_5)
       .should('exist')
-      .and('contain', 'Session preparation')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_6)
+      .and('contain', 'Session preparation');
+    cy.get(TIMELINE_HEADER_6).should('exist').and('contain', 'Session');
+    cy.get(TIMELINE_HEADER_7).should('exist').and('contain', 'Feedback');
+    cy.get(TIMELINE_HEADER_8)
       .should('exist')
-      .and('contain', 'Session')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_7)
-      .should('exist')
-      .and('contain', 'Feedback')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-      cy.get(TIMELINE_HEADER_8)
-      .should('exist')
-      .and('contain', 'Program evaluation')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-    return areConditionsCorrect;
+      .and('contain', 'Program evaluation');
   };
 
   validateTimelineDescriptions = () => {
-    let areConditionsCorrect = false;
-
     cy.get(TIMELINE_DESCRIPTION_1)
       .should('exist')
-      .and('contain', 'Every month (from May to November), interested mentees will have the opportunity to apply to the one-time mentorship session program. The application process will be open ').and('contain', 'the first week of the month').and('contain', ' and the applicants will need to provide information about their background, interests, and goals for the mentorship.')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        'Every month (from May to November), interested mentees will have the opportunity to apply to the one-time mentorship session program. The application process will be open '
+      )
+      .and('contain', 'the first week of the month')
+      .and(
+        'contain',
+        ' and the applicants will need to provide information about their background, interests, and goals for the mentorship.'
+      );
 
     cy.get(TIMELINE_DESCRIPTION_2)
       .should('exist')
-      .and('contain', 'Once the application period has ended, the Mentorship Programme Team will review the applications and select the mentees who will participate in the program for the month.')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        'Once the application period has ended, the Mentorship Programme Team will review the applications and select the mentees who will participate in the program for the month.'
+      );
 
-      cy.get(TIMELINE_DESCRIPTION_3)
+    cy.get(TIMELINE_DESCRIPTION_3)
       .should('exist')
-      .and('contain', 'The Mentorship Programme Team will send a list of selected mentees to the mentors, along with their profiles and information about their goals and expectations for the mentorship.')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        'The Mentorship Programme Team will send a list of selected mentees to the mentors, along with their profiles and information about their goals and expectations for the mentorship.'
+      );
 
-      cy.get(TIMELINE_DESCRIPTION_4)
+    cy.get(TIMELINE_DESCRIPTION_4)
       .should('exist')
-      .and('contain', 'The mentors will directly provide the mentees with a Calendly link or their availability to schedule the session. Mentorship team will inform the mentees by email or slack when the mentor is not available.')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        'The mentors will directly provide the mentees with a Calendly link or their availability to schedule the session. Mentorship team will inform the mentees by email or slack when the mentor is not available.'
+      );
 
-      cy.get(TIMELINE_DESCRIPTION_5)
+    cy.get(TIMELINE_DESCRIPTION_5)
       .should('exist')
-      .and('contain', 'Before each session, mentors and mentees should prepare and plan for the meeting, setting clear goals and objectives for the session.')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        'Before each session, mentors and mentees should prepare and plan for the meeting, setting clear goals and objectives for the session.'
+      );
 
-      cy.get(TIMELINE_DESCRIPTION_6)
+    cy.get(TIMELINE_DESCRIPTION_6)
       .should('exist')
-      .and('contain', "During the session, mentor and mentee should engage in meaningful and productive discussions, working towards the goals and objectives. The mentor should provide guidance, advice, and support the mentee's development skills and knowledge.")
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        "During the session, mentor and mentee should engage in meaningful and productive discussions, working towards the goals and objectives. The mentor should provide guidance, advice, and support the mentee's development skills and knowledge."
+      );
 
-      cy.get(TIMELINE_DESCRIPTION_7)
+    cy.get(TIMELINE_DESCRIPTION_7)
       .should('exist')
-      .and('contain', "After one-time session mentors will ask the mentee's feedback on the session and the program itself.")
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and(
+        'contain',
+        "After one-time session mentors will ask the mentee's feedback on the session and the program itself."
+      );
 
-      cy.get(TIMELINE_DESCRIPTION_8)
+    cy.get(TIMELINE_DESCRIPTION_8)
       .should('exist')
-      .and('contain', 'Both mentor and mentee are responsible for informing the Mentorship Programme Team about the session taking place and providing feedback afterwards. At the end of each month, the Mentorship Programme Team will collect feedback from mentors and evaluate feedback from mentees to identify areas for improvement and make any necessary adjustments. ')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-    return areConditionsCorrect;
+      .and(
+        'contain',
+        'Both mentor and mentee are responsible for informing the Mentorship Programme Team about the session taking place and providing feedback afterwards. At the end of each month, the Mentorship Programme Team will collect feedback from mentors and evaluate feedback from mentees to identify areas for improvement and make any necessary adjustments. '
+      );
   };
 }
 
