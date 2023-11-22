@@ -39,7 +39,7 @@ We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem d
    
 3. Install Bundler. For more information, see [Bundler](https://bundler.io/)
 
-### Build and run
+### [Build and run](#build-and-run)
 
 - Run on terminal `bundle install`
 
@@ -54,6 +54,40 @@ We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem d
 * [About GitHub Pages and Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 * [Test locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
+
+## How to Troubleshoot Building Project Locally
+
+The project requires to use ruby>=3.1.*. Make sure that your system looks at the correct version of ruby.
+
+### Possible errors
+![Bundler error](https://i.ibb.co/mJ8N9fk/image.png) after ```bundle install``` command.
+
+
+### Setup ruby with rbenv
+* First, check which path of ruby you have. If it's incorrect or missing, set it.
+```
+env | grep PATH
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+```
+To install the correct ruby version, use the following command:
+
+```
+rbenv install 3.1.2
+```
+* Set the 3.1.* version of ruby as the default one globally or only for your working directory.
+```
+rbenv global 3.1.2  # set the default Ruby version for this machine
+# or:
+rbenv local 3.1.2   # set the Ruby version for this directory
+```
+
+* Get back to the [Build and run](#build-and-run) section.
+
+### Remove Gemfile.lock
+
+As an alternative way, remove Gemfile.lock if setting Ruby version didn't help.
 
 ## How to Run End-To-End Testing Locally
 
