@@ -5,11 +5,11 @@ import {
   verifyFooter,
   verifyHeaderTabs,
   verifyHeaderLogo
-} from '../pages/navigation.page';
+} from '../pages/general.js';
 
 import {
   verifyHomeHeader
-} from '../pages/home.page';
+} from '../pages/home.page.js';
 
 Then('I switch to {string} page', (pageName) => {
   switchToPage(pageName);
@@ -34,3 +34,13 @@ And("I verify all the header's tabs", () => {
 And('I scroll the page to {string}', (scrollDirection) => {
   cy.scrollTo(scrollDirection);
 });
+
+And('I press ENTER key', () => {
+  cy.focused().type('{enter}');
+});
+
+
+And('I copy {string} test data to temporary folder', (fileName) => {
+  cy.copyDataFile(fileName);
+});
+
