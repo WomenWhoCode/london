@@ -59,6 +59,11 @@ We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem d
 
 The project requires to use ruby>=3.1.*. Make sure that your system looks at the correct version of ruby.
 
+### Possible errors
+![Bundler error](https://i.ibb.co/mJ8N9fk/image.png) after ```bundle install``` command.
+
+
+### Setup ruby with rbenv
 * First, check which path of ruby you have. If it's incorrect or missing, set it.
 ```
 env | grep PATH
@@ -80,6 +85,9 @@ rbenv local 3.1.2   # set the Ruby version for this directory
 
 * Get back to the [Build and run](#build-and-run) section.
 
+### Remove Gemfile.lock
+
+As an alternative way, remove Gemfile.lock if setting Ruby version didn't help.
 
 ## How to Run End-To-End Testing Locally
 
