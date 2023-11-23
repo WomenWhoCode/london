@@ -61,3 +61,8 @@ export function clickCheckMoreDetails() {
   homeTimelineLocatorManager.getCheckDetailsButton().click();
   cy.url().should('include', '/london/timeline');
 }
+
+export function clickCheckOurMentors() {
+  homeTimelineLocatorManager.getCheckMentorsButton().click();
+  cy.url().should('include', '/london/mentors');
+}

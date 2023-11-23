@@ -4,7 +4,8 @@ import {
   switchToPage,
   verifyFooter,
   verifyHeaderTabs,
-  verifyHeaderLogo
+  verifyHeaderLogo,
+  goBackHomeWithLogo
 } from '../pages/navigation.page';
 
 import {
@@ -33,4 +34,8 @@ And("I verify all the header's tabs", () => {
 
 And('I scroll the page to {string}', (scrollDirection) => {
   cy.scrollTo(scrollDirection);
+});
+
+And('I get back to the Home page using WWC logo', () => {
+  goBackHomeWithLogo();
 });

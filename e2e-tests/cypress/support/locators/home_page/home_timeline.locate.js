@@ -20,7 +20,9 @@ const TIMELINE_CARD_DATE_3 =
 const TIMELINE_CARD_DATE_4 =
   '.timeline > .row > :nth-child(4) > .card > .card-body > p';
 
-const CHECK_DETAILS_BUTTON = '.text-center > .btn';
+const CHECK_DETAILS_BUTTON = '.timeline > .text-center > .btn';
+const CHECK_MENTORS_BUTTON = '.mentee > .mt-4 > .btn';
+
 
 class homeTimelineLocatorManager {
   validateTimelineTitle = () => {
@@ -137,6 +139,10 @@ class homeTimelineLocatorManager {
 
   getCheckDetailsButton = () => {
     return cy.get(CHECK_DETAILS_BUTTON).shouldBeVisible();
+  };
+
+  getCheckMentorsButton = () => {
+    return cy.get(CHECK_MENTORS_BUTTON).shouldBeVisible();
   };
 }
 

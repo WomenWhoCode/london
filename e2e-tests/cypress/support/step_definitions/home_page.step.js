@@ -4,6 +4,7 @@ import {
   verifyActivePageUrl,
   verifyHomeUIElements,
   clickCheckMoreDetails,
+  clickCheckOurMentors
 } from '../pages/home.page';
 
 When('I visit Home page', () => {
@@ -20,4 +21,8 @@ And('I verify all UI elements on the Home page', (tabName) => {
 
 And('I click Check more details button', () => {
   clickCheckMoreDetails();
+});
+
+And('I click Check our mentors button', () => {
+  clickCheckOurMentors();
 });
