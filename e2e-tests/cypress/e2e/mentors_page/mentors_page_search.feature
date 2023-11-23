@@ -20,12 +20,12 @@ Feature: Mentors Page - Search & Filters
     And I can see correct search results for "Anastasia" query
     Then I clear the mentors search input
     And I click the Search button
-    And I can see all mentors on Mentors page
+    And I can see the list as the previous mentor list
    
   Scenario: As a user, I cannot Search anything without entering a search query
-    And I can see all mentors on Mentors page
+    And I can see the list as the previous mentor list
     Then I click the Search button
-    And I can see all mentors on Mentors page
+    And I can see the list as the previous mentor list
 
   Scenario: As a user, I can search mentors based on Expertise filter
     And I expand Advanced filters
@@ -43,7 +43,7 @@ Feature: Mentors Page - Search & Filters
     And I set "DevOps" filter to "Expertise" filter
     And I can see correct search results for "Atibhi Agrawal" query
     Then I clear all filters
-    And I can see all mentors on Mentors page
+    And I can see the list as the previous mentor list
 
   Scenario: As a user, I can search mentors and get no results
     And I type "Ivan" in the mentors search input

@@ -89,7 +89,8 @@ class mentorsLocatorManager {
   };
 
   validateNoMentorsMessage = () => {
-    return cy.get(NO_MENTORS_FOUND).shouldBeVisible().should('contain', "Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.");
+    const message = "Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.";
+    return cy.get(NO_MENTORS_FOUND).shouldBeVisible().should('contain', message);
   };
    
   verifyExperienceDropdownValues = () => {

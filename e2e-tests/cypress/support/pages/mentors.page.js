@@ -2,8 +2,7 @@ import mentorsLocatorManager from '../locators/mentors_page/mentors_page.locate'
 
 const EXPECTED_NUMBER_MENTORS_CARD = 47; // as of November 18th, 2023
 const MENTORS_FILE = 'mentors.yml';
-const MENTORS_FILE_PATH =
-  Cypress.config('temporaryFolderRelativePath') + MENTORS_FILE;
+const MENTORS_FILE_PATH = Cypress.config('temporaryFolderRelativePath') + MENTORS_FILE;
 
 export function verifyMentorsDataPresentation() {
   //Copy test data

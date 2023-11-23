@@ -58,7 +58,7 @@ Then('I clear the mentors search input', () => {
   clearSearchInput();
 });
 
-Then('I can see all mentors on Mentors page', () => {
+Then('I can see the list as the previous mentor list', () => {
   verifyAllMentorsExistOnPage();
 });
 
