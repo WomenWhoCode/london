@@ -42,7 +42,6 @@ class homeGeneralLocatorManager {
     cy.get(MENTOR_TITLE).should('contain', ' if you:');
   };
 
-
   validateMentorTitle = () => {
     cy.get(MENTEE_TITLE)
       .should('exist')
@@ -51,83 +50,47 @@ class homeGeneralLocatorManager {
     cy.get(MENTEE_TITLE).should('contain', ' if you:');
   };
 
-
   verifyMentorConditions = () => {
-    let areConditionsCorrect = false;
-
     cy.get(MENTOR_CONDITION_1)
       .should('exist')
-      .and('contain', '1. Want to extend your professional network')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and('contain', '1. Want to extend your professional network');
 
     cy.get(MENTOR_CONDITION_2)
       .should('exist')
-      .and('contain', '2. Want to contribute to the community')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', '2. Want to contribute to the community');
 
     cy.get(MENTOR_CONDITION_3)
       .should('exist')
-      .and('contain', '3. You are ready to share expertise')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', '3. You are ready to share expertise');
 
     cy.get(MENTOR_CONDITION_4)
       .should('exist')
       .and(
         'contain',
         '4. You want to get a new perspective and learn from your mentees'
-      )
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    return areConditionsCorrect;
+      );
   };
 
   verifyMenteeConditions = () => {
-    let areConditionsCorrect = false;
-
     cy.get(MENTEE_CONDITION_1)
       .should('exist')
-      .and('contain', '1. Want to start career in software engineering')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and('contain', '1. Want to start career in software engineering');
 
     cy.get(MENTEE_CONDITION_2)
       .should('exist')
-      .and('contain', '2. Want to find a better job')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', '2. Want to find a better job');
 
     cy.get(MENTEE_CONDITION_3)
       .should('exist')
-      .and('contain', '3. Want to be promoted at work')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', '3. Want to be promoted at work');
 
     cy.get(MENTEE_CONDITION_4)
       .should('exist')
-      .and('contain', '4. Want to apply for a leadership position')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', '4. Want to apply for a leadership position');
 
     cy.get(MENTEE_CONDITION_5)
       .should('exist')
-      .and('contain', '5. Need support in advancing your career')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    return areConditionsCorrect;
+      .and('contain', '5. Need support in advancing your career');
   };
 
   validateJoinAsMentorButton = () => {

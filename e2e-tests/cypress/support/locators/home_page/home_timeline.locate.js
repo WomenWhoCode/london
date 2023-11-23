@@ -20,7 +20,7 @@ const TIMELINE_CARD_DATE_3 =
 const TIMELINE_CARD_DATE_4 =
   '.timeline > .row > :nth-child(4) > .card > .card-body > p';
 
-const CHECK_DETAILS_BUTTON = '.text-center > .btn';
+const CHECK_DETAILS_BUTTON = '.timeline > .text-center > .btn';
 
 class homeTimelineLocatorManager {
   validateTimelineTitle = () => {
@@ -31,101 +31,40 @@ class homeTimelineLocatorManager {
   };
 
   verifyTimelineIcons = () => {
-    let areConditionsCorrect = false;
-
-    cy.get(TIMELINE_ICON_1)
-      .should('exist')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
-
-    cy.get(TIMELINE_ICON_2)
-      .should('exist')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    cy.get(TIMELINE_ICON_3)
-      .should('exist')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    cy.get(TIMELINE_ICON_4)
-      .should('exist')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    return areConditionsCorrect;
+    cy.get(TIMELINE_ICON_1).should('exist');
+    cy.get(TIMELINE_ICON_2).should('exist');
+    cy.get(TIMELINE_ICON_3).should('exist');
+    cy.get(TIMELINE_ICON_4).should('exist');
   };
 
   verifyTimelineCards = () => {
-    let areConditionsCorrect = false;
-
     cy.get(TIMELINE_CARD_1)
       .should('exist')
-      .and('contain', "Mentors' Registrations")
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+      .and('contain', "Mentors' Registrations");
 
     cy.get(TIMELINE_CARD_2)
       .should('exist')
-      .and('contain', "Mentees' Registrations")
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', "Mentees' Registrations");
 
-    cy.get(TIMELINE_CARD_3)
-      .should('exist')
-      .and('contain', 'Mentoring Starts')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+    cy.get(TIMELINE_CARD_3).should('exist').and('contain', 'Mentoring Starts');
 
     cy.get(TIMELINE_CARD_4)
       .should('exist')
-      .and('contain', 'The End of the Cycle')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    return areConditionsCorrect;
+      .and('contain', 'The End of the Cycle');
   };
 
   verifyTimelineCardsDates = () => {
-    let areConditionsCorrect = false;
-
-    cy.get(TIMELINE_CARD_DATE_1)
-      .should('exist')
-      .and('contain', 'January 2023')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = true;
-      });
+    cy.get(TIMELINE_CARD_DATE_1).should('exist').and('contain', 'January 2023');
 
     cy.get(TIMELINE_CARD_DATE_2)
       .should('exist')
-      .and('contain', 'February 2023')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+      .and('contain', 'February 2023');
 
-    cy.get(TIMELINE_CARD_DATE_3)
-      .should('exist')
-      .and('contain', 'April 2023')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
+    cy.get(TIMELINE_CARD_DATE_3).should('exist').and('contain', 'April 2023');
 
     cy.get(TIMELINE_CARD_DATE_4)
       .should('exist')
-      .and('contain', 'November 2023')
-      .then(($condition, areAssertionsSuccessful) => {
-        areAssertionsSuccessful = areAssertionsSuccessful && true;
-      });
-
-    return areConditionsCorrect;
+      .and('contain', 'November 2023');
   };
 
   validateCheckDetailsButton = () => {
