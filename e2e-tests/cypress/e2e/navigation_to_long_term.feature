@@ -4,7 +4,7 @@ Feature: Navigation from Home to Long-term page
     When I visit Home page
 
   Scenario: As a user, I can navigate from Home to Long-term timeline page via website's header 
-    Then I switch to "LONG-TERM TIMELINE" page
+    Then I switch to "Long-term timeline" page
 
   Scenario: As a user, I can navigate from Home to Long-term timeline page via Check more details button
     Then I click Check more details button

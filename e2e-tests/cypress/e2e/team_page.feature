@@ -2,7 +2,7 @@ Feature: Team Page
 
  Background:
     When I visit Home page
-    Then I switch to "TEAM" page
+    Then I switch to "Team" page
 
   Scenario: As a user, I can open Team page and verify team data
     And I verify team data

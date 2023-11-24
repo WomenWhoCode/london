@@ -3,35 +3,40 @@ import footerLocatorManager from '../locators/footer.locate';
 
 export function switchToPage(pageName) {
   switch (pageName) {
-    case 'HOME':
+    case 'Home':
       headerLocatorManager.getHomeTab().click();
       cy.url().should('include', '/london');
       break;
-    case 'MENTORS':
+    case 'Mentors':
       headerLocatorManager.getMentorsTab().click();
       cy.url().should('include', '/london/mentors');
       break;
-    case 'RESOURCES':
+    case 'Resources':
       headerLocatorManager.getResourcesTab().click();
       cy.url().should('include', '/london/resources');
       break;
-    case 'HOW IT WORKS':
+    case 'How it works':
       headerLocatorManager.getHowItWorksTab().click();
       cy.url().should('include', '/london');
       break;
-    case 'TEAM':
+    case 'Team':
       headerLocatorManager.getTeamTab().click();
       cy.url().should('include', '/london/team');
       break;
-    case 'LONG-TERM TIMELINE':
+    case 'Long-term timeline':
       headerLocatorManager.getHowItWorksTab().click();
       cy.contains(pageName).click();
       cy.url().should('include', '/london/timeline');
       break;
-    case 'AD-HOC TIMELINE':
+    case 'Ad-hoc timeline':
       headerLocatorManager.getHowItWorksTab().click();
       cy.contains(pageName).click();
       cy.url().should('include', '/london/ad-hoc-timeline');
+      break;
+    case 'Code of conduct':
+      headerLocatorManager.getHowItWorksTab().click();
+      cy.contains(pageName).click();
+      cy.url().should('include', '/london/code-of-conduct');
       break;
     default:
       break;
