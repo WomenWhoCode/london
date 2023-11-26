@@ -1,4 +1,5 @@
 node_modules
 cypress/reports
+cypress/downloads
 package-lock.json
 .DS_Store
