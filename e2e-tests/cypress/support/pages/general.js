@@ -28,6 +28,11 @@ export function switchToPage(pageName) {
       cy.contains(pageName).click();
       cy.url().should('include', '/london/timeline');
       break;
+    case 'AD-HOC TIMELINE':
+      headerLocatorManager.getHowItWorksTab().click();
+      cy.contains(pageName).click();
+      cy.url().should('include', '/london/ad-hoc-timeline');
+      break;
     default:
       break;
   }
