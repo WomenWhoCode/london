@@ -230,27 +230,12 @@ class mentorsLocatorManager {
   };
 
   validateSocialLinks = (option, testDataLinks) => {
-    //Since we are not adding Youtube links to mentors crds, we skip it for now.
-    testDataLinks = testDataLinks.filter(
-      (link) => Object.keys(link)[0] !== 'youtube'
-    );
-
     cy.wrap(option)
       .find(NETWORK_LINKS)
       .children()
       .each(($child, index) => {
-        const value = Object.values(testDataLinks[index]).toString();
-        if ($child.is('span')) {
-          // Needed to process the first LinkedIn link because it's wrapped into a span
-          const linkedinLink = $child.find('a');
-          cy.wrap(linkedinLink).should('have.attr', 'href', value);
-          return;
-        } else if ($child.is('a')) {
-          //Process all links except for LinkedIn
-          cy.wrap($child).should('have.attr', 'href', value);
-        } else {
-          cy.log('Unexpected element type:', $child.prop('tagName'));
-        }
+      const value = Object.values(testDataLinks[index]).toString();
+      cy.wrap($child).should('have.attr', 'href', value);
       });
   };
 
