@@ -2,7 +2,7 @@ Feature: Mentors Page - Search & Filters
 
   Background:
     When I visit Home page
-    Then I switch to "MENTORS" page
+    Then I switch to "Mentors" page
     And I copy "mentors.yml" test data to temporary folder
 
   Scenario: As a user, I can search mentors based on filter set

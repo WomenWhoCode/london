@@ -18,7 +18,7 @@ const TIMELINE_DESCRIPTION_6 = ':nth-child(6) > .description';
 const TIMELINE_DESCRIPTION_7 = ':nth-child(7) > .description';
 const TIMELINE_DESCRIPTION_8 = ':nth-child(8) > .description';
 
-class adHocLocateManager {
+class adHocLocatorManager {
   getPageHeader = () => {
     return cy.get(PAGE_HEADER).shouldBeVisible();
   };
@@ -118,4 +118,4 @@ class adHocLocateManager {
   };
 }
 
-export default new adHocLocateManager();
+export default new adHocLocatorManager();
