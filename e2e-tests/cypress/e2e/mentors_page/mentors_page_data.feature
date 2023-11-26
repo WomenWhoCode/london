@@ -1,4 +1,4 @@
-Feature: Mentors Page
+Feature: Mentors Page - Data testing
 
   Background:
     When I visit Home page
@@ -12,10 +12,3 @@ Feature: Mentors Page
   
   Scenario: As a user, I can open Mentors page and verify mentors data on Mentees tab
     And I verify mentors cards: Mentees tab
-
-  Scenario: As a user, I can open Mentors page and verify UI elements
-    Then I verify all the header's tabs
-    And I verify the header's logo
-    And I verify all UI elements on the Mentors page
-    And I scroll the page to "bottom"
-    And I verify the footer

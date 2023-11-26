@@ -9,7 +9,7 @@ module.exports = defineConfig({
   sourceDataFolder: '../_data/',
   e2e: {
     baseUrl: 'https://womenwhocode.github.io/london',
-    specPattern: 'cypress/e2e/*.feature',
+    specPattern: 'cypress/e2e/**/*.feature',
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber());
       on('task', {

@@ -1,7 +1,8 @@
 const ALERT = ':nth-child(3) > .alert';
 const KEYWORD_INPUT = '#keywords';
+const SEARCH_BUTTON = '#search'
 const EXPERIENCE_DROPDOWN = '#experience';
-const AREA_DROPDOWN = '#area';
+const EXPERTISE_DROPDOWN = '#area';
 const MENTEE_FOCUS = '#focus';
 const FORMAT_DROPDOWN = '#type';
 
@@ -19,6 +20,9 @@ const MENTEES_TAB = '.mentees';
 const MENTEES_CARD = '.card-mentees > .card-text';
 
 const TOGGLE_ADVANCED_FILTERS = '#toggle-filters';
+const CLEAR_ALL_FILTERS = '#clear-btn';
+const NO_MENTORS_FOUND = '#no-mentors-msg'
+
 
 class mentorsLocatorManager {
   validateMentorsAlert = () => {
@@ -39,17 +43,60 @@ class mentorsLocatorManager {
   };
 
   //Search section
-  validateKeywordInput = () => {
+  getMentorsSearchInput = () => {
+    return cy
+      .get(KEYWORD_INPUT)
+      .shouldBeVisible();
+  };
+
+  validateMentorsSearchInput = () => {
     return cy
       .get(KEYWORD_INPUT)
       .shouldBeVisible()
       .should('have.attr', 'placeholder', 'Search by mentor’s name...');
   };
 
+  getSearchButton = () => {
+    return cy.get(SEARCH_BUTTON).shouldBeVisible();
+  };
+
+  validateSearchButton = () => {
+    return cy.get(SEARCH_BUTTON).shouldBeVisible().should('contain', 'Search');
+  };
+
+  getExperienceDropdown = () => {
+    return cy.get(EXPERIENCE_DROPDOWN).shouldBeVisible();
+  };
+  
+  getExpertiseDropdown = () => {
+    return cy.get(EXPERTISE_DROPDOWN).shouldBeVisible();
+  };
+
+  getMenteeFocusDropdown = () => {
+    return cy.get(MENTEE_FOCUS).shouldBeVisible();
+  };
+
+  getFormatDropdown = () => {
+    return cy.get(FORMAT_DROPDOWN).shouldBeVisible();
+  };
+
+  getAdvancedFiltersButton = () => {
+    return cy.get(TOGGLE_ADVANCED_FILTERS).shouldBeVisible();
+  };
+
+  getClearAllFiltersButton = () => {
+    return cy.get(CLEAR_ALL_FILTERS).shouldBeVisible();
+  };
+
+  validateNoMentorsMessage = () => {
+    const message = "Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.";
+    return cy.get(NO_MENTORS_FOUND).shouldBeVisible().should('contain', message);
+  };
+   
   verifyExperienceDropdownValues = () => {
     cy.fixture('test_data/mentor_experience.json').then((file) => {
       const options = file.experienceOptions;
-      cy.get(EXPERIENCE_DROPDOWN)
+      this.getExperienceDropdown()
         .children('option')
         .should('have.length', options.length)
         .each(($option, index) => {
@@ -61,7 +108,7 @@ class mentorsLocatorManager {
   verifyExpertiseDropdownValues = () => {
     cy.fixture('test_data/mentor_expertise.json').then((expertises) => {
       const options = expertises.expertOptions;
-      cy.get(AREA_DROPDOWN)
+      cy.get(EXPERTISE_DROPDOWN)
         .children('option')
         .should('have.length', options.length)
         .each(($option, index) => {
@@ -73,7 +120,7 @@ class mentorsLocatorManager {
   verifyMenteeFocusDropdownValues = () => {
     cy.fixture('test_data/mentee_focus.json').then((options) => {
       const menteeOptions = options.menteeOptions;
-      cy.get(MENTEE_FOCUS)
+      this.getMenteeFocusDropdown()
         .children('option')
         .should('have.length', menteeOptions.length)
         .each(($option, index) => {
@@ -99,10 +146,6 @@ class mentorsLocatorManager {
   };
 
   //Mentors cards
-  getMentorsCards = () => {
-    return cy.get(`[id*="mentor-card"]`).should('exist');
-  };
-
   validatePresentationTab = () => {
     return cy
       .get(PRESENTATION_TAB)
@@ -262,10 +305,6 @@ class mentorsLocatorManager {
 
   validateExtraMentoringTopics = (option, extraTopics) => {
     cy.wrap(option).find(MENTEES_CARD).contains(extraTopics.trim());
-  };
-
-  getToggleAdvancedFiltersButton = () => {
-    return cy.get(TOGGLE_ADVANCED_FILTERS).shouldBeVisible();
   };
 }
 
