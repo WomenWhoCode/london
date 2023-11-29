@@ -52,15 +52,22 @@ export function verifyFooter() {
   footerLocatorManager.validateFooterMentorshipSubheader();
   footerLocatorManager.validateFollowUsLabel();
   footerLocatorManager.vaidateStayTunedLabel();
-  footerLocatorManager.validateLinkedinUrl();
-  footerLocatorManager.validateInstagramUrl();
-  footerLocatorManager.validateTwitterUrl();
-  footerLocatorManager.validateGithubUrl();
-  footerLocatorManager.validateMeetupUrl();
-  footerLocatorManager.validateFacebookUrl();
-  footerLocatorManager.validateSlackUrl();
-  footerLocatorManager.validateYoutubeUrl();
+  validateSocialLinks(); 
 }
+
+export function validateSocialLinks() {
+  cy.fixture('test_data/wwc_social_links.json').then((links) => {
+  links.socialLinks.forEach((socialLink) => {
+    const socialPlatform = Object.keys(socialLink)[0];
+    const targetLink = socialLink[socialPlatform];
+    cy.get(`span a[href*="${targetLink}"]`).should('exist').then(($link) => {
+      const currentHref = $link.attr('href');
+      expect(currentHref).to.equal(targetLink);
+    });
+  });
+});
+};
+
 
 export function verifyHeaderTabs() {
   headerLocatorManager.getHomeTab();

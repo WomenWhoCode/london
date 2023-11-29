@@ -7,6 +7,7 @@ module.exports = defineConfig({
   temporaryFolderAbsolutePath: 'cypress/fixtures/temporary/',
   temporaryFolderRelativePath: '/temporary/',
   sourceDataFolder: '../_data/',
+  chromeWebSecurity: false,
   e2e: {
     baseUrl: 'https://womenwhocode.github.io/london',
     specPattern: 'cypress/e2e/**/*.feature',
