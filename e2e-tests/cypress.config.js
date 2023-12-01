@@ -1,9 +1,14 @@
 const { defineConfig } = require('cypress');
 const { rmdir } = require('fs');
 const cucumber = require('cypress-cucumber-preprocessor').default;
+const {
+  addMatchImageSnapshotPlugin,
+} = require('cypress-image-snapshot/plugin');
+
 
 module.exports = defineConfig({
   experimentalModifyObstructiveThirdPartyCode: true,
+  screenshotsFolder: 'cypress/visual_testing/baseImage',
   temporaryFolderAbsolutePath: 'cypress/fixtures/temporary/',
   temporaryFolderRelativePath: '/temporary/',
   sourceDataFolder: '../_data/',
@@ -12,6 +17,7 @@ module.exports = defineConfig({
     specPattern: 'cypress/e2e/**/*.feature',
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber());
+      addMatchImageSnapshotPlugin(on, config);
       on('task', {
         deleteDataTempFolder(folderName) {
           console.log('deleting folder %s', folderName);
