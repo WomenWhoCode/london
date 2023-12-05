@@ -4,7 +4,8 @@ import {
   switchToPage,
   verifyFooter,
   verifyHeaderTabs,
-  verifyHeaderLogo
+  verifyHeaderLogo,
+  goBackHomeWithLogo
 } from '../pages/general.js';
 
 import {
@@ -39,8 +40,10 @@ And('I press ENTER key', () => {
   cy.focused().type('{enter}');
 });
 
-
 And('I copy {string} test data to temporary folder', (fileName) => {
   cy.copyDataFile(fileName);
 });
 
+And('I get back to the Home page using WWC logo', () => {
+  goBackHomeWithLogo();
+});

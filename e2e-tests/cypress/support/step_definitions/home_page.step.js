@@ -4,6 +4,14 @@ import {
   verifyActivePageUrl,
   verifyHomeUIElements,
   clickCheckMoreDetails,
+  clickCheckOurMentors,
+  verifyFeedbackHeader,
+  verifyCarouselExists,
+  switchToNextCarouselSlide,
+  switchToPreviousCarouselSlide,
+  clickNextArrowMultipleTimes,
+  clickPreviousArrowMultipleTimes,
+  compareCarouselSlideWithRef,
   openFooterSocialLink
 } from '../pages/home.page';
 
@@ -26,3 +34,36 @@ And('I click Check more details button', () => {
 And('I open {string} WWC link from the footer', (socialLink) => {
   openFooterSocialLink(socialLink);
 });
+
+And('I click Check our mentors button', () => {
+  clickCheckOurMentors();
+});
+
+And('I validate the Feedback header', () => {
+  verifyFeedbackHeader();
+});
+
+And('I validate that mentors feedback carousel exists', () => {
+  verifyCarouselExists();
+});
+
+And('I can switch to the next carousel slide', () => {
+  switchToNextCarouselSlide();
+});
+
+And('I can switch to the previous carousel slide', () => {
+  switchToPreviousCarouselSlide();
+});
+
+And('I click the next arrow in carousel {string} times', (numberOfClicks) => {
+  clickNextArrowMultipleTimes(numberOfClicks);
+});
+
+And('I click the previous arrow in carousel {string} times', (numberOfClicks) => {
+  clickPreviousArrowMultipleTimes(numberOfClicks);
+});
+
+And('I compare slide {string} of the carousel with reference', (slideNumber) => {
+  compareCarouselSlideWithRef(slideNumber);
+});
+

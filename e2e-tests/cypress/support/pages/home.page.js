@@ -49,7 +49,7 @@ export function verifyHomeUIElements() {
   homeSupportLocatorManager.verifySupportCardTitles();
   homeSupportLocatorManager.verifySupportCardDetails();
   homeFeedbackLocatorManager.validateFeedbackTitle();
-  homeFeedbackLocatorManager.getFeedbackBlock();
+  homeFeedbackLocatorManager.getFeedbackBlockLocator();
 }
 
 export function verifyHomeHeader() {
@@ -88,14 +88,56 @@ export function openFooterSocialLink(socialLink) {
         });
         cy.visit(targetLink, { failOnStatusCode: false });
         cy.wait(1000);
-
-        // if (keyName === 'linkedin') {
-        //   cy.url().should('include', 'wwcodelondon');
-        // } else {
-        //   cy.url().should('include', targetLink);
-        // }
         cy.visit(Cypress.config('baseUrl'));
       }
     );
+  });
+}
+
+export function clickCheckOurMentors() {
+  homeTimelineLocatorManager.getCheckMentorsButton().click();
+  cy.url().should('include', '/london/mentors');
+}
+
+export function verifyFeedbackHeader() {
+  homeFeedbackLocatorManager.validateFeedbackTitle();
+}
+
+export function verifyCarouselExists() {
+  homeFeedbackLocatorManager.validateFeedbackBlock();
+  homeFeedbackLocatorManager.validateCarouselItemsExist();
+}
+
+export function switchToNextCarouselSlide() {
+  homeFeedbackLocatorManager.getNextCarouselArrow().click();
+  cy.wait(1000);
+}
+
+export function switchToPreviousCarouselSlide() {
+  homeFeedbackLocatorManager.getPreviousCarouselArrow().click();
+  cy.wait(1000);
+}
+
+export function clickNextArrowMultipleTimes(numberOfClicks) {
+  for (let i = 0; i < numberOfClicks; i++) {
+    homeFeedbackLocatorManager.getNextCarouselArrow().click();
+    cy.wait(1000);
+  }
+}
+
+export function clickPreviousArrowMultipleTimes(numberOfClicks) {
+  for (let i = 0; i < numberOfClicks; i++) {
+    homeFeedbackLocatorManager.get().click();
+    cy.wait(1000);
+  }
+}
+
+export function compareCarouselSlideWithRef(slideNumber) {
+  const elementToCompare = homeFeedbackLocatorManager.getFeedbackBlockLocator();
+  const specName = Cypress.spec.relative + '/' + "slide_" + slideNumber;
+  cy.get(elementToCompare).scrollIntoView();
+  cy.compareScreenshotWithRef({
+  nameDir: specName,
+  element: elementToCompare,
   });
 }

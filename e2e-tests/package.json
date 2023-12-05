@@ -15,7 +15,8 @@
     "cypress-xpath": "^2.0.1"
   },
   "devDependencies": {
-    "cypress": "^13.5.0",
+    "cypress": "^13.6.0",
+    "cypress-image-snapshot": "^4.0.1",
     "yamljs": "^0.3.0"
   }
 }
