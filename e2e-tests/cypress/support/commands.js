@@ -9,6 +9,10 @@ Cypress.Commands.add('shouldBeVisible', { prevSubject: true }, (subject) => {
   cy.wrap(subject).should('be.visible');
 });
 
+Cypress.Commands.add('shouldNotBeVisible', { prevSubject: true }, (subject) => {
+  cy.wrap(subject).should('not.be.visible');
+});
+
 Cypress.Commands.add('validateLink', (subject, linkLocator, expectedLink) => {
   cy.wrap(subject)
     .find(linkLocator)
@@ -23,7 +27,6 @@ Cypress.Commands.add('validateLink', (subject, linkLocator, expectedLink) => {
 Cypress.Commands.add('copyDataFile', (fileName) => {
   const testDataPath = TEMPORARY_TEST_FOLDER + fileName;
   const sourcePath = SOURCE_TEST_FOLDER + fileName;
-
   cy.readFile(sourcePath).then((file) => {
     const expectedResources = YAML.parse(file);
     const yamlString = YAML.stringify(expectedResources);

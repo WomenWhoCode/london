@@ -38,6 +38,11 @@ export function switchToPage(pageName) {
       cy.contains(pageName).click();
       cy.url().should('include', '/london/code-of-conduct');
       break;
+    case 'FAQ':
+      headerLocatorManager.getHowItWorksTab().click();
+      cy.contains(pageName).click();
+      cy.url().should('include', '/london/faq');
+      break;
     default:
       break;
   }
