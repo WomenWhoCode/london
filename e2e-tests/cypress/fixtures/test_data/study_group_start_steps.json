@@ -1,0 +1,25 @@
+{
+  "startSteps": [
+    {
+      "step": "Introduction meeting:"
+    },
+    {
+      "step": "Set a schedule:"
+    },
+    {
+      "step": "Choose a communication platform:"
+    },
+    {
+      "step": "Create an agenda:"
+    },
+    {
+      "step": "Assign roles:"
+    },
+    {
+      "step": "Share resources:"
+    },
+    {
+      "step": "Encourage participation:"
+    }
+  ]
+}
