@@ -14,9 +14,9 @@
         url: timeline
       - page: AD-HOC TIMELINE
         url: ad-hoc-timeline
-      - page: Study Group
+      - page: STUDY GROUP
         url: study-group
-      - page: Code of conduct
+      - page: CODE OF CONDUCT
         url: code-of-conduct
       - page: FAQ
         url: faq

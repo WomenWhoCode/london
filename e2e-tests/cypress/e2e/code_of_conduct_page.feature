@@ -2,7 +2,7 @@ Feature: Code of Conduct Page
 
   Background:
     When I visit Home page
-    And I switch to "Code of conduct" page
+    And I switch to "CODE OF CONDUCT" page
 
   Scenario: As a user, I can open Code of Conduct page and verify UI elements
     And I verify the header's logo

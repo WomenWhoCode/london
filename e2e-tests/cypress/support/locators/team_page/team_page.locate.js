@@ -35,7 +35,7 @@ class teamLocatorManager {
   validateLearnMoreButton = () => {
     return cy
       .get('.btn')
-      .contains('click here to learn more')
+      .contains('Click here to learn more')
       .shouldBeVisible()
       .should(
         'have.attr',

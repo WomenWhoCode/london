@@ -23,17 +23,17 @@ export function switchToPage(pageName) {
       headerLocatorManager.getTeamTab().click();
       cy.url().should('include', '/london/team');
       break;
-    case 'Long-term timeline':
+    case 'LONG-TERM TIMELINE':
       headerLocatorManager.getHowItWorksTab().click();
       cy.contains(pageName).click();
       cy.url().should('include', '/london/timeline');
       break;
-    case 'Ad-hoc timeline':
+    case 'AD-HOC TIMELINE':
       headerLocatorManager.getHowItWorksTab().click();
       cy.contains(pageName).click();
       cy.url().should('include', '/london/ad-hoc-timeline');
       break;
-    case 'Code of conduct':
+    case 'CODE OF CONDUCT':
       headerLocatorManager.getHowItWorksTab().click();
       cy.contains(pageName).click();
       cy.url().should('include', '/london/code-of-conduct');
