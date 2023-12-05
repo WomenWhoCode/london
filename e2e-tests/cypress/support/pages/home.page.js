@@ -82,12 +82,12 @@ export function openFooterSocialLink(socialLink) {
       targetLink,
       { args: { targetLink, keyName } },
       ({ targetLink, keyName }) => {
-        cy.on('uncaught:exception', (err, runnable) => {
-          console.error('Ignoring uncaught exception:', err.message);
+        cy.on('uncaught:exception', (err) => {
+          cy.log('Ignoring uncaught exception');
+          done();
           return false;
         });
         cy.visit(targetLink, { failOnStatusCode: false });
-        cy.wait(1000);
         cy.visit(Cypress.config('baseUrl'));
       }
     );
