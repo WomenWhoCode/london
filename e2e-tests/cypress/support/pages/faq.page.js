@@ -1,6 +1,7 @@
 import faqLocatorManager from '../locators/faq_page/faq.locate';
 const FAQ_FILE = 'faq.yml';
 const FAQ_FILE_PATH = Cypress.config('temporaryFolderRelativePath') + FAQ_FILE;
+const SMALL_WAIT_INTERVAL = 1000;
 
 export function verifyFAQElements() {
   faqLocatorManager.validatePageHeader();
@@ -35,10 +36,10 @@ export function expandCollapseElements() {
     faqLocatorManager.getFAQSectionsTitle($option).click(); //expand
     faqLocatorManager.verifySectionTitleVisible($option);
     faqLocatorManager.verifySectionAnswerVisible($option);
-    cy.wait(1000);
+    cy.wait(SMALL_WAIT_INTERVAL);
 
     faqLocatorManager.getFAQSectionsTitle($option).click(); //collapse
-    cy.wait(1000);
+    cy.wait(SMALL_WAIT_INTERVAL);
     faqLocatorManager.verifySectionTitleVisible($option);
     faqLocatorManager.verifySectionAnswerNotVisible($option);
   });
