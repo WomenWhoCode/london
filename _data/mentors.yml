@@ -1844,7 +1844,7 @@
     - linkedin: https://www.linkedin.com/in/alisa-iv/
 
 - name: Liliia Rafikova
-  disabled: false
+  disabled: true
   hours:  5
   position: SDE, AWS
   type: Both
