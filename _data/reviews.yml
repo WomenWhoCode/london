@@ -5,6 +5,13 @@
       date-f: 24 July 2023
       feedback: Fantastic. We really clicked. I am honoured that such an accomplished professional is gifting me her time and attention, and I try to make the most of it.
       name: Zsuzsanna
+      type: Long Term Mentorship
+    - score: 5
+      date: 20230710
+      date-f: 10 July 2023
+      feedback: It's a great initiative, it has boosted so much confidence in me. It feels tech community is not just about long hours and no guidance. It is about help, support and future goals as well.
+      name: Sonali
+      type: Ad-hoc Session
 
 - index: 4
   feedback:
