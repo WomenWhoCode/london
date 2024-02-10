@@ -5,6 +5,13 @@
       date-f: 24 July 2023
       feedback: Fantastic. We really clicked. I am honoured that such an accomplished professional is gifting me her time and attention, and I try to make the most of it.
       name: Zsuzsanna
+      type: Long Term Mentorship
+    - score: 5
+      date: 20230710
+      date-f: 10 July 2023
+      feedback: It's a great initiative, it has boosted so much confidence in me. It feels tech community is not just about long hours and no guidance. It is about help, support and future goals as well.
+      name: Sonali
+      type: Ad-hoc Session
 
 - index: 4
   feedback:
@@ -53,6 +60,12 @@
       date-f: 25 October 2023
       name: Katja
       feedback: I found Aisha very friendly and easy to talk to. She gave me some great insights on what I need to get clear on to make my job search more targeted, and also suggested alternatives to looking externally. She brought my focus back to the question "what makes me happy". Super valuable session!
+    - score: 5
+      date: 20230907
+      type: Ad-hoc Session
+      date-f: 7 September 2023
+      feedback:
+      name: Nimra
 
 - index: 10
   feedback:
@@ -86,6 +99,12 @@
       type: Ad-hoc Session
       name: Karina
       feedback: I made punctual que questions and concerns. Shelly was assertive in make me some questions to understand my points and support me pointing out skills I should improve and proving references where I could learn them. She gave me the direction I needed, now it's up to me to practice. I appreciate that.
+    - score: 5
+      date: 20230622
+      date-f: 23 June 2023
+      type: Ad-hoc Session
+      feedback:
+      name: Priscila
 
 - index: 17
   feedback:
@@ -140,6 +159,12 @@
       name: Anonymous
       type: Ad-hoc Session
       feedback: Due to limited of time. Not much time for me as a mentee to learn more about the mentor.
+    - score: 5
+      date: 20230710
+      date-f: 10 July 2023
+      type: Ad-hoc Session
+      feedback:
+      name: Denise
 
 - index: 25
   feedback:
@@ -237,4 +262,72 @@
       type: Ad-hoc Session
       feedback: I really loved talking to Anastasia, I've got ton of ideas and insights! We developed the whole plan on how I can improve my career path!
       name: Eleonora
+
+- index: 37
+  feedback:
+    - score: 5
+      date: 20230525
+      date-f: 25 May 2023
       type: Ad-hoc Session
+      feedback:
+      name: Naureen
+
+- index: 2
+  feedback:
+    - score: 4
+      date: 20230708
+      date-f: 8 July 2023
+      type: Ad-hoc Session
+      feedback:
+      name: Sreedevi
+
+- index: 22
+  feedback:
+    - score: 5
+      date: 20230708
+      date-f: 8 July 2023
+      type: Ad-hoc Session
+      feedback: It was a really good experience.
+      name: Anna
+
+- index: 9
+  feedback:
+    - score: 5
+      date: 20230708
+      date-f: 8 July 2023
+      type: Ad-hoc Session
+      feedback:
+      name: Yagmur
+
+- index: 51
+  feedback:
+    - score: 5
+      date: 20231018
+      date-f: 18 October 2023
+      type: Ad-hoc Session
+      feedback:
+      name: Anastasia
+
+- index: 47
+  feedback:
+    - score: 5
+      date: 20231026
+      date-f: 26 October 2023
+      type: Ad-hoc Session
+      feedback:
+      name: Yagmur
+
+- index: 36
+  feedback:
+    - score: 4
+      date: 20231101
+      date-f: 1 November 2023
+      type: Ad-hoc Session
+      name: Farnoosh
+      feedback: It was to the point, and I received the answer of all my prepared. It was a great experience for me. Thank you for this opportunity.
+    - score: 5
+      date: 20230727
+      date-f: 27 July 2023
+      type: Ad-hoc Session
+      name: Lu
+      feedback: I would love to have more long term mentorship program so that mentor and mentee can know each other better.
