@@ -7,6 +7,8 @@ let controllerCodeOfConduct = (function(jQuery) {
     const btnHideMenteesShowLess = jQuery("#btn-mentee-show-less");
     const btnHideMentorShowLess = jQuery("#btn-mentor-show-less");
     
+    const menteeHeading = jQuery("#mentee-section");
+    const mentorHeading = jQuery("#mentor-section");
 
     const classHide = "d-none";
 
@@ -37,21 +39,35 @@ let controllerCodeOfConduct = (function(jQuery) {
         initPage();
     };
 
+    let scrollToTarget = function(target) {
+        jQuery('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    };
+
     let initEvents = function() {
-        btnMenteeLearnMore.click(function() {
+        btnMenteeLearnMore.click(function(e) {
+            e.preventDefault();
             menteeCodeConduct();
+            scrollToTarget(menteeConduct);
         });
 
-        btnMentorLearnMore.click(function() {
+        btnMentorLearnMore.click(function(e) {
+            e.preventDefault();
             mentorCodeConduct();
+            scrollToTarget(mentorConduct);
         });
 
-        btnHideMenteesShowLess.click(function() {
+        btnHideMenteesShowLess.click(function(e) {
+            e.preventDefault();
             initPage();
+            scrollToTarget(menteeHeading);
         });
 
-        btnHideMentorShowLess.click(function() {
+        btnHideMentorShowLess.click(function(e) {
+            e.preventDefault();
             initPage();
+            scrollToTarget(mentorHeading);
         });
     };
 
