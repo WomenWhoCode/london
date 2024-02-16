@@ -120,7 +120,7 @@ let controllerSearch = (function(jQuery) {
 
     let filterMentors = function(filters) {
         if (isDefined(filters)) {
-            for (let index = 1; index <= totalMentors + 1; index++) {
+            for (let index = 1; index <= totalMentors; index++) {
                 applyMentorFilters(index, filters);
             }
         }
@@ -215,7 +215,7 @@ let controllerSearch = (function(jQuery) {
     };
 
     let init = function() {
-        totalMentors = jQuery(".card").length;
+        totalMentors = jQuery(".card").length + jQuery(".inactive-mentor").length;
         initEvents();
         applyKeywordsParam();
     };
