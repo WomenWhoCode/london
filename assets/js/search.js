@@ -2,6 +2,7 @@ let controllerSearch = (function(jQuery) {
     const HIDE_CLASS = "d-none";
     const MENTOR_CARD = "#mentor-card-";
     const MENTOR_CARD_HIDDEN = ".card.d-none";
+    const DEACTIVATED_MENTOR = ".inactive-mentor";
     const Filter = {
         KEYWORDS: "keywords",
         EXPERIENCE: "exp"
@@ -43,7 +44,7 @@ let controllerSearch = (function(jQuery) {
     let hideMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).addClass(HIDE_CLASS);
 
-        if (jQuery(MENTOR_CARD_HIDDEN).length === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
+        if ((jQuery(MENTOR_CARD_HIDDEN).length + jQuery(DEACTIVATED_MENTOR).length) === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
             $emptyMsg.removeClass(HIDE_CLASS);
             $descriptionMsg.addClass(HIDE_CLASS);
         }
@@ -66,7 +67,7 @@ let controllerSearch = (function(jQuery) {
     };
 
     let applyKeywordsParam = function() {
-        let keywords = params.get(Filter.KEYWORDS);
+        let keywords = params.get([Filter.KEYWORDS]);
         
         if (keywords) {
             let filter = paramToFilter(Filter.KEYWORDS, keywords);
@@ -215,7 +216,7 @@ let controllerSearch = (function(jQuery) {
     };
 
     let init = function() {
-        totalMentors = jQuery(".card").length + jQuery(".inactive-mentor").length;
+        totalMentors = jQuery(".card").length + jQuery(DEACTIVATED_MENTOR).length;
         initEvents();
         applyKeywordsParam();
     };
