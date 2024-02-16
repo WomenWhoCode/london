@@ -120,7 +120,7 @@ let controllerSearch = (function(jQuery) {
 
     let filterMentors = function(filters) {
         if (isDefined(filters)) {
-            for (let index = 0; index <= totalMentors; index++) {
+            for (let index = 1; index <= totalMentors + 1; index++) {
                 applyMentorFilters(index, filters);
             }
         }
