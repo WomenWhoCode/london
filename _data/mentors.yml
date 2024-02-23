@@ -1853,38 +1853,6 @@
   network:
     - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
 
-- name: Prerna Singhal
-  disabled: false
-  hours: 2
-  position: Lead Software Engineer, Hubspot
-  type: Both
-  index: 60
-  location: London, UK
-  bio: |
-    Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack).I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years.Hence i understand working in both in environments. I have worked wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
-  image: assets/images/mentors/60.png
-  languages: English
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: One who wants to transition from junior to senior levels.
-    areas:
-      - Backend Developer
-      - Distributed Systems
-      - Project Management
-      - Fullstack Developer
-      - Site Reliability Engineering
-    languages: Java, C#, Python, Kotlin, JavaScript
-    focus:
-      - Grow from beginner to mid-level
-      - Grow from mid-level to senior-level
-      - Switch career to IT
-      - Switch from IC to management position
-      - Change specialisation within IT
-    extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
-  network:
-    - linkedin: https://www.linkedin.com/in/prernasinghal90/
-
 - name: Julia Babahina
   disabled: false
   hours: 4
@@ -1893,7 +1861,7 @@
   index: 61
   location: London, UK
   bio: I have almost a decade experience in cyber security, infromation security and privacy. Also, last 3 years I have been working in risk in product and strategy.
-  image: assets/images/mentors/64.png
+  image: assets/images/mentors/61.png
   languages: English, Russian
   skills:
     experience: 7-10 Years
@@ -1920,7 +1888,7 @@
   index: 62
   location: UK, Oxfordshire
   bio: 13.5 years experience, recently 5 years using C# and Azure Cloud with distributed system processing large scale data for tracking ship movements, 8 years working with js and jQuery Mobile creating systems for aviation industry tracking bags and load balancing middleware for aircrafts.
-  image: assets/images/mentors/65.jpg
+  image: assets/images/mentors/62.jpg
   languages: English
   skills:
     experience: 10-15 Years
@@ -1942,47 +1910,15 @@
   network:
     - linkedin: https://www.linkedin.com/in/martinamasanova/
 
-- name: Kirthikka Devi Venkataram
-  disabled: false
-  hours: 2
-  position: Lead, Women Who Code Data Science
-  type: Both
-  index: 63
-  location: India / Coimbatore
-  bio: |
-    HI, I am Kirthikka, an experienced Manager launched embedded system products for 10 years leveraging design thinking and data driven approach working for B2B segments resulting Product’s growth and increasing revenue. I have enhanced the System Product features working in scrum - agile projects for cutting-edge technologies bisecting the business outcome, engineering design empathizing the customers. During my career, I have worked on time sensitive bootloader live up software product for a conceptual Samsung - Bosch collaborative SBLiMotive project which was a milestone. I provided innovative software design solution considering the criticality of secure booting and time taken to flash the electronic system components as a successful standalone system creating a MVP. This has enhanced the business revenue stream by 30%. For a different organization and role, I was awarded for presenting the Business Unit's technical expertise selling before the prospects towards increasing the NPS and acquire more projects.
-  image: assets/images/mentors/66.png
-  languages: English
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: I look for an individual who is interested in enhancing her career structured by the step by step approach provided to her. Interested and passionate about growing skills specific to Tech industry. Individual interested in transition to Management.
-    areas:
-      - Product Management
-      - Data Science
-      - Engineering management
-      - Project Management
-      - Machine Learning
-    languages: C, Python
-    focus:
-      - Grow from beginner to mid-level
-      - Switch career to IT
-      - Grow from mid-level to senior-level
-      - Switch from IC to management position
-      - Change specialisation within IT
-    extra: Resume Review, Prepare for interview, Product Management, Transition into Tech.
-  network:
-    - linkedin: https://www.linkedin.com/in/kirthikka-devi-v/
-
 - name: Nadezda Demidova
   disabled: false
   hours: 3
   position: Data Scientist, Cybersecurity Researcher, ebay
   type: ad-hoc
-  index: 64
+  index: 63
   location: London
   bio: I am leading the Off Platform Brand Protection research at eBay. Previously holding analytic leadership positions for the anti-phishing team at Kaspersky Labs and the Payment Services anti-fraud at Yandex. Obtained an MSc in Data Science with distinction from Queen’s University Belfast.
-  image: assets/images/mentors/67.jpg
+  image: assets/images/mentors/63.jpg
   languages: English, Russian
   skills:
     experience: 10-15 Years
@@ -2006,11 +1942,11 @@
   hours: 2
   position: Software Engineer,	The LEGO Group
   type: ad-hoc
-  index: 65
+  index: 64
   location: London, UK
   bio: |
     I work mainly with Backend and AWS. I am keen to help people start their journey in Software Engineering and Cloud Computing. I can share some knowledge from the industry, help you review your CV to apply for a job, and anything else around that. If you're looking to get AWS certified, I could also help you come up with a study plan, and share tips and study materials. I currently hold two certifications: Cloud Practitioner & Solutions Architect - Associate.
-  image: assets/images/mentors/68.jpg
+  image: assets/images/mentors/64.jpg
   languages: English, Portuguese, French
   skills:
     experience: 4-5 Years
@@ -2033,11 +1969,11 @@
   hours: 5
   position: Senior Software Engineer at Meta (formerly Facebook)
   type: both
-  index: 66
+  index: 65
   location: London, UK
   bio: |
     I am a Senior Software Engineer at Meta (formerly Facebook). I’ve worked across several highly technical areas in the company from Ads to GraphAPI (Meta’s third party developer platform) to now WhatsApp Integrity. I’ve worked across core infrastructure (C++), full stack web development (React/JS & PHP), Android (Java & Katlin), and now Machine Learning. I moved from San Francisco, California to London recently and am loving it since. I graduated from the University of Pennsylvania in the US where I taught courses in Ruby on Rails and Intro to Computer Science.
-  image: assets/images/mentors/69.jpg
+  image: assets/images/mentors/65.jpg
   languages: English, Portuguese, French
   skills:
     experience: 4-5 Years
@@ -2065,10 +2001,10 @@
   hours: 4
   position: Senior Research Engineer, Microsoft Research
   type: long-term
-  index: 67
+  index: 66
   location: London, UK
   bio: Research engineer in DL since 2017 in both start-ups and big tech. I'm particularly interested in generative models, NLP and have enjoyed scaling up training and deployments efficiently. Recently moved to London from Stockholm, Sweden, and having mentored previously I'm looking for ways to contribute here as well.
-  image: assets/images/mentors/70.jpg
+  image: assets/images/mentors/66.jpg
   languages: English
   skills:
     experience: 5-7 Years
@@ -2093,10 +2029,10 @@
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
-  index: 68
+  index: 67
   location: London, UK
   bio: I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
-  image: assets/images/mentors/71.jpg
+  image: assets/images/mentors/67.jpg
   languages: English
   skills:
     experience: 4-5 Years
@@ -2119,10 +2055,10 @@
   hours: 2
   position: Senior Software Engineer, The Pokemon Company International
   type: both
-  index: 69
+  index: 68
   location: London, UK
   bio: I'm a senior software engineer at the Pokemon Company, I have previously worked at other big tech companies such as Facebook and microsoft as a full-stack engineer supporting platform and product teams.
-  image: assets/images/mentors/72.jpg
+  image: assets/images/mentors/68.jpg
   languages: English, Portuguese
   skills:
     experience: 4-5 Years
@@ -2148,10 +2084,10 @@
   hours: 3
   position: Data Engineer, BJSS
   type: both
-  index: 70
+  index: 69
   location: London, UK
   bio: I switched careers from Civil Engineering, tried a bit of full-stack development and now working as a Data engineer!
-  image: assets/images/mentors/61.jpg
+  image: assets/images/mentors/69.jpg
   languages: English
   skills:
     experience: 2-4 Years
@@ -2182,7 +2118,7 @@
   index: 71
   location: London, UK
   bio: I'm a senior software engineer who migrated to IT after 10 years working on a complete different area (I was a factory worker in the past). I found my passion in the tech field and I'd love to help other women who are also interested in it.
-  image: assets/images/mentors/73.jpg
+  image: assets/images/mentors/70.jpg
   languages: English, Portuguese
   skills:
     experience: 7-10 Years
