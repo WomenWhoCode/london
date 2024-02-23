@@ -1,5 +1,7 @@
 .resources {
 
+  padding: 15px;
+
   .card {
     height: 100%;
   }
@@ -18,9 +20,59 @@
       margin-bottom: 10px;
   }
 
+  &__block {
+    margin-bottom: 7rem;
+  }
+
+  .events {
+
+    a {
+      font-weight: bold;
+      font-size: $font-size-md;
+      
+      svg {
+        height: 40px !important;
+        width: 40px !important;
+        fill: $teal !important;
+      }
+    }
+
+    .col-md-5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+    }
+
+    .links {
+      color: $teal;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-inline-start: 0 !important;
+      margin-top: 10px;
+    }
+
+    li { 
+      display: inline; 
+      margin-right: 20px;
+    } 
+  }
+
   .blog {
 
-    margin-bottom: 70px;
+    .card-body {
+      @extend .my-4;
+    }
 
     .card-horizontal {
         display: flex;
@@ -45,6 +97,28 @@
       font-size: $font-size-md;
     }
   }
+
+  .stretched-link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    .icon {
+      height: 20px;
+      padding-left: 6px;
+    }
+  }
+
+  h1 {
+    font-size: $font-size-base * 2.5;
+  }
+
+  h2 {
+    font-size: $font-size-base * 2;
+  }
+
+
 }
+
+
 
 

@@ -3,13 +3,23 @@
   index: 0
 - name: Mentors
   link: mentors
-  index: 2
+  index: 1
 - name: Resources
   link: resources
+  index: 2
+- name: How it works
   index: 3
+  subfolderitems:
+      - page: LONG-TERM TIMELINE
+        url: timeline
+      - page: AD-HOC TIMELINE
+        url: ad-hoc-timeline
+      - page: STUDY GROUP
+        url: study-group
+      - page: CODE OF CONDUCT
+        url: code-of-conduct
+      - page: FAQ
+        url: faq
 - name: Team
   link: team
   index: 4
-- name: Code of conduct
-  link: code-of-conduct
-  index: 5

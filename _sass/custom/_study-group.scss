@@ -1,0 +1,18 @@
+.study-group {
+    
+    @extend .my-7;
+
+    .section{
+        margin-bottom: 3rem;
+
+        li {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+
+            span {
+                font-weight: $font-weight-bold;
+            }
+        }
+    }
+}

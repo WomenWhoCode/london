@@ -6,13 +6,16 @@
 @import "resources";
 @import "team";
 @import "code-of-conduct";
-
+@import "faq";
+@import "media-breakpoint";
+@import "timeline";
+@import "study-group";
 
 h1, h2, h3 {
     @extend .text-center;
 
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 p, ul, ol {
@@ -30,7 +33,7 @@ a.btn {
 .btn-primary {
     font-weight: bold;
     text-decoration: none;
-    border: solid $black 2px;
+    border: none;
     font-size: $font-size-lg;
     padding: 0 2rem;
     line-height: 2.5;
@@ -39,4 +42,12 @@ a.btn {
     overflow: hidden;
     text-overflow: ellipsis;
     border-radius: 6px;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
