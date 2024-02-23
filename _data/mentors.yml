@@ -1974,7 +1974,7 @@
   bio: |
     I am a Senior Software Engineer at Meta (formerly Facebook). I’ve worked across several highly technical areas in the company from Ads to GraphAPI (Meta’s third party developer platform) to now WhatsApp Integrity. I’ve worked across core infrastructure (C++), full stack web development (React/JS & PHP), Android (Java & Katlin), and now Machine Learning. I moved from San Francisco, California to London recently and am loving it since. I graduated from the University of Pennsylvania in the US where I taught courses in Ruby on Rails and Intro to Computer Science.
   image: assets/images/mentors/65.jpg
-  languages: English, Portuguese, French
+  languages: English
   skills:
     experience: 4-5 Years
     years: 5
