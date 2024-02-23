@@ -1955,7 +1955,7 @@
     areas:
       - Backend Developer
       - Fullstack Developer
-    languages: Python
+    languages: Javascript, Python, Go
     focus:
       - Grow from beginner to mid-level
       - Switch career to IT
@@ -2115,7 +2115,7 @@
   hours: 5
   position: Senior Software Engineer, Artsy
   type: both
-  index: 71
+  index: 70
   location: London, UK
   bio: I'm a senior software engineer who migrated to IT after 10 years working on a complete different area (I was a factory worker in the past). I found my passion in the tech field and I'd love to help other women who are also interested in it.
   image: assets/images/mentors/70.jpg
