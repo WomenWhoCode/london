@@ -1666,7 +1666,7 @@
   location: Canada
   bio: |
     I am an experienced Software Engineer proficient in software development and cloud technologies using Java, Spring Boot, Spring Data JPA, and automating project deployment using Jenkins. I possess strong skills in product rationalization, migrating code from a monolithic to a microservices architecture, conducting code reviews, collaborating with cross-functional teams, and providing feedback to peers.
-  image: assets/images/mentors/63.png
+  image: assets/images/mentors/71.jpg
   languages: English
   skills:
     experience: 7-10 Years
@@ -1852,3 +1852,286 @@
       Software Development Strategies, Resume Review, Preparation for The Technical Interview
   network:
     - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
+
+- name: Lidiane Mayra Taquehara
+  disabled: false
+  hours: 5
+  position: Senior Software Engineer, Artsy
+  type: both
+  index: 60
+  location: London, UK
+  bio: I'm a senior software engineer who migrated to IT after 10 years working on a complete different area (I was a factory worker in the past). I found my passion in the tech field and I'd love to help other women who are also interested in it.
+  image: assets/images/mentors/70.jpg
+  languages: English, Portuguese
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: A mentee with a curious mind and passionate about learning new things.
+    areas:
+      - Backend Developer
+      - QA
+      - Fullstack Developer
+    languages: JavaScript, Python, Ruby
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+    extra: Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
+  network:
+    - linkedin: https://www.linkedin.com/in/lmayra/
+
+- name: Julia Babahina
+  disabled: false
+  hours: 4
+  position: Lead Risk Management Specialist, Swift
+  type: Both
+  index: 61
+  location: London, UK
+  bio: I have almost a decade experience in cyber security, infromation security and privacy. Also, last 3 years I have been working in risk in product and strategy.
+  image: assets/images/mentors/61.png
+  languages: English, Russian
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Dedicated, passionate and willing to learnn
+    areas:
+      - Product Management
+      - Project Management
+      - Security
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: Product Management, Project Management, Career Progression and Development, Soft Skills, Personal Brand Building, Infromation Security, IT, Enterprise Risk Management, Privacy
+  network:
+    - linkedin: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440/
+
+- name: Martina Masanova
+  disabled: false
+  hours: 4
+  position: Lead Software Engineer, OceanMind
+  type: long-term
+  index: 62
+  location: UK, Oxfordshire
+  bio: 13.5 years experience, recently 5 years using C# and Azure Cloud with distributed system processing large scale data for tracking ship movements, 8 years working with js and jQuery Mobile creating systems for aviation industry tracking bags and load balancing middleware for aircrafts.
+  image: assets/images/mentors/62.jpg
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: Someone who would like encouragement, help with developing skills or career, happy to share my experience within the industry and what to expect. C# and Azure are my current focus in my role, but I have experience in other areas too.
+    areas:
+      - Fullstack Developer
+      - Distributed Systems
+      - Backend Developer
+      - DevOps
+      - Data Engineering
+    languages: C#, JavaScript
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Software Development Strategies, Resume Review, Personal Development for Career, Situational Advice, Preparation for The Technical Interview, Impostor Syndrome
+  network:
+    - linkedin: https://www.linkedin.com/in/martinamasanova/
+
+- name: Nadezda Demidova
+  disabled: false
+  hours: 3
+  position: Data Scientist, Cybersecurity Researcher, ebay
+  type: ad-hoc
+  index: 63
+  location: London
+  bio: I am leading the Off Platform Brand Protection research at eBay. Previously holding analytic leadership positions for the anti-phishing team at Kaspersky Labs and the Payment Services anti-fraud at Yandex. Obtained an MSc in Data Science with distinction from Queen’s University Belfast.
+  image: assets/images/mentors/63.jpg
+  languages: English, Russian
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: Growth
+    areas:
+      - Machine Learning
+      - Data Science
+      - Security
+      - Project Management
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Resume Review, ML capabilities in Cybersecurity
+  network:
+    - linkedin: https://www.linkedin.com/in/nadia-demidova/
+
+- name: Monique Grinstein
+  disabled: false
+  hours: 2
+  position: Software Engineer,	The LEGO Group
+  type: ad-hoc
+  index: 64
+  location: London, UK
+  bio: |
+    I work mainly with Backend and AWS. I am keen to help people start their journey in Software Engineering and Cloud Computing. I can share some knowledge from the industry, help you review your CV to apply for a job, and anything else around that. If you're looking to get AWS certified, I could also help you come up with a study plan, and share tips and study materials. I currently hold two certifications: Cloud Practitioner & Solutions Architect - Associate.
+  image: assets/images/mentors/64.jpg
+  languages: English, Portuguese, French
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Someone who's starting on their Software Engineering journey.
+    areas:
+      - Backend Developer
+      - Fullstack Developer
+    languages: Javascript, Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: CV Review, Getting AWS Certified, Clean Code Practices, Starting Your Career in STEM, Grow from Beginner to Mid-level
+  network:
+    - linkedin: https://www.linkedin.com/in/moniquegrinstein/
+
+- name: Sanjana Sarkar
+  disabled: false
+  hours: 5
+  position: Senior Software Engineer at Meta (formerly Facebook)
+  type: both
+  index: 65
+  location: London, UK
+  bio: |
+    I am a Senior Software Engineer at Meta (formerly Facebook). I’ve worked across several highly technical areas in the company from Ads to GraphAPI (Meta’s third party developer platform) to now WhatsApp Integrity. I’ve worked across core infrastructure (C++), full stack web development (React/JS & PHP), Android (Java & Katlin), and now Machine Learning. I moved from San Francisco, California to London recently and am loving it since. I graduated from the University of Pennsylvania in the US where I taught courses in Ruby on Rails and Intro to Computer Science.
+  image: assets/images/mentors/65.jpg
+  languages: English
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: I'm not looking for anyone specific. As long as the person is looking to grow, that's a sign of a good mentee
+    areas:
+      - Fullstack Developer
+      - Backend Developer
+      - Data Engineering
+      - Distributed Systems
+      - Android
+    languages: Java, Python, JavaScript, Ruby, C++
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
+    extra: Resume Review, Technical Interview Prep, Data Structures & Algorithms, Fullstack web development, API frameworks, Growing from junior to senior levels in engineering, System design & architecture
+  network:
+    - linkedin: https://www.linkedin.com/in/sanjanasarkar/
+
+- name: Agrin Hilmkil
+  disabled: false
+  hours: 4
+  position: Senior Research Engineer, Microsoft Research
+  type: long-term
+  index: 66
+  location: London, UK
+  bio: Research engineer in DL since 2017 in both start-ups and big tech. I'm particularly interested in generative models, NLP and have enjoyed scaling up training and deployments efficiently. Recently moved to London from Stockholm, Sweden, and having mentored previously I'm looking for ways to contribute here as well.
+  image: assets/images/mentors/66.jpg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Motivated individuals who are eager to grow. I'm happy to provide both technical guidance and advice on how to build their careers.
+    areas:
+      - Machine Learning
+      - Data Science
+      - Backend Developer
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+    extra: Machine learning projects, Scaling up Deep Learning, Software Development, Building a career in Tech
+  network:
+    - linkedin: https://www.linkedin.com/in/agrinhilmkil/
+
+- name: Adeola Adekoyejo
+  disabled: false
+  hours: 3
+  position: Full stack Engineer
+  type: ad-hoc
+  index: 67
+  location: London, UK
+  bio: I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
+  image: assets/images/mentors/67.jpg
+  languages: English
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: You don’t have to know so much as long as you are willing to learn and do the work from your end
+    areas:
+      - Frontend Developer
+      - Engineering management
+      - Backend Developer
+    languages: Python, JavaScript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+    extra: Frontend interview prep, technical writing, system design, web accessibility, testing
+  network:
+    - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
+
+- name: Fanny Batista Vieira
+  disabled: false
+  hours: 2
+  position: Senior Software Engineer, The Pokemon Company International
+  type: both
+  index: 68
+  location: London, UK
+  bio: I'm a senior software engineer at the Pokemon Company, I have previously worked at other big tech companies such as Facebook and microsoft as a full-stack engineer supporting platform and product teams.
+  image: assets/images/mentors/68.jpg
+  languages: English, Portuguese
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Eager to learn, interested in pursuing a career focused on either back-end engineering or front-end engineering
+    areas:
+      - Frontend Developer
+      - Backend Developer
+      - Project Management
+      - Product Management
+      - DevOps
+    languages: JavaScript, Java, Python
+    focus:
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+    extra: Software Development Strategies and Best Practices, Resume Review, Preparation for Technical Interviews, Transition of careers
+  network:
+    - linkedin: https://www.linkedin.com/in/fanny-vieira/
+
+- name: Victoria Beardow
+  disabled: false
+  hours: 3
+  position: Data Engineer, BJSS
+  type: both
+  index: 69
+  location: London, UK
+  bio: I switched careers from Civil Engineering, tried a bit of full-stack development and now working as a Data engineer!
+  image: assets/images/mentors/69.png
+  languages: English
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: Someone wanting to switch careers into tech and not sure where to start or how to get there!
+    areas:
+      - Data Engineering
+      - Business Analysis
+      - Engineering management
+      - Project Management
+      - Data Science
+    languages: JavaScript, Python
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
+    extra: CV review, Technical Interview, Different roles in tech
+  network:
+    - linkedin: https://www.linkedin.com/in/victoria-beardow-b1b63814a
