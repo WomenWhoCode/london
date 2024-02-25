@@ -1,8 +1,37 @@
+- name: Eleonora Belova
+  disabled: false
+  hours: 3
+  position: QA Engineer, ReaQta, an IBM Company
+  type: both
+  index: 1
+  location: Amsterdam, the Netherlands
+  bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
+  image: assets/images/mentors/1.jpeg
+  languages: English
+  availability:
+    september: false
+    october: true
+  skills:
+    experience: 2-4 years
+    years: 4
+    areas:
+      - Quality Assurance
+    mentee: I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
+    languages: Python, Html, CSS, JavaScript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines
+  network:
+    - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - github: https://github.com/nora-weisser
+
 - name: Rajani Rao
   disabled: false
   hours: 5
   type: both
-  index: 1
+  index: 2
   position: CTO/Principal Technologist, WInvest/AVEVA
   bio: |
     Rajani Rao is a Principal Technologist at AVEVA, designing scalable, web and IoT solutions in the Cloud with over two decades of experience in computing. Outside of her profession, she is a mother of two girls and an advocate for women in tech. As a dynamic speaker and panelist, Rajani shares insights on technology, engineering, and female leadership. She holds an advisory role at Pixuate, a female-led AI and Machine Learning startup. Rajani extends her leadership as Director at WomenWhoCode London, fostering technical skill-building and career progression. She serves as a fractional CTO at WInvest, committed to an inclusive financial ecosystem using AI. Rajani's vision is to shape an inclusive, innovative global tech landscape.
@@ -33,69 +62,6 @@
   network:
     - linkedin: https://www.linkedin.com/in/rajaniraog/
 
-- name: Eleonora Belova
-  disabled: false
-  hours: 3
-  position: QA Engineer, ReaQta, an IBM Company
-  type: both
-  index: 2
-  location: Amsterdam, the Netherlands
-  bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
-  image: assets/images/mentors/1.jpeg
-  languages: English
-  availability:
-    september: false
-    october: true
-  skills:
-    experience: 2-4 years
-    years: 4
-    areas:
-      - Quality Assurance
-    mentee: I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
-    languages: Python, Html, CSS, JavaScript
-    focus:
-      - Switch career to IT
-      - Grow from beginner to mid-level
-      - Change specialisation within IT
-    extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines
-  network:
-    - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-    - github: https://github.com/nora-weisser
-
-- name: Irina Kamalova
-  disabled: false
-  hours: 2
-  type: both
-  index: 3
-  position: Senior Software Engineer, Revolut
-  bio: |
-    Irina is a Director of Women Who Code London and a Senior Backend Software Engineer at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. Apart from being a strong developer and a good team player, in the last 3-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Senior Director role within the community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than triple. As the next step, she will help other networks by holding the position of Senior Director in WWCode. Currently, she works at Revolut and building a platform for retail products. That includes support services to handle our 30 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires, navigating interns and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”. Recently I contributed to my University as a lecturer and designed materials for a course of Software Architecture. This year, I'm connecting different Universities in England with WWCode London to bring more diversity in tech from inspiring the young generation."
-  image: assets/images/mentors/7.jpeg
-  location: London, United Kingdom
-  languages: English, Russian
-  availability:
-    september: true
-    october: true
-  skills:
-    experience: 7-10 years
-    years: 10
-    areas:
-      - Backend Developer
-      - Distributed Systems
-      - Site Reliability Engineering
-      - DevOps
-    languages: Java, Kotlin, Scala, Python
-    focus:
-      - grow from mid-level to senior-level
-      - grow from beginner to mid-level
-      - change specialisation to IT
-      - Switch career to IT
-    extra: Software Development Strategies, Backend Engineering, Databases, Scaling applications, Performance, Technical Interviews, Behavioural Interviews
-    mentee: Mid Engineer looking to grow up to be a Senior Engineer in Backend Engineering
-  network:
-    - linkedin: https://www.linkedin.com/in/irina-kamalova/
-    - Medium: https://iren-kamalova.medium.com/
-
 - name: Adriana Zencke Zimmermann
   disabled: false
   hours: 2
@@ -105,7 +71,7 @@
   image: assets/images/mentors/3.jpeg
   location: València, Spain
   type: both
-  index: 4
+  index: 3
   languages: Portuguese, English
   availability:
     september: false
@@ -136,7 +102,7 @@
   disabled: false
   hours: 1
   type: ad-hoc
-  index: 5
+  index: 4
   position: Data scientist, Trivago
   bio: An experienced Data Scientist who likes to develop business ideas into implementable solutions by leveraging the power of Technology. Professional with 5+ years of experience in NLP, Computer Vision and Recommender models. Motivated by the challenge of working in cross-functional teams and leading projects from beginning to end. Passionate about mentoring and inspiring young women in the field of STEM.
   image: assets/images/mentors/4.jpeg
@@ -164,13 +130,13 @@
     mentee: Whoever is interested /is working in the field of Data Science
     extra: Resume review, mock interview, LinkedIn profile review and career growth advice
   network:
-    - linkedin: www.linkedin.com/in/aishwarya-nair-data-scientist
+    - linkedin: https://www.linkedin.com/in/aishwarya-nair-data-scientist
 
 - name: Mr Andrew King
   disabled: false
   hours: 4
   type: long-term
-  index: 6
+  index: 5
   position: DevOps Engineer, DRW
   bio: Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms.  Know how to manage, manage up, team building, finding team fit.  Many years of experience interviewing (on both side of the table).
   image: assets/images/mentors/5.jpeg
@@ -201,7 +167,7 @@
   disabled: false
   hours: 4
   type: both
-  index: 7
+  index: 6
   position: Senior Software Engineer, MHFA and Women In PrimaryBid cochair at PrimaryBid
   bio: |
     My journey started in 2009 when I started studying Computer Science in Madrid. In my first two roles, I worked as a Backend Engineer with Ruby and Java. When I moved to the UK, I was determined to become a Fullstack Engineer, which led me to work with the design team, Javascript and mobile development. As I mainly worked in startups, I'm used to wearing many hats, the fast pace and lean development. To keep up with trends, I constantly seek tech and networking events.
@@ -232,6 +198,40 @@
   network:
     - linkedin: https://www.linkedin.com/in/sandy-chuchuca-ordonez
     - github: https://github.com/sandycho
+
+- name: Irina Kamalova
+  disabled: false
+  hours: 2
+  type: both
+  index: 7
+  position: Senior Software Engineer, Revolut
+  bio: |
+    Irina is a Director of Women Who Code London and a Senior Backend Software Engineer at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. Apart from being a strong developer and a good team player, in the last 3-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Senior Director role within the community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than triple. As the next step, she will help other networks by holding the position of Senior Director in WWCode. Currently, she works at Revolut and building a platform for retail products. That includes support services to handle our 30 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires, navigating interns and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”. Recently I contributed to my University as a lecturer and designed materials for a course of Software Architecture. This year, I'm connecting different Universities in England with WWCode London to bring more diversity in tech from inspiring the young generation."
+  image: assets/images/mentors/7.jpeg
+  location: London, United Kingdom
+  languages: English, Russian
+  availability:
+    september: true
+    october: true
+  skills:
+    experience: 7-10 years
+    years: 10
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - Site Reliability Engineering
+      - DevOps
+    languages: Java, Kotlin, Scala, Python
+    focus:
+      - grow from mid-level to senior-level
+      - grow from beginner to mid-level
+      - change specialisation to IT
+      - Switch career to IT
+    extra: Software Development Strategies, Backend Engineering, Databases, Scaling applications, Performance, Technical Interviews, Behavioural Interviews
+    mentee: Mid Engineer looking to grow up to be a Senior Engineer in Backend Engineering
+  network:
+    - linkedin: https://www.linkedin.com/in/irina-kamalova/
+    - Medium: https://iren-kamalova.medium.com/
 
 - name: Ayla Cura
   disabled: false
@@ -427,6 +427,36 @@
   network:
     - linkedin: https://www.linkedin.com/in/shelly-leal/
     - medium: https://medium.com/@shellyleal
+
+- name: Neha Garg
+  disabled: false
+  hours: 2
+  position: Programmer Analyst, APEGS
+  type: long-term
+  index: 14
+  location: Canada
+  bio: |
+    I am an experienced Software Engineer proficient in software development and cloud technologies using Java, Spring Boot, Spring Data JPA, and automating project deployment using Jenkins. I possess strong skills in product rationalization, migrating code from a monolithic to a microservices architecture, conducting code reviews, collaborating with cross-functional teams, and providing feedback to peers.
+  image: assets/images/mentors/14.jpeg
+  languages: English
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Students, IT Professionals
+    areas:
+      - DevOps
+      - Backend developer
+      - Distriute systems
+      - Site reliability enginering
+    languages: Java, Python, C++, C
+    focus:
+      - Switch from IC to management position
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Software Development, SDLC, Cloud Computing, DevOps, AWS
+  network:
+    - linkedin: https://www.linkedin.com/in/neha-garg-7739bb18/
 
 - name: Jamica Ortiz
   disabled: false
@@ -1656,36 +1686,6 @@
     extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
   network:
     - linkedin: https://www.linkedin.com/in/claudialsm/
-
-- name: Neha Garg
-  disabled: false
-  hours: 2
-  position: Programmer Analyst, APEGS
-  type: long-term
-  index: 54
-  location: Canada
-  bio: |
-    I am an experienced Software Engineer proficient in software development and cloud technologies using Java, Spring Boot, Spring Data JPA, and automating project deployment using Jenkins. I possess strong skills in product rationalization, migrating code from a monolithic to a microservices architecture, conducting code reviews, collaborating with cross-functional teams, and providing feedback to peers.
-  image: assets/images/mentors/71.jpg
-  languages: English
-  skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: Students, IT Professionals
-    areas:
-      - DevOps
-      - Backend developer
-      - Distriute systems
-      - Site reliability enginering
-    languages: Java, Python, C++, C
-    focus:
-      - Switch from IC to management position
-      - Change specialisation within IT
-      - Grow from beginner to mid-level
-      - Switch career to IT
-    extra: Software Development, SDLC, Cloud Computing, DevOps, AWS
-  network:
-    - linkedin: https://www.linkedin.com/in/neha-garg-7739bb18/
 
 - name: Artem Rashev
   disabled: true
