@@ -462,7 +462,7 @@
   disabled: false
   hours: 2
   type: ad-hoc
-  index: 14
+  index: 15
   position: Senior Engineering Manager, Thought Machine
   bio: I'm an engineering leader with over 15 years experience in Software Engineering. I currently run a small engineering organisation of about 35 people building a critical component in Thought Machine's core product offering. I have mentored people in the WWC-London mentorship programme as well as in the Women's Engineering Society. I've been working in Fintech for the last 4 years
   image: assets/images/mentors/15.jpeg
@@ -493,7 +493,7 @@
   disabled: false
   hours: 2
   type: both
-  index: 15
+  index: 16
   position: Senior Software Engineer, MoonPay
   bio: Based in London, with a history of working in start ups, I’ve had my experience trying on different hats before settling in as a backend / data engineer. Currently at MoonPay I design and build streaming and batch pipelines as well as developer tools within the team. Also sitting within product teams to know the development lifecycle of a feature from concept to end-to-end testing. My strongest skills are in Python, Go, OO (Object Oriented) programming, TDD (test driven design), abstraction, writing clean and concise code and champion technical best practises. Mostly familiar with GCP and to a lesser extent AWS
   image: assets/images/mentors/16.png
@@ -522,7 +522,7 @@
   disabled: false
   hours: 2
   type: ad-hoc
-  index: 16
+  index: 17
   position: Web engineer, Spotify
   bio: I am Liza, an accomplished and experienced engineer with a diverse background. I have had the opportunity to work with some of the best companies such as Google, CERN, Cisco and Yandex. I have experience in both machine learning and frontend development, and I have a variety of interesting projects under my belt. I am versatile and have a wide range of skills and experience in different areas of engineering.
   image: assets/images/mentors/17.jpeg
@@ -552,7 +552,7 @@
   disabled: false
   hours: 3
   type: both
-  index: 17
+  index: 18
   position: Senior Technical Consultant, Capita
   bio: I’m a Web Developer since 2012. A Front End Specialist. Currently employed by Capita. Been mentoring Juniors in and outside work, especially in WWC.
   image: assets/images/mentors/18.jpeg
@@ -580,7 +580,7 @@
   disabled: false
   hours: 3
   type: ad-hoc
-  index: 18
+  index: 19
   position: Data Scientist, Keepflying
   bio: Competent Data Scientist capable of ensuring successful delivery of machine learning solutions and products for Multinational experience for the development and delivery of multi-tenant AI/ML solution. 5+ years research experience with 8+ publications, and time-critical completion of 4 machine learning projects in varies domain security, healthcare, machine translation and source code plagiarism detection.
   image: assets/images/mentors/19.jpeg
