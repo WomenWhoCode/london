@@ -2134,3 +2134,100 @@
     extra: CV review, Technical Interview, Different roles in tech
   network:
     - linkedin: https://www.linkedin.com/in/victoria-beardow-b1b63814a
+
+- name: Prerna Singhal
+  disabled: false
+  hours: 2
+  position: Lead Software Engineer, Hubspot
+  type: both
+  index: 70
+  location: London
+  bio: |
+    Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
+  image: assets/images/mentors/70.jpg
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: One who wants to transition from junior to senior levels.
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - Project Management
+      - Fullstack Developer
+      - Site Reliability Engineering
+    languages: Java, C#, Python, Kotlin, JavaScript
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
+  network:
+    - linkedin: https://www.linkedin.com/in/prernasinghal90/
+
+- name: Poulami Mukherjee
+  disabled: false
+  hours: 4
+  position: Software Development Engineer, Self Employed Freelance Software Engineer
+  type: both
+  index: 71
+  location: Germany, Berlin
+  bio: |
+    I am a software development engineer with 6+ enriching years in the tech world, including crafting backend solutions at Amazon and diving into Java, Spring Boot, AWS, and Microservices. My passion extends to technical writing and documentation. I'm currently a freelance Java Software Development Engineer, exploring ML/AI and Blockchain. As a mentor at Amazon and with Women Who Code Hyderabad, I combine my tech expertise with a commitment to mental health, continuous learning, and community contribution. I am driven by the conviction that the intersection of technology and empathy can lead to innovation of transformative solutions for our highly interconnected world.
+  image: assets/images/mentors/71.jpg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Someone who is looking to get started with or a beginner wanting to specialize in Backend Software Development and AWS
+    areas:
+      - Backend Developer
+      - Machine Learning
+      - Security
+      - Project Management
+      - Data Engineering
+    languages: Java, Python, JavaScript, C
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview, Mock Interviews, Motivation
+  network:
+    - linkedin: https://www.linkedin.com/in/poulamimukherjee0511/
+    - instagram: https://www.instagram.com/poulamimukherji/
+
+- name: Tvisha Dholakia
+  disabled: false
+  hours: 5
+  position: Co-founder and CBO, apibanking.com
+  type: both
+  index: 73
+  location: London, UK
+  bio: |
+    I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
+  image: assets/images/mentors/73.jpg
+  languages: English
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: I want to work on unlocking potential for people, as mentors and coaches have done for me - help my mentees analyze their ambitions, explore their true capabilities and get equipped with the necessary resources and skills to realize their dreams.
+    areas:
+      - Product Management
+      - Project Management
+      - Business Analysis
+      - Data Science
+      - Engineering management
+    languages: Java, Python, JavaScript
+    focus:
+      - Switch from IC to management position
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+    extra: Resume review, Career transitions, Leadership in technology
+  network:
+    - linkedin: https://www.linkedin.com/in/tvisha/
+    - twitter: https://twitter.com/_tvisha_
+    - website: https://apibanking.substack.com/
