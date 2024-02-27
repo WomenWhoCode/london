@@ -856,7 +856,7 @@
     - linkedin: https://www.linkedin.com/in/anushka-yadav/
 
 - name: Hasan Diwan
-  disabled: false
+  disabled: true
   hours: 2
   type: ad-hoc
   index: 28
