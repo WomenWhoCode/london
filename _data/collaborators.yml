@@ -83,3 +83,13 @@
       link: https://www.linkedin.com/in/valeriia-amelchenia
     - name: github
       link: https://github.com/vamelchenia
+
+- name: Eleonora Belova
+  position: Test Automation Engineer
+  comment: Website Collaborator
+  image: assets/images/mentors/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser
