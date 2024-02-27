@@ -606,10 +606,10 @@
   disabled: false
   hours: 3
   type: long-term
-  index: 19
+  index: 20
   position: Frontend engineer, Fanduel
   bio: I was a photographer and changed my career 2years ago after I graduated coding bootcamp. I moved to London from South Korea and now working as a mid-level software engineer at Fanduel. I have 1 year and 8months experience. I love React, Javascript, HTML and CSS
-  image: assets/images/mentors/21.jpeg
+  image: assets/images/mentors/20.jpeg
   location: London, UK
   languages: English
   skills:
@@ -629,12 +629,12 @@
   disabled: false
   hours: 2
   type: both
-  index: 20
+  index: 21
   position: Senior iOS Developer, Novoda
   bio: |
     I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture.
     <br>I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
-  image: assets/images/mentors/22.jpeg
+  image: assets/images/mentors/21.jpeg
   location: Barcelona, Spain
   languages: English, Spanish, Portuguese
   availability:
@@ -663,10 +663,10 @@
   disabled: false
   hours: 4
   type: both
-  index: 21
+  index: 22
   position: Staff Software Engineer, Google
   bio: I have around 15 years of experience in IT. From the very beginning I worked with Java. I have experience of being a team lead for Data Engineering team for 7 years (building the data lake on premis and AWS). I worked with Java, Scala (only for Spark) and Kotlin. Previous year I worked as an individual contributor in Revolut (Kotlin, backend) and after that I joined Google (GCP area). I helped my team members to grow (juniors, mids, seniors up to technical specialists).
-  image: assets/images/mentors/23.jpeg
+  image: assets/images/mentors/22.jpeg
   location: Poland, Krakow
   languages: English, Russian
   availability:
@@ -697,10 +697,10 @@
   disabled: false
   hours: 4
   type: ad-hoc
-  index: 22
+  index: 23
   position: Distinguished Engineer, Grafana Labs
   bio: Keen to help people understand computer systems and achieve their potential. Broad and deep knowledge of cloud and distributed systems. 25 years at Principle Engineer level and above. Member of the Kubernetes and Prometheus projects.
-  image: assets/images/mentors/24.jpeg
+  image: assets/images/mentors/23.jpeg
   location: London, UK
   languages: English
   availability:
@@ -732,12 +732,12 @@
   disabled: false
   hours: 4
   type: both
-  index: 23
+  index: 24
   position: Senior Software Engineer
   bio: |
     Bhawana is a Senior DevOps Engineer who transitioned from QA. She loves automating manual repeatable tasks, using a plethora of tools and technologies. Bhawana has significant experience in both DevOps and QA practices and processes. Possessing a good understanding of the essentials of safety and quality.
     <br>Bhawana is a leader at the Women Who Code - London network leading the DevOps special interest group. She is also a member of the BCS DevSecOps committee and a STEM ambassador.
-  image: assets/images/mentors/25.jpeg
+  image: assets/images/mentors/24.jpeg
   location: London, UK
   languages: English
   availability:
@@ -764,10 +764,10 @@
   disabled: false
   hours: 2
   type: both
-  index: 24
+  index: 25
   position: Engineering Manager, Elliptic
   bio: As a technology leader and engineering manager, I help cross-functional teams deliver products that businesses need, users love and the team is proud of. I enjoy working across multiple disciplines including software development, data science, DevOps, InfoSec, hiring, coaching and career development.
-  image: assets/images/mentors/26.jpeg
+  image: assets/images/mentors/25.jpeg
   location: St Albans & London, UK
   languages: English
   availability:
@@ -797,11 +797,11 @@
   disabled: false
   hours: 4
   type: both
-  index: 25
+  index: 26
   position: Lead MLOps engineer, Conundrum
   bio: |
     Ex-googler, now in an ml-startup that grew 5 times in people in a year. Saw it from corporate side as well as from enterpreneurial and small-scale side. Back in uni I struggled with seeing connection between pure theory and its applications. Now I see it, but forgot the theory. The biggest problems are not technical ones, I believe; Communication is the key.
-  image: assets/images/mentors/27.jpeg
+  image: assets/images/mentors/26.jpeg
   location: London, UK
   languages: English, Russian, French
   availability:
@@ -826,17 +826,17 @@
     mentee: Happy to meet mentees curious about intersection of tech and social(organizational) domains
     extra: Project and team development, Resume review, career change or any open discussion
   network:
-    - linkedin: https://www.linkedin.com/in/tatiana-merkulova-6458a650/
+    - linkedin: https://www.linkedin.com/in/mercurrent
 
 - name: Anushka Yadav
   disabled: false
   hours: 5
   type: long-term
-  index: 26
+  index: 27
   position: Machine Learning Associate, PWC
   bio: |
     I am currently a Machine learning Associate-2 at PwC.I have 2 years of applied machine learning expertise in the e-commerce space. My area of interest includes Machine Learning, Natural language Processing, Deep Learning, and Computer vision. I take a keen interest in exploring new technologies and solving problems. My strengths include my ability to learn things fast and gain expertise in them.
-  image: assets/images/mentors/28.jpeg
+  image: assets/images/mentors/27.jpeg
   location: Bengaluru, India
   languages: English
   skills:
@@ -859,10 +859,10 @@
   disabled: false
   hours: 2
   type: ad-hoc
-  index: 27
+  index: 28
   position: Consultant, Samsung
   bio: Heading the pricing team at the San Francisco Federal Reserve for the General Motors IPO in 2010
-  image: assets/images/mentors/29.png
+  image: assets/images/mentors/28.png
   location: San Francisco, USA
   languages: English, French
   availability:
@@ -894,10 +894,10 @@
   disabled: false
   hours: 2
   type: both
-  index: 28
+  index: 29
   position: Senior Engineering Manager, Zoa
   bio: 13 years in software development, I've been lucky to grow my career from being a full stack developer to architect, then as a manager, and manager of managers. I love building software products. I have experience in FinTech (global investment banks), a bay area head quartered scale up and a UK based startup. I enjoy coaching cross-functional, product development teams and developing technical leaders.
-  image: assets/images/mentors/31.png
+  image: assets/images/mentors/29.png
   location: London, UK
   languages: English
   availability:
@@ -926,10 +926,10 @@
   disabled: false
   hours: 5
   type: long-term
-  index: 29
+  index: 30
   position: SDET (Software developer in test), Apple
   bio: I’ve been working as Senior AQA for many years. Since June 2022 I have been working at Apple in London. Before that, I worked for many years in the most popular social network in Russia as Senior AQA. Before moving to Poland, I was part of the mentoring community in Russia. In Poland, I was a engineering manager for more than 10 people.
-  image: assets/images/mentors/33.jpeg
+  image: assets/images/mentors/30.jpeg
   location: London, UK
   languages: English, Polish, Russian
   skills:
@@ -953,10 +953,10 @@
   disabled: false
   hours: 3
   type: both
-  index: 30
+  index: 31
   position: Android Developer, Sky UK
   bio: I have been working as an Android developer for over 5 years. I am currently working at Sky UK. I've come to London from Seoul in late 2019. I would like to share my experience working with companies, from start-ups to big companies, from one to the other country. I am always very keen to learn new tech skills. (I can do Java but love Kotlin. and I am learning Flutter these days!) I would love to support and empower women who get into this industry through this mentorship programme.
-  image: assets/images/mentors/34.jpeg
+  image: assets/images/mentors/31.jpeg
   location: London, UK
   languages: English
   availability:
@@ -983,10 +983,10 @@
   disabled: false
   hours: 4
   type: both
-  index: 31
+  index: 32
   position: Freelancer, Etidelar
   bio: I staretd out as a Business Analyst and grew organically within the Software Development Life cycle to head a Product Team. As a result, I have deep experience in technical specifications, requirements elicitation, quality assurance/testing and technical support. I have led project teams that built and deployed payment solutions and have helped others to scale their products.
-  image: assets/images/mentors/35.png
+  image: assets/images/mentors/32.png
   location: Lagos, Nigeria
   languages: English
   availability:
@@ -1011,11 +1011,11 @@
   disabled: false
   hours: 3
   type: long-term
-  index: 32
+  index: 33
   position: Lead Software Engineer, Paythru Ltd.
   bio: |
     As Lead Software Engineer at Paythru, Madhura leads a team of software engineers for delivering e-mobility solutions. With over 15 years of experience, she is enthusiastic about implementing scalable, maintainable, and secure software solutions. She actively engages in code reviews, providing constructive feedback and ensuring adherence to best practices to maintain good code quality and security. She is passionate about empowering women to re-enter the world of technology, actively engaging in the process of learning and exchanging ideas.
-  image: assets/images/mentors/36.jpeg
+  image: assets/images/mentors/33.jpeg
   location: United Kingdom
   languages: English
   skills:
@@ -1040,10 +1040,10 @@
   hours: 2
   position: Software Engineer, Labstep
   type: both
-  index: 33
+  index: 34
   location: United Kingdom, London
   bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
-  image: assets/images/mentors/37.jpeg
+  image: assets/images/mentors/34.jpeg
   languages: English
   availability:
     september: false
@@ -1069,10 +1069,10 @@
   hours: 2
   position: Frontend Developer, Loopline
   type: both
-  index: 34
+  index: 35
   location: Berlin
   bio: Have mentored many colleagues professionally
-  image: assets/images/mentors/38.jpeg
+  image: assets/images/mentors/35.jpeg
   languages: English
   availability:
     september: false
@@ -1095,10 +1095,10 @@
   hours: 2
   position: CEO, WInvest
   type: both
-  index: 35
+  index: 36
   location: United Kingdom, London
   bio: I am an early stage tech founder with years of start up experience. I would like to support women in tech and bring more brilliant women into the tech scheme with my support and connection.
-  image: assets/images/mentors/39.svg
+  image: assets/images/mentors/36.svg
   languages: English
   availability:
     september: false
@@ -1121,10 +1121,10 @@
   hours: 2
   position: Principal software engineer, Apple
   type: ad-hoc
-  index: 36
+  index: 37
   location: United Kingdom, London
   bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
-  image: assets/images/mentors/40.svg
+  image: assets/images/mentors/37.svg
   languages: English
   availability:
     september: true
@@ -1154,10 +1154,10 @@
   hours: 5
   position: Front End Engineer, Prefect
   type: ad-hoc
-  index: 37
+  index: 38
   location: Sterling, VA, USA
   bio: I am a front end developer with 5 years of experience. I am a bootcamp grad, and went through it all from feeling like an impostor in the sphere I don't belong because I don't have a formal education in CS, to successfully leading and presenting my own projects. I am experienced in various JavaScript tools, frameworks and libraries (Vue, React, Node, D3 etc.) as well as HTML and multiple CSS frameworks and supersets.
-  image: assets/images/mentors/41.jpg
+  image: assets/images/mentors/38.jpg
   languages: English
   availability:
     september: false
@@ -1186,10 +1186,10 @@
   hours: 2
   position: Senior Business Analyst, Amazon
   type: long-term
-  index: 38
+  index: 39
   location: USA
   bio: I have 5 years of experience in the field of analytics with specialization in SQL, Amazon Redshift, Amazon s3, Glue, Data visualization and Modeling Tools like Quicksight, PowerBI, Tableau, Datastudio, Lucidchart. I enjoy making complex simple, data analytics is a powerful skill that helps me achieve that. I have worked in 4 different industries, consulting banking, insurance , retail to enable data driven decisions in Business Operations. I have an intermediate Python experience, as I continue to hone my skills I love sharing what I have learnt in my journey for better collaboration and support in community.
-  image: assets/images/mentors/42.jpg
+  image: assets/images/mentors/39.jpg
   languages: English
   skills:
     experience: 5-7 Years
@@ -1213,10 +1213,10 @@
   hours: 4
   position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
   type: both
-  index: 39
+  index: 40
   location: London
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
-  image: assets/images/mentors/43.jpg
+  image: assets/images/mentors/40.jpg
   languages: English
   availability:
     september: false
@@ -1245,11 +1245,11 @@
   hours: 2
   position: Senior Data Engineer, Techlogix Pakistan
   type: ad-hoc
-  index: 40
+  index: 41
   location: Pakistan
   bio: |
     I have around 3 years of working experience with data engineering. I have been working in designing batch pipelines using spark. I have hands on working experience with AWS, Azure and Databricks. I was an Electrical Engineering graduate and due to my love for data and coding I switched to Data Engineering.
-  image: assets/images/mentors/44.jpg
+  image: assets/images/mentors/41.jpg
   languages: English
   availability:
     september: true
@@ -1273,10 +1273,10 @@
   hours: 2
   position: Senior Software Engineer, Isla Healthcare
   type: both
-  index: 41
+  index: 42
   location: London
   bio: I have 9+ years of software development experience across start-ups, corporates, and non-profits. I currently work at Islacare, a healthcare startup, with primary focus on front-end development. I career switched into software development and now have been working longer in this field than anything else. I am passionate about diversifying STEM and helping people transition into tech.
-  image: assets/images/mentors/45.jpeg
+  image: assets/images/mentors/42.jpeg
   languages: English
   availability:
     september: true
@@ -1303,10 +1303,10 @@
   hours: 3
   position: Software Engineer, Amazon
   type: both
-  index: 42
+  index: 43
   location: London
   bio: My name is Atibhi Agrawal and I work at Amazon UK with Prime Video. I've been with Amazon for 6 months before which I worked at Twitter. I have a master's degree and have done internships at Google, Morgan Stanley, Grafana Labs and Open Source Organizations. I have experience in backend and DevOps technologies. I'm passionate about helping folks get into tech and progress in their career and have previously volunteered with Women Who Code India as well as opened a Lean In Chapter in my college.
-  image: assets/images/mentors/46.jpeg
+  image: assets/images/mentors/43.jpeg
   languages: English
   availability:
     september: false
@@ -1333,7 +1333,7 @@
   index: 43
   location: London
   bio: I have almost 3 years of experience in the tech industry. I completed my undergraduate from IIT (ISM) Dhanbad in 2020. Since then I have worked with Microsoft and Google. I have experience in data engineering and backend. I'm extremely passionate about women in tech and I have volunteered for multiple events including GHC proposal reviewer. I have also mentored college students and helped resolve their doubts. I'm also proficient in Data Structures and Algorithms and can help students prep for it.
-  image: assets/images/mentors/47.svg
+  image: assets/images/mentors/44.svg
   languages: English
   availability:
     september: true
@@ -1357,12 +1357,12 @@
   hours: 4
   position: iOS Engineer, Cuvva
   type: Both
-  index: 44
+  index: 45
   location: London
   bio: |
     I have 8 years of experience as an iOS engineer – as a product or a platform/core team member in product companies, including Flo Health and inDrive.
     <br> I enjoy developing and participating in tech initiatives that improve processes and developer experience.
-  image: assets/images/mentors/48.jpeg
+  image: assets/images/mentors/45.jpeg
   languages: English, Russian, French
   availability:
     september: true
@@ -1393,11 +1393,11 @@
   hours: 4
   position: Software Engineer, Yandex
   type: both
-  index: 45
+  index: 46
   location: Moscow
   bio: |
     Software engineer with 4+ years of experience in successfully developing and scaling projects in fintech and e-commerce that serve millions of users. Main areas of interest: Java, Kotlin, Database design.
-  image: assets/images/mentors/49.jpeg
+  image: assets/images/mentors/46.jpeg
   languages: English, Russian
   availability:
     september: false
@@ -1428,10 +1428,10 @@
   hours: 5
   position: QA Specialist and Mentor, Trivago
   type: both
-  index: 46
+  index: 47
   location: Düsseldorf, Germany
   bio: ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
-  image: assets/images/mentors/50.jpeg
+  image: assets/images/mentors/47.jpeg
   languages: English, Ukrainian, Russian
   availability:
     september: true
@@ -1460,10 +1460,10 @@
   hours: 4
   position: Data Scientist, Rolls-Royce Plc.
   type: ad-hoc
-  index: 47
+  index: 48
   location: London
   bio: I specialise in Natural Language Processing. One of my favourite projects was information extraction from scientific papers so that industry was aware of novel research and could put it into practice.
-  image: assets/images/mentors/51.jpeg
+  image: assets/images/mentors/48.jpeg
   languages: English
   availability:
     september: true
@@ -1492,11 +1492,11 @@
   hours: 2
   position: Senior iOS Engineer, Revolut
   type: ad-hoc
-  index: 48
+  index: 49
   location: Barcelona, Spain
   bio: |
     After starting my software development career at the Apple Developer Academy, I worked with high-performance teams on everything from advanced authentication systems to leading creative applications at companies like Filmr, CESAR, Banco Modal and Revolut; the apps I've developed have been featured multiple times as 'App of The Day' and 'App we Love' by Apple. I am currently working alongside an incredibly talented team at Revolut on an amazing banking experience for our customers.
-  image: assets/images/mentors/52.jpeg
+  image: assets/images/mentors/49.jpeg
   languages: English, Portuguese
   availability:
     september: true
@@ -1520,11 +1520,11 @@
   hours: 4
   position: Lead Engineer, Yoox-Net-A-Porter
   type: long-term
-  index: 49
+  index: 50
   location: London, UK
   bio: |
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
-  image: assets/images/mentors/53.jpg
+  image: assets/images/mentors/50.jpg
   languages: English
   availability:
     september: true
@@ -1553,17 +1553,16 @@
   hours: 3
   position: CTO & Co-founder, Konstructly Ltd
   type: long-term
-  index: 50
+  index: 51
   location: London, UK
   bio: |
     Since 2022 CTO & Co-founder Konstructly
     <br> VP Software Engineer JP Morgan Chase
     <br> Backend Engineer and Technical Product Owner Revolut
     <br> Backend Engineer and Team leader Bostongene
-
     <br>
     Before that Educational experience and physics and math teacher or tutor
-  image: assets/images/mentors/54.jpg
+  image: assets/images/mentors/51.jpg
   languages: English, Russian
   skills:
     experience: 7-10 Years
@@ -1591,7 +1590,7 @@
   hours: 5
   position: QA Engineer, Technical Writer (Freelancer)
   type: both
-  index: 51
+  index: 52
   location: Batumi, Georgia
   bio: |
     Senior QA engineer with over than 4 years of dedicated experience in maintaining product quality at the highest level. Proficient in establishing effective workflows in QA team and collaborating with the teams of developers, analysts and project management.
@@ -1601,7 +1600,7 @@
     My skill set extends beyond QA, as I took some online courses in 3D graphics creation and further animation in related software (Blender, ZBrush, Artec Studio). I am an active mentor on ADPList platform and share my insights on my own Telegram and YouTube channels.
     <br>
     I am characterised by my critical thinking and a constant self-learner with creative approach to tackling intricate challenges.
-  image: assets/images/mentors/55.jpeg
+  image: assets/images/mentors/52.jpeg
   languages: Russian, English
   availability:
     october: true
@@ -1633,10 +1632,10 @@
   hours: 3
   position: Student - Masters at UCL
   type: ad-hoc
-  index: 52
+  index: 53
   location: London, United Kingdom
   bio: Hello, I am Mehul Varsha Singh, a recent graduate from the University of Nottingham with a first-class degree in Computer Science specializing in Artificial Intelligence. Currently, I'm pursuing my Master's degree in Business Analytics at UCL in London. My background involves Python, data science, and computer vision. I have worked as a research assistant at the Nanoscale and Microscale Research Centre at Nottingham, focusing on AI-driven computer vision. Additionally, I have gained practical experience as a data scientist intern at Shopee, a well-known e-commerce brand in Malaysia. My goal is to continue assisting individuals in entering and succeeding in the tech industry.
-  image: assets/images/mentors/56.jpg
+  image: assets/images/mentors/53.jpg
   languages: English, Hindi
   availability:
     october: true
@@ -1667,11 +1666,11 @@
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
   type: long-term
-  index: 53
+  index: 54
   location: London, United Kingdom
   bio: |
     I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
-  image: assets/images/mentors/57.jpg
+  image: assets/images/mentors/54.jpg
   languages: English
   skills:
     experience: 1-2 Years
@@ -1687,38 +1686,37 @@
   network:
     - linkedin: https://www.linkedin.com/in/claudialsm/
 
-- name: Artem Rashev
+- name: Alisa Ivanenko
   disabled: true
-  hours: 5
-  position: Head of Engineering, Menai Financial Group
-  type: Both
+  hours: 3
+  position: Java Software Engineer, Mettle
+  type: Long-term mentorship (one cycle from 04.2023 until 10.2023)
   index: 55
   location: London, UK
   bio: |
-    Update soon
-  image: assets/images/mentors/61.png
+    Graduated in 2015 with BSc Computer Science, worked in gambling, fashion, SaaS. Switched into Fintech sector 2 months ago. Always coded in Java. 
+    Currently a Mentor for Riga Tech Girls (Jan - June 2023). Participated in several Hackathons pre-pandemic.
+  image: assets/images/mentors/55.png
   languages: English, Russian
   skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: Hardworking
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      A mentee who needs some assistance in putting together the entire picture together and orient themselves better in the industry. 
+      More-less independent. Ideally familiar with some Java.
     areas:
       - Backend Developer
-      - DevOps
-      - Site Reliability Engineering
-      - Engineering management
+      - Distributed Systems
       - QA
     languages: Java
     focus:
-      - Grow from mid-level to senior-level
-      - Grow beyond senior level
       - Grow from beginner to mid-level
-      - Change specialisation within IT
       - Switch career to IT
     extra: |
-      Software Design, Clean code, Backend development, Preparation for the Interview
+      Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review, 
+      Agile workflow lifecycle from developer's perspective, Overview of the interview process in London, Java programming: where to start, Java programming: what is actually needed to succeed in the industry.
   network:
-    - linkedin: https://www.linkedin.com/in/artemrashev/
+    - linkedin: https://www.linkedin.com/in/alisa-iv/
 
 - name: Olga Ponkratova
   disabled: true
@@ -1730,7 +1728,7 @@
   bio: |
     10 years in IT (5 in analytics, 5 in engineering)
     Love mentoring people and growing their potential.
-  image: assets/images/mentors/59.jpg
+  image: assets/images/mentors/56.jpg
   languages: English, Russian
   skills:
     experience: 4-5 Years
@@ -1756,12 +1754,101 @@
   network:
     - linkedin: https://www.linkedin.com/in/olgaponkratova/
 
+- name: Liliia Rafikova
+  disabled: true
+  hours: 5
+  position: SDE, AWS
+  type: Both
+  index: 57
+  location: London, UK
+  bio: |
+    Will do it a bit later
+  image: assets/images/mentors/57.png
+  languages: English, Russian
+  skills:
+    experience: 10-15 Years
+    years: 7
+    mentee: |
+      Any will work. I'm actually single mother too.
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - Site Reliability Engineering
+    languages: Java, Rust, C, C++, Kotlin
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      Software Development Strategies, Resume Review, Preparation for The Technical Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
+
+- name: Julia Babahina
+  disabled: false
+  hours: 4
+  position: Lead Risk Management Specialist, Swift
+  type: Both
+  index: 58
+  location: London, UK
+  bio: I have almost a decade experience in cyber security, infromation security and privacy. Also, last 3 years I have been working in risk in product and strategy.
+  image: assets/images/mentors/58.png
+  languages: English, Russian
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Dedicated, passionate and willing to learnn
+    areas:
+      - Product Management
+      - Project Management
+      - Security
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: Product Management, Project Management, Career Progression and Development, Soft Skills, Personal Brand Building, Infromation Security, IT, Enterprise Risk Management, Privacy
+  network:
+    - linkedin: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440/
+
+- name: Artem Rashev
+  disabled: true
+  hours: 5
+  position: Head of Engineering, Menai Financial Group
+  type: Both
+  index: 59
+  location: London, UK
+  bio: |
+    Update soon
+  image: assets/images/mentors/59.jpg
+  languages: English, Russian
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Hardworking
+    areas:
+      - Backend Developer
+      - DevOps
+      - Site Reliability Engineering
+      - Engineering management
+      - QA
+    languages: Java
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Switch career to IT
+    extra: |
+      Software Design, Clean code, Backend development, Preparation for the Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/artemrashev/
+
 - name: Hersi Kopani
   disabled: true
   hours: 5
   position: Java Software Engineer, Volvo Group
   type: Long-term mentorship (one cycle from 04.2023 until 10.2023)
-  index: 57
+  index: 60
   location: London, UK
   bio: |
     I am an experienced Java developer with industry experience building websites and web applications. 
@@ -1770,7 +1857,7 @@
     I enjoy creating sleek and responsive applications in addition to being user-friendly. 
     I love working in fast-paced environments, having a team spirit, analyzing, planning, and solving various problems during the workday.
     Interested in AI, ML, Information Security, IoT. Passionate programmer on java with its frameworks.
-  image: assets/images/mentors/62.png
+  image: assets/images/mentors/60.png
   languages: English, Italian
   skills:
     experience: 4-5 Years
@@ -1792,76 +1879,15 @@
   network:
     - linkedin: https://www.linkedin.com/in/hersi-kopani/
 
-- name: Alisa Ivanenko
-  disabled: true
-  hours: 3
-  position: Java Software Engineer, Mettle
-  type: Long-term mentorship (one cycle from 04.2023 until 10.2023)
-  index: 58
-  location: London, UK
-  bio: |
-    Graduated in 2015 with BSc Computer Science, worked in gambling, fashion, SaaS. Switched into Fintech sector 2 months ago. Always coded in Java. 
-    Currently a Mentor for Riga Tech Girls (Jan - June 2023). Participated in several Hackathons pre-pandemic.
-  image: assets/images/mentors/58.png
-  languages: English, Russian
-  skills:
-    experience: 5-7 Years
-    years: 7
-    mentee: |
-      A mentee who needs some assistance in putting together the entire picture together and orient themselves better in the industry. 
-      More-less independent. Ideally familiar with some Java.
-    areas:
-      - Backend Developer
-      - Distributed Systems
-      - QA
-    languages: Java
-    focus:
-      - Grow from beginner to mid-level
-      - Switch career to IT
-    extra: |
-      Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review, 
-      Agile workflow lifecycle from developer's perspective, Overview of the interview process in London, Java programming: where to start, Java programming: what is actually needed to succeed in the industry.
-  network:
-    - linkedin: https://www.linkedin.com/in/alisa-iv/
-
-- name: Liliia Rafikova
-  disabled: true
-  hours: 5
-  position: SDE, AWS
-  type: Both
-  index: 59
-  location: London, UK
-  bio: |
-    Will do it a bit later
-  image: assets/images/mentors/60.png
-  languages: English, Russian
-  skills:
-    experience: 10-15 Years
-    years: 7
-    mentee: |
-      Any will work. I'm actually single mother too.
-    areas:
-      - Backend Developer
-      - Distributed Systems
-      - Site Reliability Engineering
-    languages: Java, Rust, C, C++, Kotlin
-    focus:
-      - Grow from beginner to mid-level
-      - Grow from mid-level to senior-level
-    extra: |
-      Software Development Strategies, Resume Review, Preparation for The Technical Interview
-  network:
-    - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
-
 - name: Lidiane Mayra Taquehara
   disabled: false
   hours: 5
   position: Senior Software Engineer, Artsy
   type: both
-  index: 60
+  index: 61
   location: London, UK
   bio: I'm a senior software engineer who migrated to IT after 10 years working on a complete different area (I was a factory worker in the past). I found my passion in the tech field and I'd love to help other women who are also interested in it.
-  image: assets/images/mentors/70.jpg
+  image: assets/images/mentors/61.jpg
   languages: English, Portuguese
   skills:
     experience: 7-10 Years
@@ -1878,33 +1904,6 @@
     extra: Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
   network:
     - linkedin: https://www.linkedin.com/in/lmayra/
-
-- name: Julia Babahina
-  disabled: false
-  hours: 4
-  position: Lead Risk Management Specialist, Swift
-  type: Both
-  index: 61
-  location: London, UK
-  bio: I have almost a decade experience in cyber security, infromation security and privacy. Also, last 3 years I have been working in risk in product and strategy.
-  image: assets/images/mentors/61.png
-  languages: English, Russian
-  skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: Dedicated, passionate and willing to learnn
-    areas:
-      - Product Management
-      - Project Management
-      - Security
-    focus:
-      - Grow from beginner to mid-level
-      - Switch career to IT
-      - Switch from IC to management position
-      - Change specialisation within IT
-    extra: Product Management, Project Management, Career Progression and Development, Soft Skills, Personal Brand Building, Infromation Security, IT, Enterprise Risk Management, Privacy
-  network:
-    - linkedin: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440/
 
 - name: Martina Masanova
   disabled: false
