@@ -1586,7 +1586,7 @@
     - twitter: https://twitter.com/dmitryvim
 
 - name: Valeriia Amelchenia
-  disabled: true
+  disabled: false
   hours: 5
   position: QA Engineer, Technical Writer (Freelancer)
   type: both
