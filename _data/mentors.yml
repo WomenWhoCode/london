@@ -366,16 +366,16 @@
   hours: 4
   type: both
   index: 12
-  position: Mentor, Coach & Consultant. Engineering Manager, pembi.net consulting services
+  position: Mentor, Coach & Consultant. Engineering Manager, Owner of pembi.net consulting services
   bio: |
-    Engineering Manager. Expert PEOPLE-FIRST servant-leadership of technical teams. Agile evangelist. Cultural growth. Process implementation/improvement. Better never stops!As an Engineering Manager I build, lead and coach teams of engineers who deliver high-quality software solutions that solve real problems and delight customers. I have over 30 years of experience in software development and management, and I am a certified Scrum Master, Product Owner, and Developer. I am a passionate and pragmatic Agile evangelist, who believes in continuous learning, improvement, and collaboration. My mission is to create, foster, and nurture positive working environments where people love to be, and where they can thrive and grow. I value people-first servant-leadership, cultural growth, process implementation/improvement, and the mindset that better never stops. I am also a Mental Health First Aider and a volunteer mentor."
+    I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.    
   image: assets/images/mentors/12.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
   availability:
     september: true
-    october: true
-  skills:
+    october: true 
+    skills:
     experience: 16+ Years
     years: 16
     areas:
