@@ -760,7 +760,7 @@
     - github: https://github.com/bharitwal
 
 - name: Tara Hofton
-  disabled: true
+  disabled: false
   hours: 2
   type: both
   index: 25
@@ -2230,7 +2230,6 @@
     - linkedin: https://www.linkedin.com/in/tvisha/
     - twitter: https://twitter.com/_tvisha_
     - website: https://apibanking.substack.com/
-
 
 - name: Kirthikka Devi Venkataram
   disabled: false
