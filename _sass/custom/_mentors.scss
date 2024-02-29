@@ -194,7 +194,7 @@
       }
     }
 
-    .card-resources {
+    .card-resources ul {
         list-style-type: none;
         padding-left: 0;
         margin: 20px auto;
@@ -204,7 +204,6 @@
         h6 {
             font-size: 1.125rem;
             margin-bottom: 0.25rem;
-            color: #333;
         }
         p {
             font-size: 1rem;
