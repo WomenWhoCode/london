@@ -171,11 +171,16 @@ title: Mentors
                             {% endif %}
                             {% for book in books %}
                                 <div id="mentor-resources-{{mentor.index}}" class="card-resources d-none">
-                                    {% assign books = book.books | sort: 'title' | reverse %}
-                                    {% for book in books %}
-                                        <p>Title: {{ book.title }}</p>
-                                        <p>Comments: {{ book.comments }}</p>
-                                    {% endfor %}
+                                    <h5>Book Recommendations</h5>
+                                    {% assign books = book.books %}
+                                    <ul class="card-resources">
+                                        {% for book in books %}
+                                        <li>
+                                            <h6>{{ book.title }}</h6>
+                                            <p>{{ book.comments }}</p>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
                                 </div>
                             {% endfor %}
                         </div>

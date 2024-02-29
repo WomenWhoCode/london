@@ -194,6 +194,25 @@
       }
     }
 
+    .card-resources {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 20px auto;
+        li {
+            margin-bottom: 20px;
+        }
+        h6 {
+            font-size: 1.125rem;
+            margin-bottom: 0.25rem;
+            color: #333;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 0;
+            color: #666;
+        }
+    }
+
     .inactive-mentor {
         display: none
     }
