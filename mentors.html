@@ -24,13 +24,6 @@ title: Mentors
                 <div class="row">
                     <div class="col-md-3">
                         <img src="{{mentor.image}}" class="card-img" alt="...">
-                        {% if mentor.type != 'ad-hoc' %}
-                            <div class="card-link">
-                                <a href="#" class="btn btn-outline-primary" data-tf-popup="XnMo1jOe" data-tf-iframe-props="title=Mentee Registration" 
-                                data-tf-medium="snippet" data-tf-hidden="mentor={{mentor.name}}">Apply for this mentor</a>
-                            </div>
-                        {% endif %}
-                        
                     </div>
 
                     <div class="col-md-9">
@@ -48,6 +41,9 @@ title: Mentors
                                     </li>
                                     <li class="nav-item">
                                         <div class="nav-link reviews" data-index="{{mentor.index}}" id="bt-v-{{mentor.index}}">Reviews</div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="nav-link mentor-resources" data-index="{{mentor.index}}" id="bt-r-{{mentor.index}}">Resources</div>
                                     </li>
                                 </ul>
                             </div>
@@ -163,6 +159,22 @@ title: Mentors
                                         </p>
                                         <p class="card-text">{{feedback.feedback}}</p><small>by {{feedback.name}}</small>
                                         <hr>
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
+
+                            {% assign books = site.data.books | where:"index", mentor.index %}
+                            {% if books == empty %}
+                                <div id="mentor-resources-{{mentor.index}}" class="card-resources d-none">
+                                    <p class="card-text">This mentor doesn't have resource recommendations yet.</p>
+                                </div>
+                            {% endif %}
+                            {% for book in books %}
+                                <div id="mentor-resources-{{mentor.index}}" class="card-resources d-none">
+                                    {% assign books = book.books | sort: 'title' | reverse %}
+                                    {% for book in books %}
+                                        <p>Title: {{ book.title }}</p>
+                                        <p>Comments: {{ book.comments }}</p>
                                     {% endfor %}
                                 </div>
                             {% endfor %}

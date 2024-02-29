@@ -1,0 +1,25 @@
+- index: 1 # mentor id 1
+  books:
+    - title: "Thinking, Fast and Slow, by Daniel Kahneman"
+      comments: ""
+    - title: "Never Split the Difference: Negotiating as if Your Life Depended on It, by Chris Voss and Tahl Raz"
+      comments: ""
+    - title: "The Culture Map - Breaking Through the Invisible Boundaries of Global Business, by Erin Meyer"
+      comments: ""
+    - title: "The Pragmatic Programmer: From Journeyman to Master, by Andy Hunt and Dave Thomas"
+      comments: ""
+
+- index: 7 # mentor id 7
+  books:
+    - title: "Clean Code: A Handbook of Agile Software Craftsmanship, by Robert C. Martin"
+      comments: "To level up the quality of code base."
+    - title: "Release it!: Design and Deploy Production-Ready Software, by Michael T. Nygard"
+      comments: "The book around stability patterns."
+    - title: "Domain-Driven Design: Tackling Complexity in the Heart of Software, by Eric Evans"
+      comments: "The book reveals concepts of the good design."
+    - title: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, by Martin Kleppmann"
+      comments: "Giving out so many concepts!"
+    - title: "No Rules Rules: Netflix and the Culture of Reinvention, by Reed Hastings and Erin Meyer"
+      comments: "Amazing book around team culture."
+    - title: "No Rules Rules: Netflix and the Culture of Reinvention by Reed Hastings, Erin Meyer"
+      comments: "Another amazing book around team culture."
