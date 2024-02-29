@@ -1,12 +1,10 @@
-- name: Eleonora Belova
+- name: Madhura Chaganty
   position: Programme Coordinator
   comment: Managing the Programme
-  image: assets/images/mentors/1.jpeg
+  image: assets/images/team/3.jpeg
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-    - name: github
-      link: https://github.com/nora-weisser
+      link: https://www.linkedin.com/in/madhurachaganty
 - name: Adriana Zenck Zimmermann
   position: Website Coordinator
   comment: Programme support
