@@ -51,6 +51,8 @@
       link: https://www.linkedin.com/in/khairah-yusuff/
     - name: github
       link: https://github.com/khairahscorner
+    - name: medium
+      link: https://khairahscorner.hashnode.dev/
 
 - name: Neha Sharma
   image: assets/images/collaborators/5.jpeg
@@ -73,7 +75,7 @@
       link: https://github.com/IdayatSanni
 
 - name: Valeriia Amelchenia
-  image: assets/images/mentors/55.jpeg
+  image: assets/images/mentors/52.jpeg
   position: Software QA Engineer
   comment: Test Automation
   network:
@@ -81,3 +83,13 @@
       link: https://www.linkedin.com/in/valeriia-amelchenia
     - name: github
       link: https://github.com/vamelchenia
+
+- name: Eleonora Belova
+  position: Test Automation Engineer
+  comment: Website Collaborator
+  image: assets/images/mentors/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser

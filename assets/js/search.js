@@ -1,7 +1,8 @@
-var controllerSearch = (function(jQuery) {
+let controllerSearch = (function(jQuery) {
     const HIDE_CLASS = "d-none";
     const MENTOR_CARD = "#mentor-card-";
     const MENTOR_CARD_HIDDEN = ".card.d-none";
+    const DEACTIVATED_MENTOR = ".inactive-mentor";
     const Filter = {
         KEYWORDS: "keywords",
         EXPERIENCE: "exp"
@@ -13,7 +14,7 @@ var controllerSearch = (function(jQuery) {
       ]);
 
     let params = new URLSearchParams(window.location.search);
-    var totalMentors;
+    let totalMentors;
 
     let $keywords = jQuery("#keywords");
     let $area = jQuery("#area");
@@ -43,7 +44,7 @@ var controllerSearch = (function(jQuery) {
     let hideMentorCard = function(index) {
         jQuery(MENTOR_CARD+index).addClass(HIDE_CLASS);
 
-        if (jQuery(MENTOR_CARD_HIDDEN).length === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
+        if ((jQuery(MENTOR_CARD_HIDDEN).length + jQuery(DEACTIVATED_MENTOR).length) === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
             $emptyMsg.removeClass(HIDE_CLASS);
             $descriptionMsg.addClass(HIDE_CLASS);
         }
@@ -66,7 +67,7 @@ var controllerSearch = (function(jQuery) {
     };
 
     let applyKeywordsParam = function() {
-        var keywords = params.get([Filter.KEYWORDS]);
+        let keywords = params.get([Filter.KEYWORDS]);
         
         if (keywords) {
             let filter = paramToFilter(Filter.KEYWORDS, keywords);
@@ -120,7 +121,7 @@ var controllerSearch = (function(jQuery) {
 
     let filterMentors = function(filters) {
         if (isDefined(filters)) {
-            for (let index = 0; index <= totalMentors; index++) {
+            for (let index = 1; index <= totalMentors; index++) {
                 applyMentorFilters(index, filters);
             }
         }
@@ -139,7 +140,7 @@ var controllerSearch = (function(jQuery) {
     };
 
     let hasFilters = function(mentorCardId, filters) {
-        var hasFilter = 0;
+        let hasFilter = 0;
         for(let i = 0; i < filters.length; i++) {
             let filter = filters[i];
             // input id example: #mentor-card-9 input[name='bio'] 
@@ -174,7 +175,7 @@ var controllerSearch = (function(jQuery) {
         return element.length > 0
     };
 
-    var initEvents = function() {
+    let initEvents = function() {
         $keywords.change(function() {
             applyFilters();
         });
@@ -215,7 +216,7 @@ var controllerSearch = (function(jQuery) {
     };
 
     let init = function() {
-        totalMentors = jQuery(".card").length;
+        totalMentors = jQuery(".card").length + jQuery(DEACTIVATED_MENTOR).length;
         initEvents();
         applyKeywordsParam();
     };
