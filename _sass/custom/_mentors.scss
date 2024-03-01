@@ -194,21 +194,18 @@
       }
     }
 
-    .card-resources ul {
-        list-style-type: none;
-        padding-left: 0;
-        margin: 20px auto;
-        li {
-            margin-bottom: 20px;
-        }
+    .book-recommendations {
         h6 {
-            font-size: 1.125rem;
+            font-size: 1rem;
+            font-weight: bold;
             margin-bottom: 0.25rem;
         }
         p {
             font-size: 1rem;
             margin-bottom: 0;
-            color: #666;
+        }
+        .book {
+            margin: 1.25rem auto;
         }
     }
 

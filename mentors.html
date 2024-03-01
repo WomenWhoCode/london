@@ -180,14 +180,14 @@ title: Mentors
                                 <div id="mentor-resources-{{mentor.index}}" class="card-resources d-none">
                                     <h5>Book Recommendations</h5>
                                     {% assign books = book.books %}
-                                    <ul>
+                                    <div class="book-recommendations">
                                         {% for book in books %}
-                                        <li>
+                                        <div class="book">
                                             <h6>{{ book.title }}</h6>
                                             <p>{{ book.comments }}</p>
-                                        </li>
+                                        </div>
                                         {% endfor %}
-                                    </ul>
+                                    </div>
                                 </div>
                             {% endfor %}
                         </div>
