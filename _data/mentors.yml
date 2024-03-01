@@ -1488,7 +1488,7 @@
     - linkedin: https://www.linkedin.com/in/ayliahfani
 
 - name: Bernardo Alecrim
-  disabled: true
+  disabled: false
   hours: 2
   position: Senior iOS Engineer, Revolut
   type: ad-hoc
@@ -2232,7 +2232,6 @@
     - twitter: https://twitter.com/_tvisha_
     - website: https://apibanking.substack.com/
 
-
 - name: Kirthikka Devi Venkataram
   disabled: false
   hours: 2
@@ -2265,3 +2264,34 @@
   network:
     - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
     - Medium: https://medium.com/@rithik18
+
+- name: Mena Esezobor
+  disabled: false
+  hours: 3
+  position: Software engineer,	Gallagher re
+  type: both
+  index: 74
+  location: United Kingdom
+  bio: |
+    Hello! I'm Mena, and I bring with me six years of rich experience as a Software Engineer, having worked across various fields and within cross-functional teams. My journey has not just been about developing software but also about nurturing and leading teams to create scalable and impactful products. One of my passions is mentoring newcomers eager to break into the tech industry. In my spare time, I dedicate myself to guiding these aspiring tech professionals, offering insights and support based on my experiences.
+  image: assets/images/mentors/73.jpg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Im looking for (a) mentee(s) who is interested in growing in their career and looking for personalized interview reviews, resume tips and practical advice on how to succeed
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - Machine Learning
+      - DevOps
+    languages: JavaScript, C#, Python
+    focus:
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: General mentorship, changing roles, technical interviews, resume reviews, woman in tech, dealing with imposter syndrome
+  network:
+    - linkedin: https://linkedin.com/in/amenawon-esezobor
