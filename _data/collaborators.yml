@@ -93,3 +93,13 @@
       link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
     - name: github
       link: https://github.com/nora-weisser
+
+- name: Chloe Britland-Whiting
+  position: Data Analyst
+  comment: Website Collaborator
+  image: assets/images/mentors/9.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/chloe-britland-whiting/
+    - name: github
+      link: https://github.com/cribw27
