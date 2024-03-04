@@ -367,7 +367,7 @@
   type: both
   index: 12
   position: Mentor, Coach & Consultant. Engineering Manager, Owner of pembi.net consulting services
-  bio: I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.    
+  bio: I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.
   image: assets/images/mentors/12.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
@@ -797,12 +797,12 @@
   hours: 4
   type: both
   index: 26
-  position: Lead MLOps engineer, Conundrum
+  position: Lead ML Engineer, Conundrum AI
   bio: |
-    Ex-googler, now in an ml-startup that grew 5 times in people in a year. Saw it from corporate side as well as from enterpreneurial and small-scale side. Back in uni I struggled with seeing connection between pure theory and its applications. Now I see it, but forgot the theory. The biggest problems are not technical ones, I believe; Communication is the key.
+    Ex-Googler, ML Engineer with turbulent startup experience. Having grown ML team from scratch, I appreciate people more than code and convinced that communications problems are tougher than technical ones. Built computer voices and process control systems. Most of my experience is around ML deployment and AI in production
   image: assets/images/mentors/26.jpeg
   location: London, UK
-  languages: English, Russian, French
+  languages: English, Russian
   availability:
     september: false
     october: true
@@ -810,19 +810,19 @@
     experience: 7-10 years
     years: 10
     areas:
-      - Product Management
       - Engineering management
       - Machine Learning
+      - Product Management
       - Data Engineering
       - Distributed Systems
-    languages: Python, Go, Scala, C++
+    languages: Python, Go, C++
     focus:
+      - Grow from mid-level to senior-level
       - Grow from beginner to mid-level
+      - Switch from IC to management position
       - Switch career to IT
       - Change specialisation within IT
-      - Grow from mid-level to senior-level
-      - Switch from IC to management position
-    mentee: Happy to meet mentees curious about intersection of tech and social(organizational) domains
+    mentee: Having experience in both corporate and startup worlds, I understand their differences and the challenges arising. I myself struggled with vagueness of IT world, so happy to navigate uncertainties. I appreciate curiosity and interest in project structures and communications. It can help if you drive the initiative by setting the expectations from WWC, ideal outcomes and format that can be beneficial for you. European timezone is easier for synchronization.
     extra: Project and team development, Resume review, career change or any open discussion
   network:
     - linkedin: https://www.linkedin.com/in/mercurrent
@@ -950,11 +950,11 @@
 
 - name: Bomee Ryu
   disabled: false
-  hours: 3
+  hours: 4
   type: both
   index: 31
   position: Android Developer, Sky UK
-  bio: I have been working as an Android developer for over 5 years. I am currently working at Sky UK. I've come to London from Seoul in late 2019. I would like to share my experience working with companies, from start-ups to big companies, from one to the other country. I am always very keen to learn new tech skills. (I can do Java but love Kotlin. and I am learning Flutter these days!) I would love to support and empower women who get into this industry through this mentorship programme.
+  bio: I am an android developer with 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
   image: assets/images/mentors/31.jpeg
   location: London, UK
   languages: English
@@ -962,19 +962,19 @@
     september: true
     october: true
   skills:
-    experience: 4-5 Years
-    years: 5
+    experience: 5-7 Years
+    years: 7
     areas:
       - Android
-    languages: Java, Kotlin
+      - iOS
+      - Frontend Developer
+      - Project Management
+    languages: Kotlin, Java, Rust
     focus:
       - Grow from beginner to mid-level
       - Switch career to IT
-      - Grow from mid-level to senior-level
-      - Change specialisation within IT
-      - Switch from IC to management position
-    mentee: Who is trying to change their career path into IT, Entry/Junior level
-    extra: Resume Review, Preparation for the Technical Interview, Clean code for Android development
+    mentee: Someone who wants to fall in love with Android Development by learning from scratch! Ideally entry - junior.
+    extra: Code Review, Learning Android development, Learning OOP languages, Flutter, Software architecture
   network:
     - linkedin: https://www.linkedin.com/in/bomeeryu/
 
@@ -1036,12 +1036,12 @@
 
 - name: Mira Davidson
   disabled: false
-  hours: 2
-  position: Software Engineer, Labstep
-  type: both
+  hours: 4
+  position: Web Engineer,SoundCloud
+  type: long-term
   index: 34
   location: United Kingdom, London
-  bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
+  bio: I am a web engineer at SoundCloud based in London. Previously, I worked for 3 years at a biotech startup as a full-stack engineer after making the switch to tech from academia. I mostly work with React, NextJS, and Typescript.
   image: assets/images/mentors/34.jpeg
   languages: English
   availability:
@@ -1051,15 +1051,13 @@
     experience: 2-4 years
     years: 4
     areas:
-      - Machine Learning
       - Frontend Developer
-      - Fullstack Developer
-    mentee: Anyone recently moving into tech from either a non-tech or tech background. I could be most helpful when interseted in startup environments.
+    mentee: I would love to connect with mentees who are looking to level up from a career perspective or improve their technical skills. I have a non-tech background, so can also help with making a switch to a career in tech.
     languages: JavaScript
     focus:
       - Switch career to IT
       - Grow from beginner to mid-level
-    extra: Transitioning into a career in software. Personal development. Frontend development.
+    extra: Frontend development strategies, resume review, technical interview prep, salary negotiation, confidence building
   network:
     - linkedin: https://www.linkedin.com/in/mira-davidson/
 
