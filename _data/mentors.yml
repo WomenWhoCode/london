@@ -162,6 +162,7 @@
     extra: Systems design for reliability and risk minimisation. SDLC in practice with CI/CD in production. Interview techniques. When to fix, vs. when to seek a change.
   network:
     - linkedin: https://www.linkedin.com/in/andrewkingit/
+  matched: true
 
 - name: Sandy Chuchuca
   disabled: true
@@ -920,6 +921,7 @@
     extra: Understanding engineering management and product management, Staying technical as a manager, Strategic thinking and technical leadership
   network:
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
+  matched: true
 
 - name: Yana Luntc
   disabled: true
@@ -1901,6 +1903,7 @@
     extra: Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
   network:
     - linkedin: https://www.linkedin.com/in/lmayra/
+  matched: true
 
 - name: Martina Masanova
   disabled: false
@@ -2163,6 +2166,7 @@
     extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
   network:
     - linkedin: https://www.linkedin.com/in/prernasinghal90/
+  matched: true
 
 - name: Poulami Mukherjee
   disabled: false
