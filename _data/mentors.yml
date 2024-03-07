@@ -699,7 +699,8 @@
   type: ad-hoc
   index: 23
   position: Distinguished Engineer, Grafana Labs
-  bio: Keen to help people understand computer systems and achieve their potential. Broad and deep knowledge of cloud and distributed systems. 25 years at Principle Engineer level and above. Member of the Kubernetes and Prometheus projects.
+  bio: |
+    I've done a lot of mentoring, and am keen to continue, to help more people and especially women progress in the industry. I've worked in technology for 40 years, about half in startups and half in giant banks. I'm currently an individual contributor, but have managed teams and departments, so have a perspective on both those careers. I am active in the Open Source world and as a conference speaker.
   image: assets/images/mentors/23.jpeg
   location: London, UK
   languages: English
@@ -710,20 +711,21 @@
     experience: 16+ Years
     years: 16
     areas:
-      - DevOps
-      - Engineering management
-      - Site Reliability Engineering
       - Backend Developer
+      - Site Reliability
+      - Engineering
+      - Engineering management
       - Distributed Systems
-    languages: Java, C, Rust, C++, Go
+      - DevOps
+    languages: Go, C++, C, Java, C#
     focus:
-      - Change specialisation within IT
-      - Grow from beginner to mid-level
-      - Switch from IC to management position
       - Grow from mid-level to senior-level
       - Grow beyond senior level
-    mentee: Someone who is interested in a deep understanding of technology, and how people work with technology.
-    extra: System design, how to present your ideas, performance optimisation, career advancement, preparation for technical interview.
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    mentee: Someone looking to advance their career, who needs advice either on navigating organisations or on understanding techology.
+    extra: Software Engineering, SRE, Leadership, Technical Interviews, Communication, Presentation Skills, Kubernetes, CV Review.
   network:
     - linkedin: https://www.linkedin.com/in/bryanboreham
     - twitter: https://twitter.com/bboreham
@@ -762,7 +764,7 @@
 
 - name: Tara Hofton
   disabled: false
-  hours: 2
+  hours: 4
   type: both
   index: 25
   position: Engineering Manager, Elliptic
@@ -779,17 +781,18 @@
     areas:
       - Engineering management
       - Data Engineering
+      - Backend Developer
+      - DevOps
       - Fullstack Developer
-      - Data Science
     languages: Python, JavaScript, C#
     focus:
-      - Grow from mid-level to senior-level
       - Switch from IC to management position
+      - Grow beyond senior level
       - Grow from mid-level to senior-level
       - Grow from beginner to mid-level
       - Switch career to IT
-    mentee: I am open to meeting mentees with a variety of different levels of experience.
-    extra: System design, career development, learning resources, interview technique, CV review, goal setting.
+    mentee: Keen to learn and passionate about technology
+    extra: System Design, Career Development, learning resources, interview technique, Resume Review, Goal Setting.
   network:
     - linkedin: https://www.linkedin.com/in/tarahofton
 
@@ -1912,7 +1915,8 @@
   type: long-term
   index: 62
   location: UK, Oxfordshire
-  bio: 13.5 years experience, recently 5 years using C# and Azure Cloud with distributed system processing large scale data for tracking ship movements, 8 years working with js and jQuery Mobile creating systems for aviation industry tracking bags and load balancing middleware for aircrafts.
+  bio: |
+    I'm a full stack lead software engineer with 13.5 years of experience. I'm currently working in green tech for a non-profit organization focused on ocean conservation and I am passionate about technology for good. In my current role we track ship movements and use AI to detect vessel behaviour. I work on the engineering side on integration of the machine learning model and on the distributed system with planetary scale data mainly using Azure cloud services and C#. I have previously spent 8 years working within the aviation sector developing web and mobile applications using mainly JavaScript. I am keen to provide support, encouragement and help with improving technical skills too. I think having a mentor who has experience within the industry would have been very useful for me in my earlier career. I was lucky to come across a few helpful managers, but I'm aware it's not a given and am keen to share and help out fellow engineering women.
   image: assets/images/mentors/62.jpg
   languages: English
   skills:
@@ -1920,16 +1924,16 @@
     years: 15
     mentee: Someone who would like encouragement, help with developing skills or career, happy to share my experience within the industry and what to expect. C# and Azure are my current focus in my role, but I have experience in other areas too.
     areas:
-      - Fullstack Developer
-      - Distributed Systems
       - Backend Developer
+      - Fullstack Developer
       - DevOps
-      - Data Engineering
-    languages: C#, JavaScript
+      - Distributed Systems
+      - Engineering management
+    languages: C#, JavaScript, Python
     focus:
+      - Switch career to IT
       - Grow from beginner to mid-level
       - Grow from mid-level to senior-level
-      - Switch career to IT
       - Change specialisation within IT
     extra: Software Development Strategies, Resume Review, Personal Development for Career, Situational Advice, Preparation for The Technical Interview, Impostor Syndrome
   network:
