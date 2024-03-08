@@ -61,6 +61,7 @@
     extra: Anything Software Engineering
   network:
     - linkedin: https://www.linkedin.com/in/rajaniraog/
+  matched: true
 
 - name: Adriana Zencke Zimmermann
   disabled: false
@@ -1549,6 +1550,7 @@
     extra: Career Growth and Development, Resume Review, Preparation for Technical Interviews, Leadership and Team Management Skills, Learning Resources and Skill Development Plans.
   network:
     - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
+  matched: true
 
 - name: Dima Mikhailovich
   disabled: true
