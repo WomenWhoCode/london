@@ -1039,6 +1039,7 @@
     extra: Understanding business value of the code, RESTful API design, Breaking down a problem, Importance of clean code and documentation, Career change, Returning to work after a break, Agile workflow and sprints (developer's prespective)
   network:
     - linkedin: https://www.linkedin.com/in/madhurachaganty
+  matched: true
 
 - name: Mira Davidson
   disabled: false
@@ -1689,7 +1690,7 @@
     extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
   network:
     - linkedin: https://www.linkedin.com/in/claudialsm/
-
+  matched: true
 - name: Alisa Ivanenko
   disabled: true
   hours: 3
@@ -2026,6 +2027,7 @@
     extra: Resume Review, Technical Interview Prep, Data Structures & Algorithms, Fullstack web development, API frameworks, Growing from junior to senior levels in engineering, System design & architecture
   network:
     - linkedin: https://www.linkedin.com/in/sanjanasarkar/
+  matched: true
 
 - name: Agrin Hilmkil
   disabled: false
