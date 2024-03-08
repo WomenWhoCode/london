@@ -2283,7 +2283,7 @@
   location: United Kingdom
   bio: |
     Hello! I'm Mena, and I bring with me six years of rich experience as a Software Engineer, having worked across various fields and within cross-functional teams. My journey has not just been about developing software but also about nurturing and leading teams to create scalable and impactful products. One of my passions is mentoring newcomers eager to break into the tech industry. In my spare time, I dedicate myself to guiding these aspiring tech professionals, offering insights and support based on my experiences.
-  image: assets/images/mentors/73.jpg
+  image: assets/images/mentors/74.jpg
   languages: English
   skills:
     experience: 5-7 Years
@@ -2304,3 +2304,128 @@
     extra: General mentorship, changing roles, technical interviews, resume reviews, woman in tech, dealing with imposter syndrome
   network:
     - linkedin: https://linkedin.com/in/amenawon-esezobor
+
+- name: Nada Kartouch
+  disabled: false
+  hours: 4
+  position: Senior software engineer, T Rowe price
+  type: ad-hoc
+  index: 75
+  location: London
+  bio: |
+    I am a senior software engineer I've worked for many years in the industry. I worked mainly in financial services but with different employers and different projects. I am always keen to help women start and progress their career in technology.
+  image: assets/images/mentors/75.jpg
+  languages: English, Italian, French
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: I am looking for motivated women who would like to push their career forward
+    areas:
+      - Fullstack Developer
+      - Backend Developer
+      - Project Management
+      - Data Engineering
+    languages: Java, Python, JavaScript
+    focus:
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow from beginner to mid-level
+    extra: Resume Review, Preparation for Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/nada-kartouch-82958952/
+
+- name: Owen Kosman
+  disabled: false
+  hours: 2
+  position: Software Engineer, Starling Bank
+  type: long-term
+  index: 76
+  location: London, UK
+  bio: |
+    I've been a software engineer for the past 3 years, always close to core financial technologies: building API designer platform for mainframe customers at IBM and core banking platform at Starling Bank. Coming from an unconventional background in materials science, I learned coding pretty much autodidact, and have the scar tissue that is my graveyard of projects on GitHub. Plenty of people have helped me along the way, and here I am paying it forward by mentoring at Women who Code!
+  image: assets/images/mentors/76.jpg
+  languages: English
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: Looking for a mentee with a thirst for challenge and an open mind. It doesn't matter if you've only done one project or 10, I'll guide you through ways you can learn quickly whilst completing your coursework.
+    areas:
+      - Backend Developer
+      - Frontend Developer
+      - Distributed Systems
+      - Machine Learning
+      - Network Engineering
+    languages: Go, JavaScript, Python, Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: System design, debugging, developer experience, interview prep, career advice
+  network:
+    - linkedin: https://www.linkedin.com/in/owenkosman/
+
+- name: Rasim Sen
+  disabled: false
+  hours: 4
+  position: Fullstack Developer/Cloud Architect, Eurostar
+  type: both
+  index: 77
+  location: London, UK
+  bio: |
+    With over 15 years of experience as a developer, I am a graduate of the Oxford Blockchain Strategy Programme and an AWS Solutions Architect. My career has spanned various roles, including full-stack, backend, frontend, blockchain developer, and platform engineer, collaborating with startups and enterprises alike, such as HSBC, Deloitte, Credit Suisse, GSK, and Eurostar. My technical expertise encompasses Java (including Spring and Spring Boot), JavaScript (Node.js, React.js, TypeScript), and both relational and non-relational databases (Oracle, MySQL, PostgreSQL, MongoDB, DynamoDB, Neo4j, among others).
+  image: assets/images/mentors/77.jpg
+  languages: English
+  skills:
+    experience: 16 Years
+    years: 16
+    mentee: passionate about coding, eager for hands-on experience, and ready to dive deep(Node.js, ReactJS, TypeScript, DB, RestAPI, Microservice, etc)
+    areas:
+      - Fullstack Developer
+      - Backend Developer
+      - Frontend Developer
+      - DevOps
+      - QA
+    languages: JavaScript, Java, Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Software development, TDD, Unit Testing, DB Design, Microservice and RestAPI development, Web development, Mock interview, CV Review
+  network:
+    - linkedin: https://www.linkedin.com/in/senrasim
+
+- name: Kirthikka Devi Venkataram
+  disabled: false
+  hours: 4
+  position: Lead, Women Who Code Data Science
+  type: long-term
+  index: 78
+  location: India / Coimbatore
+  bio: |
+    Hi, I am Kirthikka, an experienced Manager launched embedded system products for 10 years leveraging design thinking working for B2B segments resulting Product’s growth and increasing revenue. I have enhanced the system product features working in Scrum - Agile practicing projects for cutting-edge technologies bisecting the business outcome, engineering design and empathizing the customers. For a service based work, I was awarded for presenting the business unit's technical expertise selling before the prospects towards increasing the customer loyalty to acquire more projects. I work towards empowering women and offer mentorship
+  image: assets/images/mentors/78.jpg
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: I look for an individual who is interested in enhancing her career structured by the step by step approach provided to her. Interested and passionate about growing skills specific to Tech industry. Individual interested in transition to Management.
+    areas:
+      - Product Management
+      - Data Science
+      - Engineering management
+      - Project Management
+      - Machine Learning
+    languages: C, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Resume Review, Prepare for interview, Product Management, Transition into Tech.
+  network:
+    - linkedin: https://www.linkedin.com/in/kirthikka-devi-v/
