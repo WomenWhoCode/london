@@ -61,6 +61,7 @@
     extra: Anything Software Engineering
   network:
     - linkedin: https://www.linkedin.com/in/rajaniraog/
+  matched: true
 
 - name: Adriana Zencke Zimmermann
   disabled: false
@@ -97,6 +98,7 @@
     - twitter: https://twitter.com/DricaZenck
     - github: https://github.com/dricazenck
     - medium: https://medium.com/@dricazenck
+  matched: true
 
 - name: Aishwarya Nair
   disabled: true
@@ -162,6 +164,7 @@
     extra: Systems design for reliability and risk minimisation. SDLC in practice with CI/CD in production. Interview techniques. When to fix, vs. when to seek a change.
   network:
     - linkedin: https://www.linkedin.com/in/andrewkingit/
+  matched: true
 
 - name: Sandy Chuchuca
   disabled: true
@@ -367,7 +370,7 @@
   type: both
   index: 12
   position: Mentor, Coach & Consultant. Engineering Manager, Owner of pembi.net consulting services
-  bio: I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.    
+  bio: I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.
   image: assets/images/mentors/12.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
@@ -698,7 +701,8 @@
   type: ad-hoc
   index: 23
   position: Distinguished Engineer, Grafana Labs
-  bio: Keen to help people understand computer systems and achieve their potential. Broad and deep knowledge of cloud and distributed systems. 25 years at Principle Engineer level and above. Member of the Kubernetes and Prometheus projects.
+  bio: |
+    I've done a lot of mentoring, and am keen to continue, to help more people and especially women progress in the industry. I've worked in technology for 40 years, about half in startups and half in giant banks. I'm currently an individual contributor, but have managed teams and departments, so have a perspective on both those careers. I am active in the Open Source world and as a conference speaker.
   image: assets/images/mentors/23.jpeg
   location: London, UK
   languages: English
@@ -709,20 +713,21 @@
     experience: 16+ Years
     years: 16
     areas:
-      - DevOps
-      - Engineering management
-      - Site Reliability Engineering
       - Backend Developer
+      - Site Reliability
+      - Engineering
+      - Engineering management
       - Distributed Systems
-    languages: Java, C, Rust, C++, Go
+      - DevOps
+    languages: Go, C++, C, Java, C#
     focus:
-      - Change specialisation within IT
-      - Grow from beginner to mid-level
-      - Switch from IC to management position
       - Grow from mid-level to senior-level
       - Grow beyond senior level
-    mentee: Someone who is interested in a deep understanding of technology, and how people work with technology.
-    extra: System design, how to present your ideas, performance optimisation, career advancement, preparation for technical interview.
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    mentee: Someone looking to advance their career, who needs advice either on navigating organisations or on understanding techology.
+    extra: Software Engineering, SRE, Leadership, Technical Interviews, Communication, Presentation Skills, Kubernetes, CV Review.
   network:
     - linkedin: https://www.linkedin.com/in/bryanboreham
     - twitter: https://twitter.com/bboreham
@@ -761,7 +766,7 @@
 
 - name: Tara Hofton
   disabled: false
-  hours: 2
+  hours: 4
   type: both
   index: 25
   position: Engineering Manager, Elliptic
@@ -778,17 +783,18 @@
     areas:
       - Engineering management
       - Data Engineering
+      - Backend Developer
+      - DevOps
       - Fullstack Developer
-      - Data Science
     languages: Python, JavaScript, C#
     focus:
-      - Grow from mid-level to senior-level
       - Switch from IC to management position
+      - Grow beyond senior level
       - Grow from mid-level to senior-level
       - Grow from beginner to mid-level
       - Switch career to IT
-    mentee: I am open to meeting mentees with a variety of different levels of experience.
-    extra: System design, career development, learning resources, interview technique, CV review, goal setting.
+    mentee: Keen to learn and passionate about technology
+    extra: System Design, Career Development, learning resources, interview technique, Resume Review, Goal Setting.
   network:
     - linkedin: https://www.linkedin.com/in/tarahofton
 
@@ -797,12 +803,12 @@
   hours: 4
   type: both
   index: 26
-  position: Lead MLOps engineer, Conundrum
+  position: Lead ML Engineer, Conundrum AI
   bio: |
-    Ex-googler, now in an ml-startup that grew 5 times in people in a year. Saw it from corporate side as well as from enterpreneurial and small-scale side. Back in uni I struggled with seeing connection between pure theory and its applications. Now I see it, but forgot the theory. The biggest problems are not technical ones, I believe; Communication is the key.
+    Ex-Googler, ML Engineer with turbulent startup experience. Having grown ML team from scratch, I appreciate people more than code and convinced that communications problems are tougher than technical ones. Built computer voices and process control systems. Most of my experience is around ML deployment and AI in production
   image: assets/images/mentors/26.jpeg
   location: London, UK
-  languages: English, Russian, French
+  languages: English, Russian
   availability:
     september: false
     october: true
@@ -810,19 +816,19 @@
     experience: 7-10 years
     years: 10
     areas:
-      - Product Management
       - Engineering management
       - Machine Learning
+      - Product Management
       - Data Engineering
       - Distributed Systems
-    languages: Python, Go, Scala, C++
+    languages: Python, Go, C++
     focus:
+      - Grow from mid-level to senior-level
       - Grow from beginner to mid-level
+      - Switch from IC to management position
       - Switch career to IT
       - Change specialisation within IT
-      - Grow from mid-level to senior-level
-      - Switch from IC to management position
-    mentee: Happy to meet mentees curious about intersection of tech and social(organizational) domains
+    mentee: Having experience in both corporate and startup worlds, I understand their differences and the challenges arising. I myself struggled with vagueness of IT world, so happy to navigate uncertainties. I appreciate curiosity and interest in project structures and communications. It can help if you drive the initiative by setting the expectations from WWC, ideal outcomes and format that can be beneficial for you. European timezone is easier for synchronization.
     extra: Project and team development, Resume review, career change or any open discussion
   network:
     - linkedin: https://www.linkedin.com/in/mercurrent
@@ -920,6 +926,7 @@
     extra: Understanding engineering management and product management, Staying technical as a manager, Strategic thinking and technical leadership
   network:
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
+  matched: true
 
 - name: Yana Luntc
   disabled: true
@@ -950,11 +957,11 @@
 
 - name: Bomee Ryu
   disabled: false
-  hours: 3
+  hours: 4
   type: both
   index: 31
   position: Android Developer, Sky UK
-  bio: I have been working as an Android developer for over 5 years. I am currently working at Sky UK. I've come to London from Seoul in late 2019. I would like to share my experience working with companies, from start-ups to big companies, from one to the other country. I am always very keen to learn new tech skills. (I can do Java but love Kotlin. and I am learning Flutter these days!) I would love to support and empower women who get into this industry through this mentorship programme.
+  bio: I am an android developer with 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
   image: assets/images/mentors/31.jpeg
   location: London, UK
   languages: English
@@ -962,19 +969,19 @@
     september: true
     october: true
   skills:
-    experience: 4-5 Years
-    years: 5
+    experience: 5-7 Years
+    years: 7
     areas:
       - Android
-    languages: Java, Kotlin
+      - iOS
+      - Frontend Developer
+      - Project Management
+    languages: Kotlin, Java, Rust
     focus:
       - Grow from beginner to mid-level
       - Switch career to IT
-      - Grow from mid-level to senior-level
-      - Change specialisation within IT
-      - Switch from IC to management position
-    mentee: Who is trying to change their career path into IT, Entry/Junior level
-    extra: Resume Review, Preparation for the Technical Interview, Clean code for Android development
+    mentee: Someone who wants to fall in love with Android Development by learning from scratch! Ideally entry - junior.
+    extra: Code Review, Learning Android development, Learning OOP languages, Flutter, Software architecture
   network:
     - linkedin: https://www.linkedin.com/in/bomeeryu/
 
@@ -1033,15 +1040,16 @@
     extra: Understanding business value of the code, RESTful API design, Breaking down a problem, Importance of clean code and documentation, Career change, Returning to work after a break, Agile workflow and sprints (developer's prespective)
   network:
     - linkedin: https://www.linkedin.com/in/madhurachaganty
+  matched: true
 
 - name: Mira Davidson
   disabled: false
-  hours: 2
-  position: Software Engineer, Labstep
-  type: both
+  hours: 4
+  position: Web Engineer, SoundCloud
+  type: long-term
   index: 34
   location: United Kingdom, London
-  bio: I have 2.5 years of experience working at SaaS startups in the biotech sector. My background is in biochemistry and I transitioned into software engineering by combining the two. Now I work on mostly frontend development in React at Labstep. I have also worked as a researcher in ML/AI and built software tools in an academic environment.
+  bio: I am a web engineer at SoundCloud based in London. Previously, I worked for 3 years at a biotech startup as a full-stack engineer after making the switch to tech from academia. I mostly work with React, NextJS, and Typescript.
   image: assets/images/mentors/34.jpeg
   languages: English
   availability:
@@ -1051,15 +1059,13 @@
     experience: 2-4 years
     years: 4
     areas:
-      - Machine Learning
       - Frontend Developer
-      - Fullstack Developer
-    mentee: Anyone recently moving into tech from either a non-tech or tech background. I could be most helpful when interseted in startup environments.
+    mentee: I would love to connect with mentees who are looking to level up from a career perspective or improve their technical skills. I have a non-tech background, so can also help with making a switch to a career in tech.
     languages: JavaScript
     focus:
       - Switch career to IT
       - Grow from beginner to mid-level
-    extra: Transitioning into a career in software. Personal development. Frontend development.
+    extra: Frontend development strategies, resume review, technical interview prep, salary negotiation, confidence building
   network:
     - linkedin: https://www.linkedin.com/in/mira-davidson/
 
@@ -1487,7 +1493,7 @@
     - linkedin: https://www.linkedin.com/in/ayliahfani
 
 - name: Bernardo Alecrim
-  disabled: true
+  disabled: false
   hours: 2
   position: Senior iOS Engineer, Revolut
   type: ad-hoc
@@ -1546,6 +1552,7 @@
     extra: Career Growth and Development, Resume Review, Preparation for Technical Interviews, Leadership and Team Management Skills, Learning Resources and Skill Development Plans.
   network:
     - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
+  matched: true
 
 - name: Dima Mikhailovich
   disabled: true
@@ -1684,7 +1691,7 @@
     extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
   network:
     - linkedin: https://www.linkedin.com/in/claudialsm/
-
+  matched: true
 - name: Alisa Ivanenko
   disabled: true
   hours: 3
@@ -1903,6 +1910,7 @@
     extra: Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
   network:
     - linkedin: https://www.linkedin.com/in/lmayra/
+  matched: true
 
 - name: Martina Masanova
   disabled: false
@@ -1911,7 +1919,8 @@
   type: long-term
   index: 62
   location: UK, Oxfordshire
-  bio: 13.5 years experience, recently 5 years using C# and Azure Cloud with distributed system processing large scale data for tracking ship movements, 8 years working with js and jQuery Mobile creating systems for aviation industry tracking bags and load balancing middleware for aircrafts.
+  bio: |
+    I'm a full stack lead software engineer with 13.5 years of experience. I'm currently working in green tech for a non-profit organization focused on ocean conservation and I am passionate about technology for good. In my current role we track ship movements and use AI to detect vessel behaviour. I work on the engineering side on integration of the machine learning model and on the distributed system with planetary scale data mainly using Azure cloud services and C#. I have previously spent 8 years working within the aviation sector developing web and mobile applications using mainly JavaScript. I am keen to provide support, encouragement and help with improving technical skills too. I think having a mentor who has experience within the industry would have been very useful for me in my earlier career. I was lucky to come across a few helpful managers, but I'm aware it's not a given and am keen to share and help out fellow engineering women.
   image: assets/images/mentors/62.jpg
   languages: English
   skills:
@@ -1919,16 +1928,16 @@
     years: 15
     mentee: Someone who would like encouragement, help with developing skills or career, happy to share my experience within the industry and what to expect. C# and Azure are my current focus in my role, but I have experience in other areas too.
     areas:
-      - Fullstack Developer
-      - Distributed Systems
       - Backend Developer
+      - Fullstack Developer
       - DevOps
-      - Data Engineering
-    languages: C#, JavaScript
+      - Distributed Systems
+      - Engineering management
+    languages: C#, JavaScript, Python
     focus:
+      - Switch career to IT
       - Grow from beginner to mid-level
       - Grow from mid-level to senior-level
-      - Switch career to IT
       - Change specialisation within IT
     extra: Software Development Strategies, Resume Review, Personal Development for Career, Situational Advice, Preparation for The Technical Interview, Impostor Syndrome
   network:
@@ -2019,6 +2028,7 @@
     extra: Resume Review, Technical Interview Prep, Data Structures & Algorithms, Fullstack web development, API frameworks, Growing from junior to senior levels in engineering, System design & architecture
   network:
     - linkedin: https://www.linkedin.com/in/sanjanasarkar/
+  matched: true
 
 - name: Agrin Hilmkil
   disabled: false
@@ -2165,6 +2175,7 @@
     extra: Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
   network:
     - linkedin: https://www.linkedin.com/in/prernasinghal90/
+  matched: true
 
 - name: Poulami Mukherjee
   disabled: false
@@ -2263,3 +2274,127 @@
   network:
     - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
     - Medium: https://medium.com/@rithik18
+
+- name: Mena Esezobor
+  disabled: false
+  hours: 3
+  position: Software engineer,	Gallagher re
+  type: both
+  index: 74
+  location: United Kingdom
+  bio: |
+    Hello! I'm Mena, and I bring with me six years of rich experience as a Software Engineer, having worked across various fields and within cross-functional teams. My journey has not just been about developing software but also about nurturing and leading teams to create scalable and impactful products. One of my passions is mentoring newcomers eager to break into the tech industry. In my spare time, I dedicate myself to guiding these aspiring tech professionals, offering insights and support based on my experiences.
+  image: assets/images/mentors/74.jpg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Im looking for (a) mentee(s) who is interested in growing in their career and looking for personalized interview reviews, resume tips and practical advice on how to succeed
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - Machine Learning
+      - DevOps
+    languages: JavaScript, C#, Python
+    focus:
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: General mentorship, changing roles, technical interviews, resume reviews, woman in tech, dealing with imposter syndrome
+  network:
+    - linkedin: https://linkedin.com/in/amenawon-esezobor
+
+- name: Nada Kartouch
+  disabled: false
+  hours: 4
+  position: Senior software engineer, T Rowe price
+  type: ad-hoc
+  index: 75
+  location: London
+  bio: |
+    I am a senior software engineer I've worked for many years in the industry. I worked mainly in financial services but with different employers and different projects. I am always keen to help women start and progress their career in technology.
+  image: assets/images/mentors/75.jpg
+  languages: English, Italian, French
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: I am looking for motivated women who would like to push their career forward
+    areas:
+      - Fullstack Developer
+      - Backend Developer
+      - Project Management
+      - Data Engineering
+    languages: Java, Python, JavaScript
+    focus:
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow from beginner to mid-level
+    extra: Resume Review, Preparation for Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/nada-kartouch-82958952/
+
+- name: Owen Kosman
+  disabled: false
+  hours: 2
+  position: Software Engineer, Starling Bank
+  type: long-term
+  index: 76
+  location: London, UK
+  bio: |
+    I've been a software engineer for the past 3 years, always close to core financial technologies: building API designer platform for mainframe customers at IBM and core banking platform at Starling Bank. Coming from an unconventional background in materials science, I learned coding pretty much autodidact, and have the scar tissue that is my graveyard of projects on GitHub. Plenty of people have helped me along the way, and here I am paying it forward by mentoring at Women who Code!
+  image: assets/images/mentors/76.jpg
+  languages: English
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: Looking for a mentee with a thirst for challenge and an open mind. It doesn't matter if you've only done one project or 10, I'll guide you through ways you can learn quickly whilst completing your coursework.
+    areas:
+      - Backend Developer
+      - Frontend Developer
+      - Distributed Systems
+      - Machine Learning
+      - Network Engineering
+    languages: Go, JavaScript, Python, Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: System design, debugging, developer experience, interview prep, career advice
+  network:
+    - linkedin: https://www.linkedin.com/in/owenkosman/
+
+- name: Rasim Sen
+  disabled: false
+  hours: 4
+  position: Fullstack Developer/Cloud Architect, Eurostar
+  type: both
+  index: 77
+  location: London, UK
+  bio: |
+    With over 15 years of experience as a developer, I am a graduate of the Oxford Blockchain Strategy Programme and an AWS Solutions Architect. My career has spanned various roles, including full-stack, backend, frontend, blockchain developer, and platform engineer, collaborating with startups and enterprises alike, such as HSBC, Deloitte, Credit Suisse, GSK, and Eurostar. My technical expertise encompasses Java (including Spring and Spring Boot), JavaScript (Node.js, React.js, TypeScript), and both relational and non-relational databases (Oracle, MySQL, PostgreSQL, MongoDB, DynamoDB, Neo4j, among others).
+  image: assets/images/mentors/77.jpg
+  languages: English
+  skills:
+    experience: 16 Years
+    years: 16
+    mentee: passionate about coding, eager for hands-on experience, and ready to dive deep(Node.js, ReactJS, TypeScript, DB, RestAPI, Microservice, etc)
+    areas:
+      - Fullstack Developer
+      - Backend Developer
+      - Frontend Developer
+      - DevOps
+      - QA
+    languages: JavaScript, Java, Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Software development, TDD, Unit Testing, DB Design, Microservice and RestAPI development, Web development, Mock interview, CV Review
+  network:
+    - linkedin: https://www.linkedin.com/in/senrasim

@@ -1,0 +1,30 @@
+- index: 1 # mentor id 1
+  books:
+    - title: Thinking, Fast and Slow by Daniel Kahneman
+    - title: |
+        The Pragmatic Programmer: From Journeyman to Master by Andy Hunt and Dave Thomas
+    - title: |
+        Never Split the Difference: Negotiating as if Your Life Depended on It by Chris Voss and Tahl Raz
+    - title: |
+        The Culture Map - Breaking Through the Invisible Boundaries of Global Business by Erin Meyer
+
+- index: 7 # mentor id 7
+  books:
+    - title: |
+        Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+      comments: Great for learning how to level up the quality of code base.
+    - title: |
+        Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann
+      comments: So many great concepts in this book!
+    - title: |
+        Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans
+      comments: Discover concepts for creating well-designed software.
+    - title: |
+        Release it!: Design and Deploy Production-Ready Software by Michael T. Nygard
+      comments: Learn about stability patterns in software.
+    - title: |
+        No Rules Rules: Netflix and the Culture of Reinvention by Reed Hastings and Erin Meyer
+      comments: Amazing book around team culture.
+    - title: |
+        The Culture Map - Breaking Through the Invisible Boundaries of Global Business by Erin Meyer
+      comments: Another amazing book around team culture.
