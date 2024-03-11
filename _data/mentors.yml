@@ -1942,6 +1942,7 @@
     extra: Software Development Strategies, Resume Review, Personal Development for Career, Situational Advice, Preparation for The Technical Interview, Impostor Syndrome
   network:
     - linkedin: https://www.linkedin.com/in/martinamasanova/
+  matched: true
 
 - name: Nadezda Demidova
   disabled: false
@@ -2143,6 +2144,7 @@
     extra: CV review, Technical Interview, Different roles in tech
   network:
     - linkedin: https://www.linkedin.com/in/victoria-beardow-b1b63814a
+  matched: true
 
 - name: Prerna Singhal
   disabled: false
@@ -2241,6 +2243,7 @@
     - linkedin: https://www.linkedin.com/in/tvisha/
     - twitter: https://twitter.com/_tvisha_
     - website: https://apibanking.substack.com/
+  matched: true
 
 - name: Kirthikka Devi Venkataram
   disabled: false
