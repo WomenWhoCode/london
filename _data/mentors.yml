@@ -1329,6 +1329,7 @@
     extra: Software Development Strategies, Resume Review, Interview Preparation, Internships, Backend
   network:
     - linkedin: https://www.linkedin.com/in/atibhia
+  matched: true
 
 - name: Vedangi Mukadam
   disabled: true
