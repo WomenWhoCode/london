@@ -308,7 +308,8 @@
 
 - name: Stephanie Senoner
   disabled: false
-  sort: 100
+  sort: 10
+  matched: true
   hours: 5
   type: both
   index: 10
@@ -790,7 +791,8 @@
 
 - name: Tara Hofton
   disabled: false
-  sort: 100
+  marched: true
+  sort: 10
   hours: 4
   type: both
   index: 25
@@ -1316,7 +1318,8 @@
 
 - name: Jenny Johnson
   disabled: false
-  sort: 100
+  sort: 10
+  matched: true
   hours: 2
   position: Senior Software Engineer, Isla Healthcare
   type: both
