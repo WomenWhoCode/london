@@ -2422,7 +2422,8 @@
 
 - name: Owen Kosman
   disabled: false
-  sort: 100
+  matched: true 
+  sort: 10
   hours: 2
   position: Software Engineer, Starling Bank
   type: long-term
