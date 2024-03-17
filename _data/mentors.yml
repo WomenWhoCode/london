@@ -1079,7 +1079,8 @@
 
 - name: Mira Davidson
   disabled: false
-  sort: 100
+  sort: 10
+  matched: true
   hours: 4
   position: Web Engineer, SoundCloud
   type: long-term
