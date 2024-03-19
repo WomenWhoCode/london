@@ -389,7 +389,7 @@
   languages: English
   availability:
     september: true
-    october: true 
+    october: true
   skills:
     experience: 16+ Years
     years: 16
@@ -1752,7 +1752,7 @@
     extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
   network:
     - linkedin: https://www.linkedin.com/in/claudialsm/
-  
+
 - name: Alisa Ivanenko
   disabled: true
   sort: -1
@@ -2344,7 +2344,7 @@
   index: 73
   location: India, Coimbatore
   bio: |
-   I am Kirthikka Devi Venkataram, an experienced Manager who has launched embedded system products for 10 years, working for B2B segments leveraging design thinking, resulting in the product's growth and increasing revenue. I have enhanced the system's product features while practicing Scrum and Agile methodologies working in cutting-edge technologies. There has been a keen dissection of business outcomes, engineering design, and empathizing with customers in my career journey. Out of my work, I took organization focused prospects tours, which awarded me presenting the business unit's technical expertise towards acquiring more projects. I work towards empowering women working in external forums and offer mentorship.   
+    I am Kirthikka Devi Venkataram, an experienced Manager who has launched embedded system products for 10 years, working for B2B segments leveraging design thinking, resulting in the product's growth and increasing revenue. I have enhanced the system's product features while practicing Scrum and Agile methodologies working in cutting-edge technologies. There has been a keen dissection of business outcomes, engineering design, and empathizing with customers in my career journey. Out of my work, I took organization focused prospects tours, which awarded me presenting the business unit's technical expertise towards acquiring more projects. I work towards empowering women working in external forums and offer mentorship.
   image: assets/images/mentors/73.jpg
   languages: English
   skills:
@@ -2434,7 +2434,7 @@
 
 - name: Owen Kosman
   disabled: false
-  matched: true 
+  matched: true
   sort: 10
   hours: 2
   position: Software Engineer, Starling Bank
@@ -2637,7 +2637,7 @@
   languages: English
   skills:
     experience: 5-7 Years
-    years: 5
+    years: 7
     mentee: Anyone looking for Mock Interview guidance
     areas:
       - Machine Learning
@@ -2655,3 +2655,93 @@
     extra: Preparation for Technical interviews, Project review
   network:
     - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
+
+- name: Elena Kochkina
+  disabled: false
+  sort: 10
+  hours: 2
+  position: AI Research Scientist, JPMorgan Chase
+  type: both
+  index: 83
+  location: London
+  bio: |
+    I am an AI Research Scientist (NLP) at JPMorgan Chase. Previously I was a Postdoctoral Researcher at the Queen Mary University of London and the Alan Turing Institute working on Tackling Misinformation using Natural Language Processing. I hold a PhD from the  University of Warwick. Happy to chat about AI, research career and transition from academia to industry
+  image: assets/images/mentors/83.jpg
+  languages: English, Russian
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Someone interested in AI, ML, NLP, research and interested or actively pursuing a PhD.
+    areas:
+      - Machine Learning
+      - Data Science
+      - Data Engineering
+    languages: Python
+    focus:
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Artificial Intelligence/Machine Learning, Natural Language Processing, Research in Academia and Industry, Doing PhD, Preparing presentations/Giving Talks, Resume Review, Preparation for The Technical Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/elena-kochkina/
+
+- name: Olga Volkova
+  disabled: false
+  sort: 10
+  hours: 2
+  position: Senior Machine Learning Engineer, Cleo AI Ltd
+  type: long-term
+  index: 84
+  location: London
+  bio: |
+    With over a decade in the tech industry, I have a Master’s in Computer Science and over seven years of experience in various roles within SAP systems, including Analyst, Engineer, Architect, and Team Lead, contributing to over 20 successful projects. I redirected my career towards data science in 2018, beginning as a Junior Data Scientist and continuously advancing my knowledge in the field through self-directed learning. My expertise now encompasses a range of Machine Learning systems, including large language models (LLMs), graph neural networks, and deep learning techniques like Transformer architecture for time-series analysis.
+  image: assets/images/mentors/84.jpg
+  languages: English, Russian
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: I am excited to mentor individuals who are new to the world of machine learning or are looking to strengthen their existing skills in this area. My ideal mentee is someone who may be just starting out in their tech career or is looking to transition into a machine learning role. You don't have to have all the answers or be sure of your path — curiosity, a willingness to learn, and the courage to ask questions are the most important qualities. I am committed to creating a supportive and inclusive environment where my mentees can grow at their own pace, build confidence in their abilities, and explore new ideas without fear of making mistakes. Everyone from all backgrounds is welcome, especially those who might feel underrepresented or uncertain about their place in the tech world. Together, we'll work towards not just improving your technical skills, but also boosting your confidence and helping you find your unique voice in the machine learning community.
+    areas:
+      - Machine Learning
+      - Data Science
+      - Business Analysis
+      - Project Management
+      - Product Management
+    languages: Python
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Change specialisation within IT
+      - Switch career to IT
+    extra: Deep Learning, Graph Deep Learning, Machine Learning system design, Algorithms and Data Structures, Data Science / ML Engineer interview process
+  network:
+    - linkedin: https://www.linkedin.com/in/olga-volkova-61562463/
+
+- name: Ying Liu
+  disabled: false
+  sort: 10
+  hours: 2
+  position: Head of AI, R&D	TG0
+  type: long-term
+  index: 85
+  location: London
+  bio: |
+    I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
+  image: assets/images/mentors/85.jpg
+  languages: English
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Motivated individuals who are eager to learn the algorithms of Machine Learning
+    areas:
+      - Machine Learning
+      - Data Science
+      - Data Engineering
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Software Development, Machine Learning Algorithm, Resume Review, Preparation for The Technical Interview.
+  network:
+    - linkedin: https://www.linkedin.com/in/yingliu-data/
