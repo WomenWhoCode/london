@@ -989,7 +989,8 @@
 
 - name: Bomee Ryu
   disabled: false
-  sort: 100
+  matched: true
+  sort: 10
   hours: 4
   type: both
   index: 31
@@ -2269,7 +2270,8 @@
 
 - name: Poulami Mukherjee
   disabled: false
-  sort: 100
+  matched: true
+  sort: 10
   hours: 4
   position: Software Development Engineer, Self Employed Freelance Software Engineer
   type: both
