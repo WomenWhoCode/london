@@ -2720,7 +2720,7 @@
 
 - name: Ying Liu
   disabled: false
-  sort: 10
+  sort: 100
   hours: 2
   position: Head of AI, R&D	TG0
   type: long-term
