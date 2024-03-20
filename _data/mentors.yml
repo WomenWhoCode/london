@@ -2687,7 +2687,7 @@
 
 - name: Olga Volkova
   disabled: false
-  sort: 10
+  sort: 100
   hours: 2
   position: Senior Machine Learning Engineer, Cleo AI Ltd
   type: long-term
