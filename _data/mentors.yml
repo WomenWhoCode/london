@@ -1763,7 +1763,7 @@
   index: 55
   location: London, UK
   bio: |
-    Graduated in 2015 with BSc Computer Science, worked in gambling, fashion, SaaS. Switched into Fintech sector 2 months ago. Always coded in Java. 
+    Graduated in 2015 with BSc Computer Science, worked in gambling, fashion, SaaS. Switched into Fintech sector 2 months ago. Always coded in Java.
     Currently a Mentor for Riga Tech Girls (Jan - June 2023). Participated in several Hackathons pre-pandemic.
   image: assets/images/mentors/55.png
   languages: English, Russian
@@ -1771,7 +1771,7 @@
     experience: 5-7 Years
     years: 7
     mentee: |
-      A mentee who needs some assistance in putting together the entire picture together and orient themselves better in the industry. 
+      A mentee who needs some assistance in putting together the entire picture together and orient themselves better in the industry.
       More-less independent. Ideally familiar with some Java.
     areas:
       - Backend Developer
@@ -1782,7 +1782,7 @@
       - Grow from beginner to mid-level
       - Switch career to IT
     extra: |
-      Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review, 
+      Preparation for technical interview, preparation for behavioural interview, Burnout, Career change into IT, Distributed systems, Java backend engineering, Resume review,
       Agile workflow lifecycle from developer's perspective, Overview of the interview process in London, Java programming: where to start, Java programming: what is actually needed to succeed in the industry.
   network:
     - linkedin: https://www.linkedin.com/in/alisa-iv/
@@ -1804,9 +1804,9 @@
     experience: 4-5 Years
     years: 5
     mentee: |
-      I'm good at setting personal goals, prioritisation and identifying strategy for personal and career growth. 
-      I can mentor in setting up collaborative environment, work with different people and communication. 
-      I would prefer to work with aspiring mentee in this area as I also need to grow myself. 
+      I'm good at setting personal goals, prioritisation and identifying strategy for personal and career growth.
+      I can mentor in setting up collaborative environment, work with different people and communication.
+      I would prefer to work with aspiring mentee in this area as I also need to grow myself.
       Apart from this, Android development for beginners.
     areas:
       - Android
@@ -2747,3 +2747,30 @@
     extra: Software Development, Machine Learning Algorithm, Resume Review, Preparation for The Technical Interview.
   network:
     - linkedin: https://www.linkedin.com/in/yingliu-data/
+
+- name: Mariam Azad
+  disabled: false
+  sort: 10
+  hours: 4
+  position: Professional Services Consultant, Axians (Vinci Energies)
+  type: long-term
+  index: 86
+  location: Wokingham, UK
+  bio: |
+    My main expertise is in Networking. I have worked for Cisco and Accenture in the past, and currently working for Axians (subsidiary of Vinci Energies). I have always worked as a consultant in a customer facing role, capturing requirements, proposing design based on the requirements, deploying the solution and providing support both to the customer as well as to internal teams. Recently I have been involved with Network automation where I have been leveraging coding to automate the networking solutions.
+  image: assets/images/mentors/86.jpg
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: I'm seeking a woman eager to explore a career in IT, surmount obstacles, and thrive in STEM fields. I aim to empower her by sharing my own journey and insights.
+    areas:
+      - Network Engineering
+    languages: Python, C++
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    extra: Network automation, intro to Python, Data modelling languages like JSON, YAML, intro or upskilling in Networking (I am CCIE certified), preparation for technical interview.
+  network:
+    - linkedin: www.linkedin.com/in/mariam-azad-2b924322
