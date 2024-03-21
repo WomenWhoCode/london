@@ -93,3 +93,15 @@
       link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
     - name: github
       link: https://github.com/nora-weisser
+
+- name: Arzu Caner
+  position: Software Developer
+  comment: Website Collaborator
+  image: assets/images/collaborators/9.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/arzucaner/
+    - name: github
+      link: https://github.com/arzucaner
+    - name: medium
+      link: https://arzuguneycaner.medium.com/
