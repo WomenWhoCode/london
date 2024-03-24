@@ -5,9 +5,10 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/madhurachaganty
-- name: Adriana Zenck Zimmermann
+
+- name: Adriana Zencke
   position: Website Coordinator
-  comment: Programme support
+  comment: Team Collaborator
   image: assets/images/mentors/3.jpeg
   network:
     - name: linkedin
@@ -16,19 +17,25 @@
       link: https://github.com/dricazenck
     - name: medium
       link: https://medium.com/@dricazenck
-- name: Marina Aguiar
-  position: Communication and Networking
-  comment: Programme support
+
+- name: Idayat Sanni
+  image: assets/images/collaborators/6.jpeg
+  position: Front-end Developer
+  comment: Team Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
+    - name: github
+      link: https://github.com/IdayatSanni
+
+- name: Arzu Caner
+  position: Front-end Developer
+  comment: Team Collaborator
   image: assets/images/team/1.jpeg
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/marina-aguiar/
+      link: https://www.linkedin.com/in/arzucaner/
     - name: github
-      link: https://github.com/marinaaguiar
-- name: Elena Fedorova
-  position: Designer
-  comment: Website and design support
-  image: assets/images/team/2.png
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
+      link: https://github.com/arzucaner
+    - name: medium
+      link: https://arzuguneycaner.medium.com/

@@ -28,17 +28,18 @@ var controllerMentors = (function(jQuery) {
         jQuery("#reviews-"+index).addClass(CLASS_HIDDEN);
         jQuery("#mentor-resources-"+index).addClass(CLASS_HIDDEN);
         
-        jQuery('.card-presentation')
-        .each( 
-            function(index) {
-                let cardHeight = jQuery('#card-text-'+index).prop('scrollHeight');
-                let clientHeight = jQuery('#card-text-'+index).prop('clientHeight');
+        jQuery('.card-presentation').each(function() {
+            let mentorIndex = '#card-text-' + jQuery(this).data('index');
+            let btnShowMoreId = '#btn-show-more-' + jQuery(this).data('index');
+            
+            let cardHeight = jQuery(mentorIndex).prop('scrollHeight');
+            let clientHeight = jQuery(mentorIndex).prop('clientHeight');
 
-                if(cardHeight <= clientHeight) {
-                    jQuery('#btn-show-more-'+index).addClass(CLASS_HIDDEN); 
-                }
+            if (cardHeight <= clientHeight) {
+                jQuery(btnShowMoreId).addClass(CLASS_HIDDEN); 
             }
-        );
+        }
+    );
     }
 
     var showSkills = function(index) {
