@@ -1,53 +1,64 @@
-- title: What makes a good mentor?
+- title: How to start? Practical Tips from experienced mentors
   subtitle: Panel Discussion
-  date: March 08, 2023
+  date: March 11, 2021
   format: online
   index: 0
-  description: The Panel Discussion “What makes a good mentor?” was centred around essential topics such as effective communication, establishing clear expectations, providing guidance and delivering constructive feedback. The panelists, experienced mentors and experts in their fields, shared their insights on the role of mentorship, uncovering the challenges and opportunities that come with this impactful relationship. The audience actively participated in the discussion, raising thought-provoking questions and engaging in meaningful conversations. This event could be particularly beneficial for both first-time mentors seeking guidance to embark on their mentoring journey and experienced mentors looking to refine their approaches.
+  description: We, at Women Who Code, choose to challenge the fact that women are less likely to have a sponsor who advocates and opens doors for them (source leanin.org/mentor-her). One of the ways to solve this is to provide a platform for people to connect based on professional merits.
   links:
-    - youtube: https://www.youtube.com/watch?v=AuDyfjDr9rA
-    - meetup: https://www.meetup.com/women-who-code-london/events/291487877
-  enabled: true
-
-- title: How to get the most out of Mentorship Programme?
-  subtitle: Panel Discussion
-  date: July 7, 2022
-  format: online
-  index: 1
-  description: In this session, WWCode London team provided attendees with a comprehensive overview of the mentorship programme, outlining its origins, highlighting the anticipated benefits, and guiding individuals on the registration process as mentors or mentees. The event culminated with an engaging panel discussion, where seasoned mentors shared their insights and addressed a multitude of questions from the audience.
-  links:
-    - youtube: https://www.youtube.com/watch?v=mznVrMbcFxk
-    - meetup: https://www.meetup.com/women-who-code-london/events/286468360
-  enabled: true
-
-- title: A Simple Approach to Thinking about Career Goals
-  date: January 20, 2022
-  format: online
-  index: 4
-  description: In the presentation speaker guided audience through the process of defining current focus, breaking down goals, and ultimately achieving them through a series of manageable and incremental steps. By embracing this approach, you will gain the tools and mindset needed to navigate your path towards success.
-  links:
-    - youtube: https://www.youtube.com/watch?v=r8BlBJlWuoM
-    - meetup: https://www.meetup.com/women-who-code-london/events/283175447/
+    - youtube: https://www.youtube.com/watch?v=VxF2Br-mZTU&list=PLVcEZG2JPVhcxbBrvAfF0I4YSme5sCYcL&index=6
+    - meetup: https://www.meetup.com/women-who-code-london/events/276567937/
   enabled: true
 
 - title: Mentorship Programme 2.0 Kickoff
   subtitle: Panel Discussion
   date: September 30, 2021
   format: online
-  index: 2
+  index: 1
   description: During the discussion, the panelists dived into practical tips and strategies for initiating a mentoring relationship on the right foot. They drew from their own experiences and provided valuable guidance on building effective mentor-mentee connections. The panelists explored various aspects of mentorship, including navigating potential challenges, setting realistic goals, and ensuring a supportive and growth-oriented dynamic between mentor and mentee. By watching the panel discussion, you can gain valuable insights into the mentorship process, enabling you to make informed decisions and approach mentoring relationships with confidence and clarity.
   links:
     - youtube: https://www.youtube.com/watch?v=x2PJ0v_lAlM
     - meetup: https://www.meetup.com/women-who-code-london/events/280821455/
   enabled: true
 
-- title: How to start? Practical Tips from experienced mentors
+- title: A Simple Approach to Thinking about Career Goals
+  date: January 20, 2022
+  format: online
+  index: 2
+  description: In the presentation speaker guided audience through the process of defining current focus, breaking down goals, and ultimately achieving them through a series of manageable and incremental steps. By embracing this approach, you will gain the tools and mindset needed to navigate your path towards success.
+  links:
+    - youtube: https://www.youtube.com/watch?v=r8BlBJlWuoM
+    - meetup: https://www.meetup.com/women-who-code-london/events/283175447/
+  enabled: true
+
+- title: How to get the most out of Mentorship Programme?
   subtitle: Panel Discussion
-  date: March 11, 2021
+  date: July 7, 2022
   format: online
   index: 3
-  description: We, at Women Who Code, choose to challenge the fact that women are less likely to have a sponsor who advocates and opens doors for them (source leanin.org/mentor-her). One of the ways to solve this is to provide a platform for people to connect based on professional merits.
+  description: In this session, WWCode London team provided attendees with a comprehensive overview of the mentorship programme, outlining its origins, highlighting the anticipated benefits, and guiding individuals on the registration process as mentors or mentees. The event culminated with an engaging panel discussion, where seasoned mentors shared their insights and addressed a multitude of questions from the audience.
   links:
-    - youtube: https://www.youtube.com/watch?v=VxF2Br-mZTU&list=PLVcEZG2JPVhcxbBrvAfF0I4YSme5sCYcL&index=6
-    - meetup: https://www.meetup.com/women-who-code-london/events/276567937/
+    - youtube: https://www.youtube.com/watch?v=mznVrMbcFxk
+    - meetup: https://www.meetup.com/women-who-code-london/events/286468360
+  enabled: true
+
+- title: What makes a good mentor?
+  subtitle: Panel Discussion
+  date: March 08, 2023
+  format: online
+  index: 4
+  description: The Panel Discussion “What makes a good mentor?” was centred around essential topics such as effective communication, establishing clear expectations, providing guidance and delivering constructive feedback. The panelists, experienced mentors and experts in their fields, shared their insights on the role of mentorship, uncovering the challenges and opportunities that come with this impactful relationship. The audience actively participated in the discussion, raising thought-provoking questions and engaging in meaningful conversations. This event could be particularly beneficial for both first-time mentors seeking guidance to embark on their mentoring journey and experienced mentors looking to refine their approaches.
+  links:
+    - youtube: https://www.youtube.com/watch?v=AuDyfjDr9rA
+    - meetup: https://www.meetup.com/women-who-code-london/events/291487877
+  enabled: true
+
+- title: Navigating Challenges with Mentorship
+  subtitle: Panel Discussion
+  date: March 12, 2024
+  format: online
+  index: 5
+  description: The panel discussion "Navigating Challenges with Mentorship" explored the various challenges women face in the tech industry, shedding light on the pivotal role mentors play in navigating these obstacles. Panelists spoke about the reluctance of women to ask for help, emphasised the importance of networking, and underscored that embracing failures is integral to the learning process. This event is helpful not only to mentees but also to mentors venturing into new careers.
+  links:
+    - youtube: https://www.youtube.com/watch?v=0PV6qKlTfsE
+    - meetup: https://www.meetup.com/women-who-code-london/events/299336256/
   enabled: true
