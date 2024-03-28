@@ -25,7 +25,8 @@ title: Resources
 
     <div class="resources__block events">
         <h2>Events</h2>
-        {% for event in site.data.events %}
+        {% assign sorted_events = site.data.events | sort: 'index' | reverse %}
+        {% for event in sorted_events %}
             {% if event.enabled %}
             <div class="row">
                 <div class="col-12 mt-3">
