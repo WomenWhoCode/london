@@ -2774,3 +2774,85 @@
     extra: Network automation, intro to Python, Data modelling languages like JSON, YAML, intro or upskilling in Networking (I am CCIE certified), preparation for technical interview.
   network:
     - linkedin: www.linkedin.com/in/mariam-azad-2b924322
+
+- name: Adegbenga Agoro
+  disabled: false
+  sort: 10
+  hours: 4
+  position: CTO, ZeroComplex AI
+  type: both
+  index: 87
+  location: Dudley, UK
+  bio: |
+    I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
+  image: assets/images/mentors/87.jpg
+  languages: English
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: I am keen on collaborating with mentees eager to enhance their programming capabilities, specifically those aiming to transition from foundational coding skills towards mastering system design and architecture.
+    areas:
+      - Backend Developer
+      - Engineering management
+      - Security
+      - QA
+      - Site Reliability Engineering
+    languages: JavaScript, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
+    extra: System Design & Architecture, Optimal Database Design, How to work and think within an engineering team, User Psychology
+  network:
+    - linkedin: https://www.linkedin.com/in/adegbengaagoro
+
+- name: Aakash Avadhut Dhekane
+  disabled: false
+  sort: 10
+  hours: 4
+  position: Senior Data Scientist, Heyjobs GmBH
+  type: ad-hoc
+  index: 88
+  location: Düsseldorf, Germany
+  bio: |
+    8 years of learning how to build software and algorithms using data. Experienced Data Scientist with a demonstrated history of working in the internet industry. Skilled in PyData Stack, A/B Testing, Algorithms and Optimizations. Every day tasks include Statistical Data Analysis and significance calculations, data cleaning, data munging, model development etc.<br>
+    Skills include:<br>
+    - Machine Learning<br>
+    - Python<br>
+    - SQL<br>
+    - Data Analysis<br>
+    - Predictive Modeling<br>
+    - Deep Learning<br>
+    - Natural Language Processing (NLP)<br>
+    - Data Visualization (Tableau, Looker)<br>
+    - PyTorch<br>
+    - Statistics<br>
+    - Feature Engineering<br>
+    - Model Development<br>
+    - Time Series Analysis<br>
+    - A/B Testing<br>
+    - AWS<br>
+    - Sagemaker<br>
+  image: assets/images/mentors/88.jpg
+  languages: English
+  skills:
+    experience: 7-10 Years
+    years: 7
+    mentee: Anyone wishing to get more hands-on in Data Science or Machine learning
+    areas:
+      - Data Science
+      - Machine Learning
+      - Engineering management
+      - Project Management
+      - Backend Developer
+    languages: Python
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch from IC to management position
+    extra: Resume Review, Preparation for Technical Invterview, Case Studies, Projects for github
+  network:
+    - linkedin: https://www.linkedin.com/in/dhekanea/
